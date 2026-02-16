@@ -11,17 +11,17 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 |--------|------|-------------|-------|--------|-------|
 | One Useful Thing (Ethan Mollick) | rss | 2026-02-16 | 0 | ✅ |  |
 | OpenAI Blog | rss | 2026-02-16 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
-| Future-Proof Your Career | rss | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
-| The AI Collective | rss | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
-| Real Estate News | rss | 2026-02-16 | 1 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-16 | 1 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-16 | 1 | ✅ |  |
+| The AI Collective | rss | 2026-02-16 | 1 | ✅ |  |
+| Real Estate News | rss | 2026-02-16 | 2 | ✅ |  |
 | Anthropic Blog | sitemap | 2026-02-16 | 5 | ✅ |  |
 | Built In | sitemap | 2026-02-16 | 5 | ✅ |  |
 | EY Insights | sitemap | 2026-02-16 | 5 | ✅ |  |
 | The a16z Show | podcast | 2026-02-16 | 1 | ✅ |  |
 | Dwarkesh Podcast | podcast | 2026-02-16 | 1 | ✅ | Long episodes (2-3 hrs) |
 | No Priors | podcast | 2026-02-16 | 0 | ✅ |  |
-| Latent Space | podcast | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
+| Latent Space | podcast | 2026-02-16 | 0 | ✅ |  |
 | AI Daily Brief | podcast | 2026-02-16 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
@@ -30,8 +30,16 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- RECENT_CONTENT_START -->
 ### 2026-02-16
 - [Novartis Ceo Vasant Narasimhan On Transforming A 250 Year Ol](content/2026/02/16/a16z-podcast--novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-ol.md) — a16z-podcast
+- [The Brief Gemini 3 Crushes Arc Agi 2 Minimax M25 Rewrites Co](content/2026/02/16/ai-collective--the-brief-gemini-3-crushes-arc-agi-2-minimax-m25-rewrites-co.md) — ai-collective
 - [Indias Ai Growth C2Is Innovations And Ai Energy Policies Imp](content/2026/02/16/ai-daily-brief--indias-ai-growth-c2is-innovations-and-ai-energy-policies-imp.md) — ai-daily-brief
 - [Bengaluru Office Partnerships Across India](content/2026/02/16/anthropic-blog--bengaluru-office-partnerships-across-india.md) — anthropic-blog
+- [Agents Want More And Better Ai Tools And More Training](content/2026/02/16/real-estate-news--agents-want-more-and-better-ai-tools-and-more-training.md) — real-estate-news
+
+### 2026-02-15
+- [This Ai Blog Post Broke The Internet](content/2026/02/15/khemaridh-future-proof--this-ai-blog-post-broke-the-internet.md) — khemaridh-future-proof
+
+### 2026-02-14
+- [Openclaw Vs Ralph Loop](content/2026/02/14/ken-huang-ai-expert--openclaw-vs-ralph-loop.md) — ken-huang-ai-expert
 
 ### 2026-02-13
 - [Anthropic Codepath Partnership](content/2026/02/13/anthropic-blog--anthropic-codepath-partnership.md) — anthropic-blog

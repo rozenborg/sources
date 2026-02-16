@@ -13,17 +13,17 @@ sources:
   - id: ken-huang-ai-expert
     name: "Ken Huang | AI Expert"
     type: rss
-    feed_url: https://kenhuangus.substack.com/feed
+    feed_url: https://substack-proxy.rozenborg.workers.dev/?url=https://kenhuangus.substack.com/feed
 
   - id: khemaridh-future-proof
     name: "Future-Proof Your Career"
     type: rss
-    feed_url: https://khemaridh.substack.com/feed
+    feed_url: https://substack-proxy.rozenborg.workers.dev/?url=https://khemaridh.substack.com/feed
 
   - id: ai-collective
     name: "The AI Collective"
     type: rss
-    feed_url: https://aicollective.substack.com/feed
+    feed_url: https://substack-proxy.rozenborg.workers.dev/?url=https://aicollective.substack.com/feed
 
   - id: real-estate-news
     name: "Real Estate News"
@@ -72,7 +72,7 @@ sources:
   - id: latent-space
     name: "Latent Space"
     type: podcast
-    feed_url: https://api.substack.com/feed/podcast/1084089.rss
+    feed_url: https://substack-proxy.rozenborg.workers.dev/?url=https://api.substack.com/feed/podcast/1084089.rss
 
   - id: ai-daily-brief
     name: "AI Daily Brief"
