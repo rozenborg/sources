@@ -22,7 +22,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 | Dwarkesh Podcast | podcast | 2026-02-16 | 1 | ✅ | Long episodes (2-3 hrs) |
 | No Priors | podcast | 2026-02-16 | 0 | ✅ |  |
 | Latent Space | podcast | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
-| AI Daily Brief | podcast | 2026-02-16 | 0 | ✅ | Short daily episodes (~10 min) |
+| AI Daily Brief | podcast | 2026-02-16 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -30,6 +30,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- RECENT_CONTENT_START -->
 ### 2026-02-16
 - [Novartis Ceo Vasant Narasimhan On Transforming A 250 Year Ol](content/2026/02/16/a16z-podcast--novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-ol.md) — a16z-podcast
+- [Indias Ai Growth C2Is Innovations And Ai Energy Policies Imp](content/2026/02/16/ai-daily-brief--indias-ai-growth-c2is-innovations-and-ai-energy-policies-imp.md) — ai-daily-brief
 - [Bengaluru Office Partnerships Across India](content/2026/02/16/anthropic-blog--bengaluru-office-partnerships-across-india.md) — anthropic-blog
 
 ### 2026-02-13
