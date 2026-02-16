@@ -48,7 +48,7 @@ python pull.py
    - AI Daily Brief: RSS has `<podcast:transcript>` tags linking to SRT files. Add SRT fetch/parse
    - a16z and No Priors: no free transcripts available, keep Whisper
 2. **Title display** — README recent content titles are derived from slugs (Title Case), could be improved to use actual article titles from frontmatter
-3. **Source expansion** — add more non-AI-exclusive sources that sometimes cover AI (McKinsey, etc.). HBR added via RSS+proxy with keyword filtering
+3. **Source expansion** — add more non-AI-exclusive sources that sometimes cover AI (McKinsey, etc.). HBR added via RSSHub (`rsshub.app/hbr/topic/technology`) with keyword filtering — HBR blocks direct access from CI so RSSHub scrapes and serves the feed
 
 ## GitHub secrets required
 

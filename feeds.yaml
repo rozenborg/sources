@@ -28,8 +28,9 @@ sources:
   - id: hbr
     name: "Harvard Business Review"
     type: rss
-    feed_url: https://substack-proxy.rozenborg.workers.dev/?url=http://feeds.harvardbusiness.org/harvardbusiness
+    feed_url: https://rsshub.app/hbr/topic/technology
     keywords: [AI, Artificial Intelligence, GenAI, Generative AI, ChatGPT, LLM, Machine Learning, Automation, Agentic]
+    notes: "Via RSSHub; HBR blocks direct access from CI"
 
   - id: real-estate-news
     name: "Real Estate News"
