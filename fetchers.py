@@ -35,6 +35,20 @@ CHUNK_DURATION_MS = 10 * 60 * 1000  # 10 minutes
 # Helpers
 # ---------------------------------------------------------------------------
 
+def _fetch_feed(feed_url: str):
+    """Fetch RSS/Atom feed using browser headers, then parse with feedparser.
+    Substack and some hosts block feedparser's default user-agent, returning
+    HTML (Cloudflare challenge) instead of XML — causing parse errors in CI."""
+    try:
+        with httpx.Client(timeout=HTTP_TIMEOUT, headers=HEADERS, follow_redirects=True) as client:
+            resp = client.get(feed_url)
+            resp.raise_for_status()
+        return feedparser.parse(resp.content)
+    except Exception:
+        # Fall back to feedparser's own HTTP fetch
+        return feedparser.parse(feed_url)
+
+
 def _parse_feed_date(entry) -> Optional[datetime]:
     """Extract datetime from a feedparser entry."""
     for attr in ("published_parsed", "updated_parsed"):
@@ -286,7 +300,7 @@ def fetch_rss(source: dict, seen_urls: set, settings: dict) -> list[dict]:
     if not feed_url:
         raise ValueError(f"No feed_url for source {source['id']}")
 
-    feed = feedparser.parse(feed_url)
+    feed = _fetch_feed(feed_url)
     if feed.bozo and not feed.entries:
         raise ValueError(f"Feed parse error: {feed.bozo_exception}")
 
@@ -453,7 +467,7 @@ def fetch_podcast(source: dict, seen_urls: set, settings: dict) -> list[dict]:
     if not feed_url:
         raise ValueError(f"No feed_url for podcast source {source['id']}")
 
-    feed = feedparser.parse(feed_url)
+    feed = _fetch_feed(feed_url)
     if feed.bozo and not feed.entries:
         raise ValueError(f"Feed parse error: {feed.bozo_exception}")
 
