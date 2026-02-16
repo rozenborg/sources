@@ -1,10 +1,16 @@
+const ALLOWED_DOMAINS = [
+  "substack.com",
+  "harvardbusiness.org",
+  "hbr.org",
+];
+
 export default {
   async fetch(request) {
     const { searchParams } = new URL(request.url);
     const feedUrl = searchParams.get("url");
 
-    if (!feedUrl || !feedUrl.includes("substack.com")) {
-      return new Response("Missing or invalid Substack feed URL", { status: 400 });
+    if (!feedUrl || !ALLOWED_DOMAINS.some((d) => feedUrl.includes(d))) {
+      return new Response("Missing or disallowed feed URL", { status: 400 });
     }
 
     const resp = await fetch(feedUrl, {

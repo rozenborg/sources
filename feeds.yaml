@@ -25,6 +25,12 @@ sources:
     type: rss
     feed_url: https://substack-proxy.rozenborg.workers.dev/?url=https://aicollective.substack.com/feed
 
+  - id: hbr
+    name: "Harvard Business Review"
+    type: rss
+    feed_url: https://substack-proxy.rozenborg.workers.dev/?url=http://feeds.harvardbusiness.org/harvardbusiness
+    keywords: [AI, Artificial Intelligence, GenAI, Generative AI, ChatGPT, LLM, Machine Learning, Automation, Agentic]
+
   - id: real-estate-news
     name: "Real Estate News"
     type: rss
