@@ -1,0 +1,9 @@
+feedparser
+httpx
+beautifulsoup4
+lxml[html_clean]
+trafilatura
+anthropic
+openai
+pydub
+pyyaml
