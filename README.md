@@ -7,11 +7,42 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ## Source Health
 
 <!-- SOURCE_HEALTH_START -->
-*Waiting for first run...*
+| Source | Type | Last Success | Posts | Status | Notes |
+|--------|------|-------------|-------|--------|-------|
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-16 | 0 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-16 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
+| Future-Proof Your Career | rss | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
+| The AI Collective | rss | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
+| Real Estate News | rss | 2026-02-16 | 1 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-16 | 5 | ✅ |  |
+| Built In | sitemap | 2026-02-16 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-16 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-16 | 1 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-16 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-16 | 0 | ✅ |  |
+| Latent Space | podcast | None | 0 | ❌ | Feed parse error: <unknown>:2:751: not well-for... |
+| AI Daily Brief | podcast | 2026-02-16 | 0 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
-*No content yet. Trigger the workflow manually or wait for the daily run.*
+### 2026-02-16
+- [Novartis Ceo Vasant Narasimhan On Transforming A 250 Year Ol](content/2026/02/16/a16z-podcast--novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-ol.md) — a16z-podcast
+- [Bengaluru Office Partnerships Across India](content/2026/02/16/anthropic-blog--bengaluru-office-partnerships-across-india.md) — anthropic-blog
+
+### 2026-02-13
+- [Anthropic Codepath Partnership](content/2026/02/13/anthropic-blog--anthropic-codepath-partnership.md) — anthropic-blog
+- [Chris Liddell Appointed Anthropic Board](content/2026/02/13/anthropic-blog--chris-liddell-appointed-anthropic-board.md) — anthropic-blog
+- [Claude For Financial Services](content/2026/02/13/anthropic-blog--claude-for-financial-services.md) — anthropic-blog
+- [Dario Amodei We Are Near The End Of The Exponential](content/2026/02/13/dwarkesh-podcast--dario-amodei-we-are-near-the-end-of-the-exponential.md) — dwarkesh-podcast
+- [The Future Of Real Estate Marketing Its Ai Powered Search](content/2026/02/13/real-estate-news--the-future-of-real-estate-marketing-its-ai-powered-search.md) — real-estate-news
+
+### 2026-02-12
+- [Anthropic Raises 30 Billion Series G Funding 380 Billion Pos](content/2026/02/12/anthropic-blog--anthropic-raises-30-billion-series-g-funding-380-billion-pos.md) — anthropic-blog
+
+### 2026-02-10
+- [How Can Responsible Ai Bridge The Gap Between Investment And](content/2026/02/10/ey-com--how-can-responsible-ai-bridge-the-gap-between-investment-and.md) — ey-com
+
 <!-- RECENT_CONTENT_END -->
