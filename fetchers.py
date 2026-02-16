@@ -369,21 +369,44 @@ def fetch_sitemap(source: dict, seen_urls: set, settings: dict) -> list[dict]:
     keywords = source.get("keywords")
     url_pattern = source.get("url_pattern")
     model = settings.get("summarization_model", "claude-sonnet-4-20250514")
+    lookback = datetime.now(timezone.utc) - timedelta(days=settings.get("lookback_days", 3))
 
     # Recursively parse sitemap
     urls = _parse_sitemap_xml(sitemap_url, url_pattern)
 
-    # Sort by date (newest first), take top N
+    # Sort by date (newest first)
     urls.sort(key=lambda x: x["date"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
 
-    articles = []
+    # --- Pre-filter before expensive HTTP fetches ---
+    candidates = []
     for item in urls:
+        page_url = item["url"]
+
+        # Skip already seen
+        if page_url in seen_urls:
+            continue
+
+        # Skip old content (respect lookback_days)
+        if item["date"] and item["date"] < lookback:
+            continue
+
+        # Cheap keyword pre-filter: check URL slug before fetching the page
+        if keywords:
+            slug_text = page_url.rstrip("/").split("/")[-1].replace("-", " ")
+            if not _matches_keywords(slug_text, keywords):
+                continue
+
+        candidates.append(item)
+
+    # Limit how many pages we actually fetch (avoid hammering servers)
+    candidates = candidates[:max_posts * 2]
+
+    articles = []
+    for item in candidates:
         if len(articles) >= max_posts:
             break
 
         page_url = item["url"]
-        if page_url in seen_urls:
-            continue
 
         # Fetch and extract text
         text = extract_text(page_url)
@@ -392,11 +415,6 @@ def fetch_sitemap(source: dict, seen_urls: set, settings: dict) -> list[dict]:
 
         # Derive title from URL slug
         title = page_url.rstrip("/").split("/")[-1].replace("-", " ").title()
-
-        # Keyword filter (on extracted text + title)
-        if keywords:
-            if not _matches_keywords(title + " " + text[:2000], keywords):
-                continue
 
         print(f"  [{source['id']}] {title[:60]}")
         summary = summarize(text, source_type="sitemap", title=title, model=model)
