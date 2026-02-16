@@ -14,6 +14,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 | Ken Huang \| AI Expert | rss | 2026-02-16 | 1 | ✅ |  |
 | Future-Proof Your Career | rss | 2026-02-16 | 1 | ✅ |  |
 | The AI Collective | rss | 2026-02-16 | 1 | ✅ |  |
+| Harvard Business Review | rss | None | 0 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
 | Real Estate News | rss | 2026-02-16 | 2 | ✅ |  |
 | Anthropic Blog | sitemap | 2026-02-16 | 5 | ✅ |  |
 | Built In | sitemap | 2026-02-16 | 5 | ✅ |  |
