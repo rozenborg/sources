@@ -527,14 +527,16 @@ a:hover { text-decoration: underline; }
 <!-- ── Header ─────────────────────────────────────────────────── -->
 <header id="header">
     <div class="header-left">
-        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9790;</button>
         <h1>Source Review</h1>
         <nav>
             <button class="nav-btn active" id="nav-browse" onclick="showView('browse')">Browse</button>
             <button class="nav-btn" id="nav-review" onclick="showView('review')">Review</button>
         </nav>
     </div>
-    <div class="header-stats" id="header-stats"></div>
+    <div style="display:flex;align-items:center;gap:12px">
+        <div class="header-stats" id="header-stats"></div>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9788;</button>
+    </div>
 </header>
 
 <!-- ── Browse view ────────────────────────────────────────────── -->
@@ -975,7 +977,7 @@ document.addEventListener('touchend', e => {
 function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     const btn = document.getElementById('theme-toggle');
-    btn.innerHTML = theme === 'light' ? '&#9788;' : '&#9790;';
+    btn.innerHTML = theme === 'light' ? '&#9790;' : '&#9788;';
     btn.title = theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode';
 }
 function toggleTheme() {
