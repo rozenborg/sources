@@ -12,7 +12,7 @@ This is NOT an app. There's no database, no UI, no CLI framework. The filesystem
 - `fetchers.py` — all content fetching (RSS, sitemaps, podcasts), text extraction, Whisper transcription, Claude summarization. Plain functions, no classes
 - `feeds.yaml` — source config. If it's in the file, it's active. Remove to deactivate
 - `state.json` — dedup (seen URLs) + per-source health stats. Committed to git on every run
-- `review.py` — local Flask web app for triaging content. Run `python review.py` → `http://localhost:5001`. Browse/filter articles, expand inline to read summaries, and rate each as pass/save/star. Review mode shows a Tinder-style card queue with keyboard shortcuts (arrow keys) and touch swipe. Stores decisions in `reviews.json`
+- `review.py` — local Flask web app for triaging content. Run `python review.py` → `http://localhost:5001`. Browse view uses a master-detail split layout (article list on left, selected article content on right). Filter by source, date, status. Review mode shows a Tinder-style card queue with keyboard shortcuts (arrow keys) and touch swipe. Rate each as pass/save/star. Includes a light/dark theme toggle (top-right corner). Stores decisions in `reviews.json`
 - `reviews.json` — review decisions (`{path: {status, reviewed_at}}`). Created by review.py, not committed
 - `content/YYYY/MM/DD/source--slug.md` — auto-generated summaries with YAML frontmatter
 - `.github/workflows/daily.yaml` — cron schedule + manual trigger
