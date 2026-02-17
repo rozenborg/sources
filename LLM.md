@@ -12,6 +12,8 @@ This is NOT an app. There's no database, no UI, no CLI framework. The filesystem
 - `fetchers.py` — all content fetching (RSS, sitemaps, podcasts), text extraction, Whisper transcription, Claude summarization. Plain functions, no classes
 - `feeds.yaml` — source config. If it's in the file, it's active. Remove to deactivate
 - `state.json` — dedup (seen URLs) + per-source health stats. Committed to git on every run
+- `review.py` — local Flask web app for triaging content. Run `python review.py` → `http://localhost:5001`. Browse view uses a master-detail split layout (article list on left, selected article content on right). Filter by source, date, status. Review mode shows a Tinder-style card queue with keyboard shortcuts (arrow keys) and touch swipe. Rate each as pass/save/star. Includes a light/dark theme toggle (top-right corner). Stores decisions in `reviews.json`
+- `reviews.json` — review decisions (`{path: {status, reviewed_at}}`). Created by review.py, not committed
 - `content/YYYY/MM/DD/source--slug.md` — auto-generated summaries with YAML frontmatter
 - `.github/workflows/daily.yaml` — cron schedule + manual trigger
 
@@ -24,7 +26,15 @@ export OPENAI_API_KEY=...   # only needed for podcast Whisper transcription
 python pull.py
 ```
 
+To review fetched content locally:
+```bash
+pip install flask pyyaml
+python review.py           # http://localhost:5001
+```
+
 ## Key gotchas
+
+- **Python version**: `pull.py` targets 3.11+ but `review.py` uses `from __future__ import annotations` so it works on 3.9+. Keep that import if adding new-style type hints (e.g. `dict | None`) to review.py.
 
 - **Feed parsing in CI**: feedparser's default HTTP client gets blocked by Cloudflare on Substack feeds in GitHub Actions. The `_fetch_feed()` helper fetches with httpx (browser headers) first, then passes raw content to feedparser. Don't bypass this.
 - **Feed proxy**: GitHub Actions IPs are blocked by Substack entirely (HTTP 403, `host_not_allowed`), so browser headers alone aren't enough. Substack feed URLs in `feeds.yaml` are routed through a Cloudflare Worker proxy (`substack-proxy.rozenborg.workers.dev`). Worker source is in `workers/substack-proxy/`. Deploy with `cd workers/substack-proxy && npx wrangler deploy`.

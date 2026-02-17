@@ -218,7 +218,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 /* ── Reset & Base ─────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-:root {
+:root, [data-theme="dark"] {
     --bg:           #0f1117;
     --bg-card:      #1a1d27;
     --bg-hover:     #22252f;
@@ -231,6 +231,20 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     --st-pass:      #71717a;
     --st-save:      #3b82f6;
     --st-star:      #eab308;
+}
+[data-theme="light"] {
+    --bg:           #f8f9fa;
+    --bg-card:      #ffffff;
+    --bg-hover:     #f0f1f3;
+    --border:       #d4d4d8;
+    --text:         #18181b;
+    --text-muted:   #71717a;
+    --type-rss:     #16a34a;
+    --type-sitemap: #9333ea;
+    --type-podcast: #ea580c;
+    --st-pass:      #a1a1aa;
+    --st-save:      #2563eb;
+    --st-star:      #ca8a04;
 }
 
 body {
@@ -255,6 +269,14 @@ a:hover { text-decoration: underline; }
 }
 .header-left { display: flex; align-items: center; gap: 16px; }
 .header-left h1 { font-size: 16px; font-weight: 700; white-space: nowrap; }
+
+.theme-toggle {
+    background: none; border: 1px solid var(--border); color: var(--text-muted);
+    font-size: 18px; width: 30px; height: 30px; border-radius: 6px;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: all .15s; line-height: 1;
+}
+.theme-toggle:hover { color: var(--text); background: var(--bg-hover); }
 
 .nav-btn {
     background: none; border: none; color: var(--text-muted);
@@ -317,9 +339,9 @@ a:hover { text-decoration: underline; }
 /* ── Browse view: article list ────────────────────────────────── */
 .article-row {
     display: grid;
-    grid-template-columns: 88px 68px 150px 1fr 72px;
-    gap: 10px; align-items: center;
-    padding: 11px 24px;
+    grid-template-columns: 78px 56px 120px 1fr 52px;
+    gap: 8px; align-items: center;
+    padding: 9px 14px;
     border-bottom: 1px solid var(--border);
     cursor: pointer; transition: background .1s;
     font-size: 13px;
@@ -327,34 +349,53 @@ a:hover { text-decoration: underline; }
 .article-row:hover { background: var(--bg-hover); }
 .article-row.reviewed { opacity: .45; }
 .article-row.reviewed:hover { opacity: .7; }
-.article-row.expanded { background: var(--bg-hover); opacity: 1; }
+.article-row.selected { background: var(--bg-hover); opacity: 1; }
+.article-row.reviewed.selected { opacity: 1; }
 
 .article-row .date { color: var(--text-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 .article-row .source-name { color: var(--text-muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .article-row .title { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-/* ── Browse view: expanded body ───────────────────────────────── */
-.article-body {
-    max-height: 0; overflow: hidden;
-    transition: max-height .35s ease;
-    background: var(--bg-card);
+/* ── Browse split layout ─────────────────────────────────────── */
+.browse-split {
+    display: flex; height: calc(100vh - 95px);
+}
+.browse-list-panel {
+    min-width: 280px; overflow-y: auto;
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+.browse-detail-panel {
+    flex: 1; overflow-y: auto;
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+    border-left: 1px solid var(--border);
+}
+.resize-handle {
+    width: 5px; cursor: col-resize;
+    background: var(--border); flex-shrink: 0;
+    transition: background .15s;
+}
+.resize-handle:hover, .resize-handle.active {
+    background: var(--st-save);
+}
+.detail-empty {
+    display: flex; align-items: center; justify-content: center;
+    height: 100%; color: var(--text-muted); font-size: 14px;
+}
+.detail-header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--bg); padding: 20px 24px 16px;
     border-bottom: 1px solid var(--border);
 }
-.article-body.open { max-height: 3000px; }
-
-.article-body-inner {
-    padding: 16px 24px 20px 24px;
+.detail-title { font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 10px; }
+.detail-meta {
+    display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+    color: var(--text-muted); font-size: 13px; margin-bottom: 12px;
 }
-
-.article-meta-expanded {
-    display: flex; gap: 12px; align-items: center;
-    margin-bottom: 14px; font-size: 13px;
+.detail-actions {
+    display: flex; gap: 6px;
 }
+.detail-body { padding: 20px 24px 32px; }
 
-.inline-actions {
-    display: flex; gap: 6px; margin-top: 16px; padding-top: 14px;
-    border-top: 1px solid var(--border);
-}
 .mini-btn {
     padding: 5px 14px; border-radius: 5px; border: 1px solid var(--border);
     font-size: 12px; font-weight: 600; cursor: pointer; transition: all .12s;
@@ -371,7 +412,7 @@ a:hover { text-decoration: underline; }
 .md h3 { font-size: 14px; font-weight: 600; margin: 14px 0 6px; }
 .md ul, .md ol { padding-left: 20px; }
 .md li { margin-bottom: 5px; font-size: 14px; line-height: 1.7; }
-.md strong { color: #f0f0f3; }
+.md strong { color: var(--text); font-weight: 700; }
 .md p { margin-bottom: 8px; font-size: 14px; }
 .md a { color: var(--st-save); }
 
@@ -431,12 +472,12 @@ a:hover { text-decoration: underline; }
 .action-btn:hover { transform: scale(1.05); }
 .action-btn:active { transform: scale(.97); }
 
-.action-pass { color: var(--st-pass); border-color: #3f3f46; }
-.action-pass:hover { background: #1c1c20; }
-.action-save { color: var(--st-save); border-color: #1e40af; }
-.action-save:hover { background: #172554; }
-.action-star { color: var(--st-star); border-color: #854d0e; }
-.action-star:hover { background: #422006; }
+.action-pass { color: var(--st-pass); border-color: var(--st-pass); }
+.action-pass:hover { background: var(--bg-hover); }
+.action-save { color: var(--st-save); border-color: var(--st-save); }
+.action-save:hover { background: var(--bg-hover); }
+.action-star { color: var(--st-star); border-color: var(--st-star); }
+.action-star:hover { background: var(--bg-hover); }
 
 /* ── Empty state ──────────────────────────────────────────────── */
 .empty-state {
@@ -456,6 +497,11 @@ a:hover { text-decoration: underline; }
 
 /* ── Responsive ───────────────────────────────────────────────── */
 @media (max-width: 768px) {
+    .browse-split { flex-direction: column; height: auto; }
+    .browse-list-panel { width: 100% !important; max-height: 45vh; min-width: 0; }
+    .resize-handle { display: none; }
+    .browse-detail-panel { border-left: none; border-top: 1px solid var(--border); min-height: 50vh; }
+
     .article-row {
         grid-template-columns: 1fr;
         gap: 3px; padding: 10px 16px;
@@ -471,7 +517,8 @@ a:hover { text-decoration: underline; }
     .filters-bar { padding: 10px 16px; }
     .filters-bar select, .filters-bar input { font-size: 12px; padding: 6px 8px; }
     #header { padding: 10px 16px; }
-    .article-body-inner { padding: 14px 16px; }
+    .detail-header { padding: 14px 16px 12px; }
+    .detail-body { padding: 14px 16px 24px; }
 }
 </style>
 </head>
@@ -486,7 +533,10 @@ a:hover { text-decoration: underline; }
             <button class="nav-btn" id="nav-review" onclick="showView('review')">Review</button>
         </nav>
     </div>
-    <div class="header-stats" id="header-stats"></div>
+    <div style="display:flex;align-items:center;gap:12px">
+        <div class="header-stats" id="header-stats"></div>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9788;</button>
+    </div>
 </header>
 
 <!-- ── Browse view ────────────────────────────────────────────── -->
@@ -510,7 +560,13 @@ a:hover { text-decoration: underline; }
         </select>
         <input type="text" id="filter-search" placeholder="Search titles..." oninput="renderBrowseList()">
     </div>
-    <div id="article-list"></div>
+    <div class="browse-split">
+        <div class="browse-list-panel" id="article-list"></div>
+        <div class="resize-handle" id="resize-handle"></div>
+        <div class="browse-detail-panel" id="article-detail">
+            <div class="detail-empty">Select an article to read</div>
+        </div>
+    </div>
 </main>
 
 <!-- ── Review view ────────────────────────────────────────────── -->
@@ -536,9 +592,10 @@ a:hover { text-decoration: underline; }
 <script>
 /* ── State ────────────────────────────────────────────────────── */
 let browseArticles = [];
+let filteredArticles = [];
+let selectedIdx = -1;
 let reviewQueue = [];
 let reviewIdx = 0;
-let currentExpanded = null;
 let animating = false;
 
 /* ── Helpers ──────────────────────────────────────────────────── */
@@ -601,7 +658,7 @@ async function loadBrowse() {
     const r = await fetch('/api/articles?' + params);
     const d = await r.json();
     browseArticles = d.articles;
-    currentExpanded = null;
+    selectedIdx = -1;
     renderBrowseList();
 }
 
@@ -611,31 +668,39 @@ function renderBrowseList() {
     list.innerHTML = '';
 
     // Sort: unreviewed first, then by date desc
-    const sorted = [...browseArticles].sort((a, b) => {
+    filteredArticles = [...browseArticles].sort((a, b) => {
         const ar = a.review_status ? 1 : 0;
         const br = b.review_status ? 1 : 0;
         if (ar !== br) return ar - br;
         return b.date.localeCompare(a.date);
     });
 
-    let shown = 0;
-    for (const art of sorted) {
-        if (search && !art.title.toLowerCase().includes(search)) continue;
-        list.appendChild(buildRow(art));
-        shown++;
+    if (search) {
+        filteredArticles = filteredArticles.filter(a => a.title.toLowerCase().includes(search));
     }
 
-    if (shown === 0) {
+    for (let i = 0; i < filteredArticles.length; i++) {
+        list.appendChild(buildRow(filteredArticles[i], i));
+    }
+
+    if (filteredArticles.length === 0) {
         list.innerHTML = '<div class="empty-state"><p>No articles match your filters.</p></div>';
+        document.getElementById('article-detail').innerHTML =
+            '<div class="detail-empty">Select an article to read</div>';
+    }
+
+    // Restore or clear selection
+    if (selectedIdx >= 0 && selectedIdx < filteredArticles.length) {
+        selectArticle(selectedIdx);
+    } else if (filteredArticles.length > 0) {
+        selectArticle(0);
     }
 }
 
-function buildRow(art) {
-    const wrapper = document.createElement('div');
-
-    // Row
+function buildRow(art, idx) {
     const row = document.createElement('div');
     row.className = 'article-row' + (art.review_status ? ' reviewed' : '');
+    row.dataset.idx = idx;
     row.innerHTML =
         `<span class="date">${esc(art.date)}</span>` +
         `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
@@ -643,61 +708,87 @@ function buildRow(art) {
         `<span class="title" title="${esc(art.title)}">${esc(art.title)}</span>` +
         `<span>${art.review_status ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>` : ''}</span>`;
 
-    // Expandable body
-    const body = document.createElement('div');
-    body.className = 'article-body';
-    body.innerHTML =
-        `<div class="article-body-inner">` +
-            `<div class="article-meta-expanded">` +
-                `<a href="${esc(art.url)}" target="_blank" rel="noopener">Open original &#8594;</a>` +
-            `</div>` +
-            `<div class="md">${marked.parse(art.body)}</div>` +
-            `<div class="inline-actions">` +
-                `<button class="mini-btn mini-pass ${art.review_status==='pass'?'active-status':''}" onclick="event.stopPropagation();inlineReview('${esc(art.path)}','pass',this)">Pass</button>` +
-                `<button class="mini-btn mini-star ${art.review_status==='star'?'active-status':''}" onclick="event.stopPropagation();inlineReview('${esc(art.path)}','star',this)">Star</button>` +
-                `<button class="mini-btn mini-save ${art.review_status==='save'?'active-status':''}" onclick="event.stopPropagation();inlineReview('${esc(art.path)}','save',this)">Save</button>` +
-            `</div>` +
-        `</div>`;
-
-    row.addEventListener('click', () => {
-        if (currentExpanded && currentExpanded !== body) {
-            currentExpanded.classList.remove('open');
-            currentExpanded.previousElementSibling.classList.remove('expanded');
-        }
-        const open = body.classList.toggle('open');
-        row.classList.toggle('expanded', open);
-        currentExpanded = open ? body : null;
-    });
-
-    wrapper.appendChild(row);
-    wrapper.appendChild(body);
-    return wrapper;
+    row.addEventListener('click', () => selectArticle(idx));
+    return row;
 }
 
-async function inlineReview(path, status, btn) {
+function selectArticle(idx) {
+    if (idx < 0 || idx >= filteredArticles.length) return;
+    selectedIdx = idx;
+
+    // Update row highlights
+    const list = document.getElementById('article-list');
+    list.querySelectorAll('.article-row').forEach(r => r.classList.remove('selected'));
+    const row = list.querySelector(`[data-idx="${idx}"]`);
+    if (row) {
+        row.classList.add('selected');
+        row.scrollIntoView({ block: 'nearest' });
+    }
+
+    renderDetail(filteredArticles[idx]);
+}
+
+function renderDetail(art) {
+    const panel = document.getElementById('article-detail');
+    panel.innerHTML =
+        `<div class="detail-header">` +
+            `<div class="detail-title">${esc(art.title)}</div>` +
+            `<div class="detail-meta">` +
+                `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
+                `<span>${esc(art.source_name)}</span>` +
+                `<span>${art.date}</span>` +
+                `<a href="${esc(art.url)}" target="_blank" rel="noopener">Open original &#8594;</a>` +
+                (art.review_status ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>` : '') +
+            `</div>` +
+            `<div class="detail-actions">` +
+                `<button class="mini-btn mini-pass ${art.review_status==='pass'?'active-status':''}" onclick="detailReview('pass')">Pass</button>` +
+                `<button class="mini-btn mini-star ${art.review_status==='star'?'active-status':''}" onclick="detailReview('star')">Star</button>` +
+                `<button class="mini-btn mini-save ${art.review_status==='save'?'active-status':''}" onclick="detailReview('save')">Save</button>` +
+            `</div>` +
+        `</div>` +
+        `<div class="detail-body md">${marked.parse(art.body)}</div>`;
+    panel.scrollTop = 0;
+}
+
+async function detailReview(status) {
+    if (selectedIdx < 0 || selectedIdx >= filteredArticles.length) return;
+    const art = filteredArticles[selectedIdx];
+
     await fetch('/api/review', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ path, status }),
+        body: JSON.stringify({ path: art.path, status }),
     });
 
     // Update local state
-    const art = browseArticles.find(a => a.path === path);
-    if (art) {
-        art.review_status = status;
-        art.reviewed_at = new Date().toISOString();
+    art.review_status = status;
+    art.reviewed_at = new Date().toISOString();
+    const orig = browseArticles.find(a => a.path === art.path);
+    if (orig) { orig.review_status = status; orig.reviewed_at = art.reviewed_at; }
+
+    // Update detail panel buttons
+    const actions = document.querySelector('.detail-actions');
+    if (actions) {
+        actions.querySelectorAll('.mini-btn').forEach(b => b.classList.remove('active-status'));
+        actions.querySelector('.mini-' + status)?.classList.add('active-status');
     }
 
-    // Update row UI: highlight the active button, update row badge
-    const actions = btn.parentElement;
-    actions.querySelectorAll('.mini-btn').forEach(b => b.classList.remove('active-status'));
-    btn.classList.add('active-status');
+    // Update list row badge
+    const row = document.querySelector(`[data-idx="${selectedIdx}"]`);
+    if (row) {
+        const badgeCol = row.children[4];
+        badgeCol.innerHTML = `<span class="review-badge" data-status="${status}">${status}</span>`;
+        row.classList.add('reviewed');
+    }
 
-    // Update the row's review badge column
-    const row = actions.closest('.article-body').previousElementSibling;
-    const badgeCol = row.children[4];
-    badgeCol.innerHTML = `<span class="review-badge" data-status="${status}">${status}</span>`;
-    row.classList.add('reviewed');
+    // Update detail meta badge
+    const meta = document.querySelector('.detail-meta');
+    if (meta) {
+        const existing = meta.querySelector('.review-badge');
+        const badge = `<span class="review-badge" data-status="${status}">${status}</span>`;
+        if (existing) existing.outerHTML = badge;
+        else meta.insertAdjacentHTML('beforeend', badge);
+    }
 
     refreshStats();
 }
@@ -792,12 +883,33 @@ async function reviewAction(status) {
 
 /* ── Keyboard shortcuts ───────────────────────────────────────── */
 document.addEventListener('keydown', (e) => {
-    if (document.getElementById('view-review').style.display === 'none') return;
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
-    switch (e.key) {
-        case 'ArrowLeft':  e.preventDefault(); reviewAction('pass'); break;
-        case 'ArrowRight': e.preventDefault(); reviewAction('save'); break;
-        case 'ArrowUp':    e.preventDefault(); reviewAction('star'); break;
+
+    const inBrowse = document.getElementById('view-browse').style.display !== 'none';
+    const inReview = document.getElementById('view-review').style.display !== 'none';
+
+    if (inBrowse) {
+        switch (e.key) {
+            case 'ArrowDown': case 'j':
+                e.preventDefault();
+                if (selectedIdx < filteredArticles.length - 1) selectArticle(selectedIdx + 1);
+                break;
+            case 'ArrowUp': case 'k':
+                e.preventDefault();
+                if (selectedIdx > 0) selectArticle(selectedIdx - 1);
+                break;
+            case '1': detailReview('pass'); break;
+            case '2': detailReview('save'); break;
+            case '3': detailReview('star'); break;
+        }
+    }
+
+    if (inReview) {
+        switch (e.key) {
+            case 'ArrowLeft':  e.preventDefault(); reviewAction('pass'); break;
+            case 'ArrowRight': e.preventDefault(); reviewAction('save'); break;
+            case 'ArrowUp':    e.preventDefault(); reviewAction('star'); break;
+        }
     }
 });
 
@@ -820,6 +932,61 @@ document.addEventListener('touchend', e => {
         reviewAction('star');
     }
 }, { passive: true });
+
+/* ── Resize handle (drag to resize panels) ───────────────────── */
+(function initResize() {
+    const handle = document.getElementById('resize-handle');
+    const listPanel = document.getElementById('article-list');
+    const STORAGE_KEY = 'review-panel-width';
+
+    // Restore saved width
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) listPanel.style.width = saved;
+    else listPanel.style.width = '45%';
+
+    let dragging = false;
+
+    handle.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        dragging = true;
+        handle.classList.add('active');
+        document.body.style.cursor = 'col-resize';
+        document.body.style.userSelect = 'none';
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if (!dragging) return;
+        const container = listPanel.parentElement;
+        const rect = container.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const pct = Math.min(Math.max(x / rect.width * 100, 15), 80);
+        listPanel.style.width = pct + '%';
+    });
+
+    document.addEventListener('mouseup', () => {
+        if (!dragging) return;
+        dragging = false;
+        handle.classList.remove('active');
+        document.body.style.cursor = '';
+        document.body.style.userSelect = '';
+        localStorage.setItem(STORAGE_KEY, listPanel.style.width);
+    });
+})();
+
+/* ── Theme toggle ─────────────────────────────────────────────── */
+function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    const btn = document.getElementById('theme-toggle');
+    btn.innerHTML = theme === 'light' ? '&#9790;' : '&#9788;';
+    btn.title = theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode';
+}
+function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
+    const next = current === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    localStorage.setItem('review-theme', next);
+}
+applyTheme(localStorage.getItem('review-theme') || 'dark');
 
 /* ── Init ─────────────────────────────────────────────────────── */
 (async function init() {
