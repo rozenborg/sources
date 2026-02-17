@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-16 | 0 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-16 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-16 | 1 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-16 | 1 | ✅ |  |
-| The AI Collective | rss | 2026-02-16 | 1 | ✅ |  |
-| Harvard Business Review | rss | None | 0 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Real Estate News | rss | 2026-02-16 | 2 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-16 | 5 | ✅ |  |
-| Built In | sitemap | 2026-02-16 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-16 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-16 | 1 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-16 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-16 | 0 | ✅ |  |
-| Latent Space | podcast | 2026-02-16 | 0 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-16 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-17 | 0 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-17 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-17 | 1 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-17 | 1 | ✅ |  |
+| The AI Collective | rss | 2026-02-17 | 1 | ✅ |  |
+| Harvard Business Review | rss | None | 0 | ❌ | Feed parse error: <unknown>:57:4: mismatched tag |
+| Real Estate News | rss | 2026-02-17 | 2 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-17 | 5 | ✅ |  |
+| Built In | sitemap | 2026-02-17 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-17 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-17 | 1 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-17 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-17 | 0 | ✅ |  |
+| Latent Space | podcast | 2026-02-17 | 0 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-17 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
