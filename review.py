@@ -218,7 +218,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 /* ── Reset & Base ─────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-:root {
+:root, [data-theme="dark"] {
     --bg:           #0f1117;
     --bg-card:      #1a1d27;
     --bg-hover:     #22252f;
@@ -231,6 +231,20 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     --st-pass:      #71717a;
     --st-save:      #3b82f6;
     --st-star:      #eab308;
+}
+[data-theme="light"] {
+    --bg:           #f8f9fa;
+    --bg-card:      #ffffff;
+    --bg-hover:     #f0f1f3;
+    --border:       #d4d4d8;
+    --text:         #18181b;
+    --text-muted:   #71717a;
+    --type-rss:     #16a34a;
+    --type-sitemap: #9333ea;
+    --type-podcast: #ea580c;
+    --st-pass:      #a1a1aa;
+    --st-save:      #2563eb;
+    --st-star:      #ca8a04;
 }
 
 body {
@@ -255,6 +269,14 @@ a:hover { text-decoration: underline; }
 }
 .header-left { display: flex; align-items: center; gap: 16px; }
 .header-left h1 { font-size: 16px; font-weight: 700; white-space: nowrap; }
+
+.theme-toggle {
+    background: none; border: 1px solid var(--border); color: var(--text-muted);
+    font-size: 15px; width: 30px; height: 30px; border-radius: 6px;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: all .15s;
+}
+.theme-toggle:hover { color: var(--text); background: var(--bg-hover); }
 
 .nav-btn {
     background: none; border: none; color: var(--text-muted);
@@ -390,7 +412,7 @@ a:hover { text-decoration: underline; }
 .md h3 { font-size: 14px; font-weight: 600; margin: 14px 0 6px; }
 .md ul, .md ol { padding-left: 20px; }
 .md li { margin-bottom: 5px; font-size: 14px; line-height: 1.7; }
-.md strong { color: #f0f0f3; }
+.md strong { color: var(--text); font-weight: 700; }
 .md p { margin-bottom: 8px; font-size: 14px; }
 .md a { color: var(--st-save); }
 
@@ -450,12 +472,12 @@ a:hover { text-decoration: underline; }
 .action-btn:hover { transform: scale(1.05); }
 .action-btn:active { transform: scale(.97); }
 
-.action-pass { color: var(--st-pass); border-color: #3f3f46; }
-.action-pass:hover { background: #1c1c20; }
-.action-save { color: var(--st-save); border-color: #1e40af; }
-.action-save:hover { background: #172554; }
-.action-star { color: var(--st-star); border-color: #854d0e; }
-.action-star:hover { background: #422006; }
+.action-pass { color: var(--st-pass); border-color: var(--st-pass); }
+.action-pass:hover { background: var(--bg-hover); }
+.action-save { color: var(--st-save); border-color: var(--st-save); }
+.action-save:hover { background: var(--bg-hover); }
+.action-star { color: var(--st-star); border-color: var(--st-star); }
+.action-star:hover { background: var(--bg-hover); }
 
 /* ── Empty state ──────────────────────────────────────────────── */
 .empty-state {
@@ -505,6 +527,7 @@ a:hover { text-decoration: underline; }
 <!-- ── Header ─────────────────────────────────────────────────── -->
 <header id="header">
     <div class="header-left">
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9790;</button>
         <h1>Source Review</h1>
         <nav>
             <button class="nav-btn active" id="nav-browse" onclick="showView('browse')">Browse</button>
@@ -947,6 +970,21 @@ document.addEventListener('touchend', e => {
         localStorage.setItem(STORAGE_KEY, listPanel.style.width);
     });
 })();
+
+/* ── Theme toggle ─────────────────────────────────────────────── */
+function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    const btn = document.getElementById('theme-toggle');
+    btn.innerHTML = theme === 'light' ? '&#9788;' : '&#9790;';
+    btn.title = theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode';
+}
+function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
+    const next = current === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    localStorage.setItem('review-theme', next);
+}
+applyTheme(localStorage.getItem('review-theme') || 'dark');
 
 /* ── Init ─────────────────────────────────────────────────────── */
 (async function init() {
