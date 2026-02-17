@@ -14,7 +14,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 | Ken Huang \| AI Expert | rss | 2026-02-17 | 1 | ✅ |  |
 | Future-Proof Your Career | rss | 2026-02-17 | 1 | ✅ |  |
 | The AI Collective | rss | 2026-02-17 | 1 | ✅ |  |
-| Harvard Business Review | rss | None | 0 | ❌ | Feed parse error: <unknown>:57:4: mismatched tag |
+| Harvard Business Review | rss | 2026-02-17 | 1 | ✅ |  |
 | Real Estate News | rss | 2026-02-17 | 2 | ✅ |  |
 | Anthropic Blog | sitemap | 2026-02-17 | 5 | ✅ |  |
 | Built In | sitemap | 2026-02-17 | 5 | ✅ |  |
@@ -34,6 +34,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Brief Gemini 3 Crushes Arc Agi 2 Minimax M25 Rewrites Co](content/2026/02/16/ai-collective--the-brief-gemini-3-crushes-arc-agi-2-minimax-m25-rewrites-co.md) — ai-collective
 - [Indias Ai Growth C2Is Innovations And Ai Energy Policies Imp](content/2026/02/16/ai-daily-brief--indias-ai-growth-c2is-innovations-and-ai-energy-policies-imp.md) — ai-daily-brief
 - [Bengaluru Office Partnerships Across India](content/2026/02/16/anthropic-blog--bengaluru-office-partnerships-across-india.md) — anthropic-blog
+- [Why Your Digital Investments Arent Creating Value](content/2026/02/16/hbr--why-your-digital-investments-arent-creating-value.md) — hbr
 - [Agents Want More And Better Ai Tools And More Training](content/2026/02/16/real-estate-news--agents-want-more-and-better-ai-tools-and-more-training.md) — real-estate-news
 
 ### 2026-02-15

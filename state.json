@@ -1,61 +1,61 @@
 {
   "sources": {
     "mollick-one-useful-thing": {
-      "last_success": "2026-02-17T00:17:23.261129+00:00",
+      "last_success": "2026-02-17T00:21:47.987284+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-02-17T00:17:23.261129+00:00",
+      "last_run": "2026-02-17T00:21:47.987284+00:00",
       "seen_urls": []
     },
     "openai-blog": {
-      "last_success": "2026-02-17T00:17:23.959643+00:00",
+      "last_success": "2026-02-17T00:21:48.732133+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-02-17T00:17:23.959643+00:00",
+      "last_run": "2026-02-17T00:21:48.732133+00:00",
       "seen_urls": []
     },
     "ken-huang-ai-expert": {
-      "last_success": "2026-02-17T00:17:24.382336+00:00",
+      "last_success": "2026-02-17T00:21:49.159171+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-17T00:17:24.382336+00:00",
+      "last_run": "2026-02-17T00:21:49.159171+00:00",
       "seen_urls": [
         "https://kenhuangus.substack.com/p/ralph-vs-openclaw-understanding-process"
       ]
     },
     "khemaridh-future-proof": {
-      "last_success": "2026-02-17T00:17:24.674053+00:00",
+      "last_success": "2026-02-17T00:21:49.557846+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-17T00:17:24.674053+00:00",
+      "last_run": "2026-02-17T00:21:49.557846+00:00",
       "seen_urls": [
         "https://khemaridh.substack.com/p/this-ai-blog-post-broke-the-internet"
       ]
     },
     "ai-collective": {
-      "last_success": "2026-02-17T00:17:24.956153+00:00",
+      "last_success": "2026-02-17T00:21:49.960500+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-17T00:17:24.956153+00:00",
+      "last_run": "2026-02-17T00:21:49.960500+00:00",
       "seen_urls": [
         "https://aicollective.substack.com/p/the-brief-gemini-3-crushes-arc-agi"
       ]
     },
     "real-estate-news": {
-      "last_success": "2026-02-17T00:17:25.505994+00:00",
+      "last_success": "2026-02-17T00:21:58.461114+00:00",
       "last_error": null,
       "posts_total": 2,
-      "last_run": "2026-02-17T00:17:25.505994+00:00",
+      "last_run": "2026-02-17T00:21:58.461114+00:00",
       "seen_urls": [
         "https://www.realestatenews.com/2026/02/13/the-future-of-real-estate-marketing-its-ai-powered-search",
         "https://www.realestatenews.com/2026/02/16/agents-want-more-and-better-ai-tools-and-more-training"
       ]
     },
     "anthropic-blog": {
-      "last_success": "2026-02-17T00:17:25.648274+00:00",
+      "last_success": "2026-02-17T00:21:58.650898+00:00",
       "last_error": null,
       "posts_total": 5,
-      "last_run": "2026-02-17T00:17:25.648274+00:00",
+      "last_run": "2026-02-17T00:21:58.650898+00:00",
       "seen_urls": [
         "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
         "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
@@ -65,10 +65,10 @@
       ]
     },
     "builtin-com": {
-      "last_success": "2026-02-17T00:17:26.880609+00:00",
+      "last_success": "2026-02-17T00:21:59.200943+00:00",
       "last_error": null,
       "posts_total": 5,
-      "last_run": "2026-02-17T00:17:26.880609+00:00",
+      "last_run": "2026-02-17T00:21:59.200943+00:00",
       "seen_urls": [
         "https://builtin.com/articles/employer-branding-tools",
         "https://builtin.com/articles/companies-hiring-machine-learning-engineers-san-francisco",
@@ -78,10 +78,10 @@
       ]
     },
     "ey-com": {
-      "last_success": "2026-02-17T00:17:31.716318+00:00",
+      "last_success": "2026-02-17T00:22:03.828866+00:00",
       "last_error": null,
       "posts_total": 5,
-      "last_run": "2026-02-17T00:17:31.716318+00:00",
+      "last_run": "2026-02-17T00:22:03.828866+00:00",
       "seen_urls": [
         "https://www.ey.com/en_nl/insights/ai/how-can-responsible-ai-bridge-the-gap-between-investment-and-impact",
         "https://www.ey.com/en_nl/insights/ai/ai-agents-can-make-or-break-a-financial-institution",
@@ -91,52 +91,54 @@
       ]
     },
     "a16z-podcast": {
-      "last_success": "2026-02-17T00:17:33.337783+00:00",
+      "last_success": "2026-02-17T00:22:05.507500+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-17T00:17:33.337783+00:00",
+      "last_run": "2026-02-17T00:22:05.507500+00:00",
       "seen_urls": [
         "https://a16z.simplecast.com/episodes/novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-old-company-5kBHPRUC"
       ]
     },
     "dwarkesh-podcast": {
-      "last_success": "2026-02-17T00:17:37.531653+00:00",
+      "last_success": "2026-02-17T00:22:09.694379+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-17T00:17:37.531653+00:00",
+      "last_run": "2026-02-17T00:22:09.694379+00:00",
       "seen_urls": [
         "https://www.dwarkesh.com/p/dario-amodei-2"
       ]
     },
     "no-priors": {
-      "last_success": "2026-02-17T00:17:37.999810+00:00",
+      "last_success": "2026-02-17T00:22:10.224231+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-02-17T00:17:37.999810+00:00",
+      "last_run": "2026-02-17T00:22:10.224231+00:00",
       "seen_urls": []
     },
     "latent-space": {
-      "last_success": "2026-02-17T00:17:38.754381+00:00",
+      "last_success": "2026-02-17T00:22:10.850939+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-02-17T00:17:38.754381+00:00",
+      "last_run": "2026-02-17T00:22:10.850939+00:00",
       "seen_urls": []
     },
     "ai-daily-brief": {
-      "last_success": "2026-02-17T00:17:42.598508+00:00",
+      "last_success": "2026-02-17T00:22:14.681426+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-17T00:17:42.598508+00:00",
+      "last_run": "2026-02-17T00:22:14.681426+00:00",
       "seen_urls": [
         "https://podcastai.com/daily-brief"
       ]
     },
     "hbr": {
-      "last_success": null,
-      "last_error": "Feed parse error: <unknown>:57:4: mismatched tag",
-      "posts_total": 0,
-      "last_run": "2026-02-17T00:17:25.329565+00:00",
-      "seen_urls": []
+      "last_success": "2026-02-17T00:21:50.327346+00:00",
+      "last_error": null,
+      "posts_total": 1,
+      "last_run": "2026-02-17T00:21:50.327346+00:00",
+      "seen_urls": [
+        "https://hbr.org/2026/02/why-your-digital-investments-arent-creating-value"
+      ]
     }
   }
 }
