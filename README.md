@@ -11,12 +11,12 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 |--------|------|-------------|-------|--------|-------|
 | One Useful Thing (Ethan Mollick) | rss | 2026-02-17 | 0 | ✅ |  |
 | OpenAI Blog | rss | 2026-02-17 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-17 | 1 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-17 | 2 | ✅ |  |
 | Future-Proof Your Career | rss | 2026-02-17 | 1 | ✅ |  |
 | The AI Collective | rss | 2026-02-17 | 1 | ✅ |  |
 | Harvard Business Review | rss | 2026-02-17 | 1 | ✅ |  |
 | Real Estate News | rss | 2026-02-17 | 2 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-17 | 5 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-17 | 6 | ✅ |  |
 | Built In | sitemap | 2026-02-17 | 5 | ✅ |  |
 | EY Insights | sitemap | 2026-02-17 | 5 | ✅ |  |
 | The a16z Show | podcast | 2026-02-17 | 1 | ✅ |  |
@@ -29,6 +29,10 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-02-17
+- [Anthropic Infosys](content/2026/02/17/anthropic-blog--anthropic-infosys.md) — anthropic-blog
+- [Where Ill Be This Spring A Global Tour Of Ai Agent Security](content/2026/02/17/ken-huang-ai-expert--where-ill-be-this-spring-a-global-tour-of-ai-agent-security.md) — ken-huang-ai-expert
+
 ### 2026-02-16
 - [Novartis Ceo Vasant Narasimhan On Transforming A 250 Year Ol](content/2026/02/16/a16z-podcast--novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-ol.md) — a16z-podcast
 - [The Brief Gemini 3 Crushes Arc Agi 2 Minimax M25 Rewrites Co](content/2026/02/16/ai-collective--the-brief-gemini-3-crushes-arc-agi-2-minimax-m25-rewrites-co.md) — ai-collective
