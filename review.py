@@ -272,9 +272,9 @@ a:hover { text-decoration: underline; }
 
 .theme-toggle {
     background: none; border: 1px solid var(--border); color: var(--text-muted);
-    font-size: 15px; width: 30px; height: 30px; border-radius: 6px;
+    font-size: 18px; width: 30px; height: 30px; border-radius: 6px;
     cursor: pointer; display: flex; align-items: center; justify-content: center;
-    transition: all .15s;
+    transition: all .15s; line-height: 1;
 }
 .theme-toggle:hover { color: var(--text); background: var(--bg-hover); }
 
