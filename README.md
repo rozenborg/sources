@@ -9,20 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-16 | 0 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-16 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-16 | 1 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-16 | 1 | ✅ |  |
-| The AI Collective | rss | 2026-02-16 | 1 | ✅ |  |
-| Real Estate News | rss | 2026-02-16 | 2 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-16 | 5 | ✅ |  |
-| Built In | sitemap | 2026-02-16 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-16 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-16 | 1 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-16 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-16 | 0 | ✅ |  |
-| Latent Space | podcast | 2026-02-16 | 0 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-16 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-17 | 0 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-17 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-17 | 1 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-17 | 1 | ✅ |  |
+| The AI Collective | rss | 2026-02-17 | 1 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-17 | 1 | ✅ |  |
+| Real Estate News | rss | 2026-02-17 | 2 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-17 | 5 | ✅ |  |
+| Built In | sitemap | 2026-02-17 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-17 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-17 | 1 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-17 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-17 | 0 | ✅ |  |
+| Latent Space | podcast | 2026-02-17 | 0 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-17 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -33,6 +34,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Brief Gemini 3 Crushes Arc Agi 2 Minimax M25 Rewrites Co](content/2026/02/16/ai-collective--the-brief-gemini-3-crushes-arc-agi-2-minimax-m25-rewrites-co.md) — ai-collective
 - [Indias Ai Growth C2Is Innovations And Ai Energy Policies Imp](content/2026/02/16/ai-daily-brief--indias-ai-growth-c2is-innovations-and-ai-energy-policies-imp.md) — ai-daily-brief
 - [Bengaluru Office Partnerships Across India](content/2026/02/16/anthropic-blog--bengaluru-office-partnerships-across-india.md) — anthropic-blog
+- [Why Your Digital Investments Arent Creating Value](content/2026/02/16/hbr--why-your-digital-investments-arent-creating-value.md) — hbr
 - [Agents Want More And Better Ai Tools And More Training](content/2026/02/16/real-estate-news--agents-want-more-and-better-ai-tools-and-more-training.md) — real-estate-news
 
 ### 2026-02-15
