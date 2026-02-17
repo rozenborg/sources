@@ -27,7 +27,8 @@ python pull.py
 ## Key gotchas
 
 - **Feed parsing in CI**: feedparser's default HTTP client gets blocked by Cloudflare on Substack feeds in GitHub Actions. The `_fetch_feed()` helper fetches with httpx (browser headers) first, then passes raw content to feedparser. Don't bypass this.
-- **Feed proxy**: GitHub Actions IPs are blocked by Substack (and HBR) entirely (HTTP 403, `host_not_allowed`), so browser headers alone aren't enough. Blocked feed URLs in `feeds.yaml` are routed through a Cloudflare Worker proxy (`substack-proxy.rozenborg.workers.dev`). The worker accepts URLs matching an allowlist of domains (Substack, HBR). Worker source is in `workers/substack-proxy/`. Deploy with `cd workers/substack-proxy && npx wrangler deploy`.
+- **Feed proxy**: GitHub Actions IPs are blocked by Substack entirely (HTTP 403, `host_not_allowed`), so browser headers alone aren't enough. Substack feed URLs in `feeds.yaml` are routed through a Cloudflare Worker proxy (`substack-proxy.rozenborg.workers.dev`). Worker source is in `workers/substack-proxy/`. Deploy with `cd workers/substack-proxy && npx wrangler deploy`.
+- **HBR feed worker**: HBR blocks all cloud/CI IPs and its legacy Feedburner RSS is dead. A dedicated Cloudflare Worker (`hbr-feed.rozenborg.workers.dev`) scrapes HBR topic pages from the edge and generates RSS. Modeled on the RSSHub HBR route — extracts `data-title`/`data-url` attributes from `.stream-item` elements. Worker source is in `workers/hbr-feed/`. Deploy with `cd workers/hbr-feed && npx wrangler deploy`.
 - **Sitemap keyword filtering**: keywords are matched against URL slugs BEFORE fetching pages (cheap pre-filter). This avoids wasting HTTP requests on irrelevant content from large sitemaps (Built In has 34K+ articles).
 - **Substack RSS body**: Substack feeds embed full article text in the RSS `<content>` field. `_rss_body_text()` detects this and uses it directly, avoiding a redundant HTTP fetch.
 - **README sentinel comments**: The health table and recent content sections live between `<!-- SOURCE_HEALTH_START/END -->` and `<!-- RECENT_CONTENT_START/END -->` markers. Everything outside those markers is preserved.
@@ -48,7 +49,7 @@ python pull.py
    - AI Daily Brief: RSS has `<podcast:transcript>` tags linking to SRT files. Add SRT fetch/parse
    - a16z and No Priors: no free transcripts available, keep Whisper
 2. **Title display** — README recent content titles are derived from slugs (Title Case), could be improved to use actual article titles from frontmatter
-3. **Source expansion** — add more non-AI-exclusive sources that sometimes cover AI (McKinsey, etc.). HBR added via RSSHub (`rsshub.app/hbr/topic/technology`) with keyword filtering — HBR blocks direct access from CI so RSSHub scrapes and serves the feed
+3. **Source expansion** — add more non-AI-exclusive sources that sometimes cover AI (McKinsey, etc.). HBR added via self-hosted worker (`hbr-feed.rozenborg.workers.dev`) that scrapes topic pages → RSS, with keyword filtering for AI content
 
 ## GitHub secrets required
 
