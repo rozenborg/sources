@@ -365,9 +365,9 @@ a:hover { text-decoration: underline; }
     scrollbar-width: thin; scrollbar-color: var(--border) transparent;
 }
 .browse-detail-panel {
-    flex: 1; overflow-y: auto;
-    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+    flex: 1; display: flex; flex-direction: column;
     border-left: 1px solid var(--border);
+    overflow: hidden;
 }
 .resize-handle {
     width: 5px; cursor: col-resize;
@@ -396,6 +396,71 @@ a:hover { text-decoration: underline; }
 }
 .detail-body { padding: 20px 24px 32px; }
 
+/* ── Card Deck (Browse) ──────────────────────────────────────── */
+.card-deck-area {
+    flex: 1; overflow-y: auto; overflow-x: hidden;
+    display: flex; align-items: flex-start; justify-content: center;
+    padding: 24px 24px 0;
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+.deck-stack {
+    position: relative; width: 100%; max-width: 640px;
+    padding-bottom: 14px;
+}
+.deck-card {
+    position: relative; z-index: 3;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 28px 32px;
+    transition: transform .3s ease, opacity .3s ease;
+    cursor: grab; user-select: none;
+    transform-origin: center;
+}
+.deck-card:active { cursor: grabbing; }
+.deck-card.dragging { transition: none; cursor: grabbing; }
+.deck-card.entering { animation: cardIn .25s ease-out; }
+.deck-card.swipe-left  { transform: translateX(-120%) rotate(-8deg); opacity: 0; pointer-events: none; }
+.deck-card.swipe-right { transform: translateX(120%) rotate(8deg); opacity: 0; pointer-events: none; }
+.deck-card.swipe-up    { transform: translateY(-120%); opacity: 0; pointer-events: none; }
+
+.deck-shadow {
+    position: absolute; left: 0; right: 0;
+    height: 60px; bottom: 0;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px;
+}
+.deck-shadow-1 { z-index: 2; transform: translateY(6px) scale(.98); opacity: .5; }
+.deck-shadow-2 { z-index: 1; transform: translateY(12px) scale(.96); opacity: .25; }
+
+.deck-card .card-body {
+    max-height: 50vh; overflow-y: auto;
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+.deck-empty {
+    display: flex; align-items: center; justify-content: center;
+    height: 100%; color: var(--text-muted); font-size: 14px;
+    flex: 1;
+}
+.browse-actions {
+    display: flex; justify-content: center; gap: 14px;
+    padding: 16px 24px 20px;
+    border-top: 1px solid var(--border); flex-shrink: 0;
+}
+.browse-remaining {
+    text-align: center; font-size: 12px; color: var(--text-muted);
+    padding: 2px 0 0;
+}
+/* Drag direction indicators */
+.drag-hint {
+    position: absolute; top: 16px; padding: 6px 16px;
+    border-radius: 6px; font-size: 13px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .5px;
+    opacity: 0; transition: opacity .15s; z-index: 10;
+    pointer-events: none;
+}
+.drag-hint-pass { left: 16px; color: var(--st-pass); border: 2px solid var(--st-pass); }
+.drag-hint-save { right: 16px; color: var(--st-save); border: 2px solid var(--st-save); }
+.drag-hint-star { left: 50%; transform: translateX(-50%); color: var(--st-star); border: 2px solid var(--st-star); }
+
 .mini-btn {
     padding: 5px 14px; border-radius: 5px; border: 1px solid var(--border);
     font-size: 12px; font-weight: 600; cursor: pointer; transition: all .12s;
@@ -406,6 +471,7 @@ a:hover { text-decoration: underline; }
 .mini-save { color: var(--st-save); border-color: var(--st-save); }
 .mini-star { color: var(--st-star); border-color: var(--st-star); }
 .mini-btn.active-status { background: var(--bg-hover); }
+.action-btn.active-status { background: var(--bg-hover); }
 
 /* ── Markdown content ─────────────────────────────────────────── */
 .md h2 { font-size: 15px; font-weight: 700; margin: 18px 0 8px; color: var(--text); }
@@ -511,9 +577,12 @@ a:hover { text-decoration: underline; }
     .article-row .title { white-space: normal; }
 
     .review-card { padding: 20px; border-radius: 8px; }
+    .deck-card { padding: 20px; border-radius: 8px; }
     .card-title { font-size: 17px; }
     .review-actions { gap: 8px; padding: 16px; }
+    .browse-actions { gap: 8px; padding: 12px 16px 16px; }
     .action-btn { padding: 12px 14px; font-size: 14px; }
+    .card-deck-area { padding: 16px 16px 0; }
     .filters-bar { padding: 10px 16px; }
     .filters-bar select, .filters-bar input { font-size: 12px; padding: 6px 8px; }
     #header { padding: 10px 16px; }
@@ -564,7 +633,14 @@ a:hover { text-decoration: underline; }
         <div class="browse-list-panel" id="article-list"></div>
         <div class="resize-handle" id="resize-handle"></div>
         <div class="browse-detail-panel" id="article-detail">
-            <div class="detail-empty">Select an article to read</div>
+            <div class="card-deck-area" id="card-deck-area">
+                <div class="deck-empty" id="deck-empty">Select an article to view</div>
+            </div>
+            <div class="browse-actions" id="browse-actions" style="display:none">
+                <button class="action-btn action-pass" id="ba-pass" onclick="cardAction('pass')">Pass<kbd>&#8592; / 1</kbd></button>
+                <button class="action-btn action-star" id="ba-star" onclick="cardAction('star')">Star<kbd>&#8593; / 3</kbd></button>
+                <button class="action-btn action-save" id="ba-save" onclick="cardAction('save')">Save<kbd>&#8594; / 2</kbd></button>
+            </div>
         </div>
     </div>
 </main>
@@ -685,8 +761,9 @@ function renderBrowseList() {
 
     if (filteredArticles.length === 0) {
         list.innerHTML = '<div class="empty-state"><p>No articles match your filters.</p></div>';
-        document.getElementById('article-detail').innerHTML =
-            '<div class="detail-empty">Select an article to read</div>';
+        document.getElementById('card-deck-area').innerHTML =
+            '<div class="deck-empty">No articles to show</div>';
+        document.getElementById('browse-actions').style.display = 'none';
     }
 
     // Restore or clear selection
@@ -725,40 +802,86 @@ function selectArticle(idx) {
         row.scrollIntoView({ block: 'nearest' });
     }
 
-    renderDetail(filteredArticles[idx]);
+    renderBrowseCard(filteredArticles[idx]);
 }
 
-function renderDetail(art) {
-    const panel = document.getElementById('article-detail');
-    panel.innerHTML =
-        `<div class="detail-header">` +
-            `<div class="detail-title">${esc(art.title)}</div>` +
-            `<div class="detail-meta">` +
-                `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
-                `<span>${esc(art.source_name)}</span>` +
-                `<span>${art.date}</span>` +
-                `<a href="${esc(art.url)}" target="_blank" rel="noopener">Open original &#8594;</a>` +
-                (art.review_status ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>` : '') +
-            `</div>` +
-            `<div class="detail-actions">` +
-                `<button class="mini-btn mini-pass ${art.review_status==='pass'?'active-status':''}" onclick="detailReview('pass')">Pass</button>` +
-                `<button class="mini-btn mini-star ${art.review_status==='star'?'active-status':''}" onclick="detailReview('star')">Star</button>` +
-                `<button class="mini-btn mini-save ${art.review_status==='save'?'active-status':''}" onclick="detailReview('save')">Save</button>` +
+function renderBrowseCard(art) {
+    const deckArea = document.getElementById('card-deck-area');
+    const actions = document.getElementById('browse-actions');
+
+    if (!art) {
+        deckArea.innerHTML = '<div class="deck-empty">Select an article to view</div>';
+        actions.style.display = 'none';
+        return;
+    }
+
+    actions.style.display = 'flex';
+
+    // Count remaining unreviewed for shadow cards
+    const remaining = filteredArticles.filter(a => !a.review_status).length;
+    const nextCount = Math.min(remaining - (art.review_status ? 0 : 1), 2);
+
+    let shadowHtml = '';
+    if (nextCount >= 1) shadowHtml += '<div class="deck-shadow deck-shadow-1"></div>';
+    if (nextCount >= 2) shadowHtml += '<div class="deck-shadow deck-shadow-2"></div>';
+
+    const statusBadge = art.review_status
+        ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>`
+        : '';
+
+    deckArea.innerHTML =
+        `<div class="deck-stack">` +
+            shadowHtml +
+            `<div class="deck-card entering" id="browse-deck-card">` +
+                `<div class="drag-hint drag-hint-pass">Pass</div>` +
+                `<div class="drag-hint drag-hint-save">Save</div>` +
+                `<div class="drag-hint drag-hint-star">Star</div>` +
+                `<div class="card-header">` +
+                    `<div class="card-title">${esc(art.title)}</div>` +
+                    `<div class="card-meta">` +
+                        `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
+                        `<span>${esc(art.source_name)}</span>` +
+                        `<span>${art.date}</span>` +
+                        `<a href="${esc(art.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open original &#8594;</a>` +
+                        statusBadge +
+                    `</div>` +
+                `</div>` +
+                `<div class="card-body md">${marked.parse(art.body)}</div>` +
             `</div>` +
         `</div>` +
-        `<div class="detail-body md">${marked.parse(art.body)}</div>`;
-    panel.scrollTop = 0;
+        `<div class="browse-remaining">${remaining} unreviewed remaining</div>`;
+
+    // Highlight active action button
+    updateActionButtons(art.review_status);
+
+    // Setup drag interaction
+    setupCardDrag(document.getElementById('browse-deck-card'));
 }
 
-async function detailReview(status) {
-    if (selectedIdx < 0 || selectedIdx >= filteredArticles.length) return;
+function updateActionButtons(status) {
+    ['pass', 'star', 'save'].forEach(s => {
+        const btn = document.getElementById('ba-' + s);
+        if (btn) btn.classList.toggle('active-status', status === s);
+    });
+}
+
+async function cardAction(status) {
+    if (animating || selectedIdx < 0 || selectedIdx >= filteredArticles.length) return;
+    animating = true;
+
+    const card = document.getElementById('browse-deck-card');
     const art = filteredArticles[selectedIdx];
 
-    await fetch('/api/review', {
+    // Animate card out
+    const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
+    if (card) card.classList.add(cls);
+
+    // Fire API
+    fetch('/api/review', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ path: art.path, status }),
-    });
+    }).then(() => refreshStats());
 
     // Update local state
     art.review_status = status;
@@ -766,14 +889,7 @@ async function detailReview(status) {
     const orig = browseArticles.find(a => a.path === art.path);
     if (orig) { orig.review_status = status; orig.reviewed_at = art.reviewed_at; }
 
-    // Update detail panel buttons
-    const actions = document.querySelector('.detail-actions');
-    if (actions) {
-        actions.querySelectorAll('.mini-btn').forEach(b => b.classList.remove('active-status'));
-        actions.querySelector('.mini-' + status)?.classList.add('active-status');
-    }
-
-    // Update list row badge
+    // Update list row
     const row = document.querySelector(`[data-idx="${selectedIdx}"]`);
     if (row) {
         const badgeCol = row.children[4];
@@ -781,16 +897,126 @@ async function detailReview(status) {
         row.classList.add('reviewed');
     }
 
-    // Update detail meta badge
-    const meta = document.querySelector('.detail-meta');
-    if (meta) {
-        const existing = meta.querySelector('.review-badge');
-        const badge = `<span class="review-badge" data-status="${status}">${status}</span>`;
-        if (existing) existing.outerHTML = badge;
-        else meta.insertAdjacentHTML('beforeend', badge);
+    await sleep(300);
+
+    // Auto-advance to next article
+    const nextIdx = findNextArticle(selectedIdx);
+    if (nextIdx >= 0) {
+        selectArticle(nextIdx);
+    } else {
+        // No more unreviewed; re-render current card with updated status
+        renderBrowseCard(art);
     }
 
-    refreshStats();
+    animating = false;
+}
+
+function findNextArticle(fromIdx) {
+    // Find next unreviewed article after current position
+    for (let i = fromIdx + 1; i < filteredArticles.length; i++) {
+        if (!filteredArticles[i].review_status) return i;
+    }
+    // Wrap around and check before current position
+    for (let i = 0; i < fromIdx; i++) {
+        if (!filteredArticles[i].review_status) return i;
+    }
+    // No unreviewed left; just go to next article if any
+    if (fromIdx + 1 < filteredArticles.length) return fromIdx + 1;
+    return -1;
+}
+
+function setupCardDrag(card) {
+    if (!card) return;
+    let startX = 0, startY = 0, dx = 0, dy = 0;
+    let isDragging = false, dragConfirmed = false;
+
+    const hintPass = card.querySelector('.drag-hint-pass');
+    const hintSave = card.querySelector('.drag-hint-save');
+    const hintStar = card.querySelector('.drag-hint-star');
+
+    function showHints(dx, dy) {
+        const SHOW = 40;
+        if (hintPass) hintPass.style.opacity = dx < -SHOW ? Math.min(1, (-dx - SHOW) / 60) : 0;
+        if (hintSave) hintSave.style.opacity = dx > SHOW ? Math.min(1, (dx - SHOW) / 60) : 0;
+        if (hintStar) hintStar.style.opacity = dy < -SHOW ? Math.min(1, (-dy - SHOW) / 60) : 0;
+    }
+
+    function onStart(x, y) {
+        if (animating) return;
+        startX = x; startY = y; dx = 0; dy = 0;
+        isDragging = true; dragConfirmed = false;
+        card.classList.add('dragging');
+    }
+
+    function onMove(x, y) {
+        if (!isDragging) return;
+        dx = x - startX;
+        dy = y - startY;
+
+        // Determine intent: if first significant move is vertical, cancel drag (let body scroll)
+        if (!dragConfirmed) {
+            if (Math.abs(dy) > 12 && Math.abs(dy) > Math.abs(dx) * 1.5) {
+                isDragging = false;
+                card.classList.remove('dragging');
+                card.style.transform = '';
+                card.style.opacity = '';
+                showHints(0, 0);
+                return;
+            }
+            if (Math.abs(dx) > 12 || Math.abs(dy) > 12) {
+                dragConfirmed = true;
+            } else {
+                return;
+            }
+        }
+
+        const rotate = dx * 0.04;
+        card.style.transform = `translate(${dx}px, ${Math.min(dy, 0)}px) rotate(${rotate}deg)`;
+        card.style.opacity = Math.max(0.5, 1 - Math.abs(dx) / 500);
+        showHints(dx, dy);
+    }
+
+    function onEnd() {
+        if (!isDragging) return;
+        isDragging = false;
+        card.classList.remove('dragging');
+        showHints(0, 0);
+
+        const THRESHOLD = 100;
+        if (Math.abs(dx) > THRESHOLD && Math.abs(dx) > Math.abs(dy)) {
+            cardAction(dx < 0 ? 'pass' : 'save');
+        } else if (dy < -THRESHOLD && Math.abs(dy) > Math.abs(dx)) {
+            cardAction('star');
+        } else {
+            // Snap back
+            card.style.transform = '';
+            card.style.opacity = '';
+        }
+    }
+
+    // Mouse events
+    card.addEventListener('mousedown', e => {
+        if (e.target.tagName === 'A') return;
+        e.preventDefault();
+        onStart(e.clientX, e.clientY);
+    });
+
+    // Use document-level listeners for move/up so drag works outside card bounds
+    const moveHandler = e => { if (isDragging) onMove(e.clientX, e.clientY); };
+    const upHandler = () => { if (isDragging) onEnd(); };
+    document.addEventListener('mousemove', moveHandler);
+    document.addEventListener('mouseup', upHandler);
+
+    // Touch events
+    card.addEventListener('touchstart', e => {
+        if (e.target.tagName === 'A') return;
+        onStart(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+    card.addEventListener('touchmove', e => {
+        if (isDragging && dragConfirmed) e.preventDefault();
+        onMove(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: false });
+    card.addEventListener('touchend', () => onEnd(), { passive: true });
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -890,17 +1116,17 @@ document.addEventListener('keydown', (e) => {
 
     if (inBrowse) {
         switch (e.key) {
-            case 'ArrowDown': case 'j':
+            case 'j': case 'ArrowDown':
                 e.preventDefault();
                 if (selectedIdx < filteredArticles.length - 1) selectArticle(selectedIdx + 1);
                 break;
-            case 'ArrowUp': case 'k':
+            case 'k':
                 e.preventDefault();
                 if (selectedIdx > 0) selectArticle(selectedIdx - 1);
                 break;
-            case '1': detailReview('pass'); break;
-            case '2': detailReview('save'); break;
-            case '3': detailReview('star'); break;
+            case 'ArrowLeft':  case '1': e.preventDefault(); cardAction('pass'); break;
+            case 'ArrowRight': case '2': e.preventDefault(); cardAction('save'); break;
+            case 'ArrowUp':    case '3': e.preventDefault(); cardAction('star'); break;
         }
     }
 
