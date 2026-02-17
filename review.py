@@ -4,6 +4,7 @@ Source review web app.
 Run:  python review.py
 Then: http://localhost:5001
 """
+from __future__ import annotations
 
 import json
 from datetime import datetime, timezone
