@@ -9,29 +9,40 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-17 | 0 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-17 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-17 | 2 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-17 | 1 | ✅ |  |
-| The AI Collective | rss | 2026-02-17 | 1 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-17 | 1 | ✅ |  |
-| Real Estate News | rss | 2026-02-17 | 2 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-17 | 6 | ✅ |  |
-| Built In | sitemap | 2026-02-17 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-17 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-17 | 1 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-17 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-17 | 0 | ✅ |  |
-| Latent Space | podcast | 2026-02-17 | 0 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-17 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-18 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-18 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-18 | 2 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-18 | 1 | ✅ |  |
+| The AI Collective | rss | 2026-02-18 | 2 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-18 | 3 | ✅ |  |
+| Real Estate News | rss | 2026-02-18 | 3 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-18 | 9 | ✅ |  |
+| Built In | sitemap | 2026-02-18 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-18 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-18 | 2 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-18 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-18 | 0 | ✅ |  |
+| Latent Space | podcast | 2026-02-18 | 0 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-18 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-02-18
+- [A Guide To Which Ai To Use In The Agentic Era](content/2026/02/18/mollick-one-useful-thing--a-guide-to-which-ai-to-use-in-the-agentic-era.md) — mollick-one-useful-thing
+
 ### 2026-02-17
+- [Wsj X A16Z The Next 25 Years Of Defense Innovation](content/2026/02/17/a16z-podcast--wsj-x-a16z-the-next-25-years-of-defense-innovation.md) — a16z-podcast
+- [The Byte The Data Powering Medical Superintelligence Exclusi](content/2026/02/17/ai-collective--the-byte-the-data-powering-medical-superintelligence-exclusi.md) — ai-collective
 - [Anthropic Infosys](content/2026/02/17/anthropic-blog--anthropic-infosys.md) — anthropic-blog
+- [Anthropic Rwanda Mou](content/2026/02/17/anthropic-blog--anthropic-rwanda-mou.md) — anthropic-blog
+- [Claude Opus 4 6](content/2026/02/17/anthropic-blog--claude-opus-4-6.md) — anthropic-blog
+- [Claude Sonnet 4 6](content/2026/02/17/anthropic-blog--claude-sonnet-4-6.md) — anthropic-blog
+- [Why Ai Adoption Stalls According To Industry Data](content/2026/02/17/hbr--why-ai-adoption-stalls-according-to-industry-data.md) — hbr
+- [With Rise Of Agents We Are Entering The World Of Identic Ai](content/2026/02/17/hbr--with-rise-of-agents-we-are-entering-the-world-of-identic-ai.md) — hbr
 - [Where Ill Be This Spring A Global Tour Of Ai Agent Security](content/2026/02/17/ken-huang-ai-expert--where-ill-be-this-spring-a-global-tour-of-ai-agent-security.md) — ken-huang-ai-expert
+- [Costar Rolls Out Homes Ai Skyslope Launches Agent Coaching A](content/2026/02/17/real-estate-news--costar-rolls-out-homes-ai-skyslope-launches-agent-coaching-a.md) — real-estate-news
 
 ### 2026-02-16
 - [Novartis Ceo Vasant Narasimhan On Transforming A 250 Year Ol](content/2026/02/16/a16z-podcast--novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-ol.md) — a16z-podcast
@@ -56,8 +67,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-02-12
 - [Anthropic Raises 30 Billion Series G Funding 380 Billion Pos](content/2026/02/12/anthropic-blog--anthropic-raises-30-billion-series-g-funding-380-billion-pos.md) — anthropic-blog
-
-### 2026-02-10
-- [How Can Responsible Ai Bridge The Gap Between Investment And](content/2026/02/10/ey-com--how-can-responsible-ai-bridge-the-gap-between-investment-and.md) — ey-com
 
 <!-- RECENT_CONTENT_END -->
