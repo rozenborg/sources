@@ -9,28 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-18 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-18 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-18 | 2 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-18 | 1 | ✅ |  |
-| The AI Collective | rss | 2026-02-18 | 2 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-18 | 3 | ✅ |  |
-| Real Estate News | rss | 2026-02-18 | 3 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-18 | 9 | ✅ |  |
-| Built In | sitemap | 2026-02-18 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-18 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-18 | 2 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-18 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-18 | 0 | ✅ |  |
-| Latent Space | podcast | 2026-02-18 | 0 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-18 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-19 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-19 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-19 | 3 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-19 | 1 | ✅ |  |
+| The AI Collective | rss | 2026-02-19 | 3 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-19 | 4 | ✅ |  |
+| Real Estate News | rss | 2026-02-19 | 4 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-19 | 9 | ✅ |  |
+| Built In | sitemap | 2026-02-19 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-19 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-19 | 3 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-19 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-19 | 0 | ✅ |  |
+| Latent Space | podcast | 2026-02-19 | 0 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-19 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-02-18
+- [From Copilots To Agents Rebuilding The Company Around Ai](content/2026/02/18/a16z-podcast--from-copilots-to-agents-rebuilding-the-company-around-ai.md) — a16z-podcast
+- [The Builders Issue Reasoning Models Real Time Coding Open So](content/2026/02/18/ai-collective--the-builders-issue-reasoning-models-real-time-coding-open-so.md) — ai-collective
+- [When Every Company Can Use The Same Ai Models Context Become](content/2026/02/18/hbr--when-every-company-can-use-the-same-ai-models-context-become.md) — hbr
+- [Openclaw Maestro Threat Assessment Mitigation Report](content/2026/02/18/ken-huang-ai-expert--openclaw-maestro-threat-assessment-mitigation-report.md) — ken-huang-ai-expert
 - [A Guide To Which Ai To Use In The Agentic Era](content/2026/02/18/mollick-one-useful-thing--a-guide-to-which-ai-to-use-in-the-agentic-era.md) — mollick-one-useful-thing
+- [Residential Real Estates Ai Honeymoon Is Over](content/2026/02/18/real-estate-news--residential-real-estates-ai-honeymoon-is-over.md) — real-estate-news
 
 ### 2026-02-17
 - [Wsj X A16Z The Next 25 Years Of Defense Innovation](content/2026/02/17/a16z-podcast--wsj-x-a16z-the-next-25-years-of-defense-innovation.md) — a16z-podcast

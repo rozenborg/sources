@@ -1,66 +1,69 @@
 {
   "sources": {
     "mollick-one-useful-thing": {
-      "last_success": "2026-02-18T08:33:20.108056+00:00",
+      "last_success": "2026-02-19T08:31:40.586768+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-18T08:33:20.108056+00:00",
+      "last_run": "2026-02-19T08:31:40.586768+00:00",
       "seen_urls": [
         "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the"
       ]
     },
     "openai-blog": {
-      "last_success": "2026-02-18T08:33:34.898990+00:00",
+      "last_success": "2026-02-19T08:31:41.349735+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-02-18T08:33:34.898990+00:00",
+      "last_run": "2026-02-19T08:31:41.349735+00:00",
       "seen_urls": []
     },
     "ken-huang-ai-expert": {
-      "last_success": "2026-02-18T08:33:35.256880+00:00",
+      "last_success": "2026-02-19T08:31:41.868803+00:00",
       "last_error": null,
-      "posts_total": 2,
-      "last_run": "2026-02-18T08:33:35.256880+00:00",
+      "posts_total": 3,
+      "last_run": "2026-02-19T08:31:41.868803+00:00",
       "seen_urls": [
         "https://kenhuangus.substack.com/p/ralph-vs-openclaw-understanding-process",
-        "https://kenhuangus.substack.com/p/on-the-road-for-agentic-ai-security"
+        "https://kenhuangus.substack.com/p/on-the-road-for-agentic-ai-security",
+        "https://kenhuangus.substack.com/p/openclaw-maestro-threat-assessment"
       ]
     },
     "khemaridh-future-proof": {
-      "last_success": "2026-02-18T08:33:35.988885+00:00",
+      "last_success": "2026-02-19T08:31:52.387148+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-18T08:33:35.988885+00:00",
+      "last_run": "2026-02-19T08:31:52.387148+00:00",
       "seen_urls": [
         "https://khemaridh.substack.com/p/this-ai-blog-post-broke-the-internet"
       ]
     },
     "ai-collective": {
-      "last_success": "2026-02-18T08:33:36.226104+00:00",
+      "last_success": "2026-02-19T08:31:52.661359+00:00",
       "last_error": null,
-      "posts_total": 2,
-      "last_run": "2026-02-18T08:33:36.226104+00:00",
+      "posts_total": 3,
+      "last_run": "2026-02-19T08:31:52.661359+00:00",
       "seen_urls": [
         "https://aicollective.substack.com/p/the-brief-gemini-3-crushes-arc-agi",
-        "https://aicollective.substack.com/p/the-byte-the-data-powering-medical"
+        "https://aicollective.substack.com/p/the-byte-the-data-powering-medical",
+        "https://aicollective.substack.com/p/the-builders-issue-reasoning-models"
       ]
     },
     "real-estate-news": {
-      "last_success": "2026-02-18T08:34:07.206150+00:00",
+      "last_success": "2026-02-19T08:32:13.299871+00:00",
       "last_error": null,
-      "posts_total": 3,
-      "last_run": "2026-02-18T08:34:07.206150+00:00",
+      "posts_total": 4,
+      "last_run": "2026-02-19T08:32:13.299871+00:00",
       "seen_urls": [
         "https://www.realestatenews.com/2026/02/13/the-future-of-real-estate-marketing-its-ai-powered-search",
         "https://www.realestatenews.com/2026/02/16/agents-want-more-and-better-ai-tools-and-more-training",
-        "https://www.realestatenews.com/2026/02/17/costar-rolls-out-homes-ai-skyslope-launches-agent-coaching-app"
+        "https://www.realestatenews.com/2026/02/17/costar-rolls-out-homes-ai-skyslope-launches-agent-coaching-app",
+        "https://www.realestatenews.com/2026/02/18/residential-real-estates-ai-honeymoon-is-over"
       ]
     },
     "anthropic-blog": {
-      "last_success": "2026-02-18T08:34:16.591503+00:00",
+      "last_success": "2026-02-19T08:32:22.285146+00:00",
       "last_error": null,
       "posts_total": 9,
-      "last_run": "2026-02-18T08:34:16.591503+00:00",
+      "last_run": "2026-02-19T08:32:22.285146+00:00",
       "seen_urls": [
         "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
         "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
@@ -74,10 +77,10 @@
       ]
     },
     "builtin-com": {
-      "last_success": "2026-02-18T08:34:57.186088+00:00",
+      "last_success": "2026-02-19T08:32:24.901799+00:00",
       "last_error": null,
       "posts_total": 5,
-      "last_run": "2026-02-18T08:34:57.186088+00:00",
+      "last_run": "2026-02-19T08:32:24.901799+00:00",
       "seen_urls": [
         "https://builtin.com/articles/employer-branding-tools",
         "https://builtin.com/articles/companies-hiring-machine-learning-engineers-san-francisco",
@@ -87,10 +90,10 @@
       ]
     },
     "ey-com": {
-      "last_success": "2026-02-18T08:35:02.164757+00:00",
+      "last_success": "2026-02-19T08:32:29.975233+00:00",
       "last_error": null,
       "posts_total": 5,
-      "last_run": "2026-02-18T08:35:02.164757+00:00",
+      "last_run": "2026-02-19T08:32:29.975233+00:00",
       "seen_urls": [
         "https://www.ey.com/en_nl/insights/ai/how-can-responsible-ai-bridge-the-gap-between-investment-and-impact",
         "https://www.ey.com/en_nl/insights/ai/ai-agents-can-make-or-break-a-financial-institution",
@@ -100,56 +103,58 @@
       ]
     },
     "a16z-podcast": {
-      "last_success": "2026-02-18T08:35:04.640015+00:00",
+      "last_success": "2026-02-19T08:32:32.283941+00:00",
       "last_error": null,
-      "posts_total": 2,
-      "last_run": "2026-02-18T08:35:04.640015+00:00",
+      "posts_total": 3,
+      "last_run": "2026-02-19T08:32:32.283941+00:00",
       "seen_urls": [
         "https://a16z.simplecast.com/episodes/novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-old-company-5kBHPRUC",
-        "https://a16z.simplecast.com/episodes/wsj-x-a16z-the-next-25-years-of-defense-innovation-7fNyoZyd"
+        "https://a16z.simplecast.com/episodes/wsj-x-a16z-the-next-25-years-of-defense-innovation-7fNyoZyd",
+        "https://a16z.simplecast.com/episodes/from-copilots-to-agents-rebuilding-the-company-around-ai-_07WiWQy"
       ]
     },
     "dwarkesh-podcast": {
-      "last_success": "2026-02-18T08:35:17.535469+00:00",
+      "last_success": "2026-02-19T08:32:46.920869+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-18T08:35:17.535469+00:00",
+      "last_run": "2026-02-19T08:32:46.920869+00:00",
       "seen_urls": [
         "https://www.dwarkesh.com/p/dario-amodei-2"
       ]
     },
     "no-priors": {
-      "last_success": "2026-02-18T08:35:17.982028+00:00",
+      "last_success": "2026-02-19T08:32:47.389058+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-02-18T08:35:17.982028+00:00",
+      "last_run": "2026-02-19T08:32:47.389058+00:00",
       "seen_urls": []
     },
     "latent-space": {
-      "last_success": "2026-02-18T08:35:18.539597+00:00",
+      "last_success": "2026-02-19T08:32:48.005210+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-02-18T08:35:18.539597+00:00",
+      "last_run": "2026-02-19T08:32:48.005210+00:00",
       "seen_urls": []
     },
     "ai-daily-brief": {
-      "last_success": "2026-02-18T08:35:22.149048+00:00",
+      "last_success": "2026-02-19T08:32:51.705063+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-02-18T08:35:22.149048+00:00",
+      "last_run": "2026-02-19T08:32:51.705063+00:00",
       "seen_urls": [
         "https://podcastai.com/daily-brief"
       ]
     },
     "hbr": {
-      "last_success": "2026-02-18T08:33:45.736638+00:00",
+      "last_success": "2026-02-19T08:32:05.376259+00:00",
       "last_error": null,
-      "posts_total": 3,
-      "last_run": "2026-02-18T08:33:45.736638+00:00",
+      "posts_total": 4,
+      "last_run": "2026-02-19T08:32:05.376259+00:00",
       "seen_urls": [
         "https://hbr.org/2026/02/why-your-digital-investments-arent-creating-value",
         "https://hbr.org/podcast/2026/02/with-rise-of-agents-we-are-entering-the-world-of-identic-ai",
-        "https://hbr.org/2026/02/why-ai-adoption-stalls-according-to-industry-data"
+        "https://hbr.org/2026/02/why-ai-adoption-stalls-according-to-industry-data",
+        "https://hbr.org/2026/02/when-every-company-can-use-the-same-ai-models-context-becomes-a-competitive-advantage"
       ]
     }
   }
