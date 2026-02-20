@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-19 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-19 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-19 | 3 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-19 | 1 | ✅ |  |
-| The AI Collective | rss | 2026-02-19 | 3 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-19 | 4 | ✅ |  |
-| Real Estate News | rss | 2026-02-19 | 4 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-19 | 9 | ✅ |  |
-| Built In | sitemap | 2026-02-19 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-19 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-19 | 3 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-19 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-19 | 0 | ✅ |  |
-| Latent Space | podcast | 2026-02-19 | 0 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-19 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-20 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-20 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-20 | 3 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-20 | 2 | ✅ |  |
+| The AI Collective | rss | 2026-02-20 | 3 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-20 | 5 | ✅ |  |
+| Real Estate News | rss | 2026-02-20 | 5 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-20 | 9 | ✅ |  |
+| Built In | sitemap | 2026-02-20 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-20 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-20 | 4 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-20 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-20 | 1 | ✅ |  |
+| Latent Space | podcast | 2026-02-20 | 1 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-20 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-02-19
+- [Ais Capital Flywheel Models Money And The Future Of Power](content/2026/02/19/a16z-podcast--ais-capital-flywheel-models-money-and-the-future-of-power.md) — a16z-podcast
+- [How Brands Can Adapt When Ai Agents Do The Shopping](content/2026/02/19/hbr--how-brands-can-adapt-when-ai-agents-do-the-shopping.md) — hbr
+- [Have We Reached Powerpoint Agi](content/2026/02/19/khemaridh-future-proof--have-we-reached-powerpoint-agi.md) — khemaridh-future-proof
+- [Bitter Lessons In Venture Vs Growth Anthropic Vs Openai Noam](content/2026/02/19/latent-space--bitter-lessons-in-venture-vs-growth-anthropic-vs-openai-noam.md) — latent-space
+- [From Saas To Ai First How Companies Are Reshaping Innovation](content/2026/02/19/no-priors--from-saas-to-ai-first-how-companies-are-reshaping-innovation.md) — no-priors
+- [Costar Confirms Layoffs Following Investor Criticism Ai Push](content/2026/02/19/real-estate-news--costar-confirms-layoffs-following-investor-criticism-ai-push.md) — real-estate-news
+
 ### 2026-02-18
 - [From Copilots To Agents Rebuilding The Company Around Ai](content/2026/02/18/a16z-podcast--from-copilots-to-agents-rebuilding-the-company-around-ai.md) — a16z-podcast
 - [The Builders Issue Reasoning Models Real Time Coding Open So](content/2026/02/18/ai-collective--the-builders-issue-reasoning-models-real-time-coding-open-so.md) — ai-collective
@@ -69,8 +77,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Claude For Financial Services](content/2026/02/13/anthropic-blog--claude-for-financial-services.md) — anthropic-blog
 - [Dario Amodei We Are Near The End Of The Exponential](content/2026/02/13/dwarkesh-podcast--dario-amodei-we-are-near-the-end-of-the-exponential.md) — dwarkesh-podcast
 - [The Future Of Real Estate Marketing Its Ai Powered Search](content/2026/02/13/real-estate-news--the-future-of-real-estate-marketing-its-ai-powered-search.md) — real-estate-news
-
-### 2026-02-12
-- [Anthropic Raises 30 Billion Series G Funding 380 Billion Pos](content/2026/02/12/anthropic-blog--anthropic-raises-30-billion-series-g-funding-380-billion-pos.md) — anthropic-blog
 
 <!-- RECENT_CONTENT_END -->
