@@ -9,26 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-20 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-20 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-20 | 3 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-20 | 2 | ✅ |  |
-| The AI Collective | rss | 2026-02-20 | 3 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-20 | 5 | ✅ |  |
-| Real Estate News | rss | 2026-02-20 | 5 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-20 | 9 | ✅ |  |
-| Built In | sitemap | 2026-02-20 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-20 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-20 | 4 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-20 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-20 | 1 | ✅ |  |
-| Latent Space | podcast | 2026-02-20 | 1 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-20 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-21 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-21 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-21 | 4 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-21 | 2 | ✅ |  |
+| The AI Collective | rss | 2026-02-21 | 4 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-21 | 5 | ✅ |  |
+| Real Estate News | rss | 2026-02-21 | 5 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-21 | 10 | ✅ |  |
+| Built In | sitemap | 2026-02-21 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-21 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-21 | 5 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-21 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-21 | 1 | ✅ |  |
+| Latent Space | podcast | 2026-02-21 | 1 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-21 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-02-20
+- [Patrick Collison On Stripes Early Choices Smalltalk And What](content/2026/02/20/a16z-podcast--patrick-collison-on-stripes-early-choices-smalltalk-and-what.md) — a16z-podcast
+- [The Community Edition Measuring Agent Risk Living With Agent](content/2026/02/20/ai-collective--the-community-edition-measuring-agent-risk-living-with-agent.md) — ai-collective
+- [Claude Code Security](content/2026/02/20/anthropic-blog--claude-code-security.md) — anthropic-blog
+- [Is Agentic Ai Layer 8](content/2026/02/20/ken-huang-ai-expert--is-agentic-ai-layer-8.md) — ken-huang-ai-expert
+
 ### 2026-02-19
 - [Ais Capital Flywheel Models Money And The Future Of Power](content/2026/02/19/a16z-podcast--ais-capital-flywheel-models-money-and-the-future-of-power.md) — a16z-podcast
 - [How Brands Can Adapt When Ai Agents Do The Shopping](content/2026/02/19/hbr--how-brands-can-adapt-when-ai-agents-do-the-shopping.md) — hbr
@@ -70,12 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-02-14
 - [Openclaw Vs Ralph Loop](content/2026/02/14/ken-huang-ai-expert--openclaw-vs-ralph-loop.md) — ken-huang-ai-expert
-
-### 2026-02-13
-- [Anthropic Codepath Partnership](content/2026/02/13/anthropic-blog--anthropic-codepath-partnership.md) — anthropic-blog
-- [Chris Liddell Appointed Anthropic Board](content/2026/02/13/anthropic-blog--chris-liddell-appointed-anthropic-board.md) — anthropic-blog
-- [Claude For Financial Services](content/2026/02/13/anthropic-blog--claude-for-financial-services.md) — anthropic-blog
-- [Dario Amodei We Are Near The End Of The Exponential](content/2026/02/13/dwarkesh-podcast--dario-amodei-we-are-near-the-end-of-the-exponential.md) — dwarkesh-podcast
-- [The Future Of Real Estate Marketing Its Ai Powered Search](content/2026/02/13/real-estate-news--the-future-of-real-estate-marketing-its-ai-powered-search.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
