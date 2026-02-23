@@ -9,26 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-22 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-22 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-22 | 4 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-22 | 2 | ✅ |  |
-| The AI Collective | rss | 2026-02-22 | 4 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-22 | 5 | ✅ |  |
-| Real Estate News | rss | 2026-02-22 | 5 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-22 | 10 | ✅ |  |
-| Built In | sitemap | 2026-02-22 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-22 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-22 | 5 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-22 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-22 | 1 | ✅ |  |
-| Latent Space | podcast | 2026-02-22 | 1 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-22 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-23 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-23 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-23 | 5 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-23 | 3 | ✅ |  |
+| The AI Collective | rss | 2026-02-23 | 4 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-23 | 5 | ✅ |  |
+| Real Estate News | rss | 2026-02-23 | 5 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-23 | 10 | ✅ |  |
+| Built In | sitemap | 2026-02-23 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-23 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-23 | 5 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-23 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-23 | 1 | ✅ |  |
+| Latent Space | podcast | 2026-02-23 | 1 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-23 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-02-22
+- [Claude Code Extension Ecosystem](content/2026/02/22/ken-huang-ai-expert--claude-code-extension-ecosystem.md) — ken-huang-ai-expert
+- [The 1 Trillion Saas Reckoning](content/2026/02/22/khemaridh-future-proof--the-1-trillion-saas-reckoning.md) — khemaridh-future-proof
+
 ### 2026-02-20
 - [Patrick Collison On Stripes Early Choices Smalltalk And What](content/2026/02/20/a16z-podcast--patrick-collison-on-stripes-early-choices-smalltalk-and-what.md) — a16z-podcast
 - [The Community Edition Measuring Agent Risk Living With Agent](content/2026/02/20/ai-collective--the-community-edition-measuring-agent-risk-living-with-agent.md) — ai-collective
@@ -70,8 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Bengaluru Office Partnerships Across India](content/2026/02/16/anthropic-blog--bengaluru-office-partnerships-across-india.md) — anthropic-blog
 - [Why Your Digital Investments Arent Creating Value](content/2026/02/16/hbr--why-your-digital-investments-arent-creating-value.md) — hbr
 - [Agents Want More And Better Ai Tools And More Training](content/2026/02/16/real-estate-news--agents-want-more-and-better-ai-tools-and-more-training.md) — real-estate-news
-
-### 2026-02-15
-- [This Ai Blog Post Broke The Internet](content/2026/02/15/khemaridh-future-proof--this-ai-blog-post-broke-the-internet.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
