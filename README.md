@@ -9,27 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-25 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-25 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-25 | 5 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-25 | 3 | ✅ |  |
-| The AI Collective | rss | 2026-02-25 | 5 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-25 | 6 | ✅ |  |
-| Real Estate News | rss | 2026-02-25 | 8 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-25 | 12 | ✅ |  |
-| Built In | sitemap | 2026-02-25 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-25 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-25 | 6 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-25 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-25 | 1 | ✅ |  |
-| Latent Space | podcast | 2026-02-25 | 3 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-25 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-26 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-26 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-26 | 5 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-26 | 3 | ✅ |  |
+| The AI Collective | rss | 2026-02-26 | 6 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-26 | 8 | ✅ |  |
+| Real Estate News | rss | 2026-02-26 | 8 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-26 | 13 | ✅ |  |
+| Built In | sitemap | 2026-02-26 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-26 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-26 | 6 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-26 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-26 | 1 | ✅ |  |
+| Latent Space | podcast | 2026-02-26 | 4 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-26 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-02-25
+- [The Builders Issue Websocket Streams Grok Build Gemini 31 Ap](content/2026/02/25/ai-collective--the-builders-issue-websocket-streams-grok-build-gemini-31-ap.md) — ai-collective
+- [Acquires Vercept](content/2026/02/25/anthropic-blog--acquires-vercept.md) — anthropic-blog
+- [Ais Big Payoff Is Coordination Not Automation](content/2026/02/25/hbr--ais-big-payoff-is-coordination-not-automation.md) — hbr
+- [Close Your Workforces Ai Skills Gap By Designing An Adaptive](content/2026/02/25/hbr--close-your-workforces-ai-skills-gap-by-designing-an-adaptive.md) — hbr
+- [Searching The Space Of All Possible Materials Prof Max Welli](content/2026/02/25/latent-space--searching-the-space-of-all-possible-materials-prof-max-welli.md) — latent-space
 - [Costar Touts Homescom Momentum Bets Big On Ai After Strong Q](content/2026/02/25/real-estate-news--costar-touts-homescom-momentum-bets-big-on-ai-after-strong-q.md) — real-estate-news
 
 ### 2026-02-24
@@ -62,13 +67,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Bitter Lessons In Venture Vs Growth Anthropic Vs Openai Noam](content/2026/02/19/latent-space--bitter-lessons-in-venture-vs-growth-anthropic-vs-openai-noam.md) — latent-space
 - [From Saas To Ai First How Companies Are Reshaping Innovation](content/2026/02/19/no-priors--from-saas-to-ai-first-how-companies-are-reshaping-innovation.md) — no-priors
 - [Costar Confirms Layoffs Following Investor Criticism Ai Push](content/2026/02/19/real-estate-news--costar-confirms-layoffs-following-investor-criticism-ai-push.md) — real-estate-news
-
-### 2026-02-18
-- [From Copilots To Agents Rebuilding The Company Around Ai](content/2026/02/18/a16z-podcast--from-copilots-to-agents-rebuilding-the-company-around-ai.md) — a16z-podcast
-- [The Builders Issue Reasoning Models Real Time Coding Open So](content/2026/02/18/ai-collective--the-builders-issue-reasoning-models-real-time-coding-open-so.md) — ai-collective
-- [When Every Company Can Use The Same Ai Models Context Become](content/2026/02/18/hbr--when-every-company-can-use-the-same-ai-models-context-become.md) — hbr
-- [Openclaw Maestro Threat Assessment Mitigation Report](content/2026/02/18/ken-huang-ai-expert--openclaw-maestro-threat-assessment-mitigation-report.md) — ken-huang-ai-expert
-- [A Guide To Which Ai To Use In The Agentic Era](content/2026/02/18/mollick-one-useful-thing--a-guide-to-which-ai-to-use-in-the-agentic-era.md) — mollick-one-useful-thing
-- [Residential Real Estates Ai Honeymoon Is Over](content/2026/02/18/real-estate-news--residential-real-estates-ai-honeymoon-is-over.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
