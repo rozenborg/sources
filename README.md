@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-26 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-26 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-26 | 5 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-26 | 3 | ✅ |  |
-| The AI Collective | rss | 2026-02-26 | 6 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-26 | 8 | ✅ |  |
-| Real Estate News | rss | 2026-02-26 | 8 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-26 | 13 | ✅ |  |
-| Built In | sitemap | 2026-02-26 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-26 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-26 | 6 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-26 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-26 | 1 | ✅ |  |
-| Latent Space | podcast | 2026-02-26 | 4 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-26 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-27 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-27 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-27 | 5 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-27 | 4 | ✅ |  |
+| The AI Collective | rss | 2026-02-27 | 6 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-27 | 9 | ✅ |  |
+| Real Estate News | rss | 2026-02-27 | 8 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-27 | 14 | ✅ |  |
+| Built In | sitemap | 2026-02-27 | 5 | ✅ |  |
+| EY Insights | sitemap | 2026-02-27 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-27 | 7 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-27 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-27 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-02-27 | 5 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-27 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-02-26
+- [When Giants Dont Go Public Inside The 5 Trillion Private Tec](content/2026/02/26/a16z-podcast--when-giants-dont-go-public-inside-the-5-trillion-private-tec.md) — a16z-podcast
+- [Statement Department Of War](content/2026/02/26/anthropic-blog--statement-department-of-war.md) — anthropic-blog
+- [Where Senior Leaders Are Struggling With Ai Adoption Accordi](content/2026/02/26/hbr--where-senior-leaders-are-struggling-with-ai-adoption-accordi.md) — hbr
+- [Stop Using Ai Like Its 2025](content/2026/02/26/khemaridh-future-proof--stop-using-ai-like-its-2025.md) — khemaridh-future-proof
+- [Live Anthropic Distillation How Models Cheat Swe Bench Dead ](content/2026/02/26/latent-space--live-anthropic-distillation-how-models-cheat-swe-bench-dead-.md) — latent-space
+- [How Capital Is Powering The Ai Infrastructure Buildout With ](content/2026/02/26/no-priors--how-capital-is-powering-the-ai-infrastructure-buildout-with-.md) — no-priors
+
 ### 2026-02-25
 - [The Builders Issue Websocket Streams Grok Build Gemini 31 Ap](content/2026/02/25/ai-collective--the-builders-issue-websocket-streams-grok-build-gemini-31-ap.md) — ai-collective
 - [Acquires Vercept](content/2026/02/25/anthropic-blog--acquires-vercept.md) — anthropic-blog
@@ -59,13 +67,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Community Edition Measuring Agent Risk Living With Agent](content/2026/02/20/ai-collective--the-community-edition-measuring-agent-risk-living-with-agent.md) — ai-collective
 - [Claude Code Security](content/2026/02/20/anthropic-blog--claude-code-security.md) — anthropic-blog
 - [Is Agentic Ai Layer 8](content/2026/02/20/ken-huang-ai-expert--is-agentic-ai-layer-8.md) — ken-huang-ai-expert
-
-### 2026-02-19
-- [Ais Capital Flywheel Models Money And The Future Of Power](content/2026/02/19/a16z-podcast--ais-capital-flywheel-models-money-and-the-future-of-power.md) — a16z-podcast
-- [How Brands Can Adapt When Ai Agents Do The Shopping](content/2026/02/19/hbr--how-brands-can-adapt-when-ai-agents-do-the-shopping.md) — hbr
-- [Have We Reached Powerpoint Agi](content/2026/02/19/khemaridh-future-proof--have-we-reached-powerpoint-agi.md) — khemaridh-future-proof
-- [Bitter Lessons In Venture Vs Growth Anthropic Vs Openai Noam](content/2026/02/19/latent-space--bitter-lessons-in-venture-vs-growth-anthropic-vs-openai-noam.md) — latent-space
-- [From Saas To Ai First How Companies Are Reshaping Innovation](content/2026/02/19/no-priors--from-saas-to-ai-first-how-companies-are-reshaping-innovation.md) — no-priors
-- [Costar Confirms Layoffs Following Investor Criticism Ai Push](content/2026/02/19/real-estate-news--costar-confirms-layoffs-following-investor-criticism-ai-push.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
