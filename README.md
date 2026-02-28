@@ -9,26 +9,36 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-27 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-27 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-27 | 5 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-27 | 4 | ✅ |  |
-| The AI Collective | rss | 2026-02-27 | 6 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-27 | 9 | ✅ |  |
-| Real Estate News | rss | 2026-02-27 | 8 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-27 | 14 | ✅ |  |
-| Built In | sitemap | 2026-02-27 | 5 | ✅ |  |
-| EY Insights | sitemap | 2026-02-27 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-27 | 7 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-27 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-27 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-02-27 | 5 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-27 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-02-28 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-02-28 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-02-28 | 7 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-02-28 | 4 | ✅ |  |
+| The AI Collective | rss | 2026-02-28 | 7 | ✅ |  |
+| Harvard Business Review | rss | 2026-02-28 | 9 | ✅ |  |
+| Real Estate News | rss | 2026-02-28 | 8 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-02-28 | 15 | ✅ |  |
+| Built In | sitemap | 2026-02-28 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-02-28 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-02-28 | 8 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-02-28 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-02-28 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-02-28 | 6 | ✅ |  |
+| AI Daily Brief | podcast | 2026-02-28 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-02-28
+- [Statement Comments Secretary War](content/2026/02/28/anthropic-blog--statement-comments-secretary-war.md) — anthropic-blog
+
+### 2026-02-27
+- [A16Zs New Media Playbook](content/2026/02/27/a16z-podcast--a16zs-new-media-playbook.md) — a16z-podcast
+- [The Community Edition Lean Teams Wide Open Agent Markets](content/2026/02/27/ai-collective--the-community-edition-lean-teams-wide-open-agent-markets.md) — ai-collective
+- [Owasp Ai Vulnerability Scoring System Integrates Aiuc 1](content/2026/02/27/ken-huang-ai-expert--owasp-ai-vulnerability-scoring-system-integrates-aiuc-1.md) — ken-huang-ai-expert
+- [Weve Been Testing Ai Safety Wrong Heres How To Fix It](content/2026/02/27/ken-huang-ai-expert--weve-been-testing-ai-safety-wrong-heres-how-to-fix-it.md) — ken-huang-ai-expert
+- [Metrs Joel Becker On Exponential Time Horizon Evals Threat M](content/2026/02/27/latent-space--metrs-joel-becker-on-exponential-time-horizon-evals-threat-m.md) — latent-space
+
 ### 2026-02-26
 - [When Giants Dont Go Public Inside The 5 Trillion Private Tec](content/2026/02/26/a16z-podcast--when-giants-dont-go-public-inside-the-5-trillion-private-tec.md) — a16z-podcast
 - [Statement Department Of War](content/2026/02/26/anthropic-blog--statement-department-of-war.md) — anthropic-blog
@@ -40,6 +50,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-02-25
 - [The Builders Issue Websocket Streams Grok Build Gemini 31 Ap](content/2026/02/25/ai-collective--the-builders-issue-websocket-streams-grok-build-gemini-31-ap.md) — ai-collective
 - [Acquires Vercept](content/2026/02/25/anthropic-blog--acquires-vercept.md) — anthropic-blog
+- [Ai Circular Financing](content/2026/02/25/builtin-com--ai-circular-financing.md) — builtin-com
 - [Ais Big Payoff Is Coordination Not Automation](content/2026/02/25/hbr--ais-big-payoff-is-coordination-not-automation.md) — hbr
 - [Close Your Workforces Ai Skills Gap By Designing An Adaptive](content/2026/02/25/hbr--close-your-workforces-ai-skills-gap-by-designing-an-adaptive.md) — hbr
 - [Searching The Space Of All Possible Materials Prof Max Welli](content/2026/02/25/latent-space--searching-the-space-of-all-possible-materials-prof-max-welli.md) — latent-space
@@ -61,11 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-02-22
 - [Claude Code Extension Ecosystem](content/2026/02/22/ken-huang-ai-expert--claude-code-extension-ecosystem.md) — ken-huang-ai-expert
 - [The 1 Trillion Saas Reckoning](content/2026/02/22/khemaridh-future-proof--the-1-trillion-saas-reckoning.md) — khemaridh-future-proof
-
-### 2026-02-20
-- [Patrick Collison On Stripes Early Choices Smalltalk And What](content/2026/02/20/a16z-podcast--patrick-collison-on-stripes-early-choices-smalltalk-and-what.md) — a16z-podcast
-- [The Community Edition Measuring Agent Risk Living With Agent](content/2026/02/20/ai-collective--the-community-edition-measuring-agent-risk-living-with-agent.md) — ai-collective
-- [Claude Code Security](content/2026/02/20/anthropic-blog--claude-code-security.md) — anthropic-blog
-- [Is Agentic Ai Layer 8](content/2026/02/20/ken-huang-ai-expert--is-agentic-ai-layer-8.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
