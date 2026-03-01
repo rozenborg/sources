@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-02-28 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-02-28 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-02-28 | 7 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-02-28 | 4 | ✅ |  |
-| The AI Collective | rss | 2026-02-28 | 7 | ✅ |  |
-| Harvard Business Review | rss | 2026-02-28 | 9 | ✅ |  |
-| Real Estate News | rss | 2026-02-28 | 8 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-02-28 | 15 | ✅ |  |
-| Built In | sitemap | 2026-02-28 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-02-28 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-02-28 | 8 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-02-28 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-02-28 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-02-28 | 6 | ✅ |  |
-| AI Daily Brief | podcast | 2026-02-28 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-01 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-01 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-01 | 7 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-01 | 4 | ✅ |  |
+| The AI Collective | rss | 2026-03-01 | 7 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-01 | 10 | ✅ |  |
+| Real Estate News | rss | 2026-03-01 | 8 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-01 | 15 | ✅ |  |
+| Built In | sitemap | 2026-03-01 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-01 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-01 | 8 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-01 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-01 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-03-01 | 6 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-01 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -35,6 +35,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-02-27
 - [A16Zs New Media Playbook](content/2026/02/27/a16z-podcast--a16zs-new-media-playbook.md) — a16z-podcast
 - [The Community Edition Lean Teams Wide Open Agent Markets](content/2026/02/27/ai-collective--the-community-edition-lean-teams-wide-open-agent-markets.md) — ai-collective
+- [Look For New Ways To Create Value When Deploying Gen Ai](content/2026/02/27/hbr--look-for-new-ways-to-create-value-when-deploying-gen-ai.md) — hbr
 - [Owasp Ai Vulnerability Scoring System Integrates Aiuc 1](content/2026/02/27/ken-huang-ai-expert--owasp-ai-vulnerability-scoring-system-integrates-aiuc-1.md) — ken-huang-ai-expert
 - [Weve Been Testing Ai Safety Wrong Heres How To Fix It](content/2026/02/27/ken-huang-ai-expert--weve-been-testing-ai-safety-wrong-heres-how-to-fix-it.md) — ken-huang-ai-expert
 - [Metrs Joel Becker On Exponential Time Horizon Evals Threat M](content/2026/02/27/latent-space--metrs-joel-becker-on-exponential-time-horizon-evals-threat-m.md) — latent-space
