@@ -7,4 +7,3 @@ anthropic
 openai
 pydub
 pyyaml
-flask

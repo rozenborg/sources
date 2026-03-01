@@ -12,10 +12,8 @@ This is NOT an app. There's no database, no UI, no CLI framework. The filesystem
 - `fetchers.py` — all content fetching (RSS, sitemaps, podcasts), text extraction, Whisper transcription, Claude summarization. Plain functions, no classes
 - `feeds.yaml` — source config. If it's in the file, it's active. Remove to deactivate
 - `state.json` — dedup (seen URLs) + per-source health stats. Committed to git on every run
-- `review.py` — local Flask web app for triaging content. Run `python review.py` → `http://localhost:5001`. Browse view uses a master-detail split layout (article list on left, selected article content on right). Filter by source, date, status. Review mode shows a Tinder-style card queue with keyboard shortcuts (arrow keys) and touch swipe. Rate each as pass/save/star. Includes a light/dark theme toggle (top-right corner). Stores decisions in `reviews.json`
-- `docs/index.html` — **web-accessible review app** (GitHub Pages SPA). Same UI as review.py but fetches content from GitHub API instead of local filesystem. Works on mobile and desktop. Features: branch selector (review content from any branch/PR), cross-device review sync via Cloudflare Worker. See "Web review app" section below
+- `docs/index.html` — **review app** (GitHub Pages SPA). Browse and triage content from any browser/device. Fetches content from GitHub API, syncs reviews via Cloudflare Worker. Features: branch selector (review content from any branch/PR), cross-device review sync, light/dark theme. See "Web review app" section below
 - `workers/reviews-api/` — Cloudflare Worker + KV for persisting reviews across devices. Deployed alongside the existing `workers/substack-proxy/`
-- `reviews.json` — review decisions (`{path: {status, reviewed_at}}`). Created by review.py, not committed
 - `content/YYYY/MM/DD/source--slug.md` — auto-generated summaries with YAML frontmatter
 - `.github/workflows/daily.yaml` — cron schedule + manual trigger
 
@@ -28,15 +26,7 @@ export OPENAI_API_KEY=...   # only needed for podcast Whisper transcription
 python pull.py
 ```
 
-To review fetched content locally:
-```bash
-pip install flask pyyaml
-python review.py           # http://localhost:5001
-```
-
 ## Key gotchas
-
-- **Python version**: `pull.py` targets 3.11+ but `review.py` uses `from __future__ import annotations` so it works on 3.9+. Keep that import if adding new-style type hints (e.g. `dict | None`) to review.py.
 
 - **Feed parsing in CI**: feedparser's default HTTP client gets blocked by Cloudflare on Substack feeds in GitHub Actions. The `_fetch_feed()` helper fetches with httpx (browser headers) first, then passes raw content to feedparser. Don't bypass this.
 - **Feed proxy**: GitHub Actions IPs are blocked by Substack entirely (HTTP 403, `host_not_allowed`), so browser headers alone aren't enough. Substack feed URLs in `feeds.yaml` are routed through a Cloudflare Worker proxy (`substack-proxy.rozenborg.workers.dev`). Worker source is in `workers/substack-proxy/`. Deploy with `cd workers/substack-proxy && npx wrangler deploy`.
@@ -65,7 +55,7 @@ python review.py           # http://localhost:5001
 
 ## Web review app (docs/index.html)
 
-A GitHub Pages SPA that mirrors the review.py UI but works from anywhere (phone, tablet, any browser). It reads content directly from GitHub and syncs reviews via a Cloudflare Worker.
+A GitHub Pages SPA for browsing and triaging content from anywhere (phone, tablet, any browser). It reads content directly from GitHub and syncs reviews via a Cloudflare Worker.
 
 **Architecture:**
 - Static HTML/CSS/JS served by GitHub Pages from the `docs/` folder on `main`
@@ -73,9 +63,12 @@ A GitHub Pages SPA that mirrors the review.py UI but works from anywhere (phone,
 - Reviews persisted in Cloudflare KV via `workers/reviews-api/` Worker
 - Falls back to localStorage if the Worker is not configured
 
-**Features beyond review.py:**
+**Features:**
+- Browse view with master-detail split layout (article list on left, content on right). Filter by source, date, status
+- Review mode with Tinder-style card queue, keyboard shortcuts (arrow keys), and touch swipe. Rate each as pass/save/star
 - Branch selector — switch between branches to review content from PRs before merging
 - Cross-device review sync — rate articles on your phone, see ratings on your laptop
+- Light/dark theme toggle (top-right corner)
 - Settings panel (gear icon) — configure Worker URL and auth token, stored in localStorage
 
 **One-time setup:**
