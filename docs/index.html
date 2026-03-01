@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Source Review</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+<style>
+/* ── Reset & Base ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root, [data-theme="dark"] {
+    --bg:           #0f1117;
+    --bg-card:      #1a1d27;
+    --bg-hover:     #22252f;
+    --border:       #2a2d3a;
+    --text:         #e4e4e7;
+    --text-muted:   #71717a;
+    --type-rss:     #22c55e;
+    --type-sitemap: #a855f7;
+    --type-podcast: #f97316;
+    --st-pass:      #71717a;
+    --st-save:      #3b82f6;
+    --st-star:      #eab308;
+}
+[data-theme="light"] {
+    --bg:           #f8f9fa;
+    --bg-card:      #ffffff;
+    --bg-hover:     #f0f1f3;
+    --border:       #d4d4d8;
+    --text:         #18181b;
+    --text-muted:   #71717a;
+    --type-rss:     #16a34a;
+    --type-sitemap: #9333ea;
+    --type-podcast: #ea580c;
+    --st-pass:      #a1a1aa;
+    --st-save:      #2563eb;
+    --st-star:      #ca8a04;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+a { color: var(--st-save); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ───────────────────────────────────────────────────── */
+#header {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px;
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 8px;
+}
+.header-left { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.header-left h1 { font-size: 16px; font-weight: 700; white-space: nowrap; }
+
+.branch-select {
+    background: var(--bg); border: 1px solid var(--border);
+    color: var(--text); padding: 5px 8px; border-radius: 6px;
+    font-size: 12px; outline: none; max-width: 180px;
+}
+.branch-select:focus { border-color: var(--st-save); }
+
+.theme-toggle, .settings-toggle {
+    background: none; border: 1px solid var(--border); color: var(--text-muted);
+    font-size: 18px; width: 30px; height: 30px; border-radius: 6px;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: all .15s; line-height: 1;
+}
+.theme-toggle:hover, .settings-toggle:hover { color: var(--text); background: var(--bg-hover); }
+.settings-toggle { font-size: 16px; }
+
+.nav-btn {
+    background: none; border: none; color: var(--text-muted);
+    font-size: 13px; font-weight: 500; padding: 6px 14px;
+    cursor: pointer; border-radius: 6px; transition: all .15s;
+}
+.nav-btn:hover { color: var(--text); background: var(--bg-hover); }
+.nav-btn.active { background: var(--bg-hover); color: var(--text); }
+
+.header-stats {
+    display: flex; align-items: center; gap: 12px;
+    font-size: 12px; color: var(--text-muted);
+}
+.stat-dot {
+    display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+    margin-right: 3px; vertical-align: middle;
+}
+
+/* ── Settings panel ──────────────────────────────────────────── */
+.settings-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,.5); z-index: 200;
+}
+.settings-overlay.open { display: flex; align-items: center; justify-content: center; }
+.settings-panel {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 24px; width: 90%; max-width: 420px;
+}
+.settings-panel h2 { font-size: 16px; margin-bottom: 16px; }
+.settings-panel label { display: block; font-size: 13px; color: var(--text-muted); margin-bottom: 4px; }
+.settings-panel input[type="text"], .settings-panel input[type="password"] {
+    width: 100%; background: var(--bg); border: 1px solid var(--border);
+    color: var(--text); padding: 8px 10px; border-radius: 6px;
+    font-size: 13px; outline: none; margin-bottom: 12px;
+}
+.settings-panel input:focus { border-color: var(--st-save); }
+.settings-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px; }
+.settings-actions button {
+    padding: 8px 18px; border-radius: 6px; font-size: 13px; cursor: pointer;
+    border: 1px solid var(--border); background: var(--bg); color: var(--text);
+}
+.settings-actions button.primary { background: var(--st-save); color: #fff; border-color: var(--st-save); }
+.settings-actions button:hover { opacity: .9; }
+.settings-status { font-size: 12px; margin-top: 8px; }
+.settings-status.ok { color: var(--type-rss); }
+.settings-status.err { color: #ef4444; }
+
+/* ── Loading overlay ─────────────────────────────────────────── */
+.loading-banner {
+    display: none; padding: 12px 24px; text-align: center;
+    font-size: 13px; color: var(--text-muted);
+    background: var(--bg-card); border-bottom: 1px solid var(--border);
+}
+.loading-banner.active { display: block; }
+
+/* ── Warning banner ──────────────────────────────────────────── */
+.warning-banner {
+    display: none; padding: 8px 24px; text-align: center;
+    font-size: 12px; color: #f59e0b;
+    background: rgba(245,158,11,.08); border-bottom: 1px solid rgba(245,158,11,.2);
+}
+.warning-banner.active { display: block; }
+
+/* ── Filters ──────────────────────────────────────────────────── */
+.filters-bar {
+    display: flex; gap: 10px; padding: 14px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-card); flex-wrap: wrap;
+}
+.filters-bar select, .filters-bar input {
+    background: var(--bg); border: 1px solid var(--border);
+    color: var(--text); padding: 7px 10px; border-radius: 6px;
+    font-size: 13px; outline: none;
+}
+.filters-bar select:focus, .filters-bar input:focus {
+    border-color: var(--st-save);
+}
+.filters-bar input { flex: 1; min-width: 140px; }
+
+/* ── Type badge ───────────────────────────────────────────────── */
+.type-badge {
+    display: inline-block; font-size: 10px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .5px;
+    padding: 2px 7px; border-radius: 4px;
+}
+.type-badge[data-type="rss"]     { background: rgba(34,197,94,.15);  color: var(--type-rss); }
+.type-badge[data-type="sitemap"] { background: rgba(168,85,247,.15); color: var(--type-sitemap); }
+.type-badge[data-type="podcast"] { background: rgba(249,115,22,.15); color: var(--type-podcast); }
+
+/* ── Review badge ─────────────────────────────────────────────── */
+.review-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 10px; font-weight: 600; text-transform: uppercase;
+}
+.review-badge::before {
+    content: ""; width: 6px; height: 6px; border-radius: 50%;
+}
+.review-badge[data-status="pass"]::before { background: var(--st-pass); }
+.review-badge[data-status="save"]::before { background: var(--st-save); }
+.review-badge[data-status="star"]::before { background: var(--st-star); }
+.review-badge[data-status="pass"] { color: var(--st-pass); }
+.review-badge[data-status="save"] { color: var(--st-save); }
+.review-badge[data-status="star"] { color: var(--st-star); }
+
+/* ── Browse view: article list ────────────────────────────────── */
+.article-row {
+    display: grid;
+    grid-template-columns: 78px 56px 120px 1fr 52px;
+    gap: 8px; align-items: center;
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer; transition: background .1s;
+    font-size: 13px;
+}
+.article-row:hover { background: var(--bg-hover); }
+.article-row.reviewed { opacity: .45; }
+.article-row.reviewed:hover { opacity: .7; }
+.article-row.selected { background: var(--bg-hover); opacity: 1; }
+.article-row.reviewed.selected { opacity: 1; }
+
+.article-row .date { color: var(--text-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.article-row .source-name { color: var(--text-muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.article-row .title { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* ── Browse split layout ─────────────────────────────────────── */
+.browse-split {
+    display: flex; height: calc(100vh - 95px);
+}
+.browse-list-panel {
+    min-width: 280px; overflow-y: auto;
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+.browse-detail-panel {
+    flex: 1; display: flex; flex-direction: column;
+    border-left: 1px solid var(--border);
+    overflow: hidden;
+}
+.resize-handle {
+    width: 5px; cursor: col-resize;
+    background: var(--border); flex-shrink: 0;
+    transition: background .15s;
+}
+.resize-handle:hover, .resize-handle.active {
+    background: var(--st-save);
+}
+.detail-empty {
+    display: flex; align-items: center; justify-content: center;
+    height: 100%; color: var(--text-muted); font-size: 14px;
+}
+
+/* ── Card Deck (Browse) ──────────────────────────────────────── */
+.card-deck-area {
+    flex: 1; overflow-y: auto; overflow-x: hidden;
+    display: flex; align-items: flex-start; justify-content: center;
+    padding: 24px 24px 0;
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+.deck-stack {
+    position: relative; width: 100%; max-width: 640px;
+    padding-bottom: 14px;
+}
+.deck-card {
+    position: relative; z-index: 3;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 28px 32px;
+    transition: transform .3s ease, opacity .3s ease;
+    cursor: grab; user-select: none;
+    transform-origin: center;
+}
+.deck-card:active { cursor: grabbing; }
+.deck-card.dragging { transition: none; cursor: grabbing; }
+.deck-card.entering { animation: cardIn .25s ease-out; }
+.deck-card.swipe-left  { transform: translateX(-120%) rotate(-8deg); opacity: 0; pointer-events: none; }
+.deck-card.swipe-right { transform: translateX(120%) rotate(8deg); opacity: 0; pointer-events: none; }
+.deck-card.swipe-up    { transform: translateY(-120%); opacity: 0; pointer-events: none; }
+
+.deck-shadow {
+    position: absolute; left: 0; right: 0;
+    height: 60px; bottom: 0;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px;
+}
+.deck-shadow-1 { z-index: 2; transform: translateY(6px) scale(.98); opacity: .5; }
+.deck-shadow-2 { z-index: 1; transform: translateY(12px) scale(.96); opacity: .25; }
+
+.deck-card .card-body {
+    max-height: 50vh; overflow-y: auto;
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+.deck-empty {
+    display: flex; align-items: center; justify-content: center;
+    height: 100%; color: var(--text-muted); font-size: 14px;
+    flex: 1;
+}
+.browse-actions {
+    display: flex; justify-content: center; gap: 14px;
+    padding: 16px 24px 20px;
+    border-top: 1px solid var(--border); flex-shrink: 0;
+}
+.browse-remaining {
+    text-align: center; font-size: 12px; color: var(--text-muted);
+    padding: 2px 0 0;
+}
+/* Drag direction indicators */
+.drag-hint {
+    position: absolute; top: 16px; padding: 6px 16px;
+    border-radius: 6px; font-size: 13px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .5px;
+    opacity: 0; transition: opacity .15s; z-index: 10;
+    pointer-events: none;
+}
+.drag-hint-pass { left: 16px; color: var(--st-pass); border: 2px solid var(--st-pass); }
+.drag-hint-save { right: 16px; color: var(--st-save); border: 2px solid var(--st-save); }
+.drag-hint-star { left: 50%; transform: translateX(-50%); color: var(--st-star); border: 2px solid var(--st-star); }
+
+.mini-btn {
+    padding: 5px 14px; border-radius: 5px; border: 1px solid var(--border);
+    font-size: 12px; font-weight: 600; cursor: pointer; transition: all .12s;
+    background: var(--bg);
+}
+.mini-btn:hover { transform: scale(1.04); }
+.mini-pass { color: var(--st-pass); border-color: var(--st-pass); }
+.mini-save { color: var(--st-save); border-color: var(--st-save); }
+.mini-star { color: var(--st-star); border-color: var(--st-star); }
+.mini-btn.active-status { background: var(--bg-hover); }
+.action-btn.active-status { background: var(--bg-hover); }
+
+/* ── Markdown content ─────────────────────────────────────────── */
+.md h2 { font-size: 15px; font-weight: 700; margin: 18px 0 8px; color: var(--text); }
+.md h3 { font-size: 14px; font-weight: 600; margin: 14px 0 6px; }
+.md ul, .md ol { padding-left: 20px; }
+.md li { margin-bottom: 5px; font-size: 14px; line-height: 1.7; }
+.md strong { color: var(--text); font-weight: 700; }
+.md p { margin-bottom: 8px; font-size: 14px; }
+.md a { color: var(--st-save); }
+
+/* ── Review view ──────────────────────────────────────────────── */
+.review-controls {
+    display: flex; justify-content: space-between; align-items: center;
+    max-width: 740px; margin: 0 auto; padding: 16px 24px 0;
+    font-size: 13px; color: var(--text-muted);
+}
+.toggle-label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.toggle-label input { accent-color: var(--st-save); }
+
+.card-container {
+    max-width: 740px; margin: 0 auto; padding: 16px 24px;
+}
+
+.review-card {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 28px 32px;
+    position: relative; transition: transform .3s ease, opacity .3s ease;
+    transform-origin: center;
+}
+.review-card.swipe-left  { transform: translateX(-130%) rotate(-6deg); opacity: 0; }
+.review-card.swipe-right { transform: translateX(130%) rotate(6deg);  opacity: 0; }
+.review-card.swipe-up    { transform: translateY(-130%); opacity: 0; }
+.review-card.entering    { animation: cardIn .25s ease-out; }
+
+@keyframes cardIn {
+    from { opacity: 0; transform: scale(.96) translateY(8px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.card-header { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+.card-title  { font-size: 20px; font-weight: 700; line-height: 1.35; margin-bottom: 10px; }
+.card-meta   { display: flex; gap: 10px; align-items: center; color: var(--text-muted); font-size: 13px; flex-wrap: wrap; }
+.card-prev   { margin-top: 8px; font-size: 12px; color: var(--text-muted); }
+
+.card-body {
+    font-size: 14px; line-height: 1.8;
+    max-height: 58vh; overflow-y: auto;
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+
+/* ── Action buttons ───────────────────────────────────────────── */
+.review-actions {
+    display: flex; justify-content: center; gap: 14px;
+    max-width: 740px; margin: 0 auto; padding: 20px 24px;
+}
+.action-btn {
+    flex: 1; max-width: 170px; padding: 14px 20px;
+    border: 2px solid var(--border); border-radius: 10px;
+    font-size: 15px; font-weight: 700; cursor: pointer;
+    transition: all .12s; display: flex; flex-direction: column;
+    align-items: center; gap: 3px; background: var(--bg);
+}
+.action-btn kbd { font-size: 10px; color: var(--text-muted); font-family: inherit; font-weight: 400; }
+.action-btn:hover { transform: scale(1.05); }
+.action-btn:active { transform: scale(.97); }
+
+.action-pass { color: var(--st-pass); border-color: var(--st-pass); }
+.action-pass:hover { background: var(--bg-hover); }
+.action-save { color: var(--st-save); border-color: var(--st-save); }
+.action-save:hover { background: var(--bg-hover); }
+.action-star { color: var(--st-star); border-color: var(--st-star); }
+.action-star:hover { background: var(--bg-hover); }
+
+/* ── Empty state ──────────────────────────────────────────────── */
+.empty-state {
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; padding: 80px 24px; color: var(--text-muted);
+    text-align: center;
+}
+.empty-state .empty-icon { font-size: 48px; margin-bottom: 16px; }
+.empty-state h2 { font-size: 20px; color: var(--text); margin-bottom: 8px; }
+.empty-state p { font-size: 14px; margin-bottom: 20px; }
+.empty-state button {
+    background: var(--bg-card); border: 1px solid var(--border);
+    color: var(--text); padding: 8px 20px; border-radius: 6px;
+    cursor: pointer; font-size: 13px;
+}
+.empty-state button:hover { background: var(--bg-hover); }
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .browse-split { flex-direction: column; height: auto; }
+    .browse-list-panel { width: 100% !important; max-height: 45vh; min-width: 0; }
+    .resize-handle { display: none; }
+    .browse-detail-panel { border-left: none; border-top: 1px solid var(--border); min-height: 50vh; }
+
+    .article-row {
+        grid-template-columns: 1fr;
+        gap: 3px; padding: 10px 16px;
+    }
+    .article-row .date { font-size: 11px; }
+    .article-row .source-name { font-size: 11px; }
+    .article-row .title { white-space: normal; }
+
+    .review-card { padding: 20px; border-radius: 8px; }
+    .deck-card { padding: 20px; border-radius: 8px; }
+    .card-title { font-size: 17px; }
+    .review-actions { gap: 8px; padding: 16px; }
+    .browse-actions { gap: 8px; padding: 12px 16px 16px; }
+    .action-btn { padding: 12px 14px; font-size: 14px; }
+    .card-deck-area { padding: 16px 16px 0; }
+    .filters-bar { padding: 10px 16px; }
+    .filters-bar select, .filters-bar input { font-size: 12px; padding: 6px 8px; }
+    #header { padding: 10px 16px; }
+    .header-left { gap: 8px; }
+    .branch-select { max-width: 130px; font-size: 11px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── Settings overlay ────────────────────────────────────────── -->
+<div class="settings-overlay" id="settings-overlay" onclick="if(event.target===this)closeSettings()">
+    <div class="settings-panel">
+        <h2>Settings</h2>
+        <label for="cfg-worker-url">Reviews API URL</label>
+        <input type="text" id="cfg-worker-url" placeholder="https://reviews-api.yourdomain.workers.dev">
+        <label for="cfg-auth-token">Auth Token</label>
+        <input type="password" id="cfg-auth-token" placeholder="Your shared secret">
+        <div class="settings-status" id="settings-status"></div>
+        <div class="settings-actions">
+            <button onclick="closeSettings()">Cancel</button>
+            <button class="primary" onclick="saveSettings()">Save</button>
+        </div>
+    </div>
+</div>
+
+<!-- ── Header ─────────────────────────────────────────────────── -->
+<header id="header">
+    <div class="header-left">
+        <h1>Source Review</h1>
+        <select class="branch-select" id="branch-select" onchange="onBranchChange()" title="Select branch">
+            <option value="main">main</option>
+        </select>
+        <nav>
+            <button class="nav-btn active" id="nav-browse" onclick="showView('browse')">Browse</button>
+            <button class="nav-btn" id="nav-review" onclick="showView('review')">Review</button>
+        </nav>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+        <div class="header-stats" id="header-stats"></div>
+        <button class="settings-toggle" id="settings-btn" onclick="openSettings()" title="Settings">&#9881;</button>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9788;</button>
+    </div>
+</header>
+
+<!-- ── Warning banner (shown when Worker not configured) ──────── -->
+<div class="warning-banner" id="warning-banner">
+    Reviews are stored locally only. <a href="#" onclick="event.preventDefault();openSettings()">Configure the Reviews API</a> to sync across devices.
+</div>
+
+<!-- ── Loading banner ─────────────────────────────────────────── -->
+<div class="loading-banner" id="loading-banner">Loading content from GitHub...</div>
+
+<!-- ── Browse view ────────────────────────────────────────────── -->
+<main id="view-browse" class="view">
+    <div class="filters-bar" id="filters-bar">
+        <select id="filter-source" onchange="applyFilters()">
+            <option value="">All Sources</option>
+        </select>
+        <select id="filter-type" onchange="applyFilters()">
+            <option value="">All Types</option>
+            <option value="rss">RSS</option>
+            <option value="sitemap">Sitemap</option>
+            <option value="podcast">Podcast</option>
+        </select>
+        <select id="filter-status" onchange="applyFilters()">
+            <option value="">All Status</option>
+            <option value="unreviewed">Unreviewed</option>
+            <option value="pass">Pass</option>
+            <option value="save">Save</option>
+            <option value="star">Star</option>
+        </select>
+        <input type="text" id="filter-search" placeholder="Search titles..." oninput="renderBrowseList()">
+    </div>
+    <div class="browse-split">
+        <div class="browse-list-panel" id="article-list"></div>
+        <div class="resize-handle" id="resize-handle"></div>
+        <div class="browse-detail-panel" id="article-detail">
+            <div class="card-deck-area" id="card-deck-area">
+                <div class="deck-empty" id="deck-empty">Select an article to view</div>
+            </div>
+            <div class="browse-actions" id="browse-actions" style="display:none">
+                <button class="action-btn action-pass" id="ba-pass" onclick="cardAction('pass')">Pass<kbd>&#8592; / 1</kbd></button>
+                <button class="action-btn action-star" id="ba-star" onclick="cardAction('star')">Star<kbd>&#8593; / 3</kbd></button>
+                <button class="action-btn action-save" id="ba-save" onclick="cardAction('save')">Save<kbd>&#8594; / 2</kbd></button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- ── Review view ────────────────────────────────────────────── -->
+<main id="view-review" class="view" style="display:none">
+    <div class="review-controls">
+        <label class="toggle-label">
+            <input type="checkbox" id="show-reviewed" onchange="loadReviewQueue()">
+            Show reviewed
+        </label>
+        <span id="review-counter"></span>
+    </div>
+    <div class="card-container" id="card-container"></div>
+    <div class="review-actions" id="review-actions" style="display:none">
+        <button class="action-btn action-pass" onclick="reviewAction('pass')">Pass<kbd>&#8592;</kbd></button>
+        <button class="action-btn action-star" onclick="reviewAction('star')">Star<kbd>&#8593;</kbd></button>
+        <button class="action-btn action-save" onclick="reviewAction('save')">Save<kbd>&#8594;</kbd></button>
+    </div>
+</main>
+
+<!-- ── Empty state (shared) ───────────────────────────────────── -->
+<div id="empty-state" class="empty-state" style="display:none"></div>
+
+<script>
+/* ══════════════════════════════════════════════════════════════
+   CONFIGURATION
+   ══════════════════════════════════════════════════════════════ */
+const GITHUB_OWNER = 'rozenborg';
+const GITHUB_REPO  = 'sources';
+const GITHUB_API   = 'https://api.github.com';
+const RAW_BASE     = 'https://raw.githubusercontent.com';
+
+/* ── State ────────────────────────────────────────────────────── */
+let allArticles = [];
+let browseArticles = [];
+let filteredArticles = [];
+let selectedIdx = -1;
+let reviewQueue = [];
+let reviewIdx = 0;
+let animating = false;
+let feedsMap = {};      // {source_id: source_config}
+let reviewsData = {};   // {path: {status, reviewed_at}}
+let currentBranch = localStorage.getItem('review-branch') || 'main';
+let workerUrl = localStorage.getItem('review-worker-url') || '';
+let authToken = localStorage.getItem('review-auth-token') || '';
+let useWorker = false;
+
+/* ── Helpers ──────────────────────────────────────────────────── */
+function esc(s) {
+    const d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+}
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function setLoading(on) {
+    document.getElementById('loading-banner').classList.toggle('active', on);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   SETTINGS
+   ══════════════════════════════════════════════════════════════ */
+function openSettings() {
+    document.getElementById('cfg-worker-url').value = workerUrl;
+    document.getElementById('cfg-auth-token').value = authToken;
+    document.getElementById('settings-status').textContent = '';
+    document.getElementById('settings-overlay').classList.add('open');
+}
+function closeSettings() {
+    document.getElementById('settings-overlay').classList.remove('open');
+}
+async function saveSettings() {
+    const url = document.getElementById('cfg-worker-url').value.trim().replace(/\/+$/, '');
+    const token = document.getElementById('cfg-auth-token').value.trim();
+    const statusEl = document.getElementById('settings-status');
+
+    if (url && token) {
+        statusEl.textContent = 'Testing connection...';
+        statusEl.className = 'settings-status';
+        try {
+            const r = await fetch(url + '/reviews', {
+                headers: { 'X-Auth-Token': token },
+            });
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            statusEl.textContent = 'Connected successfully!';
+            statusEl.className = 'settings-status ok';
+        } catch (e) {
+            statusEl.textContent = 'Connection failed: ' + e.message;
+            statusEl.className = 'settings-status err';
+            return;
+        }
+    }
+
+    workerUrl = url;
+    authToken = token;
+    localStorage.setItem('review-worker-url', url);
+    localStorage.setItem('review-auth-token', token);
+    useWorker = !!(url && token);
+    updateWarningBanner();
+
+    // Re-fetch reviews from worker
+    if (useWorker) {
+        await fetchReviews();
+        mergeReviewsIntoArticles();
+        refreshStats();
+        renderBrowseList();
+    }
+
+    await sleep(600);
+    closeSettings();
+}
+
+function updateWarningBanner() {
+    document.getElementById('warning-banner').classList.toggle('active', !useWorker);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   GITHUB API: BRANCHES
+   ══════════════════════════════════════════════════════════════ */
+async function loadBranches() {
+    const sel = document.getElementById('branch-select');
+    try {
+        const r = await fetch(`${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/branches?per_page=100`);
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const branches = await r.json();
+        sel.innerHTML = '';
+        branches.forEach(b => {
+            const o = document.createElement('option');
+            o.value = b.name;
+            o.textContent = b.name;
+            if (b.name === currentBranch) o.selected = true;
+            sel.appendChild(o);
+        });
+        // If saved branch doesn't exist in list, default to main
+        if (!branches.some(b => b.name === currentBranch)) {
+            currentBranch = 'main';
+            sel.value = 'main';
+            localStorage.setItem('review-branch', 'main');
+        }
+    } catch (e) {
+        console.error('Failed to load branches:', e);
+        // Keep default "main" option
+    }
+}
+
+async function onBranchChange() {
+    currentBranch = document.getElementById('branch-select').value;
+    localStorage.setItem('review-branch', currentBranch);
+    await loadContent();
+}
+
+/* ══════════════════════════════════════════════════════════════
+   GITHUB API: CONTENT
+   ══════════════════════════════════════════════════════════════ */
+function rawUrl(path) {
+    return `${RAW_BASE}/${GITHUB_OWNER}/${GITHUB_REPO}/${encodeURIComponent(currentBranch)}/${path}`;
+}
+
+function parseFrontmatter(text) {
+    const parts = text.split('---', 3);
+    if (parts.length < 3) return null;
+    try {
+        const meta = jsyaml.load(parts[1]);
+        const body = parts.slice(2).join('---').trim();
+        return { meta, body };
+    } catch {
+        return null;
+    }
+}
+
+async function loadContent() {
+    setLoading(true);
+    allArticles = [];
+
+    try {
+        // 1. Get file tree
+        const treeUrl = `${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/trees/${encodeURIComponent(currentBranch)}?recursive=1`;
+        const treeResp = await fetch(treeUrl);
+        if (!treeResp.ok) throw new Error('Failed to fetch file tree: HTTP ' + treeResp.status);
+        const treeData = await treeResp.json();
+
+        // Filter for content markdown files
+        const contentFiles = treeData.tree.filter(
+            f => f.type === 'blob' && f.path.startsWith('content/') && f.path.endsWith('.md')
+        );
+
+        // 2. Fetch feeds.yaml
+        try {
+            const feedsResp = await fetch(rawUrl('feeds.yaml'));
+            if (feedsResp.ok) {
+                const feedsText = await feedsResp.text();
+                const feedsConfig = jsyaml.load(feedsText);
+                feedsMap = {};
+                (feedsConfig.sources || []).forEach(s => { feedsMap[s.id] = s; });
+            }
+        } catch (e) {
+            console.warn('Failed to load feeds.yaml:', e);
+        }
+
+        // 3. Fetch all content files in parallel (batched to avoid overwhelming the browser)
+        const BATCH_SIZE = 20;
+        for (let i = 0; i < contentFiles.length; i += BATCH_SIZE) {
+            const batch = contentFiles.slice(i, i + BATCH_SIZE);
+            const results = await Promise.all(
+                batch.map(async f => {
+                    try {
+                        const resp = await fetch(rawUrl(f.path));
+                        if (!resp.ok) return null;
+                        const text = await resp.text();
+                        const parsed = parseFrontmatter(text);
+                        if (!parsed || !parsed.meta) return null;
+
+                        const m = parsed.meta;
+                        return {
+                            path: f.path,
+                            title: m.title || f.path.split('/').pop().replace('.md', '').replace(/--/g, ' — ').replace(/-/g, ' '),
+                            source: m.source || '',
+                            source_name: '',
+                            url: m.url || '',
+                            date: m.date ? String(m.date) : '',
+                            type: m.type || 'unknown',
+                            body: parsed.body,
+                            review_status: null,
+                            reviewed_at: null,
+                        };
+                    } catch { return null; }
+                })
+            );
+            allArticles.push(...results.filter(Boolean));
+        }
+
+        // 4. Fill in source names from feeds
+        allArticles.forEach(a => {
+            const src = feedsMap[a.source];
+            a.source_name = src ? (src.name || a.source) : a.source;
+        });
+
+        // 5. Merge reviews
+        mergeReviewsIntoArticles();
+
+        // 6. Populate source filter
+        populateSourceFilter();
+
+        // 7. Render
+        browseArticles = [...allArticles];
+        applyFilters();
+        refreshStats();
+
+    } catch (e) {
+        console.error('Failed to load content:', e);
+        document.getElementById('article-list').innerHTML =
+            '<div class="empty-state"><h2>Failed to load content</h2><p>' + esc(e.message) + '</p>' +
+            '<button onclick="loadContent()">Retry</button></div>';
+    } finally {
+        setLoading(false);
+    }
+}
+
+function mergeReviewsIntoArticles() {
+    allArticles.forEach(a => {
+        const review = reviewsData[a.path];
+        a.review_status = review ? review.status : null;
+        a.reviewed_at = review ? review.reviewed_at : null;
+    });
+}
+
+function populateSourceFilter() {
+    const sel = document.getElementById('filter-source');
+    const current = sel.value;
+    sel.innerHTML = '<option value="">All Sources</option>';
+
+    const sourceCounts = {};
+    allArticles.forEach(a => {
+        sourceCounts[a.source] = (sourceCounts[a.source] || 0) + 1;
+    });
+
+    const sources = Object.keys(feedsMap).map(id => ({
+        id,
+        name: feedsMap[id].name || id,
+        count: sourceCounts[id] || 0,
+    })).sort((a, b) => a.name.localeCompare(b.name));
+
+    sources.forEach(s => {
+        const o = document.createElement('option');
+        o.value = s.id;
+        o.textContent = s.name + ' (' + s.count + ')';
+        sel.appendChild(o);
+    });
+
+    sel.value = current;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   REVIEWS API (Cloudflare Worker) + localStorage fallback
+   ══════════════════════════════════════════════════════════════ */
+async function fetchReviews() {
+    // Try worker first
+    if (useWorker) {
+        try {
+            const r = await fetch(workerUrl + '/reviews', {
+                headers: { 'X-Auth-Token': authToken },
+            });
+            if (r.ok) {
+                const data = await r.json();
+                reviewsData = data.reviews || {};
+                // Also sync to localStorage as backup
+                localStorage.setItem('review-data', JSON.stringify(reviewsData));
+                return;
+            }
+        } catch (e) {
+            console.warn('Worker fetch failed, using localStorage:', e);
+        }
+    }
+
+    // Fallback to localStorage
+    try {
+        reviewsData = JSON.parse(localStorage.getItem('review-data') || '{}');
+    } catch { reviewsData = {}; }
+}
+
+async function saveReview(path, status) {
+    if (status === null) {
+        delete reviewsData[path];
+    } else {
+        reviewsData[path] = {
+            status,
+            reviewed_at: new Date().toISOString(),
+        };
+    }
+
+    // Always save to localStorage
+    localStorage.setItem('review-data', JSON.stringify(reviewsData));
+
+    // Try worker
+    if (useWorker) {
+        try {
+            await fetch(workerUrl + '/review', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-Auth-Token': authToken,
+                },
+                body: JSON.stringify({ path, status }),
+            });
+        } catch (e) {
+            console.warn('Worker save failed:', e);
+        }
+    }
+}
+
+/* ── Stats ────────────────────────────────────────────────────── */
+function refreshStats() {
+    const total = allArticles.length;
+    const counts = { pass: 0, save: 0, star: 0 };
+    allArticles.forEach(a => {
+        if (a.review_status && counts[a.review_status] !== undefined) {
+            counts[a.review_status]++;
+        }
+    });
+    const reviewed = counts.pass + counts.save + counts.star;
+    const unreviewed = total - reviewed;
+
+    document.getElementById('header-stats').innerHTML =
+        `<span>${unreviewed} unreviewed</span>` +
+        `<span style="opacity:.3">/</span>` +
+        `<span>${total} total</span>` +
+        `<span><span class="stat-dot" style="background:var(--st-star)"></span>${counts.star}</span>` +
+        `<span><span class="stat-dot" style="background:var(--st-save)"></span>${counts.save}</span>` +
+        `<span><span class="stat-dot" style="background:var(--st-pass)"></span>${counts.pass}</span>`;
+}
+
+/* ── View switching ───────────────────────────────────────────── */
+function showView(v) {
+    document.getElementById('view-browse').style.display  = v === 'browse' ? '' : 'none';
+    document.getElementById('view-review').style.display   = v === 'review' ? '' : 'none';
+    document.getElementById('empty-state').style.display   = 'none';
+    document.getElementById('nav-browse').classList.toggle('active', v === 'browse');
+    document.getElementById('nav-review').classList.toggle('active', v === 'review');
+    if (v === 'review') loadReviewQueue();
+}
+
+/* ══════════════════════════════════════════════════════════════
+   BROWSE VIEW
+   ══════════════════════════════════════════════════════════════ */
+
+function applyFilters() {
+    const src  = document.getElementById('filter-source').value;
+    const typ  = document.getElementById('filter-type').value;
+    const stat = document.getElementById('filter-status').value;
+
+    browseArticles = allArticles.filter(a => {
+        if (src && a.source !== src) return false;
+        if (typ && a.type !== typ) return false;
+        if (stat) {
+            if (stat === 'unreviewed' && a.review_status !== null) return false;
+            if (stat !== 'unreviewed' && a.review_status !== stat) return false;
+        }
+        return true;
+    });
+
+    selectedIdx = -1;
+    renderBrowseList();
+}
+
+function renderBrowseList() {
+    const search = document.getElementById('filter-search').value.toLowerCase();
+    const list = document.getElementById('article-list');
+    list.innerHTML = '';
+
+    // Sort: unreviewed first, then by date desc
+    filteredArticles = [...browseArticles].sort((a, b) => {
+        const ar = a.review_status ? 1 : 0;
+        const br = b.review_status ? 1 : 0;
+        if (ar !== br) return ar - br;
+        return b.date.localeCompare(a.date);
+    });
+
+    if (search) {
+        filteredArticles = filteredArticles.filter(a => a.title.toLowerCase().includes(search));
+    }
+
+    for (let i = 0; i < filteredArticles.length; i++) {
+        list.appendChild(buildRow(filteredArticles[i], i));
+    }
+
+    if (filteredArticles.length === 0) {
+        list.innerHTML = '<div class="empty-state"><p>No articles match your filters.</p></div>';
+        document.getElementById('card-deck-area').innerHTML =
+            '<div class="deck-empty">No articles to show</div>';
+        document.getElementById('browse-actions').style.display = 'none';
+    }
+
+    // Restore or clear selection
+    if (selectedIdx >= 0 && selectedIdx < filteredArticles.length) {
+        selectArticle(selectedIdx);
+    } else if (filteredArticles.length > 0) {
+        selectArticle(0);
+    }
+}
+
+function buildRow(art, idx) {
+    const row = document.createElement('div');
+    row.className = 'article-row' + (art.review_status ? ' reviewed' : '');
+    row.dataset.idx = idx;
+    row.innerHTML =
+        `<span class="date">${esc(art.date)}</span>` +
+        `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
+        `<span class="source-name" title="${esc(art.source_name)}">${esc(art.source_name)}</span>` +
+        `<span class="title" title="${esc(art.title)}">${esc(art.title)}</span>` +
+        `<span>${art.review_status ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>` : ''}</span>`;
+
+    row.addEventListener('click', () => selectArticle(idx));
+    return row;
+}
+
+function selectArticle(idx) {
+    if (idx < 0 || idx >= filteredArticles.length) return;
+    selectedIdx = idx;
+
+    const list = document.getElementById('article-list');
+    list.querySelectorAll('.article-row').forEach(r => r.classList.remove('selected'));
+    const row = list.querySelector(`[data-idx="${idx}"]`);
+    if (row) {
+        row.classList.add('selected');
+        row.scrollIntoView({ block: 'nearest' });
+    }
+
+    renderBrowseCard(filteredArticles[idx]);
+}
+
+function renderBrowseCard(art) {
+    const deckArea = document.getElementById('card-deck-area');
+    const actions = document.getElementById('browse-actions');
+
+    if (!art) {
+        deckArea.innerHTML = '<div class="deck-empty">Select an article to view</div>';
+        actions.style.display = 'none';
+        return;
+    }
+
+    actions.style.display = 'flex';
+
+    const remaining = filteredArticles.filter(a => !a.review_status).length;
+    const nextCount = Math.min(remaining - (art.review_status ? 0 : 1), 2);
+
+    let shadowHtml = '';
+    if (nextCount >= 1) shadowHtml += '<div class="deck-shadow deck-shadow-1"></div>';
+    if (nextCount >= 2) shadowHtml += '<div class="deck-shadow deck-shadow-2"></div>';
+
+    const statusBadge = art.review_status
+        ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>`
+        : '';
+
+    deckArea.innerHTML =
+        `<div class="deck-stack">` +
+            shadowHtml +
+            `<div class="deck-card entering" id="browse-deck-card">` +
+                `<div class="drag-hint drag-hint-pass">Pass</div>` +
+                `<div class="drag-hint drag-hint-save">Save</div>` +
+                `<div class="drag-hint drag-hint-star">Star</div>` +
+                `<div class="card-header">` +
+                    `<div class="card-title">${esc(art.title)}</div>` +
+                    `<div class="card-meta">` +
+                        `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
+                        `<span>${esc(art.source_name)}</span>` +
+                        `<span>${art.date}</span>` +
+                        `<a href="${esc(art.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open original &#8594;</a>` +
+                        statusBadge +
+                    `</div>` +
+                `</div>` +
+                `<div class="card-body md">${marked.parse(art.body || '')}</div>` +
+            `</div>` +
+        `</div>` +
+        `<div class="browse-remaining">${remaining} unreviewed remaining</div>`;
+
+    updateActionButtons(art.review_status);
+    setupCardDrag(document.getElementById('browse-deck-card'));
+}
+
+function updateActionButtons(status) {
+    ['pass', 'star', 'save'].forEach(s => {
+        const btn = document.getElementById('ba-' + s);
+        if (btn) btn.classList.toggle('active-status', status === s);
+    });
+}
+
+async function cardAction(status) {
+    if (animating || selectedIdx < 0 || selectedIdx >= filteredArticles.length) return;
+    animating = true;
+
+    const card = document.getElementById('browse-deck-card');
+    const art = filteredArticles[selectedIdx];
+
+    const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
+    if (card) card.classList.add(cls);
+
+    // Save review
+    saveReview(art.path, status).then(() => refreshStats());
+
+    // Update local state
+    art.review_status = status;
+    art.reviewed_at = new Date().toISOString();
+    const orig = allArticles.find(a => a.path === art.path);
+    if (orig) { orig.review_status = status; orig.reviewed_at = art.reviewed_at; }
+
+    // Update list row
+    const row = document.querySelector(`[data-idx="${selectedIdx}"]`);
+    if (row) {
+        const badgeCol = row.children[4];
+        badgeCol.innerHTML = `<span class="review-badge" data-status="${status}">${status}</span>`;
+        row.classList.add('reviewed');
+    }
+
+    await sleep(300);
+
+    const nextIdx = findNextArticle(selectedIdx);
+    if (nextIdx >= 0) {
+        selectArticle(nextIdx);
+    } else {
+        renderBrowseCard(art);
+    }
+
+    animating = false;
+}
+
+function findNextArticle(fromIdx) {
+    for (let i = fromIdx + 1; i < filteredArticles.length; i++) {
+        if (!filteredArticles[i].review_status) return i;
+    }
+    for (let i = 0; i < fromIdx; i++) {
+        if (!filteredArticles[i].review_status) return i;
+    }
+    if (fromIdx + 1 < filteredArticles.length) return fromIdx + 1;
+    return -1;
+}
+
+function setupCardDrag(card) {
+    if (!card) return;
+    let startX = 0, startY = 0, dx = 0, dy = 0;
+    let isDragging = false, dragConfirmed = false;
+
+    const hintPass = card.querySelector('.drag-hint-pass');
+    const hintSave = card.querySelector('.drag-hint-save');
+    const hintStar = card.querySelector('.drag-hint-star');
+
+    function showHints(dx, dy) {
+        const SHOW = 40;
+        if (hintPass) hintPass.style.opacity = dx < -SHOW ? Math.min(1, (-dx - SHOW) / 60) : 0;
+        if (hintSave) hintSave.style.opacity = dx > SHOW ? Math.min(1, (dx - SHOW) / 60) : 0;
+        if (hintStar) hintStar.style.opacity = dy < -SHOW ? Math.min(1, (-dy - SHOW) / 60) : 0;
+    }
+
+    function onStart(x, y) {
+        if (animating) return;
+        startX = x; startY = y; dx = 0; dy = 0;
+        isDragging = true; dragConfirmed = false;
+        card.classList.add('dragging');
+    }
+
+    function onMove(x, y) {
+        if (!isDragging) return;
+        dx = x - startX;
+        dy = y - startY;
+
+        if (!dragConfirmed) {
+            if (Math.abs(dy) > 12 && Math.abs(dy) > Math.abs(dx) * 1.5) {
+                isDragging = false;
+                card.classList.remove('dragging');
+                card.style.transform = '';
+                card.style.opacity = '';
+                showHints(0, 0);
+                return;
+            }
+            if (Math.abs(dx) > 12 || Math.abs(dy) > 12) {
+                dragConfirmed = true;
+            } else {
+                return;
+            }
+        }
+
+        const rotate = dx * 0.04;
+        card.style.transform = `translate(${dx}px, ${Math.min(dy, 0)}px) rotate(${rotate}deg)`;
+        card.style.opacity = Math.max(0.5, 1 - Math.abs(dx) / 500);
+        showHints(dx, dy);
+    }
+
+    function onEnd() {
+        if (!isDragging) return;
+        isDragging = false;
+        card.classList.remove('dragging');
+        showHints(0, 0);
+
+        const THRESHOLD = 100;
+        if (Math.abs(dx) > THRESHOLD && Math.abs(dx) > Math.abs(dy)) {
+            cardAction(dx < 0 ? 'pass' : 'save');
+        } else if (dy < -THRESHOLD && Math.abs(dy) > Math.abs(dx)) {
+            cardAction('star');
+        } else {
+            card.style.transform = '';
+            card.style.opacity = '';
+        }
+    }
+
+    card.addEventListener('mousedown', e => {
+        if (e.target.tagName === 'A') return;
+        e.preventDefault();
+        onStart(e.clientX, e.clientY);
+    });
+
+    const moveHandler = e => { if (isDragging) onMove(e.clientX, e.clientY); };
+    const upHandler = () => { if (isDragging) onEnd(); };
+    document.addEventListener('mousemove', moveHandler);
+    document.addEventListener('mouseup', upHandler);
+
+    card.addEventListener('touchstart', e => {
+        if (e.target.tagName === 'A') return;
+        onStart(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+    card.addEventListener('touchmove', e => {
+        if (isDragging && dragConfirmed) e.preventDefault();
+        onMove(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: false });
+    card.addEventListener('touchend', () => onEnd(), { passive: true });
+}
+
+/* ══════════════════════════════════════════════════════════════
+   REVIEW VIEW
+   ══════════════════════════════════════════════════════════════ */
+
+function loadReviewQueue() {
+    const showRev = document.getElementById('show-reviewed').checked;
+
+    const unreviewed = allArticles.filter(a => !a.review_status);
+    const reviewed   = allArticles.filter(a =>  a.review_status);
+
+    unreviewed.sort((a, b) => b.date.localeCompare(a.date));
+    reviewed.sort((a, b) => b.date.localeCompare(a.date));
+
+    reviewQueue = showRev ? [...unreviewed, ...reviewed] : unreviewed;
+    reviewIdx = 0;
+    renderCard();
+}
+
+function renderCard() {
+    const container = document.getElementById('card-container');
+    const counter   = document.getElementById('review-counter');
+    const actions   = document.getElementById('review-actions');
+    const empty     = document.getElementById('empty-state');
+
+    if (reviewIdx >= reviewQueue.length) {
+        container.innerHTML = '';
+        actions.style.display = 'none';
+        empty.style.display = 'flex';
+        empty.innerHTML =
+            `<div class="empty-icon">&#10003;</div>` +
+            `<h2>All caught up!</h2>` +
+            `<p>${reviewQueue.length === 0 ? 'No articles to review.' : 'You\'ve reviewed everything in the queue.'}</p>` +
+            `<button onclick="showView('browse')">Browse reviewed articles</button>`;
+        counter.textContent = `${reviewQueue.length} of ${reviewQueue.length}`;
+        return;
+    }
+
+    empty.style.display = 'none';
+    actions.style.display = 'flex';
+
+    const art = reviewQueue[reviewIdx];
+    counter.textContent = `${reviewIdx + 1} of ${reviewQueue.length}`;
+
+    const prevBadge = art.review_status
+        ? `<div class="card-prev">Previously: <span class="review-badge" data-status="${art.review_status}">${art.review_status}</span></div>`
+        : '';
+
+    container.innerHTML =
+        `<div class="review-card entering" id="current-card">` +
+            `<div class="card-header">` +
+                `<div class="card-title">${esc(art.title)}</div>` +
+                `<div class="card-meta">` +
+                    `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
+                    `<span>${esc(art.source_name)}</span>` +
+                    `<span>${art.date}</span>` +
+                    `<a href="${esc(art.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open original &#8594;</a>` +
+                `</div>` +
+                prevBadge +
+            `</div>` +
+            `<div class="card-body md">${marked.parse(art.body || '')}</div>` +
+        `</div>`;
+}
+
+async function reviewAction(status) {
+    if (animating || reviewIdx >= reviewQueue.length) return;
+    animating = true;
+
+    const card = document.getElementById('current-card');
+    const art = reviewQueue[reviewIdx];
+
+    const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
+    card.classList.add(cls);
+
+    // Save review
+    saveReview(art.path, status).then(() => refreshStats());
+
+    // Update local state
+    art.review_status = status;
+    art.reviewed_at = new Date().toISOString();
+    const orig = allArticles.find(a => a.path === art.path);
+    if (orig) { orig.review_status = status; orig.reviewed_at = art.reviewed_at; }
+
+    await sleep(300);
+    reviewIdx++;
+    renderCard();
+    animating = false;
+}
+
+/* ── Keyboard shortcuts ───────────────────────────────────────── */
+document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+
+    const inBrowse = document.getElementById('view-browse').style.display !== 'none';
+    const inReview = document.getElementById('view-review').style.display !== 'none';
+
+    if (inBrowse) {
+        switch (e.key) {
+            case 'j': case 'ArrowDown':
+                e.preventDefault();
+                if (selectedIdx < filteredArticles.length - 1) selectArticle(selectedIdx + 1);
+                break;
+            case 'k':
+                e.preventDefault();
+                if (selectedIdx > 0) selectArticle(selectedIdx - 1);
+                break;
+            case 'ArrowLeft':  case '1': e.preventDefault(); cardAction('pass'); break;
+            case 'ArrowRight': case '2': e.preventDefault(); cardAction('save'); break;
+            case 'ArrowUp':    case '3': e.preventDefault(); cardAction('star'); break;
+        }
+    }
+
+    if (inReview) {
+        switch (e.key) {
+            case 'ArrowLeft':  e.preventDefault(); reviewAction('pass'); break;
+            case 'ArrowRight': e.preventDefault(); reviewAction('save'); break;
+            case 'ArrowUp':    e.preventDefault(); reviewAction('star'); break;
+        }
+    }
+});
+
+/* ── Touch swipe (review view) ───────────────────────────────── */
+let touchX = 0, touchY = 0;
+const SWIPE_MIN = 80;
+
+document.addEventListener('touchstart', e => {
+    touchX = e.changedTouches[0].screenX;
+    touchY = e.changedTouches[0].screenY;
+}, { passive: true });
+
+document.addEventListener('touchend', e => {
+    if (document.getElementById('view-review').style.display === 'none') return;
+    const dx = e.changedTouches[0].screenX - touchX;
+    const dy = e.changedTouches[0].screenY - touchY;
+    if (Math.abs(dx) > SWIPE_MIN && Math.abs(dx) > Math.abs(dy)) {
+        dx < 0 ? reviewAction('pass') : reviewAction('save');
+    } else if (dy < -SWIPE_MIN && Math.abs(dy) > Math.abs(dx)) {
+        reviewAction('star');
+    }
+}, { passive: true });
+
+/* ── Resize handle (drag to resize panels) ───────────────────── */
+(function initResize() {
+    const handle = document.getElementById('resize-handle');
+    const listPanel = document.getElementById('article-list');
+    const STORAGE_KEY = 'review-panel-width';
+
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) listPanel.style.width = saved;
+    else listPanel.style.width = '45%';
+
+    let dragging = false;
+
+    handle.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        dragging = true;
+        handle.classList.add('active');
+        document.body.style.cursor = 'col-resize';
+        document.body.style.userSelect = 'none';
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if (!dragging) return;
+        const container = listPanel.parentElement;
+        const rect = container.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const pct = Math.min(Math.max(x / rect.width * 100, 15), 80);
+        listPanel.style.width = pct + '%';
+    });
+
+    document.addEventListener('mouseup', () => {
+        if (!dragging) return;
+        dragging = false;
+        handle.classList.remove('active');
+        document.body.style.cursor = '';
+        document.body.style.userSelect = '';
+        localStorage.setItem(STORAGE_KEY, listPanel.style.width);
+    });
+})();
+
+/* ── Theme toggle ─────────────────────────────────────────────── */
+function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    const btn = document.getElementById('theme-toggle');
+    btn.innerHTML = theme === 'light' ? '&#9790;' : '&#9788;';
+    btn.title = theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode';
+}
+function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
+    const next = current === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    localStorage.setItem('review-theme', next);
+}
+applyTheme(localStorage.getItem('review-theme') || 'dark');
+
+/* ── Init ─────────────────────────────────────────────────────── */
+(async function init() {
+    useWorker = !!(workerUrl && authToken);
+    updateWarningBanner();
+
+    // Load branches + reviews in parallel, then load content
+    await Promise.all([loadBranches(), fetchReviews()]);
+    await loadContent();
+})();
+</script>
+</body>
+</html>
