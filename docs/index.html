@@ -990,9 +990,13 @@ function showView(v) {
 
 function sizeReviewView() {
     var h = document.getElementById('header');
-    if (h) document.documentElement.style.setProperty('--review-h', (window.innerHeight - h.offsetHeight) + 'px');
+    var vh = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    if (h) document.documentElement.style.setProperty('--review-h', (vh - h.offsetHeight) + 'px');
 }
 window.addEventListener('resize', function() {
+    if (document.getElementById('view-review').style.display !== 'none') sizeReviewView();
+});
+if (window.visualViewport) window.visualViewport.addEventListener('resize', function() {
     if (document.getElementById('view-review').style.display !== 'none') sizeReviewView();
 });
 
