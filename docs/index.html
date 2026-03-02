@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Source Review</title>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
@@ -363,6 +363,7 @@ a:hover { text-decoration: underline; }
     max-width: 740px; width: 100%; margin: 0 auto;
     border-top: 1px solid var(--border);
     background: var(--bg);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 .review-status-bar {
