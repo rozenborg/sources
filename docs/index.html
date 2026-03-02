@@ -439,6 +439,21 @@ a:hover { text-decoration: underline; }
 </head>
 <body>
 
+<!-- ── Branch hot-loader: fetch app code from non-main branches ─ -->
+<script>
+(function() {
+    if (sessionStorage.getItem('__bl')) return;
+    var b = localStorage.getItem('review-branch');
+    if (!b || b === 'main') return;
+    sessionStorage.setItem('__bl', '1');
+    fetch('https://raw.githubusercontent.com/rozenborg/sources/'
+        + encodeURIComponent(b) + '/docs/index.html?_=' + Date.now())
+        .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+        .then(function(h) { document.open(); document.write(h); document.close(); })
+        .catch(function() { sessionStorage.removeItem('__bl'); });
+})();
+</script>
+
 <!-- ── Settings overlay ────────────────────────────────────────── -->
 <div class="settings-overlay" id="settings-overlay" onclick="if(event.target===this)closeSettings()">
     <div class="settings-panel">
@@ -667,7 +682,8 @@ async function loadBranches() {
 async function onBranchChange() {
     currentBranch = document.getElementById('branch-select').value;
     localStorage.setItem('review-branch', currentBranch);
-    await loadContent();
+    sessionStorage.removeItem('__bl');
+    location.reload();
 }
 
 /* ══════════════════════════════════════════════════════════════
