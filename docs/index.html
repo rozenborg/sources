@@ -472,15 +472,45 @@ a:hover { text-decoration: underline; }
 <!-- ── Branch hot-loader: fetch app code from non-main branches ─ -->
 <script>
 (function() {
-    if (sessionStorage.getItem('__bl')) return;
+    // Already on a blob URL (properly hot-loaded) — just render
+    if (location.protocol === 'blob:') return;
+
+    // After document.write by main's hot-loader — redirect to blob for proper viewport
+    if (sessionStorage.getItem('__bl')) {
+        sessionStorage.removeItem('__bl');
+        var b = localStorage.getItem('review-branch');
+        if (b && b !== 'main') {
+            window.__pendingBlobRedirect = true;
+            sessionStorage.setItem('__pages_url', location.href);
+            document.documentElement.style.visibility = 'hidden';
+            fetch('https://raw.githubusercontent.com/rozenborg/sources/'
+                + encodeURIComponent(b) + '/docs/index.html?_=' + Date.now())
+                .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+                .then(function(h) {
+                    var blob = new Blob([h], {type: 'text/html'});
+                    location.replace(URL.createObjectURL(blob));
+                })
+                .catch(function() { document.documentElement.style.visibility = ''; });
+        }
+        return;
+    }
+
+    // Normal hot-load (when this IS the initial page, e.g., after merging to main)
     var b = localStorage.getItem('review-branch');
     if (!b || b === 'main') return;
+    document.documentElement.style.visibility = 'hidden';
     sessionStorage.setItem('__bl', '1');
     fetch('https://raw.githubusercontent.com/rozenborg/sources/'
         + encodeURIComponent(b) + '/docs/index.html?_=' + Date.now())
         .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
-        .then(function(h) { document.open(); document.write(h); document.close(); })
-        .catch(function() { sessionStorage.removeItem('__bl'); });
+        .then(function(h) {
+            var blob = new Blob([h], {type: 'text/html'});
+            location.replace(URL.createObjectURL(blob));
+        })
+        .catch(function() {
+            sessionStorage.removeItem('__bl');
+            document.documentElement.style.visibility = '';
+        });
 })();
 </script>
 
@@ -715,7 +745,13 @@ async function onBranchChange() {
     currentBranch = document.getElementById('branch-select').value;
     localStorage.setItem('review-branch', currentBranch);
     sessionStorage.removeItem('__bl');
-    location.reload();
+    var pagesUrl = sessionStorage.getItem('__pages_url');
+    if (pagesUrl) {
+        sessionStorage.removeItem('__pages_url');
+        location.replace(pagesUrl);
+    } else {
+        location.reload();
+    }
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -1491,6 +1527,7 @@ applyTheme(localStorage.getItem('review-theme') || 'dark');
 
 /* ── Init ─────────────────────────────────────────────────────── */
 (async function init() {
+    if (window.__pendingBlobRedirect) return;
     useWorker = !!(workerUrl && authToken);
     updateWarningBanner();
 
