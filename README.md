@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-01 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-01 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-01 | 7 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-01 | 4 | ✅ |  |
-| The AI Collective | rss | 2026-03-01 | 7 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-01 | 10 | ✅ |  |
-| Real Estate News | rss | 2026-03-01 | 8 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-01 | 15 | ✅ |  |
-| Built In | sitemap | 2026-03-01 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-01 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-01 | 8 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-01 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-01 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-03-01 | 6 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-01 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-02 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-02 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-02 | 7 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-02 | 5 | ✅ |  |
+| The AI Collective | rss | 2026-03-02 | 7 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-02 | 10 | ✅ |  |
+| Real Estate News | rss | 2026-03-02 | 8 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-02 | 15 | ✅ |  |
+| Built In | sitemap | 2026-03-02 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-02 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-02 | 8 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-02 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-02 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-03-02 | 6 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-02 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-01
+- [Another Viral Doomsday Post](content/2026/03/01/khemaridh-future-proof--another-viral-doomsday-post.md) — khemaridh-future-proof
+
 ### 2026-02-28
 - [Statement Comments Secretary War](content/2026/02/28/anthropic-blog--statement-comments-secretary-war.md) — anthropic-blog
 
@@ -69,9 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ai Is Upending Marketing On Two Fronts](content/2026/02/23/hbr--ai-is-upending-marketing-on-two-fronts.md) — hbr
 - [The End Of Swe Bench Verified Mia Glaese Olivia Watkins Open](content/2026/02/23/latent-space--the-end-of-swe-bench-verified-mia-glaese-olivia-watkins-open.md) — latent-space
 - [Ai And Real Estate Data Whos Making The Rules](content/2026/02/23/real-estate-news--ai-and-real-estate-data-whos-making-the-rules.md) — real-estate-news
-
-### 2026-02-22
-- [Claude Code Extension Ecosystem](content/2026/02/22/ken-huang-ai-expert--claude-code-extension-ecosystem.md) — ken-huang-ai-expert
-- [The 1 Trillion Saas Reckoning](content/2026/02/22/khemaridh-future-proof--the-1-trillion-saas-reckoning.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
