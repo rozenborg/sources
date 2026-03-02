@@ -315,16 +315,18 @@ a:hover { text-decoration: underline; }
 .md a { color: var(--st-save); }
 
 /* ── Review view ──────────────────────────────────────────────── */
-.review-controls {
-    display: flex; justify-content: space-between; align-items: center;
-    max-width: 740px; margin: 0 auto; padding: 16px 24px 0;
-    font-size: 13px; color: var(--text-muted);
+#view-review {
+    display: flex; flex-direction: column;
+    height: calc(100vh - 50px);
+    height: calc(100dvh - 50px);
+    overflow: hidden;
 }
 .toggle-label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
 .toggle-label input { accent-color: var(--st-save); }
 
 .card-container {
-    max-width: 740px; margin: 0 auto; padding: 16px 24px;
+    flex: 1; min-height: 0; overflow: hidden;
+    max-width: 740px; width: 100%; margin: 0 auto; padding: 16px 24px;
 }
 
 .review-card {
@@ -332,6 +334,7 @@ a:hover { text-decoration: underline; }
     border-radius: 12px; padding: 28px 32px;
     position: relative; transition: transform .3s ease, opacity .3s ease;
     transform-origin: center;
+    display: flex; flex-direction: column; height: 100%;
 }
 .review-card.swipe-left  { transform: translateX(-130%) rotate(-6deg); opacity: 0; }
 .review-card.swipe-right { transform: translateX(130%) rotate(6deg);  opacity: 0; }
@@ -343,21 +346,35 @@ a:hover { text-decoration: underline; }
     to   { opacity: 1; transform: scale(1) translateY(0); }
 }
 
-.card-header { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+.card-header { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
 .card-title  { font-size: 20px; font-weight: 700; line-height: 1.35; margin-bottom: 10px; }
 .card-meta   { display: flex; gap: 10px; align-items: center; color: var(--text-muted); font-size: 13px; flex-wrap: wrap; }
 .card-prev   { margin-top: 8px; font-size: 12px; color: var(--text-muted); }
 
 .card-body {
     font-size: 14px; line-height: 1.8;
-    max-height: 58vh; overflow-y: auto;
+    flex: 1; min-height: 0; overflow-y: auto;
     scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
+
+/* ── Review footer ────────────────────────────────────────────── */
+.review-footer {
+    flex-shrink: 0;
+    max-width: 740px; width: 100%; margin: 0 auto;
+    border-top: 1px solid var(--border);
+    background: var(--bg);
+}
+
+.review-status-bar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 8px 24px;
+    font-size: 13px; color: var(--text-muted);
 }
 
 /* ── Action buttons ───────────────────────────────────────────── */
 .review-actions {
     display: flex; justify-content: center; gap: 14px;
-    max-width: 740px; margin: 0 auto; padding: 20px 24px;
+    max-width: 740px; margin: 0 auto; padding: 0 24px 20px;
 }
 .action-btn {
     flex: 1; max-width: 170px; padding: 14px 20px;
@@ -377,7 +394,17 @@ a:hover { text-decoration: underline; }
 .action-star { color: var(--st-star); border-color: var(--st-star); }
 .action-star:hover { background: var(--bg-hover); }
 
-.undo-btn {
+#review-undo {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text-muted); font-size: 13px; font-weight: 500;
+    padding: 6px 14px; cursor: pointer; transition: all .15s;
+    display: none; align-items: center; gap: 6px; white-space: nowrap;
+}
+#review-undo:hover { color: var(--text); background: var(--bg-hover); }
+#review-undo.visible { display: flex; }
+#review-undo kbd { font-size: 10px; color: var(--text-muted); font-family: inherit; }
+
+#browse-undo {
     position: absolute; left: 50%; transform: translateX(-50%);
     bottom: calc(100% + 8px);
     background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
@@ -386,10 +413,10 @@ a:hover { text-decoration: underline; }
     display: none; align-items: center; gap: 6px; white-space: nowrap;
     box-shadow: 0 2px 8px rgba(0,0,0,.2);
 }
-.undo-btn:hover { color: var(--text); background: var(--bg-hover); }
-.undo-btn.visible { display: flex; }
-.undo-btn kbd { font-size: 10px; color: var(--text-muted); font-family: inherit; }
-.review-actions, .browse-actions { position: relative; }
+#browse-undo:hover { color: var(--text); background: var(--bg-hover); }
+#browse-undo.visible { display: flex; }
+#browse-undo kbd { font-size: 10px; color: var(--text-muted); font-family: inherit; }
+.browse-actions { position: relative; }
 
 /* ── Empty state ──────────────────────────────────────────────── */
 .empty-state {
@@ -422,12 +449,15 @@ a:hover { text-decoration: underline; }
     .article-row .source-name { font-size: 11px; }
     .article-row .title { white-space: normal; }
 
-    .review-card { padding: 20px; border-radius: 8px; }
+    .review-card { padding: 16px; border-radius: 8px; }
     .deck-card { padding: 20px; border-radius: 8px; }
     .card-title { font-size: 17px; }
-    .review-actions { gap: 8px; padding: 16px; }
+    .card-container { padding: 8px 12px; }
+    .review-status-bar { padding: 6px 16px; }
+    .review-actions { gap: 8px; padding: 0 16px 12px; }
     .browse-actions { gap: 8px; padding: 12px 16px 16px; }
     .action-btn { padding: 12px 14px; font-size: 14px; }
+    .action-btn kbd { display: none; }
     .card-deck-area { padding: 16px 16px 0; }
     .filters-bar { padding: 10px 16px; }
     .filters-bar select, .filters-bar input { font-size: 12px; padding: 6px 8px; }
@@ -537,19 +567,21 @@ a:hover { text-decoration: underline; }
 
 <!-- ── Review view ────────────────────────────────────────────── -->
 <main id="view-review" class="view" style="display:none">
-    <div class="review-controls">
-        <label class="toggle-label">
-            <input type="checkbox" id="show-reviewed" onchange="loadReviewQueue()">
-            Show reviewed
-        </label>
-        <span id="review-counter"></span>
-    </div>
     <div class="card-container" id="card-container"></div>
-    <div class="review-actions" id="review-actions" style="display:none">
-        <button class="undo-btn" id="review-undo" onclick="undoLastAction()">&#8630; Undo<kbd>Z</kbd></button>
-        <button class="action-btn action-pass" onclick="reviewAction('pass')">Pass<kbd>&#8592;</kbd></button>
-        <button class="action-btn action-star" onclick="reviewAction('star')">Star<kbd>&#8593;</kbd></button>
-        <button class="action-btn action-save" onclick="reviewAction('save')">Save<kbd>&#8594;</kbd></button>
+    <div class="review-footer" id="review-footer" style="display:none">
+        <div class="review-status-bar">
+            <button id="review-undo" onclick="undoLastAction()">&#8630; Undo<kbd>Z</kbd></button>
+            <span id="review-counter"></span>
+            <label class="toggle-label">
+                <input type="checkbox" id="show-reviewed" onchange="loadReviewQueue()">
+                Show reviewed
+            </label>
+        </div>
+        <div class="review-actions">
+            <button class="action-btn action-pass" onclick="reviewAction('pass')">Pass<kbd>&#8592;</kbd></button>
+            <button class="action-btn action-star" onclick="reviewAction('star')">Star<kbd>&#8593;</kbd></button>
+            <button class="action-btn action-save" onclick="reviewAction('save')">Save<kbd>&#8594;</kbd></button>
+        </div>
     </div>
 </main>
 
@@ -1227,12 +1259,12 @@ function loadReviewQueue() {
 function renderCard() {
     const container = document.getElementById('card-container');
     const counter   = document.getElementById('review-counter');
-    const actions   = document.getElementById('review-actions');
+    const footer    = document.getElementById('review-footer');
     const empty     = document.getElementById('empty-state');
 
     if (reviewIdx >= reviewQueue.length) {
         container.innerHTML = '';
-        actions.style.display = 'none';
+        footer.style.display = 'none';
         empty.style.display = 'flex';
         empty.innerHTML =
             `<div class="empty-icon">&#10003;</div>` +
@@ -1244,7 +1276,7 @@ function renderCard() {
     }
 
     empty.style.display = 'none';
-    actions.style.display = 'flex';
+    footer.style.display = '';
 
     const art = reviewQueue[reviewIdx];
     counter.textContent = `${reviewIdx + 1} of ${reviewQueue.length}`;
@@ -1382,16 +1414,18 @@ document.addEventListener('keydown', (e) => {
 });
 
 /* ── Touch swipe (review view) ───────────────────────────────── */
-let touchX = 0, touchY = 0;
+let touchX = 0, touchY = 0, touchInCardBody = false;
 const SWIPE_MIN = 80;
 
 document.addEventListener('touchstart', e => {
     touchX = e.changedTouches[0].screenX;
     touchY = e.changedTouches[0].screenY;
+    touchInCardBody = !!e.target.closest('.card-body');
 }, { passive: true });
 
 document.addEventListener('touchend', e => {
     if (document.getElementById('view-review').style.display === 'none') return;
+    if (touchInCardBody) return;
     const dx = e.changedTouches[0].screenX - touchX;
     const dy = e.changedTouches[0].screenY - touchY;
     if (Math.abs(dx) > SWIPE_MIN && Math.abs(dx) > Math.abs(dy)) {
