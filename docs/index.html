@@ -46,7 +46,12 @@ body {
     line-height: 1.6;
     min-height: 100vh;
 }
-html.review-mode { overflow: hidden; }
+html.review-mode { overflow: hidden; height: 100%; }
+html.review-mode body {
+    height: 100%; min-height: 0;
+    display: flex; flex-direction: column;
+    overflow: hidden;
+}
 
 a { color: var(--st-save); text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -318,14 +323,9 @@ a:hover { text-decoration: underline; }
 /* ── Review view ──────────────────────────────────────────────── */
 #view-review {
     display: flex; flex-direction: column;
-    position: fixed;
-    top: var(--header-h, 50px);
-    left: 0; right: 0; bottom: 0;
+    flex: 1; min-height: 0;
     overflow: hidden;
     background: var(--bg);
-    z-index: 10;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
 .toggle-label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
 .toggle-label input { accent-color: var(--st-save); }
@@ -988,18 +988,11 @@ function showView(v) {
     document.getElementById('nav-browse').classList.toggle('active', v === 'browse');
     document.getElementById('nav-review').classList.toggle('active', v === 'review');
     document.documentElement.classList.toggle('review-mode', v === 'review');
-    if (v === 'review') { sizeReviewView(); loadReviewQueue(); }
+    if (v === 'review') { loadReviewQueue(); }
     lastAction = null;
     updateUndoButton();
 }
 
-function sizeReviewView() {
-    var h = document.getElementById('header');
-    if (h) document.documentElement.style.setProperty('--header-h', h.offsetHeight + 'px');
-}
-window.addEventListener('resize', function() {
-    if (document.getElementById('view-review').style.display !== 'none') sizeReviewView();
-});
 
 /* ══════════════════════════════════════════════════════════════
    BROWSE VIEW
@@ -1546,7 +1539,6 @@ applyTheme(localStorage.getItem('review-theme') || 'dark');
     useWorker = !!(workerUrl && authToken);
     updateWarningBanner();
     document.documentElement.classList.add('review-mode');
-    sizeReviewView();
 
     // Load branches + reviews in parallel, then load content
     await Promise.all([loadBranches(), fetchReviews()]);
