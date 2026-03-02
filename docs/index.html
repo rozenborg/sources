@@ -46,6 +46,7 @@ body {
     line-height: 1.6;
     min-height: 100vh;
 }
+body.review-mode { overflow: hidden; position: fixed; width: 100%; }
 
 a { color: var(--st-save); text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -317,8 +318,7 @@ a:hover { text-decoration: underline; }
 /* ── Review view ──────────────────────────────────────────────── */
 #view-review {
     display: flex; flex-direction: column;
-    height: calc(100vh - 50px);
-    height: calc(100dvh - 50px);
+    height: var(--review-h, calc(100dvh - 50px));
     overflow: hidden;
 }
 .toggle-label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
@@ -539,8 +539,8 @@ a:hover { text-decoration: underline; }
             <option value="main">main</option>
         </select>
         <nav>
-            <button class="nav-btn active" id="nav-browse" onclick="showView('browse')">Browse</button>
-            <button class="nav-btn" id="nav-review" onclick="showView('review')">Review</button>
+            <button class="nav-btn" id="nav-browse" onclick="showView('browse')">Browse</button>
+            <button class="nav-btn active" id="nav-review" onclick="showView('review')">Review</button>
         </nav>
     </div>
     <div style="display:flex;align-items:center;gap:12px">
@@ -559,7 +559,7 @@ a:hover { text-decoration: underline; }
 <div class="loading-banner" id="loading-banner">Loading content from GitHub...</div>
 
 <!-- ── Browse view ────────────────────────────────────────────── -->
-<main id="view-browse" class="view">
+<main id="view-browse" class="view" style="display:none">
     <div class="filters-bar" id="filters-bar">
         <select id="filter-source" onchange="applyFilters()">
             <option value="">All Sources</option>
@@ -597,7 +597,7 @@ a:hover { text-decoration: underline; }
 </main>
 
 <!-- ── Review view ────────────────────────────────────────────── -->
-<main id="view-review" class="view" style="display:none">
+<main id="view-review" class="view">
     <div class="card-container" id="card-container"></div>
     <div class="review-footer" id="review-footer" style="display:none">
         <div class="review-status-bar">
@@ -982,10 +982,19 @@ function showView(v) {
     document.getElementById('empty-state').style.display   = 'none';
     document.getElementById('nav-browse').classList.toggle('active', v === 'browse');
     document.getElementById('nav-review').classList.toggle('active', v === 'review');
-    if (v === 'review') loadReviewQueue();
+    document.body.classList.toggle('review-mode', v === 'review');
+    if (v === 'review') { sizeReviewView(); loadReviewQueue(); }
     lastAction = null;
     updateUndoButton();
 }
+
+function sizeReviewView() {
+    var h = document.getElementById('header');
+    if (h) document.documentElement.style.setProperty('--review-h', (window.innerHeight - h.offsetHeight) + 'px');
+}
+window.addEventListener('resize', function() {
+    if (document.getElementById('view-review').style.display !== 'none') sizeReviewView();
+});
 
 /* ══════════════════════════════════════════════════════════════
    BROWSE VIEW
@@ -1531,10 +1540,13 @@ applyTheme(localStorage.getItem('review-theme') || 'dark');
     if (window.__pendingBlobRedirect) return;
     useWorker = !!(workerUrl && authToken);
     updateWarningBanner();
+    document.body.classList.add('review-mode');
+    sizeReviewView();
 
     // Load branches + reviews in parallel, then load content
     await Promise.all([loadBranches(), fetchReviews()]);
     await loadContent();
+    loadReviewQueue();
 })();
 </script>
 </body>
