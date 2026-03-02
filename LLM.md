@@ -67,6 +67,7 @@ A GitHub Pages SPA for browsing and triaging content from anywhere (phone, table
 - Browse view with master-detail split layout (article list on left, content on right). Filter by source, date, status
 - Review mode with Tinder-style card queue, keyboard shortcuts (arrow keys), and touch swipe. Rate each as pass/save/star
 - Branch selector — switch between branches to review content from PRs before merging
+- Branch hot-loading — when a non-main branch is selected, the entire app (HTML/CSS/JS) is fetched from that branch via `raw.githubusercontent.com` and loaded via `document.write()`. This enables testing UI/code changes on mobile without merging to main. A `sessionStorage` guard (`__bl`) prevents infinite reload loops. On main, the bootstrapper has zero overhead (single localStorage check)
 - Cross-device review sync — rate articles on your phone, see ratings on your laptop
 - Light/dark theme toggle (top-right corner)
 - Settings panel (gear icon) — configure Worker URL and auth token, stored in localStorage
@@ -81,7 +82,7 @@ A GitHub Pages SPA for browsing and triaging content from anywhere (phone, table
 
 **Key gotchas:**
 - GitHub API unauthenticated rate limit is 60 requests/hour. The SPA uses only 2 API calls per page load (branches + tree), so this is plenty. All file content comes from `raw.githubusercontent.com` which has no rate limit
-- The SPA is deployed from `main` branch only. It dynamically loads content from any branch via the branch selector — you don't need to merge to main to test content changes
+- The SPA is deployed from `main` branch only. When a non-main branch is selected, the bootstrapper hot-loads that branch's `docs/index.html` (both content *and* app code). A cache-busting query param (`?_=Date.now()`) is used, but `raw.githubusercontent.com` CDN may still serve stale content for up to ~5 minutes after a push
 - CORS: the Worker allows requests from `rozenborg.github.io` and `localhost`. If you serve from a different domain, update the origin check in `workers/reviews-api/worker.js`
 - js-yaml and marked.js are loaded from CDN (`cdn.jsdelivr.net`). If offline, the SPA won't work
 

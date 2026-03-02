@@ -75,6 +75,7 @@ a:hover { text-decoration: underline; }
     cursor: pointer; display: flex; align-items: center; justify-content: center;
     transition: all .15s; line-height: 1;
 }
+.theme-toggle { font-size: 22px; }
 .theme-toggle:hover, .settings-toggle:hover { color: var(--text); background: var(--bg-hover); }
 .settings-toggle { font-size: 16px; }
 
@@ -376,6 +377,20 @@ a:hover { text-decoration: underline; }
 .action-star { color: var(--st-star); border-color: var(--st-star); }
 .action-star:hover { background: var(--bg-hover); }
 
+.undo-btn {
+    position: absolute; left: 50%; transform: translateX(-50%);
+    bottom: calc(100% + 8px);
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text-muted); font-size: 13px; font-weight: 500;
+    padding: 8px 18px; cursor: pointer; transition: all .15s;
+    display: none; align-items: center; gap: 6px; white-space: nowrap;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+.undo-btn:hover { color: var(--text); background: var(--bg-hover); }
+.undo-btn.visible { display: flex; }
+.undo-btn kbd { font-size: 10px; color: var(--text-muted); font-family: inherit; }
+.review-actions, .browse-actions { position: relative; }
+
 /* ── Empty state ──────────────────────────────────────────────── */
 .empty-state {
     display: flex; flex-direction: column; align-items: center;
@@ -424,6 +439,21 @@ a:hover { text-decoration: underline; }
 </head>
 <body>
 
+<!-- ── Branch hot-loader: fetch app code from non-main branches ─ -->
+<script>
+(function() {
+    if (sessionStorage.getItem('__bl')) return;
+    var b = localStorage.getItem('review-branch');
+    if (!b || b === 'main') return;
+    sessionStorage.setItem('__bl', '1');
+    fetch('https://raw.githubusercontent.com/rozenborg/sources/'
+        + encodeURIComponent(b) + '/docs/index.html?_=' + Date.now())
+        .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+        .then(function(h) { document.open(); document.write(h); document.close(); })
+        .catch(function() { sessionStorage.removeItem('__bl'); });
+})();
+</script>
+
 <!-- ── Settings overlay ────────────────────────────────────────── -->
 <div class="settings-overlay" id="settings-overlay" onclick="if(event.target===this)closeSettings()">
     <div class="settings-panel">
@@ -455,7 +485,7 @@ a:hover { text-decoration: underline; }
     <div style="display:flex;align-items:center;gap:12px">
         <div class="header-stats" id="header-stats"></div>
         <button class="settings-toggle" id="settings-btn" onclick="openSettings()" title="Settings">&#9881;</button>
-        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9788;</button>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9728;</button>
     </div>
 </header>
 
@@ -496,6 +526,7 @@ a:hover { text-decoration: underline; }
                 <div class="deck-empty" id="deck-empty">Select an article to view</div>
             </div>
             <div class="browse-actions" id="browse-actions" style="display:none">
+                <button class="undo-btn" id="browse-undo" onclick="undoLastAction()">&#8630; Undo<kbd>Z</kbd></button>
                 <button class="action-btn action-pass" id="ba-pass" onclick="cardAction('pass')">Pass<kbd>&#8592; / 1</kbd></button>
                 <button class="action-btn action-star" id="ba-star" onclick="cardAction('star')">Star<kbd>&#8593; / 3</kbd></button>
                 <button class="action-btn action-save" id="ba-save" onclick="cardAction('save')">Save<kbd>&#8594; / 2</kbd></button>
@@ -515,6 +546,7 @@ a:hover { text-decoration: underline; }
     </div>
     <div class="card-container" id="card-container"></div>
     <div class="review-actions" id="review-actions" style="display:none">
+        <button class="undo-btn" id="review-undo" onclick="undoLastAction()">&#8630; Undo<kbd>Z</kbd></button>
         <button class="action-btn action-pass" onclick="reviewAction('pass')">Pass<kbd>&#8592;</kbd></button>
         <button class="action-btn action-star" onclick="reviewAction('star')">Star<kbd>&#8593;</kbd></button>
         <button class="action-btn action-save" onclick="reviewAction('save')">Save<kbd>&#8594;</kbd></button>
@@ -541,6 +573,7 @@ let selectedIdx = -1;
 let reviewQueue = [];
 let reviewIdx = 0;
 let animating = false;
+let lastAction = null; // { path, prevStatus, prevReviewedAt, view: 'browse'|'review', browseIdx, reviewIdx }
 let feedsMap = {};      // {source_id: source_config}
 let reviewsData = {};   // {path: {status, reviewed_at}}
 let currentBranch = localStorage.getItem('review-branch') || 'main';
@@ -649,7 +682,8 @@ async function loadBranches() {
 async function onBranchChange() {
     currentBranch = document.getElementById('branch-select').value;
     localStorage.setItem('review-branch', currentBranch);
-    await loadContent();
+    sessionStorage.removeItem('__bl');
+    location.reload();
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -880,6 +914,8 @@ function showView(v) {
     document.getElementById('nav-browse').classList.toggle('active', v === 'browse');
     document.getElementById('nav-review').classList.toggle('active', v === 'review');
     if (v === 'review') loadReviewQueue();
+    lastAction = null;
+    updateUndoButton();
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -1033,6 +1069,10 @@ async function cardAction(status) {
 
     const card = document.getElementById('browse-deck-card');
     const art = filteredArticles[selectedIdx];
+
+    // Track for undo
+    lastAction = { path: art.path, prevStatus: art.review_status || null, prevReviewedAt: art.reviewed_at || null, view: 'browse', browseIdx: selectedIdx };
+    updateUndoButton();
 
     const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
     if (card) card.classList.add(cls);
@@ -1236,6 +1276,10 @@ async function reviewAction(status) {
     const card = document.getElementById('current-card');
     const art = reviewQueue[reviewIdx];
 
+    // Track for undo
+    lastAction = { path: art.path, prevStatus: art.review_status || null, prevReviewedAt: art.reviewed_at || null, view: 'review', reviewQueueIdx: reviewIdx };
+    updateUndoButton();
+
     const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
     card.classList.add(cls);
 
@@ -1254,9 +1298,60 @@ async function reviewAction(status) {
     animating = false;
 }
 
+/* ── Undo ─────────────────────────────────────────────────────── */
+function updateUndoButton() {
+    const browseUndo = document.getElementById('browse-undo');
+    const reviewUndo = document.getElementById('review-undo');
+    if (browseUndo) browseUndo.classList.toggle('visible', !!lastAction && lastAction.view === 'browse');
+    if (reviewUndo) reviewUndo.classList.toggle('visible', !!lastAction && lastAction.view === 'review');
+}
+
+async function undoLastAction() {
+    if (!lastAction || animating) return;
+    animating = true;
+
+    const { path, prevStatus, prevReviewedAt, view } = lastAction;
+
+    // Revert in allArticles
+    const art = allArticles.find(a => a.path === path);
+    if (art) {
+        art.review_status = prevStatus;
+        art.reviewed_at = prevReviewedAt;
+    }
+
+    // Persist reverted status (null = delete review)
+    await saveReview(path, prevStatus);
+    refreshStats();
+
+    if (view === 'review') {
+        // Also revert in reviewQueue
+        const qArt = reviewQueue.find(a => a.path === path);
+        if (qArt) { qArt.review_status = prevStatus; qArt.reviewed_at = prevReviewedAt; }
+        reviewIdx = Math.max(0, reviewIdx - 1);
+        renderCard();
+    } else {
+        // Browse view — revert filtered article too
+        const fArt = filteredArticles.find(a => a.path === path);
+        if (fArt) { fArt.review_status = prevStatus; fArt.reviewed_at = prevReviewedAt; }
+        renderBrowseList();
+        selectArticle(lastAction.browseIdx);
+    }
+
+    lastAction = null;
+    updateUndoButton();
+    animating = false;
+}
+
 /* ── Keyboard shortcuts ───────────────────────────────────────── */
 document.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+
+    // Undo: z or Ctrl+Z
+    if (e.key === 'z' || (e.key === 'z' && (e.ctrlKey || e.metaKey))) {
+        e.preventDefault();
+        undoLastAction();
+        return;
+    }
 
     const inBrowse = document.getElementById('view-browse').style.display !== 'none';
     const inReview = document.getElementById('view-review').style.display !== 'none';
@@ -1349,7 +1444,7 @@ document.addEventListener('touchend', e => {
 function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     const btn = document.getElementById('theme-toggle');
-    btn.innerHTML = theme === 'light' ? '&#9790;' : '&#9788;';
+    btn.innerHTML = theme === 'light' ? '&#9790;' : '&#9728;';
     btn.title = theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode';
 }
 function toggleTheme() {
