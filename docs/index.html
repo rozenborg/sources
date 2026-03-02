@@ -387,7 +387,7 @@ a:hover { text-decoration: underline; }
 .action-undo {
     flex: 0 0 auto !important; width: 48px; max-width: 48px !important;
     color: var(--text-muted) !important; border-color: var(--border) !important;
-    font-size: 18px !important; padding: 14px 0 !important;
+    padding: 14px 0 !important;
     transition: all .15s;
 }
 .action-undo:hover { color: var(--text) !important; background: var(--bg-hover); }
@@ -578,7 +578,7 @@ a:hover { text-decoration: underline; }
                 <div class="deck-empty" id="deck-empty">Select an article to view</div>
             </div>
             <div class="browse-actions" id="browse-actions" style="display:none">
-                <button class="undo-btn" id="browse-undo" onclick="undoLastAction()">&#8630; Undo<kbd>Z</kbd></button>
+                <button class="undo-btn" id="browse-undo" onclick="undoLastAction()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h10a5 5 0 0 1 0 10H12"/><polyline points="7 14 3 10 7 6"/></svg> Undo<kbd>Z</kbd></button>
                 <button class="action-btn action-pass" id="ba-pass" onclick="cardAction('pass')">Pass<kbd>&#8592; / 1</kbd></button>
                 <button class="action-btn action-star" id="ba-star" onclick="cardAction('star')">Star<kbd>&#8593; / 3</kbd></button>
                 <button class="action-btn action-save" id="ba-save" onclick="cardAction('save')">Save<kbd>&#8594; / 2</kbd></button>
@@ -592,7 +592,7 @@ a:hover { text-decoration: underline; }
     <div class="card-container" id="card-container"></div>
     <div class="review-footer" id="review-footer" style="display:none">
         <div class="review-actions">
-            <button class="action-btn action-undo" id="review-undo" onclick="undoLastAction()">&#8630;<kbd>Z</kbd></button>
+            <button class="action-btn action-undo" id="review-undo" onclick="undoLastAction()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h10a5 5 0 0 1 0 10H12"/><polyline points="7 14 3 10 7 6"/></svg><kbd>Z</kbd></button>
             <button class="action-btn action-pass" onclick="reviewAction('pass')">Pass<kbd>&#8592;</kbd></button>
             <button class="action-btn action-star" onclick="reviewAction('star')">Star<kbd>&#8593;</kbd></button>
             <button class="action-btn action-save" onclick="reviewAction('save')">Save<kbd>&#8594;</kbd></button>
@@ -620,7 +620,7 @@ let selectedIdx = -1;
 let reviewQueue = [];
 let reviewIdx = 0;
 let animating = false;
-let lastAction = null; // { path, prevStatus, prevReviewedAt, view: 'browse'|'review', browseIdx, reviewIdx }
+let undoStack = []; // [{ path, prevStatus, prevReviewedAt, view, browseIdx?, reviewQueueIdx? }, ...]
 let feedsMap = {};      // {source_id: source_config}
 let reviewsData = {};   // {path: {status, reviewed_at}}
 let currentBranch = localStorage.getItem('review-branch') || 'main';
@@ -955,7 +955,7 @@ function showView(v) {
     document.getElementById('nav-review').classList.toggle('active', v === 'review');
     document.documentElement.classList.toggle('review-mode', v === 'review');
     if (v === 'review') { loadReviewQueue(); }
-    lastAction = null;
+    undoStack = [];
     updateUndoButton();
 }
 
@@ -1113,7 +1113,7 @@ async function cardAction(status) {
     const art = filteredArticles[selectedIdx];
 
     // Track for undo
-    lastAction = { path: art.path, prevStatus: art.review_status || null, prevReviewedAt: art.reviewed_at || null, view: 'browse', browseIdx: selectedIdx };
+    undoStack.push({ path: art.path, prevStatus: art.review_status || null, prevReviewedAt: art.reviewed_at || null, view: 'browse', browseIdx: selectedIdx });
     updateUndoButton();
 
     const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
@@ -1305,7 +1305,7 @@ async function reviewAction(status) {
     const art = reviewQueue[reviewIdx];
 
     // Track for undo
-    lastAction = { path: art.path, prevStatus: art.review_status || null, prevReviewedAt: art.reviewed_at || null, view: 'review', reviewQueueIdx: reviewIdx };
+    undoStack.push({ path: art.path, prevStatus: art.review_status || null, prevReviewedAt: art.reviewed_at || null, view: 'review', reviewQueueIdx: reviewIdx });
     updateUndoButton();
 
     const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
@@ -1330,15 +1330,17 @@ async function reviewAction(status) {
 function updateUndoButton() {
     const browseUndo = document.getElementById('browse-undo');
     const reviewUndo = document.getElementById('review-undo');
-    if (browseUndo) browseUndo.classList.toggle('visible', !!lastAction && lastAction.view === 'browse');
-    if (reviewUndo) reviewUndo.classList.toggle('disabled', !lastAction || lastAction.view !== 'review');
+    const top = undoStack.length > 0 ? undoStack[undoStack.length - 1] : null;
+    if (browseUndo) browseUndo.classList.toggle('visible', !!top && top.view === 'browse');
+    if (reviewUndo) reviewUndo.classList.toggle('disabled', !top || top.view !== 'review');
 }
 
 async function undoLastAction() {
-    if (!lastAction || animating) return;
+    if (undoStack.length === 0 || animating) return;
     animating = true;
 
-    const { path, prevStatus, prevReviewedAt, view } = lastAction;
+    const action = undoStack.pop();
+    const { path, prevStatus, prevReviewedAt, view } = action;
 
     // Revert in allArticles
     const art = allArticles.find(a => a.path === path);
@@ -1362,10 +1364,9 @@ async function undoLastAction() {
         const fArt = filteredArticles.find(a => a.path === path);
         if (fArt) { fArt.review_status = prevStatus; fArt.reviewed_at = prevReviewedAt; }
         renderBrowseList();
-        selectArticle(lastAction.browseIdx);
+        selectArticle(action.browseIdx);
     }
 
-    lastAction = null;
     updateUndoButton();
     animating = false;
 }
