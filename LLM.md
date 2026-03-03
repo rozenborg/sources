@@ -14,6 +14,7 @@ This is NOT an app. There's no database, no UI, no CLI framework. The filesystem
 - `state.json` — dedup (seen URLs) + per-source health stats. Committed to git on every run
 - `docs/index.html` — **review app** (GitHub Pages SPA). Browse and triage content from any browser/device. Fetches content from GitHub API, syncs reviews via Cloudflare Worker. Features: branch selector (review content from any branch/PR), cross-device review sync, light/dark theme. See "Web review app" section below
 - `workers/reviews-api/` — Cloudflare Worker + KV for persisting reviews across devices. Deployed alongside the existing `workers/substack-proxy/`
+- `workers/summarize-api/` — Cloudflare Worker for on-demand summary regeneration. Fetches article URL, calls Claude API, returns new summary. API key passed from browser via `X-Anthropic-Key` header
 - `content/YYYY/MM/DD/source--slug.md` — auto-generated summaries with YAML frontmatter
 - `.github/workflows/daily.yaml` — cron schedule + manual trigger
 
@@ -70,7 +71,8 @@ A GitHub Pages SPA for browsing and triaging content from anywhere (phone, table
 - Branch hot-loading — when a non-main branch is selected, the entire app (HTML/CSS/JS) is fetched from that branch via `raw.githubusercontent.com` and loaded via `document.write()`. This enables testing UI/code changes on mobile without merging to main. A `sessionStorage` guard (`__bl`) prevents infinite reload loops. On main, the bootstrapper has zero overhead (single localStorage check)
 - Cross-device review sync — rate articles on your phone, see ratings on your laptop
 - Light/dark theme toggle (top-right corner)
-- Settings panel (gear icon) — configure Worker URL and auth token, stored in localStorage
+- Settings panel (gear icon) — configure Worker URL, auth token, Anthropic API key, Summarize API URL, and GitHub token, all stored in localStorage
+- Summary regeneration — "Regenerate" button on each card calls the summarize-api Worker to re-summarize from the source URL. "Save" button commits the updated summary back to the repo via GitHub API
 
 **One-time setup:**
 1. Enable GitHub Pages: repo Settings → Pages → Source: "Deploy from a branch" → `main` → `/docs`

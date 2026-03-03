@@ -313,6 +313,38 @@ a:hover { text-decoration: underline; }
 .md p { margin-bottom: 8px; font-size: 14px; }
 .md a { color: var(--st-save); }
 
+/* ── Two-tier summary ────────────────────────────────────────── */
+.card-summary-headline {
+    font-size: 15px; line-height: 1.6; font-weight: 500;
+    color: var(--text); margin-bottom: 16px;
+}
+.card-summary-headline p { font-size: 15px; margin-bottom: 0; }
+.card-summary-details {
+    position: relative;
+    border-top: 1px solid var(--border); padding-top: 14px;
+}
+.card-summary-details .md h2:first-child { margin-top: 0; }
+.card-regen-bar {
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 12px;
+}
+.regen-btn, .save-btn {
+    padding: 4px 10px; border-radius: 5px; border: 1px solid var(--border);
+    font-size: 11px; font-weight: 600; cursor: pointer; transition: all .12s;
+    background: var(--bg); color: var(--text-muted);
+}
+.regen-btn:hover, .save-btn:hover { background: var(--bg-hover); color: var(--text); }
+.save-btn { color: var(--st-save); border-color: var(--st-save); }
+.save-btn:hover { background: var(--st-save); color: #fff; }
+.save-btn.saved { background: var(--st-save); color: #fff; cursor: default; opacity: .7; }
+.regen-btn:disabled { opacity: .5; cursor: not-allowed; }
+.regen-spinner {
+    display: inline-block; width: 12px; height: 12px;
+    border: 2px solid var(--border); border-top-color: var(--text);
+    border-radius: 50%; animation: spin .6s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
 /* ── Review view ──────────────────────────────────────────────── */
 #view-review {
     display: flex; flex-direction: column;
@@ -510,6 +542,13 @@ a:hover { text-decoration: underline; }
         <input type="text" id="cfg-worker-url" placeholder="https://reviews-api.yourdomain.workers.dev">
         <label for="cfg-auth-token">Auth Token</label>
         <input type="password" id="cfg-auth-token" placeholder="Your shared secret">
+        <hr style="border:none;border-top:1px solid var(--border);margin:14px 0">
+        <label for="cfg-summarize-url">Summarize API URL</label>
+        <input type="text" id="cfg-summarize-url" placeholder="https://summarize-api.yourdomain.workers.dev">
+        <label for="cfg-anthropic-key">Anthropic API Key</label>
+        <input type="password" id="cfg-anthropic-key" placeholder="sk-ant-...">
+        <label for="cfg-github-token">GitHub Token <span style="font-size:11px;opacity:.6">(for saving summaries)</span></label>
+        <input type="password" id="cfg-github-token" placeholder="ghp_...">
         <div class="settings-status" id="settings-status"></div>
         <div class="settings-actions">
             <button onclick="closeSettings()">Cancel</button>
@@ -636,6 +675,158 @@ function esc(s) {
 }
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+/* ── Summary rendering ───────────────────────────────────────── */
+function renderSummaryBody(body, artPath) {
+    const html = marked.parse(body || '');
+    const hrIdx = html.indexOf('<hr');
+    const anthropicKey = localStorage.getItem('sourcerer-anthropic-key') || '';
+    const ghToken = localStorage.getItem('sourcerer-github-token') || '';
+
+    let regenBar = '';
+    if (anthropicKey) {
+        const safePath = artPath.replace(/'/g, "\\'");
+        regenBar =
+            `<div class="card-regen-bar">` +
+                `<button class="regen-btn" onclick="regenerateSummary('${safePath}', this)" title="Regenerate summary">&#8635; Regenerate</button>` +
+            `</div>`;
+    }
+
+    if (hrIdx === -1) {
+        // Old format — no headline/details split
+        return regenBar + `<div class="md">${html}</div>`;
+    }
+
+    // Find the end of the <hr> tag
+    const hrEnd = html.indexOf('>', hrIdx) + 1;
+    const headline = html.substring(0, hrIdx).trim();
+    const details  = html.substring(hrEnd).trim();
+
+    return regenBar +
+        `<div class="card-summary-headline">${headline}</div>` +
+        `<div class="card-summary-details"><div class="md">${details}</div></div>`;
+}
+
+/* ── Regeneration ────────────────────────────────────────────── */
+async function regenerateSummary(artPath, btn) {
+    const art = allArticles.find(a => a.path === artPath);
+    if (!art) return;
+
+    const anthropicKey = localStorage.getItem('sourcerer-anthropic-key') || '';
+    const summarizeUrl = localStorage.getItem('sourcerer-summarize-url') || '';
+    if (!anthropicKey || !summarizeUrl) {
+        alert('Configure Anthropic API Key and Summarize API URL in Settings.');
+        return;
+    }
+
+    btn.disabled = true;
+    const origText = btn.innerHTML;
+    btn.innerHTML = '<span class="regen-spinner"></span> Regenerating...';
+
+    try {
+        const resp = await fetch(summarizeUrl + '/summarize', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Anthropic-Key': anthropicKey,
+            },
+            body: JSON.stringify({
+                url: art.url,
+                title: art.title,
+                source_type: art.type,
+            }),
+        });
+
+        if (!resp.ok) {
+            const err = await resp.json().catch(() => ({}));
+            throw new Error(err.error || 'HTTP ' + resp.status);
+        }
+
+        const data = await resp.json();
+        art.body = data.body;
+        art._regenerated = true;
+
+        // Re-render the card in whichever view is active
+        rerenderActiveCard(art);
+    } catch (e) {
+        alert('Regeneration failed: ' + e.message);
+    } finally {
+        btn.disabled = false;
+        btn.innerHTML = origText;
+    }
+}
+
+async function saveSummary(artPath, btn) {
+    const art = allArticles.find(a => a.path === artPath);
+    if (!art) return;
+
+    const ghToken = localStorage.getItem('sourcerer-github-token') || '';
+    if (!ghToken) {
+        alert('Configure a GitHub Token in Settings to save summaries.');
+        return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+
+    try {
+        // Get current file SHA (needed for GitHub API update)
+        const fileResp = await fetch(
+            `${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${art.path}?ref=${encodeURIComponent(currentBranch)}`,
+            { headers: { 'Authorization': 'token ' + ghToken } }
+        );
+        if (!fileResp.ok) throw new Error('Could not fetch file: HTTP ' + fileResp.status);
+        const fileData = await fileResp.json();
+
+        // Rebuild the markdown file with updated body
+        const rawResp = await fetch(rawUrl(art.path));
+        const rawText = await rawResp.text();
+
+        // Extract frontmatter block, preserve it, replace body
+        const fmFirst = rawText.indexOf('---');
+        const fmSecond = rawText.indexOf('---', fmFirst + 3);
+        if (fmFirst === -1 || fmSecond === -1) throw new Error('Could not parse frontmatter');
+        const frontmatter = rawText.substring(fmFirst, fmSecond + 3);
+        const newContent = `${frontmatter}\n\n${art.body}\n`;
+
+        // Update via GitHub API
+        const updateResp = await fetch(
+            `${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${art.path}`,
+            {
+                method: 'PUT',
+                headers: {
+                    'Authorization': 'token ' + ghToken,
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    message: `Update summary: ${art.title}`,
+                    content: btoa(unescape(encodeURIComponent(newContent))),
+                    sha: fileData.sha,
+                    branch: currentBranch,
+                }),
+            }
+        );
+        if (!updateResp.ok) throw new Error('Save failed: HTTP ' + updateResp.status);
+
+        art._regenerated = false;
+        btn.textContent = 'Saved';
+        btn.classList.add('saved');
+        rerenderActiveCard(art);
+    } catch (e) {
+        alert('Save failed: ' + e.message);
+        btn.disabled = false;
+        btn.textContent = 'Save';
+    }
+}
+
+function rerenderActiveCard(art) {
+    const currentView = document.getElementById('view-review').style.display !== 'none' ? 'review' : 'browse';
+    if (currentView === 'review') {
+        renderCard();
+    } else {
+        renderBrowseCard(art);
+    }
+}
+
 function setLoading(on) {
     document.getElementById('loading-banner').classList.toggle('active', on);
 }
@@ -646,6 +837,9 @@ function setLoading(on) {
 function openSettings() {
     document.getElementById('cfg-worker-url').value = workerUrl;
     document.getElementById('cfg-auth-token').value = authToken;
+    document.getElementById('cfg-summarize-url').value = localStorage.getItem('sourcerer-summarize-url') || '';
+    document.getElementById('cfg-anthropic-key').value = localStorage.getItem('sourcerer-anthropic-key') || '';
+    document.getElementById('cfg-github-token').value = localStorage.getItem('sourcerer-github-token') || '';
     document.getElementById('settings-status').textContent = '';
     document.getElementById('settings-overlay').classList.add('open');
 }
@@ -680,6 +874,14 @@ async function saveSettings() {
     localStorage.setItem('review-auth-token', token);
     useWorker = !!(url && token);
     updateWarningBanner();
+
+    // Save summarization settings
+    const summarizeUrl = document.getElementById('cfg-summarize-url').value.trim().replace(/\/+$/, '');
+    const anthropicKey = document.getElementById('cfg-anthropic-key').value.trim();
+    const ghToken = document.getElementById('cfg-github-token').value.trim();
+    localStorage.setItem('sourcerer-summarize-url', summarizeUrl);
+    localStorage.setItem('sourcerer-anthropic-key', anthropicKey);
+    localStorage.setItem('sourcerer-github-token', ghToken);
 
     // Re-fetch reviews from worker
     if (useWorker) {
@@ -747,11 +949,17 @@ function rawUrl(path) {
 }
 
 function parseFrontmatter(text) {
-    const parts = text.split('---', 3);
-    if (parts.length < 3) return null;
+    // Find opening and closing --- markers for frontmatter
+    const first = text.indexOf('---');
+    if (first === -1) return null;
+    const second = text.indexOf('---', first + 3);
+    if (second === -1) return null;
+
+    const frontmatter = text.substring(first + 3, second);
+    const body = text.substring(second + 3).trim();
+
     try {
-        const meta = jsyaml.load(parts[1]);
-        const body = parts.slice(2).join('---').trim();
+        const meta = jsyaml.load(frontmatter);
         return { meta, body };
     } catch {
         return null;
@@ -1072,6 +1280,11 @@ function renderBrowseCard(art) {
         ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>`
         : '';
 
+    const summaryHtml = renderSummaryBody(art.body, art.path);
+    const saveBtn = art._regenerated
+        ? `<button class="save-btn" onclick="event.stopPropagation();saveSummary('${esc(art.path)}', this)" style="margin-top:8px">Save to repo</button>`
+        : '';
+
     deckArea.innerHTML =
         `<div class="deck-stack">` +
             shadowHtml +
@@ -1089,7 +1302,7 @@ function renderBrowseCard(art) {
                         statusBadge +
                     `</div>` +
                 `</div>` +
-                `<div class="card-body md">${marked.parse(art.body || '')}</div>` +
+                `<div class="card-body">${summaryHtml}${saveBtn}</div>` +
             `</div>` +
         `</div>` +
         `<div class="browse-remaining">${remaining} unreviewed remaining</div>`;
@@ -1284,6 +1497,11 @@ function renderCard() {
     const art = reviewQueue[reviewIdx];
     counter.textContent = `${reviewIdx + 1}/${reviewQueue.length}`;
 
+    const summaryHtml = renderSummaryBody(art.body, art.path);
+    const saveBtn = art._regenerated
+        ? `<button class="save-btn" onclick="event.stopPropagation();saveSummary('${esc(art.path)}', this)" style="margin-top:8px">Save to repo</button>`
+        : '';
+
     container.innerHTML =
         `<div class="review-card entering" id="current-card">` +
             `<div class="card-header">` +
@@ -1293,7 +1511,7 @@ function renderCard() {
                     `<a href="${esc(art.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open &#8594;</a>` +
                 `</div>` +
             `</div>` +
-            `<div class="card-body md">${marked.parse(art.body || '')}</div>` +
+            `<div class="card-body">${summaryHtml}${saveBtn}</div>` +
         `</div>`;
 }
 
