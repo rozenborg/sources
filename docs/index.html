@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Sourcerer</title>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
@@ -495,11 +498,24 @@ a:hover { text-decoration: underline; }
     // Already on a blob URL (properly hot-loaded) — just render
     if (location.protocol === 'blob:') return;
 
+    // Staleness guard: auto-reset to main if branch selection is older than 24h
+    var BRANCH_TTL = 24 * 60 * 60 * 1000;
+    function isBranchStale() {
+        var ts = localStorage.getItem('review-branch-ts');
+        if (!ts) return true;
+        return (Date.now() - Number(ts)) > BRANCH_TTL;
+    }
+    function resetToMain() {
+        localStorage.setItem('review-branch', 'main');
+        localStorage.removeItem('review-branch-ts');
+    }
+
     // After document.write by main's hot-loader — redirect to blob for proper viewport
     if (sessionStorage.getItem('__bl')) {
         sessionStorage.removeItem('__bl');
         var b = localStorage.getItem('review-branch');
         if (b && b !== 'main') {
+            if (isBranchStale()) { resetToMain(); return; }
             window.__pendingBlobRedirect = true;
             sessionStorage.setItem('__pages_url', location.href);
             document.documentElement.style.visibility = 'hidden';
@@ -518,6 +534,7 @@ a:hover { text-decoration: underline; }
     // Normal hot-load (when this IS the initial page, e.g., after merging to main)
     var b = localStorage.getItem('review-branch');
     if (!b || b === 'main') return;
+    if (isBranchStale()) { resetToMain(); return; }
     document.documentElement.style.visibility = 'hidden';
     sessionStorage.setItem('__bl', '1');
     fetch('https://raw.githubusercontent.com/rozenborg/sources/'
@@ -921,6 +938,7 @@ async function loadBranches() {
             currentBranch = 'main';
             sel.value = 'main';
             localStorage.setItem('review-branch', 'main');
+            localStorage.removeItem('review-branch-ts');
         }
     } catch (e) {
         console.error('Failed to load branches:', e);
@@ -931,6 +949,7 @@ async function loadBranches() {
 async function onBranchChange() {
     currentBranch = document.getElementById('branch-select').value;
     localStorage.setItem('review-branch', currentBranch);
+    localStorage.setItem('review-branch-ts', String(Date.now()));
     sessionStorage.removeItem('__bl');
     var pagesUrl = sessionStorage.getItem('__pages_url');
     if (pagesUrl) {
