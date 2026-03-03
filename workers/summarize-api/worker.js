@@ -47,7 +47,7 @@ export default {
         redirect: "follow",
       });
       if (!resp.ok) throw new Error("HTTP " + resp.status);
-      const html = await resp.text();
+      const html = (await resp.text()).slice(0, 200000); // Bound input before text extraction
       articleText = htmlToText(html);
     } catch (e) {
       return Response.json(
@@ -59,7 +59,7 @@ export default {
     // Truncate to ~30k chars
     articleText = articleText.slice(0, 30000);
 
-    // 2. Build the summary prompt
+    // 2. Build the summary prompt (keep in sync with fetchers.py:summarize)
     let typeHint = "";
     if (source_type === "podcast") {
       typeHint =

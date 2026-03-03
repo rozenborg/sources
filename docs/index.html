@@ -424,6 +424,21 @@ a:hover { text-decoration: underline; }
         localStorage.removeItem('review-branch-ts');
     }
 
+    function loadBranchBlob(branch, onError) {
+        document.documentElement.style.visibility = 'hidden';
+        fetch('https://raw.githubusercontent.com/rozenborg/sources/'
+            + encodeURIComponent(branch) + '/docs/index.html?_=' + Date.now())
+            .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+            .then(function(h) {
+                var blob = new Blob([h], {type: 'text/html'});
+                location.replace(URL.createObjectURL(blob));
+            })
+            .catch(function() {
+                document.documentElement.style.visibility = '';
+                if (onError) onError();
+            });
+    }
+
     // After document.write by main's hot-loader — redirect to blob for proper viewport
     if (sessionStorage.getItem('__bl')) {
         sessionStorage.removeItem('__bl');
@@ -432,15 +447,7 @@ a:hover { text-decoration: underline; }
             if (isBranchStale()) { resetToMain(); return; }
             window.__pendingBlobRedirect = true;
             sessionStorage.setItem('__pages_url', location.href);
-            document.documentElement.style.visibility = 'hidden';
-            fetch('https://raw.githubusercontent.com/rozenborg/sources/'
-                + encodeURIComponent(b) + '/docs/index.html?_=' + Date.now())
-                .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
-                .then(function(h) {
-                    var blob = new Blob([h], {type: 'text/html'});
-                    location.replace(URL.createObjectURL(blob));
-                })
-                .catch(function() { document.documentElement.style.visibility = ''; });
+            loadBranchBlob(b);
         }
         return;
     }
@@ -449,19 +456,8 @@ a:hover { text-decoration: underline; }
     var b = localStorage.getItem('review-branch');
     if (!b || b === 'main') return;
     if (isBranchStale()) { resetToMain(); return; }
-    document.documentElement.style.visibility = 'hidden';
     sessionStorage.setItem('__bl', '1');
-    fetch('https://raw.githubusercontent.com/rozenborg/sources/'
-        + encodeURIComponent(b) + '/docs/index.html?_=' + Date.now())
-        .then(function(r) { if (!r.ok) throw new Error(r.status); return r.text(); })
-        .then(function(h) {
-            var blob = new Blob([h], {type: 'text/html'});
-            location.replace(URL.createObjectURL(blob));
-        })
-        .catch(function() {
-            sessionStorage.removeItem('__bl');
-            document.documentElement.style.visibility = '';
-        });
+    loadBranchBlob(b, function() { sessionStorage.removeItem('__bl'); });
 })();
 </script>
 
@@ -598,11 +594,9 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function renderSummaryBody(body, artPath) {
     const html = marked.parse(body || '');
     const hrIdx = html.indexOf('<hr');
-    const anthropicKey = localStorage.getItem('sourcerer-anthropic-key') || '';
-    const ghToken = localStorage.getItem('sourcerer-github-token') || '';
 
     let regenBar = '';
-    if (anthropicKey) {
+    if (localStorage.getItem('sourcerer-anthropic-key')) {
         const safePath = artPath.replace(/'/g, "\\'");
         regenBar =
             `<div class="card-regen-bar">` +
@@ -686,21 +680,20 @@ async function saveSummary(artPath, btn) {
     btn.textContent = 'Saving...';
 
     try {
+        // Get current file content + SHA from Contents API (single request)
         const fileResp = await fetch(
             `${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${art.path}?ref=${encodeURIComponent(currentBranch)}`,
             { headers: { 'Authorization': 'token ' + ghToken } }
         );
         if (!fileResp.ok) throw new Error('Could not fetch file: HTTP ' + fileResp.status);
         const fileData = await fileResp.json();
+        const rawText = decodeURIComponent(escape(atob(fileData.content)));
 
-        const rawResp = await fetch(rawUrl(art.path));
-        const rawText = await rawResp.text();
-
-        const fmFirst = rawText.indexOf('---');
-        const fmSecond = rawText.indexOf('---', fmFirst + 3);
-        if (fmFirst === -1 || fmSecond === -1) throw new Error('Could not parse frontmatter');
-        const frontmatter = rawText.substring(fmFirst, fmSecond + 3);
-        const newContent = `${frontmatter}\n\n${art.body}\n`;
+        // Extract frontmatter block, preserve it, replace body
+        const parsed = parseFrontmatter(rawText);
+        if (!parsed) throw new Error('Could not parse frontmatter');
+        const fmEnd = rawText.indexOf('---', rawText.indexOf('---') + 3) + 3;
+        const newContent = `${rawText.substring(0, fmEnd)}\n\n${art.body}\n`;
 
         const updateResp = await fetch(
             `${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${art.path}`,
@@ -729,6 +722,12 @@ async function saveSummary(artPath, btn) {
         btn.disabled = false;
         btn.textContent = 'Save';
     }
+}
+
+function renderSaveBtn(art) {
+    return art._regenerated
+        ? `<button class="save-btn" onclick="event.stopPropagation();saveSummary('${esc(art.path)}', this)" style="margin-top:8px">Save to repo</button>`
+        : '';
 }
 
 function rerenderActiveCard(art) {
@@ -1211,9 +1210,7 @@ function renderDrawerCard() {
         : '';
 
     const summaryHtml = renderSummaryBody(art.body, art.path);
-    const saveBtn = art._regenerated
-        ? `<button class="save-btn" onclick="event.stopPropagation();saveSummary('${esc(art.path)}', this)" style="margin-top:8px">Save to repo</button>`
-        : '';
+    const saveBtn = renderSaveBtn(art);
 
     body.innerHTML =
         `<div class="drawer-card entering" id="drawer-card">` +
@@ -1376,8 +1373,13 @@ async function drawerAction(status) {
 }
 
 /* ── Card drag gestures ──────────────────────────────────────── */
+let _dragMoveHandler = null, _dragUpHandler = null;
 function setupCardDrag(card) {
     if (!card) return;
+    // Clean up previous document-level listeners to prevent leaks
+    if (_dragMoveHandler) document.removeEventListener('mousemove', _dragMoveHandler);
+    if (_dragUpHandler) document.removeEventListener('mouseup', _dragUpHandler);
+
     let startX = 0, startY = 0, dx = 0, dy = 0;
     let isDragging = false, dragConfirmed = false;
 
@@ -1449,10 +1451,10 @@ function setupCardDrag(card) {
         onStart(e.clientX, e.clientY);
     });
 
-    const moveHandler = e => { if (isDragging) onMove(e.clientX, e.clientY); };
-    const upHandler = () => { if (isDragging) onEnd(); };
-    document.addEventListener('mousemove', moveHandler);
-    document.addEventListener('mouseup', upHandler);
+    _dragMoveHandler = e => { if (isDragging) onMove(e.clientX, e.clientY); };
+    _dragUpHandler = () => { if (isDragging) onEnd(); };
+    document.addEventListener('mousemove', _dragMoveHandler);
+    document.addEventListener('mouseup', _dragUpHandler);
 
     card.addEventListener('touchstart', e => {
         if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') return;

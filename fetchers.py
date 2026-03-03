@@ -264,6 +264,7 @@ def summarize(text: str, source_type: str = "rss", title: str = "",
     elif source_type == "sitemap":
         type_hint = "This is a company blog post. Focus on product announcements, technical capabilities, and strategic implications.\n\n"
 
+    # Keep prompt in sync with workers/summarize-api/worker.js
     prompt = (
         "You are an expert analyst creating an intelligence briefing.\n\n"
         "Produce a two-part summary:\n\n"
