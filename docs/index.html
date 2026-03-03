@@ -49,12 +49,6 @@ body {
     line-height: 1.6;
     min-height: 100vh;
 }
-html.review-mode { overflow: hidden; height: 100%; }
-html.review-mode body {
-    height: 100%; min-height: 0;
-    display: flex; flex-direction: column;
-    overflow: hidden;
-}
 
 a { color: var(--st-save); text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -96,7 +90,6 @@ a:hover { text-decoration: underline; }
 }
 .nav-btn:hover { color: var(--text); background: var(--bg-hover); }
 .nav-btn.active { background: var(--bg-hover); color: var(--text); }
-
 
 /* ── Settings panel ──────────────────────────────────────────── */
 .settings-overlay {
@@ -184,7 +177,12 @@ a:hover { text-decoration: underline; }
 .review-badge[data-status="save"] { color: var(--st-save); }
 .review-badge[data-status="star"] { color: var(--st-star); }
 
-/* ── Browse view: article list ────────────────────────────────── */
+/* ── Article list (full-width) ───────────────────────────────── */
+#article-list {
+    overflow-y: auto;
+    height: calc(100vh - 95px);
+    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+}
 .article-row {
     display: grid;
     grid-template-columns: 78px 56px 120px 1fr 52px;
@@ -204,86 +202,67 @@ a:hover { text-decoration: underline; }
 .article-row .source-name { color: var(--text-muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .article-row .title { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-/* ── Browse split layout ─────────────────────────────────────── */
-.browse-split {
-    display: flex; height: calc(100vh - 95px);
+/* ── Drawer ───────────────────────────────────────────────────── */
+.drawer-backdrop {
+    position: fixed; inset: 0; background: rgba(0,0,0,.3);
+    z-index: 150; opacity: 0; pointer-events: none;
+    transition: opacity .25s;
 }
-.browse-list-panel {
-    min-width: 280px; overflow-y: auto;
-    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
+.drawer {
+    position: fixed; top: 0; right: 0; bottom: 0;
+    width: 520px; max-width: 100vw;
+    background: var(--bg-card); border-left: 1px solid var(--border);
+    z-index: 160; display: flex; flex-direction: column;
+    transform: translateX(100%);
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
+    box-shadow: -4px 0 24px rgba(0,0,0,.15);
 }
-.browse-detail-panel {
-    flex: 1; display: flex; flex-direction: column;
-    border-left: 1px solid var(--border);
-    overflow: hidden;
-}
-.resize-handle {
-    width: 5px; cursor: col-resize;
-    background: var(--border); flex-shrink: 0;
-    transition: background .15s;
-}
-.resize-handle:hover, .resize-handle.active {
-    background: var(--st-save);
-}
-.detail-empty {
-    display: flex; align-items: center; justify-content: center;
-    height: 100%; color: var(--text-muted); font-size: 14px;
-}
+.drawer.open { transform: translateX(0); }
 
-/* ── Card Deck (Browse) ──────────────────────────────────────── */
-.card-deck-area {
-    flex: 1; overflow-y: auto; overflow-x: hidden;
-    display: flex; align-items: flex-start; justify-content: center;
-    padding: 24px 24px 0;
+.drawer-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 12px 20px; border-bottom: 1px solid var(--border); flex-shrink: 0;
+}
+.drawer-body {
+    flex: 1; overflow-y: auto; padding: 24px;
     scrollbar-width: thin; scrollbar-color: var(--border) transparent;
 }
-.deck-stack {
-    position: relative; width: 100%; max-width: 640px;
-    padding-bottom: 14px;
+.drawer-footer {
+    display: flex; justify-content: center; gap: 14px;
+    padding: 16px 24px 20px; border-top: 1px solid var(--border);
+    flex-shrink: 0; position: relative;
 }
-.deck-card {
-    position: relative; z-index: 3;
-    background: var(--bg-card); border: 1px solid var(--border);
+.drawer-nav { display: flex; align-items: center; gap: 10px; }
+.drawer-nav-btn, .drawer-close {
+    background: none; border: 1px solid var(--border); color: var(--text-muted);
+    width: 32px; height: 32px; border-radius: 6px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; transition: all .15s;
+}
+.drawer-nav-btn:hover, .drawer-close:hover { color: var(--text); background: var(--bg-hover); }
+.drawer-nav-btn:disabled { opacity: .3; cursor: default; }
+.drawer-close { font-size: 20px; }
+.drawer-counter { font-size: 13px; color: var(--text-muted); min-width: 60px; text-align: center; }
+
+/* ── Card inside drawer ──────────────────────────────────────── */
+.drawer-card {
+    position: relative;
+    background: var(--bg); border: 1px solid var(--border);
     border-radius: 12px; padding: 28px 32px;
     transition: transform .3s ease, opacity .3s ease;
     cursor: grab; user-select: none;
-    transform-origin: center;
 }
-.deck-card:active { cursor: grabbing; }
-.deck-card.dragging { transition: none; cursor: grabbing; }
-.deck-card.entering { animation: cardIn .25s ease-out; }
-.deck-card.swipe-left  { transform: translateX(-120%) rotate(-8deg); opacity: 0; pointer-events: none; }
-.deck-card.swipe-right { transform: translateX(120%) rotate(8deg); opacity: 0; pointer-events: none; }
-.deck-card.swipe-up    { transform: translateY(-120%); opacity: 0; pointer-events: none; }
+.drawer-card.dragging { transition: none; cursor: grabbing; }
+.drawer-card.entering { animation: cardIn .25s ease-out; }
+.drawer-card.swipe-left  { transform: translateX(-120%) rotate(-8deg); opacity: 0; pointer-events: none; }
+.drawer-card.swipe-right { transform: translateX(120%) rotate(8deg); opacity: 0; pointer-events: none; }
+.drawer-card.swipe-up    { transform: translateY(-120%); opacity: 0; pointer-events: none; }
 
-.deck-shadow {
-    position: absolute; left: 0; right: 0;
-    height: 60px; bottom: 0;
-    background: var(--bg-card); border: 1px solid var(--border);
-    border-radius: 12px;
+@keyframes cardIn {
+    from { opacity: 0; transform: scale(.96) translateY(8px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
 }
-.deck-shadow-1 { z-index: 2; transform: translateY(6px) scale(.98); opacity: .5; }
-.deck-shadow-2 { z-index: 1; transform: translateY(12px) scale(.96); opacity: .25; }
 
-.deck-card .card-body {
-    max-height: 50vh; overflow-y: auto;
-    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
-}
-.deck-empty {
-    display: flex; align-items: center; justify-content: center;
-    height: 100%; color: var(--text-muted); font-size: 14px;
-    flex: 1;
-}
-.browse-actions {
-    display: flex; justify-content: center; gap: 14px;
-    padding: 16px 24px 20px;
-    border-top: 1px solid var(--border); flex-shrink: 0;
-}
-.browse-remaining {
-    text-align: center; font-size: 12px; color: var(--text-muted);
-    padding: 2px 0 0;
-}
-/* Drag direction indicators */
+/* ── Drag direction hints ────────────────────────────────────── */
 .drag-hint {
     position: absolute; top: 16px; padding: 6px 16px;
     border-radius: 6px; font-size: 13px; font-weight: 700;
@@ -294,18 +273,6 @@ a:hover { text-decoration: underline; }
 .drag-hint-pass { left: 16px; color: var(--st-pass); border: 2px solid var(--st-pass); }
 .drag-hint-save { right: 16px; color: var(--st-save); border: 2px solid var(--st-save); }
 .drag-hint-star { left: 50%; transform: translateX(-50%); color: var(--st-star); border: 2px solid var(--st-star); }
-
-.mini-btn {
-    padding: 5px 14px; border-radius: 5px; border: 1px solid var(--border);
-    font-size: 12px; font-weight: 600; cursor: pointer; transition: all .12s;
-    background: var(--bg);
-}
-.mini-btn:hover { transform: scale(1.04); }
-.mini-pass { color: var(--st-pass); border-color: var(--st-pass); }
-.mini-save { color: var(--st-save); border-color: var(--st-save); }
-.mini-star { color: var(--st-star); border-color: var(--st-star); }
-.mini-btn.active-status { background: var(--bg-hover); }
-.action-btn.active-status { background: var(--bg-hover); }
 
 /* ── Markdown content ─────────────────────────────────────────── */
 .md h2 { font-size: 15px; font-weight: 700; margin: 18px 0 8px; color: var(--text); }
@@ -348,59 +315,15 @@ a:hover { text-decoration: underline; }
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ── Review view ──────────────────────────────────────────────── */
-#view-review {
-    display: flex; flex-direction: column;
-    flex: 1; min-height: 0;
-    overflow: hidden;
-    background: var(--bg);
-}
-
-.card-container {
-    flex: 1; min-height: 0; overflow: hidden;
-    max-width: 740px; width: 100%; margin: 0 auto; padding: 16px 24px;
-}
-
-.review-card {
-    background: var(--bg-card); border: 1px solid var(--border);
-    border-radius: 12px; padding: 28px 32px;
-    position: relative; transition: transform .3s ease, opacity .3s ease;
-    transform-origin: center;
-    display: flex; flex-direction: column; height: 100%;
-}
-.review-card.swipe-left  { transform: translateX(-130%) rotate(-6deg); opacity: 0; }
-.review-card.swipe-right { transform: translateX(130%) rotate(6deg);  opacity: 0; }
-.review-card.swipe-up    { transform: translateY(-130%); opacity: 0; }
-.review-card.entering    { animation: cardIn .25s ease-out; }
-
-@keyframes cardIn {
-    from { opacity: 0; transform: scale(.96) translateY(8px); }
-    to   { opacity: 1; transform: scale(1) translateY(0); }
-}
-
+/* ── Card header / meta / body ───────────────────────────────── */
 .card-header { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
 .card-title  { font-size: 20px; font-weight: 700; line-height: 1.35; margin-bottom: 10px; }
-.card-meta   { display: flex; justify-content: space-between; align-items: center; color: var(--text-muted); font-size: 13px; }
-
+.card-meta   { display: flex; justify-content: space-between; align-items: center; color: var(--text-muted); font-size: 13px; flex-wrap: wrap; gap: 6px; }
 .card-body {
     font-size: 14px; line-height: 1.8;
-    flex: 1; min-height: 0; overflow-y: auto;
-    scrollbar-width: thin; scrollbar-color: var(--border) transparent;
-}
-
-/* ── Review footer ────────────────────────────────────────────── */
-.review-footer {
-    flex-shrink: 0;
-    max-width: 740px; width: 100%; margin: 0 auto;
-    border-top: 1px solid var(--border);
-    background: var(--bg);
 }
 
 /* ── Action buttons ───────────────────────────────────────────── */
-.review-actions {
-    display: flex; justify-content: center; gap: 14px;
-    max-width: 740px; margin: 0 auto; padding: 12px 24px 20px;
-}
 .action-btn {
     flex: 1; max-width: 170px; padding: 14px 20px;
     border: 2px solid var(--border); border-radius: 10px;
@@ -418,6 +341,7 @@ a:hover { text-decoration: underline; }
 .action-save:hover { background: var(--bg-hover); }
 .action-star { color: var(--st-star); border-color: var(--st-star); }
 .action-star:hover { background: var(--bg-hover); }
+.action-btn.active-status { background: var(--bg-hover); }
 
 .action-undo {
     flex: 0 0 auto !important; width: 48px; max-width: 48px !important;
@@ -427,20 +351,6 @@ a:hover { text-decoration: underline; }
 }
 .action-undo:hover { color: var(--text) !important; background: var(--bg-hover); }
 .action-undo.disabled { opacity: 0.25; pointer-events: none; }
-
-#browse-undo {
-    position: absolute; left: 50%; transform: translateX(-50%);
-    bottom: calc(100% + 8px);
-    background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
-    color: var(--text-muted); font-size: 13px; font-weight: 500;
-    padding: 8px 18px; cursor: pointer; transition: all .15s;
-    display: none; align-items: center; gap: 6px; white-space: nowrap;
-    box-shadow: 0 2px 8px rgba(0,0,0,.2);
-}
-#browse-undo:hover { color: var(--text); background: var(--bg-hover); }
-#browse-undo.visible { display: flex; }
-#browse-undo kbd { font-size: 10px; color: var(--text-muted); font-family: inherit; }
-.browse-actions { position: relative; }
 
 /* ── Empty state ──────────────────────────────────────────────── */
 .empty-state {
@@ -458,13 +368,18 @@ a:hover { text-decoration: underline; }
 }
 .empty-state button:hover { background: var(--bg-hover); }
 
+/* ── Drawer empty state ──────────────────────────────────────── */
+.drawer-empty {
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; padding: 60px 24px; color: var(--text-muted);
+    text-align: center; min-height: 200px;
+}
+.drawer-empty .empty-icon { font-size: 40px; margin-bottom: 12px; }
+.drawer-empty h3 { font-size: 17px; color: var(--text); margin-bottom: 6px; }
+.drawer-empty p { font-size: 13px; }
+
 /* ── Responsive ───────────────────────────────────────────────── */
 @media (max-width: 768px) {
-    .browse-split { flex-direction: column; height: auto; }
-    .browse-list-panel { width: 100% !important; max-height: 45vh; min-width: 0; }
-    .resize-handle { display: none; }
-    .browse-detail-panel { border-left: none; border-top: 1px solid var(--border); min-height: 50vh; }
-
     .article-row {
         grid-template-columns: 1fr;
         gap: 3px; padding: 10px 16px;
@@ -473,16 +388,15 @@ a:hover { text-decoration: underline; }
     .article-row .source-name { font-size: 11px; }
     .article-row .title { white-space: normal; }
 
-    .review-card { padding: 16px; border-radius: 8px; }
-    .deck-card { padding: 20px; border-radius: 8px; }
-    .card-title { font-size: 17px; }
-    .card-container { padding: 8px 12px; }
-    .review-actions { gap: 8px; padding: 8px 16px 12px; }
-    .browse-actions { gap: 8px; padding: 12px 16px 16px; }
+    .drawer { width: 100vw; max-width: 100vw; }
+    .drawer-backdrop.open { opacity: 1; pointer-events: auto; }
+    .drawer-card { padding: 16px; border-radius: 8px; }
+    .drawer-footer { gap: 8px; padding: 12px 16px 16px; }
     .action-btn { padding: 12px 14px; font-size: 14px; }
     .action-btn kbd { display: none; }
     .action-undo { padding: 12px 0 !important; width: 42px; max-width: 42px !important; }
-    .card-deck-area { padding: 16px 16px 0; }
+
+    .card-title { font-size: 17px; }
     .filters-bar { padding: 10px 16px; }
     .filters-bar select, .filters-bar input { font-size: 12px; padding: 6px 8px; }
     #header { padding: 8px 16px; gap: 4px; }
@@ -584,16 +498,11 @@ a:hover { text-decoration: underline; }
             </select>
         </div>
         <div style="display:flex;align-items:center;gap:8px">
+            <span id="review-counter" class="review-counter"></span>
+            <button class="nav-btn" id="btn-review" onclick="openDrawerReview()">Review</button>
             <button class="settings-toggle" id="settings-btn" onclick="openSettings()" title="Settings">&#9881;</button>
             <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9728;</button>
         </div>
-    </div>
-    <div class="header-row">
-        <nav>
-            <button class="nav-btn" id="nav-browse" onclick="showView('browse')">Browse</button>
-            <button class="nav-btn active" id="nav-review" onclick="showView('review')">Review</button>
-        </nav>
-        <span id="review-counter" class="review-counter"></span>
     </div>
 </header>
 
@@ -605,8 +514,8 @@ a:hover { text-decoration: underline; }
 <!-- ── Loading banner ─────────────────────────────────────────── -->
 <div class="loading-banner" id="loading-banner">Loading content from GitHub...</div>
 
-<!-- ── Browse view ────────────────────────────────────────────── -->
-<main id="view-browse" class="view" style="display:none">
+<!-- ── Browse view (main view) ────────────────────────────────── -->
+<main id="view-browse" class="view">
     <div class="filters-bar" id="filters-bar">
         <select id="filter-source" onchange="applyFilters()">
             <option value="">All Sources</option>
@@ -626,38 +535,28 @@ a:hover { text-decoration: underline; }
         </select>
         <input type="text" id="filter-search" placeholder="Search titles..." oninput="renderBrowseList()">
     </div>
-    <div class="browse-split">
-        <div class="browse-list-panel" id="article-list"></div>
-        <div class="resize-handle" id="resize-handle"></div>
-        <div class="browse-detail-panel" id="article-detail">
-            <div class="card-deck-area" id="card-deck-area">
-                <div class="deck-empty" id="deck-empty">Select an article to view</div>
-            </div>
-            <div class="browse-actions" id="browse-actions" style="display:none">
-                <button class="undo-btn" id="browse-undo" onclick="undoLastAction()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h10a5 5 0 0 1 0 10H12"/><polyline points="7 14 3 10 7 6"/></svg> Undo<kbd>Z</kbd></button>
-                <button class="action-btn action-pass" id="ba-pass" onclick="cardAction('pass')">Pass<kbd>&#8592; / 1</kbd></button>
-                <button class="action-btn action-star" id="ba-star" onclick="cardAction('star')">Star<kbd>&#8593; / 3</kbd></button>
-                <button class="action-btn action-save" id="ba-save" onclick="cardAction('save')">Save<kbd>&#8594; / 2</kbd></button>
-            </div>
-        </div>
-    </div>
+    <div id="article-list"></div>
 </main>
 
-<!-- ── Review view ────────────────────────────────────────────── -->
-<main id="view-review" class="view">
-    <div class="card-container" id="card-container"></div>
-    <div class="review-footer" id="review-footer" style="display:none">
-        <div class="review-actions">
-            <button class="action-btn action-undo" id="review-undo" onclick="undoLastAction()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h10a5 5 0 0 1 0 10H12"/><polyline points="7 14 3 10 7 6"/></svg><kbd>Z</kbd></button>
-            <button class="action-btn action-pass" onclick="reviewAction('pass')">Pass<kbd>&#8592;</kbd></button>
-            <button class="action-btn action-star" onclick="reviewAction('star')">Star<kbd>&#8593;</kbd></button>
-            <button class="action-btn action-save" onclick="reviewAction('save')">Save<kbd>&#8594;</kbd></button>
+<!-- ── Drawer (slides in from right) ─────────────────────────── -->
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+<aside class="drawer" id="drawer">
+    <div class="drawer-header">
+        <div class="drawer-nav">
+            <button class="drawer-nav-btn" id="drawer-prev" onclick="drawerNavigate(-1)" title="Previous (K)">&#8592;</button>
+            <span class="drawer-counter" id="drawer-counter"></span>
+            <button class="drawer-nav-btn" id="drawer-next" onclick="drawerNavigate(1)" title="Next (J)">&#8594;</button>
         </div>
+        <button class="drawer-close" id="drawer-close" onclick="closeDrawer()" title="Close (Esc)">&times;</button>
     </div>
-</main>
-
-<!-- ── Empty state (shared) ───────────────────────────────────── -->
-<div id="empty-state" class="empty-state" style="display:none"></div>
+    <div class="drawer-body" id="drawer-body"></div>
+    <div class="drawer-footer" id="drawer-footer">
+        <button class="action-btn action-undo disabled" id="drawer-undo" onclick="undoLastAction()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h10a5 5 0 0 1 0 10H12"/><polyline points="7 14 3 10 7 6"/></svg><kbd>Z</kbd></button>
+        <button class="action-btn action-pass" id="da-pass" onclick="drawerAction('pass')">Pass<kbd>&#8592; / 1</kbd></button>
+        <button class="action-btn action-star" id="da-star" onclick="drawerAction('star')">Star<kbd>&#8593; / 3</kbd></button>
+        <button class="action-btn action-save" id="da-save" onclick="drawerAction('save')">Save<kbd>&#8594; / 2</kbd></button>
+    </div>
+</aside>
 
 <script>
 /* ══════════════════════════════════════════════════════════════
@@ -673,16 +572,19 @@ let allArticles = [];
 let browseArticles = [];
 let filteredArticles = [];
 let selectedIdx = -1;
-let reviewQueue = [];
-let reviewIdx = 0;
 let animating = false;
-let undoStack = []; // [{ path, prevStatus, prevReviewedAt, view, browseIdx?, reviewQueueIdx? }, ...]
-let feedsMap = {};      // {source_id: source_config}
-let reviewsData = {};   // {path: {status, reviewed_at}}
+let undoStack = [];
+let feedsMap = {};
+let reviewsData = {};
 let currentBranch = localStorage.getItem('review-branch') || 'main';
 let workerUrl = localStorage.getItem('review-worker-url') || '';
 let authToken = localStorage.getItem('review-auth-token') || '';
 let useWorker = false;
+
+/* ── Drawer state ────────────────────────────────────────────── */
+let drawerOpen = false;
+let drawerMode = 'single'; // 'single' or 'review'
+let drawerIdx = -1;         // index into filteredArticles
 
 /* ── Helpers ──────────────────────────────────────────────────── */
 function esc(s) {
@@ -709,11 +611,9 @@ function renderSummaryBody(body, artPath) {
     }
 
     if (hrIdx === -1) {
-        // Old format — no headline/details split
         return regenBar + `<div class="md">${html}</div>`;
     }
 
-    // Find the end of the <hr> tag
     const hrEnd = html.indexOf('>', hrIdx) + 1;
     const headline = html.substring(0, hrIdx).trim();
     const details  = html.substring(hrEnd).trim();
@@ -762,7 +662,7 @@ async function regenerateSummary(artPath, btn) {
         art.body = data.body;
         art._regenerated = true;
 
-        // Re-render the card in whichever view is active
+        // Re-render the card in the drawer
         rerenderActiveCard(art);
     } catch (e) {
         alert('Regeneration failed: ' + e.message);
@@ -786,7 +686,6 @@ async function saveSummary(artPath, btn) {
     btn.textContent = 'Saving...';
 
     try {
-        // Get current file SHA (needed for GitHub API update)
         const fileResp = await fetch(
             `${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${art.path}?ref=${encodeURIComponent(currentBranch)}`,
             { headers: { 'Authorization': 'token ' + ghToken } }
@@ -794,18 +693,15 @@ async function saveSummary(artPath, btn) {
         if (!fileResp.ok) throw new Error('Could not fetch file: HTTP ' + fileResp.status);
         const fileData = await fileResp.json();
 
-        // Rebuild the markdown file with updated body
         const rawResp = await fetch(rawUrl(art.path));
         const rawText = await rawResp.text();
 
-        // Extract frontmatter block, preserve it, replace body
         const fmFirst = rawText.indexOf('---');
         const fmSecond = rawText.indexOf('---', fmFirst + 3);
         if (fmFirst === -1 || fmSecond === -1) throw new Error('Could not parse frontmatter');
         const frontmatter = rawText.substring(fmFirst, fmSecond + 3);
         const newContent = `${frontmatter}\n\n${art.body}\n`;
 
-        // Update via GitHub API
         const updateResp = await fetch(
             `${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${art.path}`,
             {
@@ -836,11 +732,10 @@ async function saveSummary(artPath, btn) {
 }
 
 function rerenderActiveCard(art) {
-    const currentView = document.getElementById('view-review').style.display !== 'none' ? 'review' : 'browse';
-    if (currentView === 'review') {
-        renderCard();
-    } else {
-        renderBrowseCard(art);
+    if (drawerOpen && drawerIdx >= 0 && drawerIdx < filteredArticles.length) {
+        if (filteredArticles[drawerIdx].path === art.path) {
+            renderDrawerCard();
+        }
     }
 }
 
@@ -892,7 +787,6 @@ async function saveSettings() {
     useWorker = !!(url && token);
     updateWarningBanner();
 
-    // Save summarization settings
     const summarizeUrl = document.getElementById('cfg-summarize-url').value.trim().replace(/\/+$/, '');
     const anthropicKey = document.getElementById('cfg-anthropic-key').value.trim();
     const ghToken = document.getElementById('cfg-github-token').value.trim();
@@ -900,7 +794,6 @@ async function saveSettings() {
     localStorage.setItem('sourcerer-anthropic-key', anthropicKey);
     localStorage.setItem('sourcerer-github-token', ghToken);
 
-    // Re-fetch reviews from worker
     if (useWorker) {
         await fetchReviews();
         mergeReviewsIntoArticles();
@@ -933,7 +826,6 @@ async function loadBranches() {
             if (b.name === currentBranch) o.selected = true;
             sel.appendChild(o);
         });
-        // If saved branch doesn't exist in list, default to main
         if (!branches.some(b => b.name === currentBranch)) {
             currentBranch = 'main';
             sel.value = 'main';
@@ -942,7 +834,6 @@ async function loadBranches() {
         }
     } catch (e) {
         console.error('Failed to load branches:', e);
-        // Keep default "main" option
     }
 }
 
@@ -968,7 +859,6 @@ function rawUrl(path) {
 }
 
 function parseFrontmatter(text) {
-    // Find opening and closing --- markers for frontmatter
     const first = text.indexOf('---');
     if (first === -1) return null;
     const second = text.indexOf('---', first + 3);
@@ -990,18 +880,15 @@ async function loadContent() {
     allArticles = [];
 
     try {
-        // 1. Get file tree
         const treeUrl = `${GITHUB_API}/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/trees/${encodeURIComponent(currentBranch)}?recursive=1`;
         const treeResp = await fetch(treeUrl);
         if (!treeResp.ok) throw new Error('Failed to fetch file tree: HTTP ' + treeResp.status);
         const treeData = await treeResp.json();
 
-        // Filter for content markdown files
         const contentFiles = treeData.tree.filter(
             f => f.type === 'blob' && f.path.startsWith('content/') && f.path.endsWith('.md')
         );
 
-        // 2. Fetch feeds.yaml
         try {
             const feedsResp = await fetch(rawUrl('feeds.yaml'));
             if (feedsResp.ok) {
@@ -1014,7 +901,6 @@ async function loadContent() {
             console.warn('Failed to load feeds.yaml:', e);
         }
 
-        // 3. Fetch all content files in parallel (batched to avoid overwhelming the browser)
         const BATCH_SIZE = 20;
         for (let i = 0; i < contentFiles.length; i += BATCH_SIZE) {
             const batch = contentFiles.slice(i, i + BATCH_SIZE);
@@ -1046,19 +932,14 @@ async function loadContent() {
             allArticles.push(...results.filter(Boolean));
         }
 
-        // 4. Fill in source names from feeds
         allArticles.forEach(a => {
             const src = feedsMap[a.source];
             a.source_name = src ? (src.name || a.source) : a.source;
         });
 
-        // 5. Merge reviews
         mergeReviewsIntoArticles();
-
-        // 6. Populate source filter
         populateSourceFilter();
 
-        // 7. Render
         browseArticles = [...allArticles];
         applyFilters();
         refreshStats();
@@ -1111,7 +992,6 @@ function populateSourceFilter() {
    REVIEWS API (Cloudflare Worker) + localStorage fallback
    ══════════════════════════════════════════════════════════════ */
 async function fetchReviews() {
-    // Try worker first
     if (useWorker) {
         try {
             const r = await fetch(workerUrl + '/reviews', {
@@ -1120,7 +1000,6 @@ async function fetchReviews() {
             if (r.ok) {
                 const data = await r.json();
                 reviewsData = data.reviews || {};
-                // Also sync to localStorage as backup
                 localStorage.setItem('review-data', JSON.stringify(reviewsData));
                 return;
             }
@@ -1129,7 +1008,6 @@ async function fetchReviews() {
         }
     }
 
-    // Fallback to localStorage
     try {
         reviewsData = JSON.parse(localStorage.getItem('review-data') || '{}');
     } catch { reviewsData = {}; }
@@ -1145,10 +1023,8 @@ async function saveReview(path, status) {
         };
     }
 
-    // Always save to localStorage
     localStorage.setItem('review-data', JSON.stringify(reviewsData));
 
-    // Try worker
     if (useWorker) {
         try {
             await fetch(workerUrl + '/review', {
@@ -1173,20 +1049,6 @@ function refreshStats() {
     document.getElementById('review-counter').textContent = reviewed + '/' + total;
 }
 
-/* ── View switching ───────────────────────────────────────────── */
-function showView(v) {
-    document.getElementById('view-browse').style.display  = v === 'browse' ? '' : 'none';
-    document.getElementById('view-review').style.display   = v === 'review' ? '' : 'none';
-    document.getElementById('empty-state').style.display   = 'none';
-    document.getElementById('nav-browse').classList.toggle('active', v === 'browse');
-    document.getElementById('nav-review').classList.toggle('active', v === 'review');
-    document.documentElement.classList.toggle('review-mode', v === 'review');
-    if (v === 'review') { loadReviewQueue(); }
-    undoStack = [];
-    updateUndoButton();
-}
-
-
 /* ══════════════════════════════════════════════════════════════
    BROWSE VIEW
    ══════════════════════════════════════════════════════════════ */
@@ -1208,6 +1070,18 @@ function applyFilters() {
 
     selectedIdx = -1;
     renderBrowseList();
+
+    // If drawer is open in review mode, reset to first unreviewed
+    if (drawerOpen && drawerMode === 'review') {
+        const nextIdx = findNextUnreviewed(-1);
+        if (nextIdx >= 0) {
+            drawerIdx = nextIdx;
+            highlightRow(drawerIdx);
+            renderDrawerCard();
+        } else {
+            renderDrawerEmpty();
+        }
+    }
 }
 
 function renderBrowseList() {
@@ -1233,16 +1107,6 @@ function renderBrowseList() {
 
     if (filteredArticles.length === 0) {
         list.innerHTML = '<div class="empty-state"><p>No articles match your filters.</p></div>';
-        document.getElementById('card-deck-area').innerHTML =
-            '<div class="deck-empty">No articles to show</div>';
-        document.getElementById('browse-actions').style.display = 'none';
-    }
-
-    // Restore or clear selection
-    if (selectedIdx >= 0 && selectedIdx < filteredArticles.length) {
-        selectArticle(selectedIdx);
-    } else if (filteredArticles.length > 0) {
-        selectArticle(0);
     }
 }
 
@@ -1257,14 +1121,61 @@ function buildRow(art, idx) {
         `<span class="title" title="${esc(art.title)}">${esc(art.title)}</span>` +
         `<span>${art.review_status ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>` : ''}</span>`;
 
-    row.addEventListener('click', () => selectArticle(idx));
+    row.addEventListener('click', () => openDrawerSingle(idx));
     return row;
 }
 
-function selectArticle(idx) {
-    if (idx < 0 || idx >= filteredArticles.length) return;
-    selectedIdx = idx;
+/* ══════════════════════════════════════════════════════════════
+   DRAWER
+   ══════════════════════════════════════════════════════════════ */
 
+function openDrawer() {
+    drawerOpen = true;
+    document.getElementById('drawer').classList.add('open');
+    document.getElementById('drawer-backdrop').classList.add('open');
+}
+
+function closeDrawer() {
+    drawerOpen = false;
+    drawerIdx = -1;
+    document.getElementById('drawer').classList.remove('open');
+    document.getElementById('drawer-backdrop').classList.remove('open');
+    undoStack = [];
+    updateUndoButton();
+    // Clear row selection
+    document.getElementById('article-list').querySelectorAll('.article-row').forEach(r => r.classList.remove('selected'));
+}
+
+function openDrawerSingle(idx) {
+    if (idx < 0 || idx >= filteredArticles.length) return;
+    drawerMode = 'single';
+    drawerIdx = idx;
+    selectedIdx = idx;
+    highlightRow(idx);
+    renderDrawerCard();
+    if (!drawerOpen) openDrawer();
+}
+
+function openDrawerReview() {
+    drawerMode = 'review';
+    undoStack = [];
+    updateUndoButton();
+
+    const nextIdx = findNextUnreviewed(-1);
+    if (nextIdx >= 0) {
+        drawerIdx = nextIdx;
+        selectedIdx = nextIdx;
+        highlightRow(nextIdx);
+        renderDrawerCard();
+        openDrawer();
+    } else {
+        drawerIdx = -1;
+        renderDrawerEmpty();
+        openDrawer();
+    }
+}
+
+function highlightRow(idx) {
     const list = document.getElementById('article-list');
     list.querySelectorAll('.article-row').forEach(r => r.classList.remove('selected'));
     const row = list.querySelector(`[data-idx="${idx}"]`);
@@ -1272,28 +1183,28 @@ function selectArticle(idx) {
         row.classList.add('selected');
         row.scrollIntoView({ block: 'nearest' });
     }
-
-    renderBrowseCard(filteredArticles[idx]);
 }
 
-function renderBrowseCard(art) {
-    const deckArea = document.getElementById('card-deck-area');
-    const actions = document.getElementById('browse-actions');
+function findNextUnreviewed(fromIdx) {
+    // Search forward from fromIdx+1
+    for (let i = fromIdx + 1; i < filteredArticles.length; i++) {
+        if (!filteredArticles[i].review_status) return i;
+    }
+    // Wrap around
+    for (let i = 0; i <= fromIdx; i++) {
+        if (!filteredArticles[i].review_status) return i;
+    }
+    return -1;
+}
 
-    if (!art) {
-        deckArea.innerHTML = '<div class="deck-empty">Select an article to view</div>';
-        actions.style.display = 'none';
+function renderDrawerCard() {
+    if (drawerIdx < 0 || drawerIdx >= filteredArticles.length) {
+        renderDrawerEmpty();
         return;
     }
 
-    actions.style.display = 'flex';
-
-    const remaining = filteredArticles.filter(a => !a.review_status).length;
-    const nextCount = Math.min(remaining - (art.review_status ? 0 : 1), 2);
-
-    let shadowHtml = '';
-    if (nextCount >= 1) shadowHtml += '<div class="deck-shadow deck-shadow-1"></div>';
-    if (nextCount >= 2) shadowHtml += '<div class="deck-shadow deck-shadow-2"></div>';
+    const art = filteredArticles[drawerIdx];
+    const body = document.getElementById('drawer-body');
 
     const statusBadge = art.review_status
         ? `<span class="review-badge" data-status="${art.review_status}">${art.review_status}</span>`
@@ -1304,50 +1215,126 @@ function renderBrowseCard(art) {
         ? `<button class="save-btn" onclick="event.stopPropagation();saveSummary('${esc(art.path)}', this)" style="margin-top:8px">Save to repo</button>`
         : '';
 
-    deckArea.innerHTML =
-        `<div class="deck-stack">` +
-            shadowHtml +
-            `<div class="deck-card entering" id="browse-deck-card">` +
-                `<div class="drag-hint drag-hint-pass">Pass</div>` +
-                `<div class="drag-hint drag-hint-save">Save</div>` +
-                `<div class="drag-hint drag-hint-star">Star</div>` +
-                `<div class="card-header">` +
-                    `<div class="card-title">${esc(art.title)}</div>` +
-                    `<div class="card-meta">` +
-                        `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
-                        `<span>${esc(art.source_name)}</span>` +
-                        `<span>${art.date}</span>` +
-                        `<a href="${esc(art.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open original &#8594;</a>` +
-                        statusBadge +
-                    `</div>` +
+    body.innerHTML =
+        `<div class="drawer-card entering" id="drawer-card">` +
+            `<div class="drag-hint drag-hint-pass">Pass</div>` +
+            `<div class="drag-hint drag-hint-save">Save</div>` +
+            `<div class="drag-hint drag-hint-star">Star</div>` +
+            `<div class="card-header">` +
+                `<div class="card-title">${esc(art.title)}</div>` +
+                `<div class="card-meta">` +
+                    `<span class="type-badge" data-type="${art.type}">${art.type}</span>` +
+                    `<span>${esc(art.source_name)}</span>` +
+                    `<span>${art.date}</span>` +
+                    `<a href="${esc(art.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open original &#8594;</a>` +
+                    statusBadge +
                 `</div>` +
-                `<div class="card-body">${summaryHtml}${saveBtn}</div>` +
             `</div>` +
-        `</div>` +
-        `<div class="browse-remaining">${remaining} unreviewed remaining</div>`;
+            `<div class="card-body">${summaryHtml}${saveBtn}</div>` +
+        `</div>`;
 
-    updateActionButtons(art.review_status);
-    setupCardDrag(document.getElementById('browse-deck-card'));
+    updateDrawerActionButtons(art.review_status);
+    updateDrawerCounter();
+    setupCardDrag(document.getElementById('drawer-card'));
 }
 
-function updateActionButtons(status) {
+function renderDrawerEmpty() {
+    const body = document.getElementById('drawer-body');
+    body.innerHTML =
+        `<div class="drawer-empty">` +
+            `<div class="empty-icon">&#10003;</div>` +
+            `<h3>All caught up!</h3>` +
+            `<p>No unreviewed articles remaining.</p>` +
+        `</div>`;
+    updateDrawerCounter();
+    document.getElementById('drawer-footer').style.display = 'none';
+}
+
+function updateDrawerActionButtons(status) {
+    document.getElementById('drawer-footer').style.display = '';
     ['pass', 'star', 'save'].forEach(s => {
-        const btn = document.getElementById('ba-' + s);
+        const btn = document.getElementById('da-' + s);
         if (btn) btn.classList.toggle('active-status', status === s);
     });
 }
 
-async function cardAction(status) {
-    if (animating || selectedIdx < 0 || selectedIdx >= filteredArticles.length) return;
+function updateDrawerCounter() {
+    const counter = document.getElementById('drawer-counter');
+    const prevBtn = document.getElementById('drawer-prev');
+    const nextBtn = document.getElementById('drawer-next');
+
+    if (drawerMode === 'review') {
+        const remaining = filteredArticles.filter(a => !a.review_status).length;
+        counter.textContent = remaining + ' left';
+        prevBtn.disabled = true;
+        nextBtn.disabled = remaining <= 0;
+    } else {
+        if (drawerIdx >= 0 && filteredArticles.length > 0) {
+            counter.textContent = (drawerIdx + 1) + '/' + filteredArticles.length;
+        } else {
+            counter.textContent = '';
+        }
+        prevBtn.disabled = drawerIdx <= 0;
+        nextBtn.disabled = drawerIdx >= filteredArticles.length - 1;
+    }
+}
+
+function updateRowBadge(idx, status) {
+    const row = document.querySelector(`[data-idx="${idx}"]`);
+    if (row) {
+        const badgeCol = row.children[4];
+        if (status) {
+            badgeCol.innerHTML = `<span class="review-badge" data-status="${status}">${status}</span>`;
+            row.classList.add('reviewed');
+        } else {
+            badgeCol.innerHTML = '';
+            row.classList.remove('reviewed');
+        }
+    }
+}
+
+function drawerNavigate(direction) {
+    if (drawerMode === 'review') {
+        // In review mode, next goes to next unreviewed
+        if (direction > 0) {
+            const nextIdx = findNextUnreviewed(drawerIdx);
+            if (nextIdx >= 0 && nextIdx !== drawerIdx) {
+                drawerIdx = nextIdx;
+                selectedIdx = nextIdx;
+                highlightRow(nextIdx);
+                renderDrawerCard();
+            }
+        }
+        return;
+    }
+
+    // Single mode: navigate through all articles
+    const newIdx = drawerIdx + direction;
+    if (newIdx >= 0 && newIdx < filteredArticles.length) {
+        drawerIdx = newIdx;
+        selectedIdx = newIdx;
+        highlightRow(newIdx);
+        renderDrawerCard();
+    }
+}
+
+async function drawerAction(status) {
+    if (animating || drawerIdx < 0 || drawerIdx >= filteredArticles.length) return;
     animating = true;
 
-    const card = document.getElementById('browse-deck-card');
-    const art = filteredArticles[selectedIdx];
+    const card = document.getElementById('drawer-card');
+    const art = filteredArticles[drawerIdx];
 
     // Track for undo
-    undoStack.push({ path: art.path, prevStatus: art.review_status || null, prevReviewedAt: art.reviewed_at || null, view: 'browse', browseIdx: selectedIdx });
+    undoStack.push({
+        path: art.path,
+        prevStatus: art.review_status || null,
+        prevReviewedAt: art.reviewed_at || null,
+        drawerIdx: drawerIdx,
+    });
     updateUndoButton();
 
+    // Animate card out
     const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
     if (card) card.classList.add(cls);
 
@@ -1360,37 +1347,35 @@ async function cardAction(status) {
     const orig = allArticles.find(a => a.path === art.path);
     if (orig) { orig.review_status = status; orig.reviewed_at = art.reviewed_at; }
 
-    // Update list row
-    const row = document.querySelector(`[data-idx="${selectedIdx}"]`);
-    if (row) {
-        const badgeCol = row.children[4];
-        badgeCol.innerHTML = `<span class="review-badge" data-status="${status}">${status}</span>`;
-        row.classList.add('reviewed');
-    }
+    // Update table row
+    updateRowBadge(drawerIdx, status);
 
     await sleep(300);
 
-    const nextIdx = findNextArticle(selectedIdx);
-    if (nextIdx >= 0) {
-        selectArticle(nextIdx);
+    // Auto-advance to next unreviewed
+    const nextIdx = findNextUnreviewed(drawerIdx);
+    if (nextIdx >= 0 && nextIdx !== drawerIdx) {
+        drawerIdx = nextIdx;
+        selectedIdx = nextIdx;
+        highlightRow(nextIdx);
+        renderDrawerCard();
+    } else if (nextIdx === drawerIdx && !filteredArticles[drawerIdx].review_status) {
+        // Same article is still the only unreviewed
+        renderDrawerCard();
     } else {
-        renderBrowseCard(art);
+        // No more unreviewed
+        if (drawerMode === 'review') {
+            renderDrawerEmpty();
+        } else {
+            // In single mode, just re-render the current card with updated status
+            renderDrawerCard();
+        }
     }
 
     animating = false;
 }
 
-function findNextArticle(fromIdx) {
-    for (let i = fromIdx + 1; i < filteredArticles.length; i++) {
-        if (!filteredArticles[i].review_status) return i;
-    }
-    for (let i = 0; i < fromIdx; i++) {
-        if (!filteredArticles[i].review_status) return i;
-    }
-    if (fromIdx + 1 < filteredArticles.length) return fromIdx + 1;
-    return -1;
-}
-
+/* ── Card drag gestures ──────────────────────────────────────── */
 function setupCardDrag(card) {
     if (!card) return;
     let startX = 0, startY = 0, dx = 0, dy = 0;
@@ -1449,9 +1434,9 @@ function setupCardDrag(card) {
 
         const THRESHOLD = 100;
         if (Math.abs(dx) > THRESHOLD && Math.abs(dx) > Math.abs(dy)) {
-            cardAction(dx < 0 ? 'pass' : 'save');
+            drawerAction(dx < 0 ? 'pass' : 'save');
         } else if (dy < -THRESHOLD && Math.abs(dy) > Math.abs(dx)) {
-            cardAction('star');
+            drawerAction('star');
         } else {
             card.style.transform = '';
             card.style.opacity = '';
@@ -1459,7 +1444,7 @@ function setupCardDrag(card) {
     }
 
     card.addEventListener('mousedown', e => {
-        if (e.target.tagName === 'A') return;
+        if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') return;
         e.preventDefault();
         onStart(e.clientX, e.clientY);
     });
@@ -1470,7 +1455,7 @@ function setupCardDrag(card) {
     document.addEventListener('mouseup', upHandler);
 
     card.addEventListener('touchstart', e => {
-        if (e.target.tagName === 'A') return;
+        if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') return;
         onStart(e.touches[0].clientX, e.touches[0].clientY);
     }, { passive: true });
     card.addEventListener('touchmove', e => {
@@ -1480,96 +1465,10 @@ function setupCardDrag(card) {
     card.addEventListener('touchend', () => onEnd(), { passive: true });
 }
 
-/* ══════════════════════════════════════════════════════════════
-   REVIEW VIEW
-   ══════════════════════════════════════════════════════════════ */
-
-function loadReviewQueue() {
-    reviewQueue = allArticles.filter(a => !a.review_status);
-    reviewQueue.sort((a, b) => b.date.localeCompare(a.date));
-    reviewIdx = 0;
-    renderCard();
-}
-
-function renderCard() {
-    const container = document.getElementById('card-container');
-    const counter   = document.getElementById('review-counter');
-    const footer    = document.getElementById('review-footer');
-    const empty     = document.getElementById('empty-state');
-
-    if (reviewIdx >= reviewQueue.length) {
-        container.innerHTML = '';
-        footer.style.display = 'none';
-        empty.style.display = 'flex';
-        empty.innerHTML =
-            `<div class="empty-icon">&#10003;</div>` +
-            `<h2>All caught up!</h2>` +
-            `<p>${reviewQueue.length === 0 ? 'No articles to review.' : 'You\'ve reviewed everything in the queue.'}</p>` +
-            `<button onclick="showView('browse')">Browse reviewed articles</button>`;
-        counter.textContent = `${reviewQueue.length}/${reviewQueue.length}`;
-        return;
-    }
-
-    empty.style.display = 'none';
-    footer.style.display = '';
-
-    const art = reviewQueue[reviewIdx];
-    counter.textContent = `${reviewIdx + 1}/${reviewQueue.length}`;
-
-    const summaryHtml = renderSummaryBody(art.body, art.path);
-    const saveBtn = art._regenerated
-        ? `<button class="save-btn" onclick="event.stopPropagation();saveSummary('${esc(art.path)}', this)" style="margin-top:8px">Save to repo</button>`
-        : '';
-
-    container.innerHTML =
-        `<div class="review-card entering" id="current-card">` +
-            `<div class="card-header">` +
-                `<div class="card-title">${esc(art.title)}</div>` +
-                `<div class="card-meta">` +
-                    `<span>${esc(art.source_name)} &middot; ${art.type}</span>` +
-                    `<a href="${esc(art.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open &#8594;</a>` +
-                `</div>` +
-            `</div>` +
-            `<div class="card-body">${summaryHtml}${saveBtn}</div>` +
-        `</div>`;
-}
-
-async function reviewAction(status) {
-    if (animating || reviewIdx >= reviewQueue.length) return;
-    animating = true;
-
-    const card = document.getElementById('current-card');
-    const art = reviewQueue[reviewIdx];
-
-    // Track for undo
-    undoStack.push({ path: art.path, prevStatus: art.review_status || null, prevReviewedAt: art.reviewed_at || null, view: 'review', reviewQueueIdx: reviewIdx });
-    updateUndoButton();
-
-    const cls = { pass: 'swipe-left', save: 'swipe-right', star: 'swipe-up' }[status];
-    card.classList.add(cls);
-
-    // Save review
-    saveReview(art.path, status).then(() => refreshStats());
-
-    // Update local state
-    art.review_status = status;
-    art.reviewed_at = new Date().toISOString();
-    const orig = allArticles.find(a => a.path === art.path);
-    if (orig) { orig.review_status = status; orig.reviewed_at = art.reviewed_at; }
-
-    await sleep(300);
-    reviewIdx++;
-    renderCard();
-    animating = false;
-}
-
 /* ── Undo ─────────────────────────────────────────────────────── */
 function updateUndoButton() {
-    const browseUndo = document.getElementById('browse-undo');
-    const reviewUndo = document.getElementById('review-undo');
-    const top = undoStack.length > 0 ? undoStack[undoStack.length - 1] : null;
-    if (browseUndo) browseUndo.classList.toggle('visible', !!top && top.view === 'browse');
-    if (reviewUndo) reviewUndo.classList.toggle('disabled', !top || top.view !== 'review');
+    const undoBtn = document.getElementById('drawer-undo');
+    if (undoBtn) undoBtn.classList.toggle('disabled', undoStack.length === 0);
 }
 
 async function undoLastAction() {
@@ -1577,7 +1476,7 @@ async function undoLastAction() {
     animating = true;
 
     const action = undoStack.pop();
-    const { path, prevStatus, prevReviewedAt, view } = action;
+    const { path, prevStatus, prevReviewedAt } = action;
 
     // Revert in allArticles
     const art = allArticles.find(a => a.path === path);
@@ -1586,23 +1485,22 @@ async function undoLastAction() {
         art.reviewed_at = prevReviewedAt;
     }
 
-    // Persist reverted status (null = delete review)
+    // Persist reverted status
     await saveReview(path, prevStatus);
     refreshStats();
 
-    if (view === 'review') {
-        // Also revert in reviewQueue
-        const qArt = reviewQueue.find(a => a.path === path);
-        if (qArt) { qArt.review_status = prevStatus; qArt.reviewed_at = prevReviewedAt; }
-        reviewIdx = Math.max(0, reviewIdx - 1);
-        renderCard();
-    } else {
-        // Browse view — revert filtered article too
-        const fArt = filteredArticles.find(a => a.path === path);
-        if (fArt) { fArt.review_status = prevStatus; fArt.reviewed_at = prevReviewedAt; }
-        renderBrowseList();
-        selectArticle(action.browseIdx);
-    }
+    // Revert in filteredArticles
+    const fArt = filteredArticles.find(a => a.path === path);
+    if (fArt) { fArt.review_status = prevStatus; fArt.reviewed_at = prevReviewedAt; }
+
+    // Update table row
+    updateRowBadge(action.drawerIdx, prevStatus);
+
+    // Go back to the article that was undone
+    drawerIdx = action.drawerIdx;
+    selectedIdx = drawerIdx;
+    highlightRow(drawerIdx);
+    renderDrawerCard();
 
     updateUndoButton();
     animating = false;
@@ -1612,101 +1510,72 @@ async function undoLastAction() {
 document.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
 
-    // Undo: z or Ctrl+Z
+    // Undo: z or Ctrl+Z (only when drawer is open)
     if (e.key === 'z' || (e.key === 'z' && (e.ctrlKey || e.metaKey))) {
-        e.preventDefault();
-        undoLastAction();
+        if (drawerOpen) {
+            e.preventDefault();
+            undoLastAction();
+            return;
+        }
+    }
+
+    if (drawerOpen) {
+        switch (e.key) {
+            case 'Escape':
+                e.preventDefault();
+                closeDrawer();
+                break;
+            case 'j': case 'ArrowDown':
+                e.preventDefault();
+                drawerNavigate(1);
+                break;
+            case 'k': case 'ArrowUp':
+                if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    drawerAction('star');
+                } else {
+                    e.preventDefault();
+                    drawerNavigate(-1);
+                }
+                break;
+            case 'ArrowLeft':  case '1': e.preventDefault(); drawerAction('pass'); break;
+            case 'ArrowRight': case '2': e.preventDefault(); drawerAction('save'); break;
+            case '3': e.preventDefault(); drawerAction('star'); break;
+        }
         return;
     }
 
-    const inBrowse = document.getElementById('view-browse').style.display !== 'none';
-    const inReview = document.getElementById('view-review').style.display !== 'none';
-
-    if (inBrowse) {
-        switch (e.key) {
-            case 'j': case 'ArrowDown':
-                e.preventDefault();
-                if (selectedIdx < filteredArticles.length - 1) selectArticle(selectedIdx + 1);
-                break;
-            case 'k':
-                e.preventDefault();
-                if (selectedIdx > 0) selectArticle(selectedIdx - 1);
-                break;
-            case 'ArrowLeft':  case '1': e.preventDefault(); cardAction('pass'); break;
-            case 'ArrowRight': case '2': e.preventDefault(); cardAction('save'); break;
-            case 'ArrowUp':    case '3': e.preventDefault(); cardAction('star'); break;
-        }
-    }
-
-    if (inReview) {
-        switch (e.key) {
-            case 'ArrowLeft':  e.preventDefault(); reviewAction('pass'); break;
-            case 'ArrowRight': e.preventDefault(); reviewAction('save'); break;
-            case 'ArrowUp':    e.preventDefault(); reviewAction('star'); break;
-        }
+    // Drawer closed — table navigation
+    switch (e.key) {
+        case 'j': case 'ArrowDown':
+            e.preventDefault();
+            if (selectedIdx < filteredArticles.length - 1) {
+                selectedIdx++;
+                highlightRow(selectedIdx);
+            }
+            break;
+        case 'k': case 'ArrowUp':
+            e.preventDefault();
+            if (selectedIdx > 0) {
+                selectedIdx--;
+                highlightRow(selectedIdx);
+            }
+            break;
+        case 'Enter':
+            e.preventDefault();
+            if (selectedIdx >= 0) openDrawerSingle(selectedIdx);
+            break;
+        case 'r':
+            e.preventDefault();
+            openDrawerReview();
+            break;
     }
 });
 
-/* ── Touch swipe (review view) ───────────────────────────────── */
-let touchX = 0, touchY = 0, touchInCardBody = false;
-const SWIPE_MIN = 80;
-
-document.addEventListener('touchstart', e => {
-    touchX = e.changedTouches[0].screenX;
-    touchY = e.changedTouches[0].screenY;
-    touchInCardBody = !!e.target.closest('.card-body');
-}, { passive: true });
-
-document.addEventListener('touchend', e => {
-    if (document.getElementById('view-review').style.display === 'none') return;
-    if (touchInCardBody) return;
-    const dx = e.changedTouches[0].screenX - touchX;
-    const dy = e.changedTouches[0].screenY - touchY;
-    if (Math.abs(dx) > SWIPE_MIN && Math.abs(dx) > Math.abs(dy)) {
-        dx < 0 ? reviewAction('pass') : reviewAction('save');
-    } else if (dy < -SWIPE_MIN && Math.abs(dy) > Math.abs(dx)) {
-        reviewAction('star');
-    }
-}, { passive: true });
-
-/* ── Resize handle (drag to resize panels) ───────────────────── */
-(function initResize() {
-    const handle = document.getElementById('resize-handle');
-    const listPanel = document.getElementById('article-list');
-    const STORAGE_KEY = 'review-panel-width';
-
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) listPanel.style.width = saved;
-    else listPanel.style.width = '45%';
-
-    let dragging = false;
-
-    handle.addEventListener('mousedown', (e) => {
-        e.preventDefault();
-        dragging = true;
-        handle.classList.add('active');
-        document.body.style.cursor = 'col-resize';
-        document.body.style.userSelect = 'none';
-    });
-
-    document.addEventListener('mousemove', (e) => {
-        if (!dragging) return;
-        const container = listPanel.parentElement;
-        const rect = container.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const pct = Math.min(Math.max(x / rect.width * 100, 15), 80);
-        listPanel.style.width = pct + '%';
-    });
-
-    document.addEventListener('mouseup', () => {
-        if (!dragging) return;
-        dragging = false;
-        handle.classList.remove('active');
-        document.body.style.cursor = '';
-        document.body.style.userSelect = '';
-        localStorage.setItem(STORAGE_KEY, listPanel.style.width);
-    });
-})();
+/* ── Backdrop click (mobile close) ───────────────────────────── */
+document.getElementById('drawer-backdrop').addEventListener('click', () => {
+    if (drawerOpen) closeDrawer();
+});
 
 /* ── Theme toggle ─────────────────────────────────────────────── */
 function applyTheme(theme) {
@@ -1728,12 +1597,9 @@ applyTheme(localStorage.getItem('review-theme') || 'dark');
     if (window.__pendingBlobRedirect) return;
     useWorker = !!(workerUrl && authToken);
     updateWarningBanner();
-    document.documentElement.classList.add('review-mode');
 
-    // Load branches + reviews in parallel, then load content
     await Promise.all([loadBranches(), fetchReviews()]);
     await loadContent();
-    loadReviewQueue();
 })();
 </script>
 </body>
