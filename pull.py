@@ -73,8 +73,6 @@ def write_article(article: dict, content_dir: str = "content") -> str:
         f'type: {article.get("source_type", "unknown")}',
         "---",
         "",
-        "## Summary",
-        "",
     ]
 
     if article.get("summary"):

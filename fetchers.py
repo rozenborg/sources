@@ -243,7 +243,7 @@ def _transcribe_chunked(path: str, tmp_dir: str, client) -> Optional[str]:
 
 def summarize(text: str, source_type: str = "rss", title: str = "",
               model: str = "claude-sonnet-4-20250514") -> Optional[str]:
-    """Summarize text via Claude API. Returns bullet-point summary."""
+    """Summarize text via Claude API. Returns a punchy headline + detailed bullets."""
     try:
         from anthropic import Anthropic
     except ImportError:
@@ -265,10 +265,14 @@ def summarize(text: str, source_type: str = "rss", title: str = "",
         type_hint = "This is a company blog post. Focus on product announcements, technical capabilities, and strategic implications.\n\n"
 
     prompt = (
-        "You are an expert analyst creating an intelligence briefing. "
-        "Summarize the following into clear, actionable bullet points. "
-        "Focus on: key facts, strategic implications, and actionable insights. "
-        "Use markdown bullet points (- ). No introductory phrases — just the bullets.\n\n"
+        "You are an expert analyst creating an intelligence briefing.\n\n"
+        "Produce a two-part summary:\n\n"
+        "1. HEADLINE: One or two punchy sentences — the \"so what?\" of this piece. "
+        "Make it concrete and specific, not generic. No bullet points, no bold, just a plain paragraph.\n\n"
+        "2. Then a line containing only --- (a horizontal rule).\n\n"
+        "3. DETAILS: 5-8 bullet points covering key facts, strategic implications, and actionable insights. "
+        "Use markdown bullet points (- **Bold label** explanation). Be specific and concise.\n\n"
+        "No introductory phrases, no section headings — just the headline paragraph, then ---, then the bullets.\n\n"
         f"{type_hint}"
         f"Title: {title}\n\n"
         f"Content:\n{content}"
