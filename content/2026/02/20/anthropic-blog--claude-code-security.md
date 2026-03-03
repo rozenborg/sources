@@ -6,26 +6,14 @@ date: 2026-02-20
 type: sitemap
 ---
 
-## Summary
+Anthropic launches Claude Code Security, an AI-powered vulnerability scanner that reads and reasons about code like human security researchers, capable of finding complex logic flaws and access control issues that traditional rule-based tools miss. The company claims their AI has already discovered over 500 previously undetected vulnerabilities in production open-source codebases, some hidden for decades.
 
-- **Product Launch**: Claude Code Security now available in limited research preview for Enterprise and Team customers, with expedited free access for open-source maintainers
+---
 
-- **Core Capability**: AI-powered codebase scanning that detects security vulnerabilities and suggests targeted patches for human review
-
-- **Technical Differentiation**: Uses reasoning-based analysis instead of rule-based pattern matching, enabling detection of complex vulnerabilities like business logic flaws and broken access control
-
-- **Verification Process**: Multi-stage validation system where Claude re-examines findings to filter false positives and assigns severity ratings plus confidence scores
-
-- **Human-in-the-Loop**: All findings require human approval through dashboard interface; Claude identifies and suggests but developers decide on implementation
-
-- **Proven Performance**: Claude Opus 4.6 discovered 500+ previously undetected vulnerabilities in production open-source codebases, some existing for decades
-
-- **Strategic Context**: Anthropic positions this as defensive response to AI-enabled attacks, aiming to empower defenders before attackers exploit AI capabilities
-
-- **Market Timing**: Company expects significant portion of global code will be AI-scanned in near future due to model effectiveness at finding hidden bugs
-
-- **Integration**: Built on Claude Code platform, allowing teams to review findings within existing tools and workflows
-
-- **Research Foundation**: Based on 1+ years of cybersecurity research including competitive testing, critical infrastructure partnerships, and internal security validation
-
-- **Access Strategy**: Limited preview allows direct collaboration with Anthropic team to refine capabilities and ensure responsible deployment
+- **AI-powered static analysis** - Goes beyond pattern matching to understand component interactions and data flow, catching business logic flaws and broken access controls that rule-based scanners miss
+- **Multi-stage verification** - Each finding undergoes automated re-examination to filter false positives, with severity ratings and confidence scores to help teams prioritize fixes
+- **Proven track record** - Anthropic's team found 500+ vulnerabilities in production open-source code using Claude Opus 4.6, representing decades-old bugs that escaped expert review
+- **Human-in-the-loop workflow** - All patches require developer approval through a dashboard interface, with Claude suggesting fixes but never auto-applying changes
+- **Limited research preview** - Available now to Enterprise and Team customers with expedited free access for open-source maintainers to refine capabilities
+- **Defensive urgency** - Anthropic warns attackers will use similar AI capabilities to find exploits faster, positioning this as a defensive tool to patch vulnerabilities before they're exploited
+- **Integration advantage** - Built into existing Claude Code platform, allowing teams to review findings and iterate on fixes within familiar development workflows
