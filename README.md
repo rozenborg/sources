@@ -9,26 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-02 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-02 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-02 | 7 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-02 | 5 | ✅ |  |
-| The AI Collective | rss | 2026-03-02 | 7 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-02 | 10 | ✅ |  |
-| Real Estate News | rss | 2026-03-02 | 8 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-02 | 15 | ✅ |  |
-| Built In | sitemap | 2026-03-02 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-02 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-02 | 8 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-02 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-02 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-03-02 | 6 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-02 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-03 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-03 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-03 | 8 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-03 | 5 | ✅ |  |
+| The AI Collective | rss | 2026-03-03 | 8 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-03 | 12 | ✅ |  |
+| Real Estate News | rss | 2026-03-03 | 9 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-03 | 16 | ✅ |  |
+| Built In | sitemap | 2026-03-03 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-03 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-03 | 9 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-03 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-03 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-03-03 | 6 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-03 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-02
+- [Chris Dixon From Quant Trading To Building A16Z Crypto](content/2026/03/02/a16z-podcast--chris-dixon-from-quant-trading-to-building-a16z-crypto.md) — a16z-podcast
+- [The Brief Perplexitys Router Bet Notions Paid Agents](content/2026/03/02/ai-collective--the-brief-perplexitys-router-bet-notions-paid-agents.md) — ai-collective
+- [Enabling Claude Code To Work More Autonomously](content/2026/03/02/anthropic-blog--enabling-claude-code-to-work-more-autonomously.md) — anthropic-blog
+- [How Ai Damages Work Relationshipsand Where It Can Actually H](content/2026/03/02/hbr--how-ai-damages-work-relationshipsand-where-it-can-actually-h.md) — hbr
+- [The Risks Of Letting Ai Direct Conversations](content/2026/03/02/hbr--the-risks-of-letting-ai-direct-conversations.md) — hbr
+- [Openclaw Design Patterns Part 1 Of 7](content/2026/03/02/ken-huang-ai-expert--openclaw-design-patterns-part-1-of-7.md) — ken-huang-ai-expert
+- [New Pre Showing Tool Aims To Quickly Id Serious Buyers](content/2026/03/02/real-estate-news--new-pre-showing-tool-aims-to-quickly-id-serious-buyers.md) — real-estate-news
+
 ### 2026-03-01
 - [Another Viral Doomsday Post](content/2026/03/01/khemaridh-future-proof--another-viral-doomsday-post.md) — khemaridh-future-proof
 
@@ -65,12 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Responsible Scaling Policy V3](content/2026/02/24/anthropic-blog--responsible-scaling-policy-v3.md) — anthropic-blog
 - [Claude Code For Finance The Global Memory Shortage Doug Olau](content/2026/02/24/latent-space--claude-code-for-finance-the-global-memory-shortage-doug-olau.md) — latent-space
 - [United Launches Ai Powered Agent Productivity Suite](content/2026/02/24/real-estate-news--united-launches-ai-powered-agent-productivity-suite.md) — real-estate-news
-
-### 2026-02-23
-- [Ben Horowitz Rsi Crypto As Ai Money Classified Physics](content/2026/02/23/a16z-podcast--ben-horowitz-rsi-crypto-as-ai-money-classified-physics.md) — a16z-podcast
-- [Detecting And Preventing Distillation Attacks](content/2026/02/23/anthropic-blog--detecting-and-preventing-distillation-attacks.md) — anthropic-blog
-- [Ai Is Upending Marketing On Two Fronts](content/2026/02/23/hbr--ai-is-upending-marketing-on-two-fronts.md) — hbr
-- [The End Of Swe Bench Verified Mia Glaese Olivia Watkins Open](content/2026/02/23/latent-space--the-end-of-swe-bench-verified-mia-glaese-olivia-watkins-open.md) — latent-space
-- [Ai And Real Estate Data Whos Making The Rules](content/2026/02/23/real-estate-news--ai-and-real-estate-data-whos-making-the-rules.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
