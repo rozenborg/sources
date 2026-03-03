@@ -6,27 +6,14 @@ date: 2026-02-27
 type: rss
 ---
 
-## Summary
+Companies deploying generative AI face the same strategic challenge that portrait painters encountered with the invention of photography: simply using the new technology to optimize existing workflows will fail because AI commoditizes traditional sources of competitive advantage, forcing businesses to discover entirely new value creation models rather than just efficiency gains.
 
-## Key Facts
+---
 
-- New technologies fundamentally commoditize existing sources of competitive advantage rather than simply enhancing them
-- Historical example: Photography completely displaced portrait painters by commoditizing their core offering, not just improving efficiency
-- Traditional workflow optimization approaches fail when underlying value propositions become commoditized
-- Customer willingness to pay decreases dramatically when new technology replicates existing services at lower cost
-
-## Strategic Implications
-
-- Gen AI deployment requires rethinking value creation models, not just operational improvements
-- Companies cannot rely on existing competitive moats when AI democratizes their core capabilities
-- Value pools will shift away from traditional sources as AI makes previously scarce skills abundant
-- First-mover advantage may be temporary if focused solely on efficiency gains rather than new value creation
-
-## Actionable Insights
-
-- Identify which of your current value propositions are vulnerable to AI commoditization
-- Explore entirely new value creation opportunities that emerge from AI capabilities
-- Shift strategy from "AI-enhanced existing services" to "AI-enabled new offerings"
-- Investigate adjacent markets or customer needs that AI unlocks access to
-- Develop value propositions that leverage AI as a platform for innovation rather than automation
-- Assess customer willingness to pay for AI-augmented versus traditional offerings before major investments
+- **Commoditization threat** - Generative AI eliminates traditional competitive moats by making previously scarce capabilities widely accessible, similar to how photography displaced portrait painting entirely
+- **Workflow optimization trap** - Organizations focusing solely on using AI to make current processes faster and more efficient miss the fundamental shift in value creation dynamics
+- **Value pool migration** - AI doesn't just change how work gets done; it redirects where economic value concentrates, requiring companies to identify new sources of competitive differentiation
+- **Strategic reframing required** - Success demands moving beyond incremental improvements to fundamentally reimagining business models and value propositions in an AI-enabled landscape
+- **Historical precedent** - The camera analogy demonstrates that transformative technologies require adaptive strategies that embrace new value creation rather than defending old advantages
+- **Customer willingness to pay** - AI deployment must account for how the technology affects what customers are willing to pay for, as traditional offerings may lose perceived value
+- **Competitive positioning shift** - Companies need to identify what remains defensible and valuable when AI capabilities become commoditized across industries
