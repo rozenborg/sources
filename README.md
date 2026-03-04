@@ -9,26 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-03 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-03 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-03 | 8 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-03 | 5 | ✅ |  |
-| The AI Collective | rss | 2026-03-03 | 8 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-03 | 12 | ✅ |  |
-| Real Estate News | rss | 2026-03-03 | 9 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-03 | 16 | ✅ |  |
-| Built In | sitemap | 2026-03-03 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-03 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-03 | 9 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-03 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-03 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-03-03 | 6 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-03 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-04 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-04 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-04 | 8 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-04 | 5 | ✅ |  |
+| The AI Collective | rss | 2026-03-04 | 8 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-04 | 14 | ✅ |  |
+| Real Estate News | rss | 2026-03-04 | 9 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-04 | 16 | ✅ |  |
+| Built In | sitemap | 2026-03-04 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-04 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-04 | 10 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-04 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-04 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-03-04 | 6 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-04 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-03
+- [Ben Horowitz On What Makes A Great Founder](content/2026/03/03/a16z-podcast--ben-horowitz-on-what-makes-a-great-founder.md) — a16z-podcast
+- [How Deep Industry Research Agents Can Change Your Organizati](content/2026/03/03/hbr--how-deep-industry-research-agents-can-change-your-organizati.md) — hbr
+- [Peer Influence Can Make Or Break Your Ai Rollout](content/2026/03/03/hbr--peer-influence-can-make-or-break-your-ai-rollout.md) — hbr
+
 ### 2026-03-02
 - [Chris Dixon From Quant Trading To Building A16Z Crypto](content/2026/03/02/a16z-podcast--chris-dixon-from-quant-trading-to-building-a16z-crypto.md) — a16z-podcast
 - [The Brief Perplexitys Router Bet Notions Paid Agents](content/2026/03/02/ai-collective--the-brief-perplexitys-router-bet-notions-paid-agents.md) — ai-collective
@@ -68,11 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Close Your Workforces Ai Skills Gap By Designing An Adaptive](content/2026/02/25/hbr--close-your-workforces-ai-skills-gap-by-designing-an-adaptive.md) — hbr
 - [Searching The Space Of All Possible Materials Prof Max Welli](content/2026/02/25/latent-space--searching-the-space-of-all-possible-materials-prof-max-welli.md) — latent-space
 - [Costar Touts Homescom Momentum Bets Big On Ai After Strong Q](content/2026/02/25/real-estate-news--costar-touts-homescom-momentum-bets-big-on-ai-after-strong-q.md) — real-estate-news
-
-### 2026-02-24
-- [The Brief Openclaws Creator Heads To Openai Anthropics Sonne](content/2026/02/24/ai-collective--the-brief-openclaws-creator-heads-to-openai-anthropics-sonne.md) — ai-collective
-- [Responsible Scaling Policy V3](content/2026/02/24/anthropic-blog--responsible-scaling-policy-v3.md) — anthropic-blog
-- [Claude Code For Finance The Global Memory Shortage Doug Olau](content/2026/02/24/latent-space--claude-code-for-finance-the-global-memory-shortage-doug-olau.md) — latent-space
-- [United Launches Ai Powered Agent Productivity Suite](content/2026/02/24/real-estate-news--united-launches-ai-powered-agent-productivity-suite.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
