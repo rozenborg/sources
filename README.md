@@ -9,26 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-04 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-04 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-04 | 8 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-04 | 5 | ✅ |  |
-| The AI Collective | rss | 2026-03-04 | 8 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-04 | 14 | ✅ |  |
-| Real Estate News | rss | 2026-03-04 | 9 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-04 | 16 | ✅ |  |
-| Built In | sitemap | 2026-03-04 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-04 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-04 | 10 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-04 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-04 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-03-04 | 6 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-04 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-05 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-05 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-05 | 9 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-05 | 5 | ✅ |  |
+| The AI Collective | rss | 2026-03-05 | 9 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-05 | 16 | ✅ |  |
+| Real Estate News | rss | 2026-03-05 | 10 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-05 | 16 | ✅ |  |
+| Built In | sitemap | 2026-03-05 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-05 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-05 | 11 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-05 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-05 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-03-05 | 7 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-05 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-05
+- [Every Agent Needs A Box Aaron Levie Box](content/2026/03/05/latent-space--every-agent-needs-a-box-aaron-levie-box.md) — latent-space
+
+### 2026-03-04
+- [Deploying Ai In Healthcare](content/2026/03/04/a16z-podcast--deploying-ai-in-healthcare.md) — a16z-podcast
+- [The Builders Issue Qwen35 Small Notebooklm Styles And Cuda A](content/2026/03/04/ai-collective--the-builders-issue-qwen35-small-notebooklm-styles-and-cuda-a.md) — ai-collective
+- [Research How Ai Is Changing The Labor Market](content/2026/03/04/hbr--research-how-ai-is-changing-the-labor-market.md) — hbr
+- [When Ai Challenges Strategy](content/2026/03/04/hbr--when-ai-challenges-strategy.md) — hbr
+- [The Openclaw Design Patternspart 2 Of 7](content/2026/03/04/ken-huang-ai-expert--the-openclaw-design-patternspart-2-of-7.md) — ken-huang-ai-expert
+- [A Rechat Canva Integration Pultegroup Leans Into Ai](content/2026/03/04/real-estate-news--a-rechat-canva-integration-pultegroup-leans-into-ai.md) — real-estate-news
+
 ### 2026-03-03
 - [Ben Horowitz On What Makes A Great Founder](content/2026/03/03/a16z-podcast--ben-horowitz-on-what-makes-a-great-founder.md) — a16z-podcast
 - [How Deep Industry Research Agents Can Change Your Organizati](content/2026/03/03/hbr--how-deep-industry-research-agents-can-change-your-organizati.md) — hbr
@@ -64,14 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Stop Using Ai Like Its 2025](content/2026/02/26/khemaridh-future-proof--stop-using-ai-like-its-2025.md) — khemaridh-future-proof
 - [Live Anthropic Distillation How Models Cheat Swe Bench Dead ](content/2026/02/26/latent-space--live-anthropic-distillation-how-models-cheat-swe-bench-dead-.md) — latent-space
 - [How Capital Is Powering The Ai Infrastructure Buildout With ](content/2026/02/26/no-priors--how-capital-is-powering-the-ai-infrastructure-buildout-with-.md) — no-priors
-
-### 2026-02-25
-- [The Builders Issue Websocket Streams Grok Build Gemini 31 Ap](content/2026/02/25/ai-collective--the-builders-issue-websocket-streams-grok-build-gemini-31-ap.md) — ai-collective
-- [Acquires Vercept](content/2026/02/25/anthropic-blog--acquires-vercept.md) — anthropic-blog
-- [Ai Circular Financing](content/2026/02/25/builtin-com--ai-circular-financing.md) — builtin-com
-- [Ais Big Payoff Is Coordination Not Automation](content/2026/02/25/hbr--ais-big-payoff-is-coordination-not-automation.md) — hbr
-- [Close Your Workforces Ai Skills Gap By Designing An Adaptive](content/2026/02/25/hbr--close-your-workforces-ai-skills-gap-by-designing-an-adaptive.md) — hbr
-- [Searching The Space Of All Possible Materials Prof Max Welli](content/2026/02/25/latent-space--searching-the-space-of-all-possible-materials-prof-max-welli.md) — latent-space
-- [Costar Touts Homescom Momentum Bets Big On Ai After Strong Q](content/2026/02/25/real-estate-news--costar-touts-homescom-momentum-bets-big-on-ai-after-strong-q.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
