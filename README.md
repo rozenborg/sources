@@ -9,27 +9,36 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-05 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-05 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-05 | 9 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-05 | 5 | ✅ |  |
-| The AI Collective | rss | 2026-03-05 | 9 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-05 | 16 | ✅ |  |
-| Real Estate News | rss | 2026-03-05 | 10 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-05 | 16 | ✅ |  |
-| Built In | sitemap | 2026-03-05 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-05 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-05 | 11 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-05 | 1 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-05 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-03-05 | 7 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-05 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-06 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-06 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-06 | 10 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-06 | 6 | ✅ |  |
+| The AI Collective | rss | 2026-03-06 | 9 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-06 | 18 | ✅ |  |
+| Real Estate News | rss | 2026-03-06 | 10 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-06 | 17 | ✅ |  |
+| Built In | sitemap | 2026-03-06 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-06 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-06 | 12 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-06 | 1 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-06 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-03-06 | 8 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-06 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-06
+- [Where Stand Department War](content/2026/03/06/anthropic-blog--where-stand-department-war.md) — anthropic-blog
+- [Cursors Third Era Cloud Agents](content/2026/03/06/latent-space--cursors-third-era-cloud-agents.md) — latent-space
+
 ### 2026-03-05
+- [Ben Thompson Anthropic The Pentagon And The Limits Of Privat](content/2026/03/05/a16z-podcast--ben-thompson-anthropic-the-pentagon-and-the-limits-of-privat.md) — a16z-podcast
+- [Video Quick Take Why Leaders Should Embrace Thinking Mode Wi](content/2026/03/05/hbr--video-quick-take-why-leaders-should-embrace-thinking-mode-wi.md) — hbr
+- [When Using Ai Leads To Brain Fry](content/2026/03/05/hbr--when-using-ai-leads-to-brain-fry.md) — hbr
+- [Openclaw Design Patterns Part 3 Of 7 Orchestration Patterns](content/2026/03/05/ken-huang-ai-expert--openclaw-design-patterns-part-3-of-7-orchestration-patterns.md) — ken-huang-ai-expert
+- [I Paid My Daughter 7 To Learn Claude](content/2026/03/05/khemaridh-future-proof--i-paid-my-daughter-7-to-learn-claude.md) — khemaridh-future-proof
 - [Every Agent Needs A Box Aaron Levie Box](content/2026/03/05/latent-space--every-agent-needs-a-box-aaron-levie-box.md) — latent-space
 
 ### 2026-03-04
@@ -67,13 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Owasp Ai Vulnerability Scoring System Integrates Aiuc 1](content/2026/02/27/ken-huang-ai-expert--owasp-ai-vulnerability-scoring-system-integrates-aiuc-1.md) — ken-huang-ai-expert
 - [Weve Been Testing Ai Safety Wrong Heres How To Fix It](content/2026/02/27/ken-huang-ai-expert--weve-been-testing-ai-safety-wrong-heres-how-to-fix-it.md) — ken-huang-ai-expert
 - [Metrs Joel Becker On Exponential Time Horizon Evals Threat M](content/2026/02/27/latent-space--metrs-joel-becker-on-exponential-time-horizon-evals-threat-m.md) — latent-space
-
-### 2026-02-26
-- [When Giants Dont Go Public Inside The 5 Trillion Private Tec](content/2026/02/26/a16z-podcast--when-giants-dont-go-public-inside-the-5-trillion-private-tec.md) — a16z-podcast
-- [Statement Department Of War](content/2026/02/26/anthropic-blog--statement-department-of-war.md) — anthropic-blog
-- [Where Senior Leaders Are Struggling With Ai Adoption Accordi](content/2026/02/26/hbr--where-senior-leaders-are-struggling-with-ai-adoption-accordi.md) — hbr
-- [Stop Using Ai Like Its 2025](content/2026/02/26/khemaridh-future-proof--stop-using-ai-like-its-2025.md) — khemaridh-future-proof
-- [Live Anthropic Distillation How Models Cheat Swe Bench Dead ](content/2026/02/26/latent-space--live-anthropic-distillation-how-models-cheat-swe-bench-dead-.md) — latent-space
-- [How Capital Is Powering The Ai Infrastructure Buildout With ](content/2026/02/26/no-priors--how-capital-is-powering-the-ai-infrastructure-buildout-with-.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
