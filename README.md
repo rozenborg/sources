@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-07 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-07 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-07 | 10 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-07 | 6 | ✅ |  |
-| The AI Collective | rss | 2026-03-07 | 10 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-07 | 20 | ✅ |  |
-| Real Estate News | rss | 2026-03-07 | 10 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-07 | 18 | ✅ |  |
-| Built In | sitemap | 2026-03-07 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-07 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-07 | 13 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-07 | 2 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-07 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-03-07 | 8 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-07 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-08 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-08 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-08 | 11 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-08 | 6 | ✅ |  |
+| The AI Collective | rss | 2026-03-08 | 10 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-08 | 20 | ✅ |  |
+| Real Estate News | rss | 2026-03-08 | 10 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-08 | 18 | ✅ |  |
+| Built In | sitemap | 2026-03-08 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-08 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-08 | 13 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-08 | 2 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-08 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-03-08 | 8 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-08 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-07
+- [Openclaw Design Patterns Part 4 Of 7 Tooling Patterns](content/2026/03/07/ken-huang-ai-expert--openclaw-design-patterns-part-4-of-7-tooling-patterns.md) — ken-huang-ai-expert
+
 ### 2026-03-06
 - [Atlassian Ceo On The Saas Apocalypse Ai Agents What Comes Ne](content/2026/03/06/a16z-podcast--atlassian-ceo-on-the-saas-apocalypse-ai-agents-what-comes-ne.md) — a16z-podcast
 - [The Community Edition Daemons Agent Users And Ai Native Chap](content/2026/03/06/ai-collective--the-community-edition-daemons-agent-users-and-ai-native-chap.md) — ai-collective
@@ -71,8 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-03-01
 - [Another Viral Doomsday Post](content/2026/03/01/khemaridh-future-proof--another-viral-doomsday-post.md) — khemaridh-future-proof
-
-### 2026-02-28
-- [Statement Comments Secretary War](content/2026/02/28/anthropic-blog--statement-comments-secretary-war.md) — anthropic-blog
 
 <!-- RECENT_CONTENT_END -->
