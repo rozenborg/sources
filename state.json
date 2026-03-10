@@ -1,26 +1,26 @@
 {
   "sources": {
     "mollick-one-useful-thing": {
-      "last_success": "2026-03-09T08:32:21.990811+00:00",
+      "last_success": "2026-03-10T08:29:06.902780+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-03-09T08:32:21.990811+00:00",
+      "last_run": "2026-03-10T08:29:06.902780+00:00",
       "seen_urls": [
         "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the"
       ]
     },
     "openai-blog": {
-      "last_success": "2026-03-09T08:32:22.860280+00:00",
+      "last_success": "2026-03-10T08:29:07.733736+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-03-09T08:32:22.860280+00:00",
+      "last_run": "2026-03-10T08:29:07.733736+00:00",
       "seen_urls": []
     },
     "ken-huang-ai-expert": {
-      "last_success": "2026-03-09T08:32:23.634320+00:00",
+      "last_success": "2026-03-10T08:29:08.665426+00:00",
       "last_error": null,
       "posts_total": 12,
-      "last_run": "2026-03-09T08:32:23.634320+00:00",
+      "last_run": "2026-03-10T08:29:08.665426+00:00",
       "seen_urls": [
         "https://kenhuangus.substack.com/p/ralph-vs-openclaw-understanding-process",
         "https://kenhuangus.substack.com/p/on-the-road-for-agentic-ai-security",
@@ -37,10 +37,10 @@
       ]
     },
     "khemaridh-future-proof": {
-      "last_success": "2026-03-09T08:32:32.867826+00:00",
+      "last_success": "2026-03-10T08:29:09.004050+00:00",
       "last_error": null,
       "posts_total": 7,
-      "last_run": "2026-03-09T08:32:32.867826+00:00",
+      "last_run": "2026-03-10T08:29:09.004050+00:00",
       "seen_urls": [
         "https://khemaridh.substack.com/p/this-ai-blog-post-broke-the-internet",
         "https://khemaridh.substack.com/p/have-we-reached-powerpoint-agi",
@@ -52,10 +52,10 @@
       ]
     },
     "ai-collective": {
-      "last_success": "2026-03-09T08:32:43.806219+00:00",
+      "last_success": "2026-03-10T08:29:09.275326+00:00",
       "last_error": null,
-      "posts_total": 10,
-      "last_run": "2026-03-09T08:32:43.806219+00:00",
+      "posts_total": 11,
+      "last_run": "2026-03-10T08:29:09.275326+00:00",
       "seen_urls": [
         "https://aicollective.substack.com/p/the-brief-gemini-3-crushes-arc-agi",
         "https://aicollective.substack.com/p/the-byte-the-data-powering-medical",
@@ -66,14 +66,15 @@
         "https://aicollective.substack.com/p/the-community-edition-lean-teams",
         "https://aicollective.substack.com/p/the-brief-perplexitys-router-bet",
         "https://aicollective.substack.com/p/the-open-source-issue-qwen35-small",
-        "https://aicollective.substack.com/p/the-community-edition-daemons-agent"
+        "https://aicollective.substack.com/p/the-community-edition-daemons-agent",
+        "https://aicollective.substack.com/p/the-brief-claude-talks-stripe-monetizes"
       ]
     },
     "real-estate-news": {
-      "last_success": "2026-03-09T08:32:44.435733+00:00",
+      "last_success": "2026-03-10T08:29:40.725362+00:00",
       "last_error": null,
       "posts_total": 10,
-      "last_run": "2026-03-09T08:32:44.435733+00:00",
+      "last_run": "2026-03-10T08:29:40.725362+00:00",
       "seen_urls": [
         "https://www.realestatenews.com/2026/02/13/the-future-of-real-estate-marketing-its-ai-powered-search",
         "https://www.realestatenews.com/2026/02/16/agents-want-more-and-better-ai-tools-and-more-training",
@@ -88,10 +89,10 @@
       ]
     },
     "anthropic-blog": {
-      "last_success": "2026-03-09T08:32:44.627063+00:00",
+      "last_success": "2026-03-10T08:29:40.918479+00:00",
       "last_error": null,
       "posts_total": 18,
-      "last_run": "2026-03-09T08:32:44.627063+00:00",
+      "last_run": "2026-03-10T08:29:40.918479+00:00",
       "seen_urls": [
         "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
         "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
@@ -114,10 +115,10 @@
       ]
     },
     "builtin-com": {
-      "last_success": "2026-03-09T08:32:46.696031+00:00",
+      "last_success": "2026-03-10T08:29:41.384756+00:00",
       "last_error": null,
       "posts_total": 6,
-      "last_run": "2026-03-09T08:32:46.696031+00:00",
+      "last_run": "2026-03-10T08:29:41.384756+00:00",
       "seen_urls": [
         "https://builtin.com/articles/employer-branding-tools",
         "https://builtin.com/articles/companies-hiring-machine-learning-engineers-san-francisco",
@@ -128,10 +129,10 @@
       ]
     },
     "ey-com": {
-      "last_success": "2026-03-09T08:32:51.178732+00:00",
+      "last_success": "2026-03-10T08:29:46.008780+00:00",
       "last_error": null,
       "posts_total": 5,
-      "last_run": "2026-03-09T08:32:51.178732+00:00",
+      "last_run": "2026-03-10T08:29:46.008780+00:00",
       "seen_urls": [
         "https://www.ey.com/en_nl/insights/ai/how-can-responsible-ai-bridge-the-gap-between-investment-and-impact",
         "https://www.ey.com/en_nl/insights/ai/ai-agents-can-make-or-break-a-financial-institution",
@@ -141,10 +142,10 @@
       ]
     },
     "a16z-podcast": {
-      "last_success": "2026-03-09T08:32:53.678585+00:00",
+      "last_success": "2026-03-10T08:29:47.525079+00:00",
       "last_error": null,
-      "posts_total": 13,
-      "last_run": "2026-03-09T08:32:53.678585+00:00",
+      "posts_total": 14,
+      "last_run": "2026-03-10T08:29:47.525079+00:00",
       "seen_urls": [
         "https://a16z.simplecast.com/episodes/novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-old-company-5kBHPRUC",
         "https://a16z.simplecast.com/episodes/wsj-x-a16z-the-next-25-years-of-defense-innovation-7fNyoZyd",
@@ -158,34 +159,35 @@
         "https://a16z.simplecast.com/episodes/ben-horowitz-on-what-makes-a-great-founder-y8Mditkj",
         "https://a16z.simplecast.com/episodes/ambience-ceo-nikhil-buduma-on-ai-in-clinical-workflows-4Vm_QgbN",
         "https://a16z.simplecast.com/episodes/ben-thompson-x-tbpn-draft-Ul1bevvC",
-        "https://a16z.simplecast.com/episodes/atlassian-ceo-on-the-saas-apocalypse-ai-agents-what-comes-next-h71NBdHW"
+        "https://a16z.simplecast.com/episodes/atlassian-ceo-on-the-saas-apocalypse-ai-agents-what-comes-next-h71NBdHW",
+        "https://a16z.simplecast.com/episodes/andrew-huberman-peptides-sleep-tech-and-the-end-of-obesity-LKFcXxTU"
       ]
     },
     "dwarkesh-podcast": {
-      "last_success": "2026-03-09T08:32:57.742247+00:00",
+      "last_success": "2026-03-10T08:30:03.707002+00:00",
       "last_error": null,
       "posts_total": 2,
-      "last_run": "2026-03-09T08:32:57.742247+00:00",
+      "last_run": "2026-03-10T08:30:03.707002+00:00",
       "seen_urls": [
         "https://www.dwarkesh.com/p/dario-amodei-2",
         "https://www.dwarkesh.com/p/ada-palmer"
       ]
     },
     "no-priors": {
-      "last_success": "2026-03-09T08:32:58.126552+00:00",
+      "last_success": "2026-03-10T08:30:04.171300+00:00",
       "last_error": null,
       "posts_total": 2,
-      "last_run": "2026-03-09T08:32:58.126552+00:00",
+      "last_run": "2026-03-10T08:30:04.171300+00:00",
       "seen_urls": [
         "https://traffic.megaphone.fm/PDP6186803088.mp3",
         "https://traffic.megaphone.fm/PDP5153133130.mp3"
       ]
     },
     "latent-space": {
-      "last_success": "2026-03-09T08:32:58.597705+00:00",
+      "last_success": "2026-03-10T08:30:04.865849+00:00",
       "last_error": null,
-      "posts_total": 8,
-      "last_run": "2026-03-09T08:32:58.597705+00:00",
+      "posts_total": 9,
+      "last_run": "2026-03-10T08:30:04.865849+00:00",
       "seen_urls": [
         "https://www.latent.space/p/a16z",
         "https://www.latent.space/p/swe-bench-dead",
@@ -194,23 +196,24 @@
         "https://www.latent.space/p/paid-anthropic-distillation-and-how",
         "https://www.latent.space/p/metr",
         "https://www.latent.space/p/box",
-        "https://www.latent.space/p/cursor-third-era"
+        "https://www.latent.space/p/cursor-third-era",
+        "https://www.latent.space/p/nvidia-brev-dynamo"
       ]
     },
     "ai-daily-brief": {
-      "last_success": "2026-03-09T08:33:02.452037+00:00",
+      "last_success": "2026-03-10T08:30:24.011089+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-03-09T08:33:02.452037+00:00",
+      "last_run": "2026-03-10T08:30:24.011089+00:00",
       "seen_urls": [
         "https://podcastai.com/daily-brief"
       ]
     },
     "hbr": {
-      "last_success": "2026-03-09T08:32:44.175443+00:00",
+      "last_success": "2026-03-10T08:29:21.531222+00:00",
       "last_error": null,
-      "posts_total": 20,
-      "last_run": "2026-03-09T08:32:44.175443+00:00",
+      "posts_total": 22,
+      "last_run": "2026-03-10T08:29:21.531222+00:00",
       "seen_urls": [
         "https://hbr.org/2026/02/why-your-digital-investments-arent-creating-value",
         "https://hbr.org/podcast/2026/02/with-rise-of-agents-we-are-entering-the-world-of-identic-ai",
@@ -231,7 +234,9 @@
         "https://hbr.org/sponsored/2026/03/video-quick-take-why-leaders-should-embrace-thinking-mode-with-ai",
         "https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry",
         "https://hbr.org/2026/03/how-gen-ai-can-turn-reams-of-text-into-actionable-insights",
-        "https://hbr.org/2026/03/how-to-get-ahead-in-the-age-of-ai"
+        "https://hbr.org/2026/03/how-to-get-ahead-in-the-age-of-ai",
+        "https://hbr.org/2026/03/the-last-mile-problem-slowing-ai-transformation",
+        "https://hbr.org/2026/03/has-ai-ended-thought-leadership"
       ]
     }
   }
