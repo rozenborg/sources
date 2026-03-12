@@ -9,28 +9,39 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-11 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-11 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-11 | 13 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-11 | 7 | ✅ |  |
-| The AI Collective | rss | 2026-03-11 | 12 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-11 | 24 | ✅ |  |
-| Real Estate News | rss | 2026-03-11 | 12 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-11 | 19 | ✅ |  |
-| Built In | sitemap | 2026-03-11 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-11 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-11 | 15 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-11 | 2 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-11 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-03-11 | 9 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-11 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-12 | 1 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-12 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-12 | 15 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-12 | 7 | ✅ |  |
+| The AI Collective | rss | 2026-03-12 | 13 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-12 | 26 | ✅ |  |
+| Real Estate News | rss | 2026-03-12 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-12 | 20 | ✅ |  |
+| Built In | sitemap | 2026-03-12 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-12 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-12 | 16 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-12 | 3 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-12 | 2 | ✅ |  |
+| Latent Space | podcast | 2026-03-12 | 9 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-12 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-12
+- [I Ran Qwen35 35B A3B Locally With Cline Code Agent For Free ](content/2026/03/12/ken-huang-ai-expert--i-ran-qwen35-35b-a3b-locally-with-cline-code-agent-for-free-.md) — ken-huang-ai-expert
+
 ### 2026-03-11
+- [What It Takes To Clear A Million Crimes A Year With Flock Sa](content/2026/03/11/a16z-podcast--what-it-takes-to-clear-a-million-crimes-a-year-with-flock-sa.md) — a16z-podcast
+- [The Builders Issue Claude Code Review Context Hub And Gemini](content/2026/03/11/ai-collective--the-builders-issue-claude-code-review-context-hub-and-gemini.md) — ai-collective
 - [Sydney Fourth Office Asia Pacific](content/2026/03/11/anthropic-blog--sydney-fourth-office-asia-pacific.md) — anthropic-blog
+- [The Anthropic Institute](content/2026/03/11/anthropic-blog--the-anthropic-institute.md) — anthropic-blog
+- [The Department Of War Is Making A Huge Mistake](content/2026/03/11/dwarkesh-podcast--the-department-of-war-is-making-a-huge-mistake.md) — dwarkesh-podcast
+- [Healthcare Uses Specialized Language It Needs Specialized Ai](content/2026/03/11/hbr--healthcare-uses-specialized-language-it-needs-specialized-ai.md) — hbr
+- [What Should Your Companys Ai Sound Like To Customers](content/2026/03/11/hbr--what-should-your-companys-ai-sound-like-to-customers.md) — hbr
+- [Openclaw Design Patterns Part 6 Of 7 Evaluation Continuous I](content/2026/03/11/ken-huang-ai-expert--openclaw-design-patterns-part-6-of-7-evaluation-continuous-i.md) — ken-huang-ai-expert
+- [Rayse Bw Launch New Ai Tools Crmls Offers Realreports To Mem](content/2026/03/11/real-estate-news--rayse-bw-launch-new-ai-tools-crmls-offers-realreports-to-mem.md) — real-estate-news
 
 ### 2026-03-10
 - [The Top 100 Gen Ai Consumer Apps](content/2026/03/10/a16z-podcast--the-top-100-gen-ai-consumer-apps.md) — a16z-podcast
@@ -72,13 +83,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Openclaw Design Patterns Part 3 Of 7 Orchestration Patterns](content/2026/03/05/ken-huang-ai-expert--openclaw-design-patterns-part-3-of-7-orchestration-patterns.md) — ken-huang-ai-expert
 - [I Paid My Daughter 7 To Learn Claude](content/2026/03/05/khemaridh-future-proof--i-paid-my-daughter-7-to-learn-claude.md) — khemaridh-future-proof
 - [Every Agent Needs A Box Aaron Levie Box](content/2026/03/05/latent-space--every-agent-needs-a-box-aaron-levie-box.md) — latent-space
-
-### 2026-03-04
-- [Deploying Ai In Healthcare](content/2026/03/04/a16z-podcast--deploying-ai-in-healthcare.md) — a16z-podcast
-- [The Builders Issue Qwen35 Small Notebooklm Styles And Cuda A](content/2026/03/04/ai-collective--the-builders-issue-qwen35-small-notebooklm-styles-and-cuda-a.md) — ai-collective
-- [Research How Ai Is Changing The Labor Market](content/2026/03/04/hbr--research-how-ai-is-changing-the-labor-market.md) — hbr
-- [When Ai Challenges Strategy](content/2026/03/04/hbr--when-ai-challenges-strategy.md) — hbr
-- [The Openclaw Design Patternspart 2 Of 7](content/2026/03/04/ken-huang-ai-expert--the-openclaw-design-patternspart-2-of-7.md) — ken-huang-ai-expert
-- [A Rechat Canva Integration Pultegroup Leans Into Ai](content/2026/03/04/real-estate-news--a-rechat-canva-integration-pultegroup-leans-into-ai.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
