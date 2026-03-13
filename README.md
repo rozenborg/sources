@@ -9,28 +9,38 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-12 | 1 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-12 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-12 | 15 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-12 | 7 | ✅ |  |
-| The AI Collective | rss | 2026-03-12 | 13 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-12 | 26 | ✅ |  |
-| Real Estate News | rss | 2026-03-12 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-12 | 20 | ✅ |  |
-| Built In | sitemap | 2026-03-12 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-12 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-12 | 16 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-12 | 3 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-12 | 2 | ✅ |  |
-| Latent Space | podcast | 2026-03-12 | 9 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-12 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-13 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-13 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-13 | 17 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-13 | 8 | ✅ |  |
+| The AI Collective | rss | 2026-03-13 | 13 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-13 | 28 | ✅ |  |
+| Real Estate News | rss | 2026-03-13 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-13 | 21 | ✅ |  |
+| Built In | sitemap | 2026-03-13 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-13 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-13 | 17 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-13 | 3 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-13 | 3 | ✅ |  |
+| Latent Space | podcast | 2026-03-13 | 10 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-13 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-03-12
+- [Palantir Ceo Alex Karp On The Zero Sum Ai Race](content/2026/03/12/a16z-podcast--palantir-ceo-alex-karp-on-the-zero-sum-ai-race.md) — a16z-podcast
+- [Claude Partner Network](content/2026/03/12/anthropic-blog--claude-partner-network.md) — anthropic-blog
+- [Strategy Summit 2026 Why Ai Transformation Needs A Human Tou](content/2026/03/12/hbr--strategy-summit-2026-why-ai-transformation-needs-a-human-tou.md) — hbr
+- [Who In The C Suite Should Own Ai](content/2026/03/12/hbr--who-in-the-c-suite-should-own-ai.md) — hbr
 - [I Ran Qwen35 35B A3B Locally With Cline Code Agent For Free ](content/2026/03/12/ken-huang-ai-expert--i-ran-qwen35-35b-a3b-locally-with-cline-code-agent-for-free-.md) — ken-huang-ai-expert
+- [Indirect Prompt Injection With Cross Document Data Exfiltrat](content/2026/03/12/ken-huang-ai-expert--indirect-prompt-injection-with-cross-document-data-exfiltrat.md) — ken-huang-ai-expert
+- [Run Nvidia Latest Nemotron3 Nano Nvfp4 On Your Dgx Spark And](content/2026/03/12/ken-huang-ai-expert--run-nvidia-latest-nemotron3-nano-nvfp4-on-your-dgx-spark-and.md) — ken-huang-ai-expert
+- [Claude Can Now Run Scheduled Tasks](content/2026/03/12/khemaridh-future-proof--claude-can-now-run-scheduled-tasks.md) — khemaridh-future-proof
+- [Retrieval After Rag Hybrid Search Agents And Database Design](content/2026/03/12/latent-space--retrieval-after-rag-hybrid-search-agents-and-database-design.md) — latent-space
+- [The Shape Of The Thing](content/2026/03/12/mollick-one-useful-thing--the-shape-of-the-thing.md) — mollick-one-useful-thing
+- [From Coder To Manager Navigating The Shift To Agentic Engine](content/2026/03/12/no-priors--from-coder-to-manager-navigating-the-shift-to-agentic-engine.md) — no-priors
 
 ### 2026-03-11
 - [What It Takes To Clear A Million Crimes A Year With Flock Sa](content/2026/03/11/a16z-podcast--what-it-takes-to-clear-a-million-crimes-a-year-with-flock-sa.md) — a16z-podcast
@@ -74,14 +84,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [How Cosplaying Ancient Rome Led To The Scientific Revolution](content/2026/03/06/dwarkesh-podcast--how-cosplaying-ancient-rome-led-to-the-scientific-revolution.md) — dwarkesh-podcast
 - [How Gen Ai Can Turn Reams Of Text Into Actionable Insights](content/2026/03/06/hbr--how-gen-ai-can-turn-reams-of-text-into-actionable-insights.md) — hbr
 - [Cursors Third Era Cloud Agents](content/2026/03/06/latent-space--cursors-third-era-cloud-agents.md) — latent-space
-
-### 2026-03-05
-- [Ben Thompson Anthropic The Pentagon And The Limits Of Privat](content/2026/03/05/a16z-podcast--ben-thompson-anthropic-the-pentagon-and-the-limits-of-privat.md) — a16z-podcast
-- [How To Get Ahead In The Age Of Ai](content/2026/03/05/hbr--how-to-get-ahead-in-the-age-of-ai.md) — hbr
-- [Video Quick Take Why Leaders Should Embrace Thinking Mode Wi](content/2026/03/05/hbr--video-quick-take-why-leaders-should-embrace-thinking-mode-wi.md) — hbr
-- [When Using Ai Leads To Brain Fry](content/2026/03/05/hbr--when-using-ai-leads-to-brain-fry.md) — hbr
-- [Openclaw Design Patterns Part 3 Of 7 Orchestration Patterns](content/2026/03/05/ken-huang-ai-expert--openclaw-design-patterns-part-3-of-7-orchestration-patterns.md) — ken-huang-ai-expert
-- [I Paid My Daughter 7 To Learn Claude](content/2026/03/05/khemaridh-future-proof--i-paid-my-daughter-7-to-learn-claude.md) — khemaridh-future-proof
-- [Every Agent Needs A Box Aaron Levie Box](content/2026/03/05/latent-space--every-agent-needs-a-box-aaron-levie-box.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
