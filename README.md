@@ -9,26 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-13 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-13 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-13 | 17 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-13 | 8 | ✅ |  |
-| The AI Collective | rss | 2026-03-13 | 13 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-13 | 28 | ✅ |  |
-| Real Estate News | rss | 2026-03-13 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-13 | 21 | ✅ |  |
-| Built In | sitemap | 2026-03-13 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-13 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-13 | 17 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-13 | 3 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-13 | 3 | ✅ |  |
-| Latent Space | podcast | 2026-03-13 | 10 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-13 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-14 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-14 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-14 | 19 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-14 | 8 | ✅ |  |
+| The AI Collective | rss | 2026-03-14 | 13 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-14 | 30 | ✅ |  |
+| Real Estate News | rss | 2026-03-14 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-14 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-14 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-14 | 5 | ✅ |  |
+| The a16z Show | podcast | 2026-03-14 | 18 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-14 | 4 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-14 | 3 | ✅ |  |
+| Latent Space | podcast | 2026-03-14 | 10 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-14 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-14
+- [Openclaw Design Patterns Part 7 Final Case Studies](content/2026/03/14/ken-huang-ai-expert--openclaw-design-patterns-part-7-final-case-studies.md) — ken-huang-ai-expert
+
+### 2026-03-13
+- [Emil Michael Iran Anthropic And The Future Of Ai At The Pent](content/2026/03/13/a16z-podcast--emil-michael-iran-anthropic-and-the-future-of-ai-at-the-pent.md) — a16z-podcast
+- [Claude Opus 4 5](content/2026/03/13/anthropic-blog--claude-opus-4-5.md) — anthropic-blog
+- [Dylan Patel Deep Dive On The 3 Big Bottlenecks To Scaling Ai](content/2026/03/13/dwarkesh-podcast--dylan-patel-deep-dive-on-the-3-big-bottlenecks-to-scaling-ai.md) — dwarkesh-podcast
+- [Ai And The Entry Level Job](content/2026/03/13/hbr--ai-and-the-entry-level-job.md) — hbr
+- [The Map Of Us Prosperity Is Changing Heres Where Companies S](content/2026/03/13/hbr--the-map-of-us-prosperity-is-changing-heres-where-companies-s.md) — hbr
+- [Recommend A Must Read Ai Security Book](content/2026/03/13/ken-huang-ai-expert--recommend-a-must-read-ai-security-book.md) — ken-huang-ai-expert
+
 ### 2026-03-12
 - [Palantir Ceo Alex Karp On The Zero Sum Ai Race](content/2026/03/12/a16z-podcast--palantir-ceo-alex-karp-on-the-zero-sum-ai-race.md) — a16z-podcast
 - [Claude Partner Network](content/2026/03/12/anthropic-blog--claude-partner-network.md) — anthropic-blog
@@ -75,14 +86,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-03-07
 - [Openclaw Design Patterns Part 4 Of 7 Tooling Patterns](content/2026/03/07/ken-huang-ai-expert--openclaw-design-patterns-part-4-of-7-tooling-patterns.md) — ken-huang-ai-expert
-
-### 2026-03-06
-- [Atlassian Ceo On The Saas Apocalypse Ai Agents What Comes Ne](content/2026/03/06/a16z-podcast--atlassian-ceo-on-the-saas-apocalypse-ai-agents-what-comes-ne.md) — a16z-podcast
-- [The Community Edition Daemons Agent Users And Ai Native Chap](content/2026/03/06/ai-collective--the-community-edition-daemons-agent-users-and-ai-native-chap.md) — ai-collective
-- [Mozilla Firefox Security](content/2026/03/06/anthropic-blog--mozilla-firefox-security.md) — anthropic-blog
-- [Where Stand Department War](content/2026/03/06/anthropic-blog--where-stand-department-war.md) — anthropic-blog
-- [How Cosplaying Ancient Rome Led To The Scientific Revolution](content/2026/03/06/dwarkesh-podcast--how-cosplaying-ancient-rome-led-to-the-scientific-revolution.md) — dwarkesh-podcast
-- [How Gen Ai Can Turn Reams Of Text Into Actionable Insights](content/2026/03/06/hbr--how-gen-ai-can-turn-reams-of-text-into-actionable-insights.md) — hbr
-- [Cursors Third Era Cloud Agents](content/2026/03/06/latent-space--cursors-third-era-cloud-agents.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
