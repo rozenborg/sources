@@ -9,33 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-14 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-14 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-14 | 19 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-14 | 8 | ✅ |  |
-| The AI Collective | rss | 2026-03-14 | 13 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-14 | 30 | ✅ |  |
-| Real Estate News | rss | 2026-03-14 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-14 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-14 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-14 | 5 | ✅ |  |
-| The a16z Show | podcast | 2026-03-14 | 18 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-14 | 4 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-14 | 3 | ✅ |  |
-| Latent Space | podcast | 2026-03-14 | 10 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-14 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-15 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-15 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-15 | 20 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-15 | 8 | ✅ |  |
+| The AI Collective | rss | 2026-03-15 | 14 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-15 | 30 | ✅ |  |
+| Real Estate News | rss | 2026-03-15 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-15 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-15 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-15 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-15 | 18 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-15 | 4 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-15 | 3 | ✅ |  |
+| Latent Space | podcast | 2026-03-15 | 10 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-15 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-03-14
+- [The Community Edition Pilots Everywhere Transformation Nowhe](content/2026/03/14/ai-collective--the-community-edition-pilots-everywhere-transformation-nowhe.md) — ai-collective
 - [Openclaw Design Patterns Part 7 Final Case Studies](content/2026/03/14/ken-huang-ai-expert--openclaw-design-patterns-part-7-final-case-studies.md) — ken-huang-ai-expert
+- [Troubleshooting Guide Running Qwen35 35B With Reasoning Tool](content/2026/03/14/ken-huang-ai-expert--troubleshooting-guide-running-qwen35-35b-with-reasoning-tool.md) — ken-huang-ai-expert
 
 ### 2026-03-13
 - [Emil Michael Iran Anthropic And The Future Of Ai At The Pent](content/2026/03/13/a16z-podcast--emil-michael-iran-anthropic-and-the-future-of-ai-at-the-pent.md) — a16z-podcast
 - [Claude Opus 4 5](content/2026/03/13/anthropic-blog--claude-opus-4-5.md) — anthropic-blog
 - [Dylan Patel Deep Dive On The 3 Big Bottlenecks To Scaling Ai](content/2026/03/13/dwarkesh-podcast--dylan-patel-deep-dive-on-the-3-big-bottlenecks-to-scaling-ai.md) — dwarkesh-podcast
+- [How To Get The Most Value From Genai Among Portfolio Compani](content/2026/03/13/ey-com--how-to-get-the-most-value-from-genai-among-portfolio-compani.md) — ey-com
+- [Seven Guidelines For Implementing Responsible Ai](content/2026/03/13/ey-com--seven-guidelines-for-implementing-responsible-ai.md) — ey-com
 - [Ai And The Entry Level Job](content/2026/03/13/hbr--ai-and-the-entry-level-job.md) — hbr
 - [The Map Of Us Prosperity Is Changing Heres Where Companies S](content/2026/03/13/hbr--the-map-of-us-prosperity-is-changing-heres-where-companies-s.md) — hbr
 - [Recommend A Must Read Ai Security Book](content/2026/03/13/ken-huang-ai-expert--recommend-a-must-read-ai-security-book.md) — ken-huang-ai-expert
@@ -83,8 +87,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-03-08
 - [The Cursor Moment For Finance](content/2026/03/08/khemaridh-future-proof--the-cursor-moment-for-finance.md) — khemaridh-future-proof
-
-### 2026-03-07
-- [Openclaw Design Patterns Part 4 Of 7 Tooling Patterns](content/2026/03/07/ken-huang-ai-expert--openclaw-design-patterns-part-4-of-7-tooling-patterns.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
