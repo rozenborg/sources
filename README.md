@@ -9,26 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-15 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-15 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-15 | 20 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-15 | 8 | ✅ |  |
-| The AI Collective | rss | 2026-03-15 | 14 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-15 | 30 | ✅ |  |
-| Real Estate News | rss | 2026-03-15 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-15 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-15 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-15 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-15 | 18 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-15 | 4 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-15 | 3 | ✅ |  |
-| Latent Space | podcast | 2026-03-15 | 10 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-15 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-16 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-16 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-16 | 21 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-16 | 9 | ✅ |  |
+| The AI Collective | rss | 2026-03-16 | 14 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-16 | 30 | ✅ |  |
+| Real Estate News | rss | 2026-03-16 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-16 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-16 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-16 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-16 | 19 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-16 | 4 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-16 | 3 | ✅ |  |
+| Latent Space | podcast | 2026-03-16 | 10 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-16 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-15
+- [Marc Andreessen On The Mindset Of Great Founders With David ](content/2026/03/15/a16z-podcast--marc-andreessen-on-the-mindset-of-great-founders-with-david-.md) — a16z-podcast
+- [This Benchmark May Surprise You Mac Mini M4 With 64Gb Unifie](content/2026/03/15/ken-huang-ai-expert--this-benchmark-may-surprise-you-mac-mini-m4-with-64gb-unifie.md) — ken-huang-ai-expert
+- [The Rise Of The Ai Chief Of Staff](content/2026/03/15/khemaridh-future-proof--the-rise-of-the-ai-chief-of-staff.md) — khemaridh-future-proof
+
 ### 2026-03-14
 - [The Community Edition Pilots Everywhere Transformation Nowhe](content/2026/03/14/ai-collective--the-community-edition-pilots-everywhere-transformation-nowhe.md) — ai-collective
 - [Openclaw Design Patterns Part 7 Final Case Studies](content/2026/03/14/ken-huang-ai-expert--openclaw-design-patterns-part-7-final-case-studies.md) — ken-huang-ai-expert
@@ -84,8 +89,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Has Ai Ended Thought Leadership](content/2026/03/09/hbr--has-ai-ended-thought-leadership.md) — hbr
 - [The Last Mile Problem Slowing Ai Transformation](content/2026/03/09/hbr--the-last-mile-problem-slowing-ai-transformation.md) — hbr
 - [Openclaw Design Patterns Part 5 Of 7 Reliability Security Pa](content/2026/03/09/ken-huang-ai-expert--openclaw-design-patterns-part-5-of-7-reliability-security-pa.md) — ken-huang-ai-expert
-
-### 2026-03-08
-- [The Cursor Moment For Finance](content/2026/03/08/khemaridh-future-proof--the-cursor-moment-for-finance.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
