@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-17 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-17 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-17 | 22 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-17 | 9 | ✅ |  |
-| The AI Collective | rss | 2026-03-17 | 15 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-17 | 30 | ✅ |  |
-| Real Estate News | rss | 2026-03-17 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-17 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-17 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-17 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-17 | 20 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-17 | 4 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-17 | 3 | ✅ |  |
-| Latent Space | podcast | 2026-03-17 | 10 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-17 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-18 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-18 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-18 | 23 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-18 | 9 | ✅ |  |
+| The AI Collective | rss | 2026-03-18 | 15 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-18 | 32 | ✅ |  |
+| Real Estate News | rss | 2026-03-18 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-18 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-18 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-18 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-18 | 21 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-18 | 4 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-18 | 3 | ✅ |  |
+| Latent Space | podcast | 2026-03-18 | 11 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-18 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-17
+- [Whats Missing Between Llms And Agi Vishal Misra Martin Casad](content/2026/03/17/a16z-podcast--whats-missing-between-llms-and-agi-vishal-misra-martin-casad.md) — a16z-podcast
+- [7 Factors That Drive Returns On Ai Investments According To ](content/2026/03/17/hbr--7-factors-that-drive-returns-on-ai-investments-according-to-.md) — hbr
+- [Competing Llms Were Asked To Pick Stocks Their Choices Revea](content/2026/03/17/hbr--competing-llms-were-asked-to-pick-stocks-their-choices-revea.md) — hbr
+- [Skill Is Now First Class Citizen In Your Ai Workflow Not Pro](content/2026/03/17/ken-huang-ai-expert--skill-is-now-first-class-citizen-in-your-ai-workflow-not-pro.md) — ken-huang-ai-expert
+- [Why Anthropic Thinks Ai Should Have Its Own Computer Felix R](content/2026/03/17/latent-space--why-anthropic-thinks-ai-should-have-its-own-computer-felix-r.md) — latent-space
+
 ### 2026-03-16
 - [Ai Startups Vs Big Chatbots With Olivia Moore](content/2026/03/16/a16z-podcast--ai-startups-vs-big-chatbots-with-olivia-moore.md) — a16z-podcast
 - [The Brief Ai Model Avalanche Nvidia Enters The Agent Wars](content/2026/03/16/ai-collective--the-brief-ai-model-avalanche-nvidia-enters-the-agent-wars.md) — ai-collective
@@ -77,15 +84,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [What Should Your Companys Ai Sound Like To Customers](content/2026/03/11/hbr--what-should-your-companys-ai-sound-like-to-customers.md) — hbr
 - [Openclaw Design Patterns Part 6 Of 7 Evaluation Continuous I](content/2026/03/11/ken-huang-ai-expert--openclaw-design-patterns-part-6-of-7-evaluation-continuous-i.md) — ken-huang-ai-expert
 - [Rayse Bw Launch New Ai Tools Crmls Offers Realreports To Mem](content/2026/03/11/real-estate-news--rayse-bw-launch-new-ai-tools-crmls-offers-realreports-to-mem.md) — real-estate-news
-
-### 2026-03-10
-- [The Top 100 Gen Ai Consumer Apps](content/2026/03/10/a16z-podcast--the-top-100-gen-ai-consumer-apps.md) — a16z-podcast
-- [The Byte The Roadmap For An Ai Economic Transformation Exclu](content/2026/03/10/ai-collective--the-byte-the-roadmap-for-an-ai-economic-transformation-exclu.md) — ai-collective
-- [Research Using Ai Can Stifle Innovation But It Doesnt Have T](content/2026/03/10/hbr--research-using-ai-can-stifle-innovation-but-it-doesnt-have-t.md) — hbr
-- [The Hidden Causes Of Ai Workslopand How To Fix Them](content/2026/03/10/hbr--the-hidden-causes-of-ai-workslopand-how-to-fix-them.md) — hbr
-- [Exploring Andrej Karpathys Autoresearch Ai Agents Driving Au](content/2026/03/10/ken-huang-ai-expert--exploring-andrej-karpathys-autoresearch-ai-agents-driving-au.md) — ken-huang-ai-expert
-- [Nvidias Ai Engineers Agent Inference At Planetary Scale And ](content/2026/03/10/latent-space--nvidias-ai-engineers-agent-inference-at-planetary-scale-and-.md) — latent-space
-- [Styldod Updates Ai Image Tools With A Focus On Compliance](content/2026/03/10/real-estate-news--styldod-updates-ai-image-tools-with-a-focus-on-compliance.md) — real-estate-news
-- [The Magical Question Exps Ceo Wants Every Agent To Ask](content/2026/03/10/real-estate-news--the-magical-question-exps-ceo-wants-every-agent-to-ask.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
