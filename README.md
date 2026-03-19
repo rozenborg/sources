@@ -9,26 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-18 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-18 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-18 | 23 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-18 | 9 | ✅ |  |
-| The AI Collective | rss | 2026-03-18 | 15 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-18 | 32 | ✅ |  |
-| Real Estate News | rss | 2026-03-18 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-18 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-18 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-18 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-18 | 21 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-18 | 4 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-18 | 3 | ✅ |  |
-| Latent Space | podcast | 2026-03-18 | 11 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-18 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-19 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-19 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-19 | 24 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-19 | 9 | ✅ |  |
+| The AI Collective | rss | 2026-03-19 | 16 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-19 | 32 | ✅ |  |
+| Real Estate News | rss | 2026-03-19 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-19 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-19 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-19 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-19 | 22 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-19 | 4 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-19 | 3 | ✅ |  |
+| Latent Space | podcast | 2026-03-19 | 11 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-19 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-18
+- [Ai Supply Chains And The Future Of Economic Power](content/2026/03/18/a16z-podcast--ai-supply-chains-and-the-future-of-economic-power.md) — a16z-podcast
+- [The Builders Issue Manus Desktop Nvidia Nemoclaw And Openai ](content/2026/03/18/ai-collective--the-builders-issue-manus-desktop-nvidia-nemoclaw-and-openai-.md) — ai-collective
+- [Beyond The Gradient Highway How Attention Residuals Fix The ](content/2026/03/18/ken-huang-ai-expert--beyond-the-gradient-highway-how-attention-residuals-fix-the-.md) — ken-huang-ai-expert
+
 ### 2026-03-17
 - [Whats Missing Between Llms And Agi Vishal Misra Martin Casad](content/2026/03/17/a16z-podcast--whats-missing-between-llms-and-agi-vishal-misra-martin-casad.md) — a16z-podcast
 - [7 Factors That Drive Returns On Ai Investments According To ](content/2026/03/17/hbr--7-factors-that-drive-returns-on-ai-investments-according-to-.md) — hbr
@@ -73,16 +78,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Retrieval After Rag Hybrid Search Agents And Database Design](content/2026/03/12/latent-space--retrieval-after-rag-hybrid-search-agents-and-database-design.md) — latent-space
 - [The Shape Of The Thing](content/2026/03/12/mollick-one-useful-thing--the-shape-of-the-thing.md) — mollick-one-useful-thing
 - [From Coder To Manager Navigating The Shift To Agentic Engine](content/2026/03/12/no-priors--from-coder-to-manager-navigating-the-shift-to-agentic-engine.md) — no-priors
-
-### 2026-03-11
-- [What It Takes To Clear A Million Crimes A Year With Flock Sa](content/2026/03/11/a16z-podcast--what-it-takes-to-clear-a-million-crimes-a-year-with-flock-sa.md) — a16z-podcast
-- [The Builders Issue Claude Code Review Context Hub And Gemini](content/2026/03/11/ai-collective--the-builders-issue-claude-code-review-context-hub-and-gemini.md) — ai-collective
-- [Sydney Fourth Office Asia Pacific](content/2026/03/11/anthropic-blog--sydney-fourth-office-asia-pacific.md) — anthropic-blog
-- [The Anthropic Institute](content/2026/03/11/anthropic-blog--the-anthropic-institute.md) — anthropic-blog
-- [The Department Of War Is Making A Huge Mistake](content/2026/03/11/dwarkesh-podcast--the-department-of-war-is-making-a-huge-mistake.md) — dwarkesh-podcast
-- [Healthcare Uses Specialized Language It Needs Specialized Ai](content/2026/03/11/hbr--healthcare-uses-specialized-language-it-needs-specialized-ai.md) — hbr
-- [What Should Your Companys Ai Sound Like To Customers](content/2026/03/11/hbr--what-should-your-companys-ai-sound-like-to-customers.md) — hbr
-- [Openclaw Design Patterns Part 6 Of 7 Evaluation Continuous I](content/2026/03/11/ken-huang-ai-expert--openclaw-design-patterns-part-6-of-7-evaluation-continuous-i.md) — ken-huang-ai-expert
-- [Rayse Bw Launch New Ai Tools Crmls Offers Realreports To Mem](content/2026/03/11/real-estate-news--rayse-bw-launch-new-ai-tools-crmls-offers-realreports-to-mem.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
