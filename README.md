@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-19 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-19 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-19 | 24 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-19 | 9 | ✅ |  |
-| The AI Collective | rss | 2026-03-19 | 16 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-19 | 32 | ✅ |  |
-| Real Estate News | rss | 2026-03-19 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-19 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-19 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-19 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-19 | 22 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-19 | 4 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-19 | 3 | ✅ |  |
-| Latent Space | podcast | 2026-03-19 | 11 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-19 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-20 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-20 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-20 | 25 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-20 | 10 | ✅ |  |
+| The AI Collective | rss | 2026-03-20 | 16 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-20 | 35 | ✅ |  |
+| Real Estate News | rss | 2026-03-20 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-20 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-20 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-20 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-20 | 23 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-20 | 4 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-20 | 3 | ✅ |  |
+| Latent Space | podcast | 2026-03-20 | 11 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-20 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-19
+- [Ai Just Gave You Superpowers Now What](content/2026/03/19/a16z-podcast--ai-just-gave-you-superpowers-now-what.md) — a16z-podcast
+- [Our Favorite Management Tips On Leading With Ai](content/2026/03/19/hbr--our-favorite-management-tips-on-leading-with-ai.md) — hbr
+- [Strategy Summit 2026 Why Ai Means Radical Change](content/2026/03/19/hbr--strategy-summit-2026-why-ai-means-radical-change.md) — hbr
+- [What The Best Ai Users Do Differentlyand How To Level Up All](content/2026/03/19/hbr--what-the-best-ai-users-do-differentlyand-how-to-level-up-all.md) — hbr
+- [Owasp Aivss Project Announces The Release Of V08 Scoring Sys](content/2026/03/19/ken-huang-ai-expert--owasp-aivss-project-announces-the-release-of-v08-scoring-sys.md) — ken-huang-ai-expert
+- [The Complete Guide To Claude Skills](content/2026/03/19/khemaridh-future-proof--the-complete-guide-to-claude-skills.md) — khemaridh-future-proof
+
 ### 2026-03-18
 - [Ai Supply Chains And The Future Of Economic Power](content/2026/03/18/a16z-podcast--ai-supply-chains-and-the-future-of-economic-power.md) — a16z-podcast
 - [The Builders Issue Manus Desktop Nvidia Nemoclaw And Openai ](content/2026/03/18/ai-collective--the-builders-issue-manus-desktop-nvidia-nemoclaw-and-openai-.md) — ai-collective
@@ -65,18 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ai And The Entry Level Job](content/2026/03/13/hbr--ai-and-the-entry-level-job.md) — hbr
 - [The Map Of Us Prosperity Is Changing Heres Where Companies S](content/2026/03/13/hbr--the-map-of-us-prosperity-is-changing-heres-where-companies-s.md) — hbr
 - [Recommend A Must Read Ai Security Book](content/2026/03/13/ken-huang-ai-expert--recommend-a-must-read-ai-security-book.md) — ken-huang-ai-expert
-
-### 2026-03-12
-- [Palantir Ceo Alex Karp On The Zero Sum Ai Race](content/2026/03/12/a16z-podcast--palantir-ceo-alex-karp-on-the-zero-sum-ai-race.md) — a16z-podcast
-- [Claude Partner Network](content/2026/03/12/anthropic-blog--claude-partner-network.md) — anthropic-blog
-- [Strategy Summit 2026 Why Ai Transformation Needs A Human Tou](content/2026/03/12/hbr--strategy-summit-2026-why-ai-transformation-needs-a-human-tou.md) — hbr
-- [Who In The C Suite Should Own Ai](content/2026/03/12/hbr--who-in-the-c-suite-should-own-ai.md) — hbr
-- [I Ran Qwen35 35B A3B Locally With Cline Code Agent For Free ](content/2026/03/12/ken-huang-ai-expert--i-ran-qwen35-35b-a3b-locally-with-cline-code-agent-for-free-.md) — ken-huang-ai-expert
-- [Indirect Prompt Injection With Cross Document Data Exfiltrat](content/2026/03/12/ken-huang-ai-expert--indirect-prompt-injection-with-cross-document-data-exfiltrat.md) — ken-huang-ai-expert
-- [Run Nvidia Latest Nemotron3 Nano Nvfp4 On Your Dgx Spark And](content/2026/03/12/ken-huang-ai-expert--run-nvidia-latest-nemotron3-nano-nvfp4-on-your-dgx-spark-and.md) — ken-huang-ai-expert
-- [Claude Can Now Run Scheduled Tasks](content/2026/03/12/khemaridh-future-proof--claude-can-now-run-scheduled-tasks.md) — khemaridh-future-proof
-- [Retrieval After Rag Hybrid Search Agents And Database Design](content/2026/03/12/latent-space--retrieval-after-rag-hybrid-search-agents-and-database-design.md) — latent-space
-- [The Shape Of The Thing](content/2026/03/12/mollick-one-useful-thing--the-shape-of-the-thing.md) — mollick-one-useful-thing
-- [From Coder To Manager Navigating The Shift To Agentic Engine](content/2026/03/12/no-priors--from-coder-to-manager-navigating-the-shift-to-agentic-engine.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
