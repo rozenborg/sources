@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-20 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-20 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-20 | 25 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-20 | 10 | ✅ |  |
-| The AI Collective | rss | 2026-03-20 | 16 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-20 | 35 | ✅ |  |
-| Real Estate News | rss | 2026-03-20 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-20 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-20 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-20 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-20 | 23 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-20 | 4 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-20 | 3 | ✅ |  |
-| Latent Space | podcast | 2026-03-20 | 11 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-20 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-21 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-21 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-21 | 26 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-21 | 10 | ✅ |  |
+| The AI Collective | rss | 2026-03-21 | 17 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-21 | 35 | ✅ |  |
+| Real Estate News | rss | 2026-03-21 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-21 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-21 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-21 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-21 | 24 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-21 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-21 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-03-21 | 12 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-21 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-20
+- [Inside Palantir Building Software That Matters With Shyam Sa](content/2026/03/20/a16z-podcast--inside-palantir-building-software-that-matters-with-shyam-sa.md) — a16z-podcast
+- [The Community Edition When Agents Miss The Fine Print](content/2026/03/20/ai-collective--the-community-edition-when-agents-miss-the-fine-print.md) — ai-collective
+- [Terence Tao Kepler Newton And The True Nature Of Mathematica](content/2026/03/20/dwarkesh-podcast--terence-tao-kepler-newton-and-the-true-nature-of-mathematica.md) — dwarkesh-podcast
+- [Join Me At Rsa Conference 2026 Lets Connect](content/2026/03/20/ken-huang-ai-expert--join-me-at-rsa-conference-2026-lets-connect.md) — ken-huang-ai-expert
+- [Dreamer The Personal Agent Os David Singleton](content/2026/03/20/latent-space--dreamer-the-personal-agent-os-david-singleton.md) — latent-space
+- [Andrej Karpathy On Code Agents Autoresearch And The Loopy Er](content/2026/03/20/no-priors--andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-er.md) — no-priors
+
 ### 2026-03-19
 - [Ai Just Gave You Superpowers Now What](content/2026/03/19/a16z-podcast--ai-just-gave-you-superpowers-now-what.md) — a16z-podcast
 - [Our Favorite Management Tips On Leading With Ai](content/2026/03/19/hbr--our-favorite-management-tips-on-leading-with-ai.md) — hbr
@@ -63,15 +71,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Community Edition Pilots Everywhere Transformation Nowhe](content/2026/03/14/ai-collective--the-community-edition-pilots-everywhere-transformation-nowhe.md) — ai-collective
 - [Openclaw Design Patterns Part 7 Final Case Studies](content/2026/03/14/ken-huang-ai-expert--openclaw-design-patterns-part-7-final-case-studies.md) — ken-huang-ai-expert
 - [Troubleshooting Guide Running Qwen35 35B With Reasoning Tool](content/2026/03/14/ken-huang-ai-expert--troubleshooting-guide-running-qwen35-35b-with-reasoning-tool.md) — ken-huang-ai-expert
-
-### 2026-03-13
-- [Emil Michael Iran Anthropic And The Future Of Ai At The Pent](content/2026/03/13/a16z-podcast--emil-michael-iran-anthropic-and-the-future-of-ai-at-the-pent.md) — a16z-podcast
-- [Claude Opus 4 5](content/2026/03/13/anthropic-blog--claude-opus-4-5.md) — anthropic-blog
-- [Dylan Patel Deep Dive On The 3 Big Bottlenecks To Scaling Ai](content/2026/03/13/dwarkesh-podcast--dylan-patel-deep-dive-on-the-3-big-bottlenecks-to-scaling-ai.md) — dwarkesh-podcast
-- [How To Get The Most Value From Genai Among Portfolio Compani](content/2026/03/13/ey-com--how-to-get-the-most-value-from-genai-among-portfolio-compani.md) — ey-com
-- [Seven Guidelines For Implementing Responsible Ai](content/2026/03/13/ey-com--seven-guidelines-for-implementing-responsible-ai.md) — ey-com
-- [Ai And The Entry Level Job](content/2026/03/13/hbr--ai-and-the-entry-level-job.md) — hbr
-- [The Map Of Us Prosperity Is Changing Heres Where Companies S](content/2026/03/13/hbr--the-map-of-us-prosperity-is-changing-heres-where-companies-s.md) — hbr
-- [Recommend A Must Read Ai Security Book](content/2026/03/13/ken-huang-ai-expert--recommend-a-must-read-ai-security-book.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
