@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-22 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-22 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-22 | 28 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-22 | 10 | ✅ |  |
-| The AI Collective | rss | 2026-03-22 | 17 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-22 | 35 | ✅ |  |
-| Real Estate News | rss | 2026-03-22 | 13 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-22 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-22 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-22 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-22 | 24 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-22 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-22 | 4 | ✅ |  |
-| Latent Space | podcast | 2026-03-22 | 12 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-22 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-23 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-23 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-23 | 28 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-23 | 11 | ✅ |  |
+| The AI Collective | rss | 2026-03-23 | 17 | ✅ |  |
+| Harvard Business Review | rss | 2026-03-23 | 35 | ✅ |  |
+| Real Estate News | rss | 2026-03-23 | 13 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-23 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-23 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-23 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-23 | 24 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-23 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-23 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-03-23 | 12 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-23 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-22
+- [Claude Is Coming For Your Messaging Apps](content/2026/03/22/khemaridh-future-proof--claude-is-coming-for-your-messaging-apps.md) — khemaridh-future-proof
+
 ### 2026-03-21
 - [Agent Skill Trust Signing Service](content/2026/03/21/ken-huang-ai-expert--agent-skill-trust-signing-service.md) — ken-huang-ai-expert
 - [The Day Metas Ai Agent Broke Least Privilege A Maestro Deep ](content/2026/03/21/ken-huang-ai-expert--the-day-metas-ai-agent-broke-least-privilege-a-maestro-deep-.md) — ken-huang-ai-expert
@@ -65,10 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ai Startups Vs Big Chatbots With Olivia Moore](content/2026/03/16/a16z-podcast--ai-startups-vs-big-chatbots-with-olivia-moore.md) — a16z-podcast
 - [The Brief Ai Model Avalanche Nvidia Enters The Agent Wars](content/2026/03/16/ai-collective--the-brief-ai-model-avalanche-nvidia-enters-the-agent-wars.md) — ai-collective
 - [From Oslo To Action How The Owasp Agentic Skills Top 10 Was ](content/2026/03/16/ken-huang-ai-expert--from-oslo-to-action-how-the-owasp-agentic-skills-top-10-was-.md) — ken-huang-ai-expert
-
-### 2026-03-15
-- [Marc Andreessen On The Mindset Of Great Founders With David ](content/2026/03/15/a16z-podcast--marc-andreessen-on-the-mindset-of-great-founders-with-david-.md) — a16z-podcast
-- [This Benchmark May Surprise You Mac Mini M4 With 64Gb Unifie](content/2026/03/15/ken-huang-ai-expert--this-benchmark-may-surprise-you-mac-mini-m4-with-64gb-unifie.md) — ken-huang-ai-expert
-- [The Rise Of The Ai Chief Of Staff](content/2026/03/15/khemaridh-future-proof--the-rise-of-the-ai-chief-of-staff.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
