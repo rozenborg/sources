@@ -9,26 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-25 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-25 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-25 | 30 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-25 | 11 | ✅ |  |
-| The AI Collective | rss | 2026-03-25 | 17 | ✅ |  |
-| Harvard Business Review | rss | 2026-03-25 | 36 | ✅ |  |
-| Real Estate News | rss | 2026-03-25 | 14 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-25 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-25 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-25 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-25 | 26 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-25 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-25 | 4 | ✅ |  |
-| Latent Space | podcast | 2026-03-25 | 13 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-25 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-26 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-26 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-26 | 31 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-26 | 11 | ✅ |  |
+| The AI Collective | rss | 2026-03-25 | 17 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
+| Harvard Business Review | rss | 2026-03-26 | 38 | ✅ |  |
+| Real Estate News | rss | 2026-03-26 | 14 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-26 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-26 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-26 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-26 | 27 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-26 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-26 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-03-26 | 13 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-26 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-25
+- [Submarines And The Future Of Defense Manufacturing](content/2026/03/25/a16z-podcast--submarines-and-the-future-of-defense-manufacturing.md) — a16z-podcast
+- [Create An Onboarding Plan For Ai Agents](content/2026/03/25/hbr--create-an-onboarding-plan-for-ai-agents.md) — hbr
+- [Getting Ready For Agentic Ai](content/2026/03/25/hbr--getting-ready-for-agentic-ai.md) — hbr
+- [Intentbased Access Control A Technical Primer](content/2026/03/25/ken-huang-ai-expert--intentbased-access-control-a-technical-primer.md) — ken-huang-ai-expert
+
 ### 2026-03-24
 - [The Missing Power Layer Of Modern Warfare](content/2026/03/24/a16z-podcast--the-missing-power-layer-of-modern-warfare.md) — a16z-podcast
 - [Moltbookthreat Modeling Report](content/2026/03/24/ken-huang-ai-expert--moltbookthreat-modeling-report.md) — ken-huang-ai-expert
@@ -62,10 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [What The Best Ai Users Do Differentlyand How To Level Up All](content/2026/03/19/hbr--what-the-best-ai-users-do-differentlyand-how-to-level-up-all.md) — hbr
 - [Owasp Aivss Project Announces The Release Of V08 Scoring Sys](content/2026/03/19/ken-huang-ai-expert--owasp-aivss-project-announces-the-release-of-v08-scoring-sys.md) — ken-huang-ai-expert
 - [The Complete Guide To Claude Skills](content/2026/03/19/khemaridh-future-proof--the-complete-guide-to-claude-skills.md) — khemaridh-future-proof
-
-### 2026-03-18
-- [Ai Supply Chains And The Future Of Economic Power](content/2026/03/18/a16z-podcast--ai-supply-chains-and-the-future-of-economic-power.md) — a16z-podcast
-- [The Builders Issue Manus Desktop Nvidia Nemoclaw And Openai ](content/2026/03/18/ai-collective--the-builders-issue-manus-desktop-nvidia-nemoclaw-and-openai-.md) — ai-collective
-- [Beyond The Gradient Highway How Attention Residuals Fix The ](content/2026/03/18/ken-huang-ai-expert--beyond-the-gradient-highway-how-attention-residuals-fix-the-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
