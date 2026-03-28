@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-27 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-27 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-27 | 32 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-27 | 12 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-28 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-28 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-28 | 32 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-28 | 12 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-03-27 | 39 | ✅ |  |
-| Real Estate News | rss | 2026-03-27 | 15 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-27 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-27 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-27 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-27 | 28 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-27 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-27 | 4 | ✅ |  |
-| Latent Space | podcast | 2026-03-27 | 13 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-27 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-03-28 | 39 | ✅ |  |
+| Real Estate News | rss | 2026-03-28 | 15 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-28 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-28 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-28 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-28 | 29 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-28 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-28 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-03-28 | 13 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-28 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-27
+- [The Spacex And Tesla Playbook For Hard Tech Startups](content/2026/03/27/a16z-podcast--the-spacex-and-tesla-playbook-for-hard-tech-startups.md) — a16z-podcast
+
 ### 2026-03-26
 - [Security Resilience And The Future Of Mobile Infrastructure](content/2026/03/26/a16z-podcast--security-resilience-and-the-future-of-mobile-infrastructure.md) — a16z-podcast
 - [Strategy Summit 2026 Inventive Strategy And The Unbossed Org](content/2026/03/26/hbr--strategy-summit-2026-inventive-strategy-and-the-unbossed-org.md) — hbr
@@ -59,13 +62,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-03-21
 - [Agent Skill Trust Signing Service](content/2026/03/21/ken-huang-ai-expert--agent-skill-trust-signing-service.md) — ken-huang-ai-expert
 - [The Day Metas Ai Agent Broke Least Privilege A Maestro Deep ](content/2026/03/21/ken-huang-ai-expert--the-day-metas-ai-agent-broke-least-privilege-a-maestro-deep-.md) — ken-huang-ai-expert
-
-### 2026-03-20
-- [Inside Palantir Building Software That Matters With Shyam Sa](content/2026/03/20/a16z-podcast--inside-palantir-building-software-that-matters-with-shyam-sa.md) — a16z-podcast
-- [The Community Edition When Agents Miss The Fine Print](content/2026/03/20/ai-collective--the-community-edition-when-agents-miss-the-fine-print.md) — ai-collective
-- [Terence Tao Kepler Newton And The True Nature Of Mathematica](content/2026/03/20/dwarkesh-podcast--terence-tao-kepler-newton-and-the-true-nature-of-mathematica.md) — dwarkesh-podcast
-- [Join Me At Rsa Conference 2026 Lets Connect](content/2026/03/20/ken-huang-ai-expert--join-me-at-rsa-conference-2026-lets-connect.md) — ken-huang-ai-expert
-- [Dreamer The Personal Agent Os David Singleton](content/2026/03/20/latent-space--dreamer-the-personal-agent-os-david-singleton.md) — latent-space
-- [Andrej Karpathy On Code Agents Autoresearch And The Loopy Er](content/2026/03/20/no-priors--andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-er.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
