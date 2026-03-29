@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-28 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-28 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-28 | 32 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-28 | 12 | ✅ |  |
-| The AI Collective | rss | 2026-03-25 | 17 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-03-28 | 39 | ✅ |  |
-| Real Estate News | rss | 2026-03-28 | 15 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-28 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-28 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-28 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-28 | 29 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-28 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-28 | 4 | ✅ |  |
-| Latent Space | podcast | 2026-03-28 | 13 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-28 | 1 | ✅ | Short daily episodes (~10 min) |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-29 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-29 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-29 | 33 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-29 | 12 | ✅ |  |
+| The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
+| Harvard Business Review | rss | 2026-03-29 | 39 | ✅ |  |
+| Real Estate News | rss | 2026-03-29 | 15 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-29 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-29 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-29 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-29 | 29 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-29 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-29 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-03-29 | 13 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-29 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-28
+- [Rsac 2026 Innovation Sandbox](content/2026/03/28/ken-huang-ai-expert--rsac-2026-innovation-sandbox.md) — ken-huang-ai-expert
+
 ### 2026-03-27
 - [The Spacex And Tesla Playbook For Hard Tech Startups](content/2026/03/27/a16z-podcast--the-spacex-and-tesla-playbook-for-hard-tech-startups.md) — a16z-podcast
 
@@ -58,9 +61,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-03-22
 - [Claude Is Coming For Your Messaging Apps](content/2026/03/22/khemaridh-future-proof--claude-is-coming-for-your-messaging-apps.md) — khemaridh-future-proof
-
-### 2026-03-21
-- [Agent Skill Trust Signing Service](content/2026/03/21/ken-huang-ai-expert--agent-skill-trust-signing-service.md) — ken-huang-ai-expert
-- [The Day Metas Ai Agent Broke Least Privilege A Maestro Deep ](content/2026/03/21/ken-huang-ai-expert--the-day-metas-ai-agent-broke-least-privilege-a-maestro-deep-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
