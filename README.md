@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-30 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-30 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-30 | 34 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-30 | 13 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-03-31 | 2 | ✅ |  |
+| OpenAI Blog | rss | 2026-03-31 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-03-31 | 36 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-03-31 | 13 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-03-30 | 39 | ✅ |  |
-| Real Estate News | rss | 2026-03-30 | 15 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-30 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-30 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-30 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-30 | 29 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-30 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-30 | 4 | ✅ |  |
-| Latent Space | podcast | 2026-03-30 | 13 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-30 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-03-31 | 40 | ✅ |  |
+| Real Estate News | rss | 2026-03-31 | 16 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-03-31 | 22 | ✅ |  |
+| Built In | sitemap | 2026-03-31 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-03-31 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-03-31 | 30 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-03-31 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-03-31 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-03-31 | 14 | ✅ |  |
+| AI Daily Brief | podcast | 2026-03-31 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-03-30
+- [Marc Andreessen On Evaluating Founders And Ais Consumer Surp](content/2026/03/30/a16z-podcast--marc-andreessen-on-evaluating-founders-and-ais-consumer-surp.md) — a16z-podcast
+- [Ai Agents Act A Lot Like Malware Heres How To Contain The Ri](content/2026/03/30/hbr--ai-agents-act-a-lot-like-malware-heres-how-to-contain-the-ri.md) — hbr
+- [From Rsac 2026 In Sf To The Itu In Geneva Presenting Our Age](content/2026/03/30/ken-huang-ai-expert--from-rsac-2026-in-sf-to-the-itu-in-geneva-presenting-our-age.md) — ken-huang-ai-expert
+- [How Nvidia Openshell Puts A Control Plane Around Your Ai Age](content/2026/03/30/ken-huang-ai-expert--how-nvidia-openshell-puts-a-control-plane-around-your-ai-age.md) — ken-huang-ai-expert
+- [Mistral Voxtral Tts Forge Leanstral Whats Next For Mistral 4](content/2026/03/30/latent-space--mistral-voxtral-tts-forge-leanstral-whats-next-for-mistral-4.md) — latent-space
+- [Realtorcom The Latest Portal To Launch Search App In Chatgpt](content/2026/03/30/real-estate-news--realtorcom-the-latest-portal-to-launch-search-app-in-chatgpt.md) — real-estate-news
+
 ### 2026-03-29
 - [Maestro Threat Modeling Nemoclaw](content/2026/03/29/ken-huang-ai-expert--maestro-threat-modeling-nemoclaw.md) — ken-huang-ai-expert
 - [A Complete List Of Claudes New Features](content/2026/03/29/khemaridh-future-proof--a-complete-list-of-claudes-new-features.md) — khemaridh-future-proof
@@ -57,10 +65,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Moltbookthreat Modeling Report](content/2026/03/24/ken-huang-ai-expert--moltbookthreat-modeling-report.md) — ken-huang-ai-expert
 - [Why There Is No Alphafold For Materials Ai For Materials Dis](content/2026/03/24/latent-space--why-there-is-no-alphafold-for-materials-ai-for-materials-dis.md) — latent-space
 - [Sourcere Launches Mls Data Tracker State Wide Mls Adds Realr](content/2026/03/24/real-estate-news--sourcere-launches-mls-data-tracker-state-wide-mls-adds-realr.md) — real-estate-news
-
-### 2026-03-23
-- [Why Every Satellite Needs Earth Northwood Ceo On A16Z](content/2026/03/23/a16z-podcast--why-every-satellite-needs-earth-northwood-ceo-on-a16z.md) — a16z-podcast
-- [To Scale Ai Agents Successfully Think Of Them Like Team Memb](content/2026/03/23/hbr--to-scale-ai-agents-successfully-think-of-them-like-team-memb.md) — hbr
-- [Do You Have An Openclaw Strategy](content/2026/03/23/ken-huang-ai-expert--do-you-have-an-openclaw-strategy.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
