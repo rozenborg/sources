@@ -9,26 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-03-31 | 2 | ✅ |  |
-| OpenAI Blog | rss | 2026-03-31 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-03-31 | 36 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-03-31 | 13 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-01 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-01 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-01 | 38 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-01 | 13 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-03-31 | 40 | ✅ |  |
-| Real Estate News | rss | 2026-03-31 | 16 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-03-31 | 22 | ✅ |  |
-| Built In | sitemap | 2026-03-31 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-03-31 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-03-31 | 30 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-03-31 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-03-31 | 4 | ✅ |  |
-| Latent Space | podcast | 2026-03-31 | 14 | ✅ |  |
-| AI Daily Brief | podcast | 2026-03-31 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-01 | 40 | ✅ |  |
+| Real Estate News | rss | 2026-04-01 | 16 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-01 | 23 | ✅ |  |
+| Built In | sitemap | 2026-04-01 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-01 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-01 | 31 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-01 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-01 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-04-01 | 14 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-01 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-01
+- [Claude Skill Vs Plug In When To Use What](content/2026/04/01/ken-huang-ai-expert--claude-skill-vs-plug-in-when-to-use-what.md) — ken-huang-ai-expert
+
+### 2026-03-31
+- [How Radiant And Heron Are Rethinking Power Generation And De](content/2026/03/31/a16z-podcast--how-radiant-and-heron-are-rethinking-power-generation-and-de.md) — a16z-podcast
+- [Australia Mou](content/2026/03/31/anthropic-blog--australia-mou.md) — anthropic-blog
+- [Exciting Announcement Owasp Agentic Skills Top 10](content/2026/03/31/ken-huang-ai-expert--exciting-announcement-owasp-agentic-skills-top-10.md) — ken-huang-ai-expert
+- [Claude Dispatch And The Power Of Interfaces](content/2026/03/31/mollick-one-useful-thing--claude-dispatch-and-the-power-of-interfaces.md) — mollick-one-useful-thing
+
 ### 2026-03-30
 - [Marc Andreessen On Evaluating Founders And Ais Consumer Surp](content/2026/03/30/a16z-podcast--marc-andreessen-on-evaluating-founders-and-ais-consumer-surp.md) — a16z-podcast
 - [Ai Agents Act A Lot Like Malware Heres How To Contain The Ri](content/2026/03/30/hbr--ai-agents-act-a-lot-like-malware-heres-how-to-contain-the-ri.md) — hbr
@@ -59,11 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Create An Onboarding Plan For Ai Agents](content/2026/03/25/hbr--create-an-onboarding-plan-for-ai-agents.md) — hbr
 - [Getting Ready For Agentic Ai](content/2026/03/25/hbr--getting-ready-for-agentic-ai.md) — hbr
 - [Intentbased Access Control A Technical Primer](content/2026/03/25/ken-huang-ai-expert--intentbased-access-control-a-technical-primer.md) — ken-huang-ai-expert
-
-### 2026-03-24
-- [The Missing Power Layer Of Modern Warfare](content/2026/03/24/a16z-podcast--the-missing-power-layer-of-modern-warfare.md) — a16z-podcast
-- [Moltbookthreat Modeling Report](content/2026/03/24/ken-huang-ai-expert--moltbookthreat-modeling-report.md) — ken-huang-ai-expert
-- [Why There Is No Alphafold For Materials Ai For Materials Dis](content/2026/03/24/latent-space--why-there-is-no-alphafold-for-materials-ai-for-materials-dis.md) — latent-space
-- [Sourcere Launches Mls Data Tracker State Wide Mls Adds Realr](content/2026/03/24/real-estate-news--sourcere-launches-mls-data-tracker-state-wide-mls-adds-realr.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
