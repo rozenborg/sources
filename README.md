@@ -9,28 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-01 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-01 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-01 | 38 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-01 | 13 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-02 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-02 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-02 | 39 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-02 | 13 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-01 | 40 | ✅ |  |
-| Real Estate News | rss | 2026-04-01 | 16 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-01 | 23 | ✅ |  |
-| Built In | sitemap | 2026-04-01 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-01 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-01 | 31 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-01 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-01 | 4 | ✅ |  |
-| Latent Space | podcast | 2026-04-01 | 14 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-01 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-02 | 41 | ✅ |  |
+| Real Estate News | rss | 2026-04-02 | 16 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-02 | 23 | ✅ |  |
+| Built In | sitemap | 2026-04-02 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-02 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-02 | 32 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-02 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-02 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-04-02 | 14 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-02 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-04-01
+- [What Happens When A Public Company Goes All In On Ai](content/2026/04/01/a16z-podcast--what-happens-when-a-public-company-goes-all-in-on-ai.md) — a16z-podcast
+- [Dont Let Ai Destroy The Skills That Make Your Company Compet](content/2026/04/01/hbr--dont-let-ai-destroy-the-skills-that-make-your-company-compet.md) — hbr
 - [Claude Skill Vs Plug In When To Use What](content/2026/04/01/ken-huang-ai-expert--claude-skill-vs-plug-in-when-to-use-what.md) — ken-huang-ai-expert
+- [The Claude Code Leak 10 Agentic Ai Harness Patterns That Cha](content/2026/04/01/ken-huang-ai-expert--the-claude-code-leak-10-agentic-ai-harness-patterns-that-cha.md) — ken-huang-ai-expert
 
 ### 2026-03-31
 - [How Radiant And Heron Are Rethinking Power Generation And De](content/2026/03/31/a16z-podcast--how-radiant-and-heron-are-rethinking-power-generation-and-de.md) — a16z-podcast
@@ -62,11 +65,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Securing Agentic Ai Rsac 2026S Top 30 Tools](content/2026/03/26/ken-huang-ai-expert--securing-agentic-ai-rsac-2026s-top-30-tools.md) — ken-huang-ai-expert
 - [Claude Cowork How To Use The New Projects Feature](content/2026/03/26/khemaridh-future-proof--claude-cowork-how-to-use-the-new-projects-feature.md) — khemaridh-future-proof
 - [How Will Zillows Latest Ai Feature Impact Agents](content/2026/03/26/real-estate-news--how-will-zillows-latest-ai-feature-impact-agents.md) — real-estate-news
-
-### 2026-03-25
-- [Submarines And The Future Of Defense Manufacturing](content/2026/03/25/a16z-podcast--submarines-and-the-future-of-defense-manufacturing.md) — a16z-podcast
-- [Create An Onboarding Plan For Ai Agents](content/2026/03/25/hbr--create-an-onboarding-plan-for-ai-agents.md) — hbr
-- [Getting Ready For Agentic Ai](content/2026/03/25/hbr--getting-ready-for-agentic-ai.md) — hbr
-- [Intentbased Access Control A Technical Primer](content/2026/03/25/ken-huang-ai-expert--intentbased-access-control-a-technical-primer.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
