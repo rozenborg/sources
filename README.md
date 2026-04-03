@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-02 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-02 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-02 | 39 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-02 | 13 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-03 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-03 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-03 | 40 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-03 | 14 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-02 | 41 | ✅ |  |
-| Real Estate News | rss | 2026-04-02 | 16 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-02 | 23 | ✅ |  |
-| Built In | sitemap | 2026-04-02 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-02 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-02 | 32 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-02 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-02 | 4 | ✅ |  |
-| Latent Space | podcast | 2026-04-02 | 14 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-02 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-03 | 42 | ✅ |  |
+| Real Estate News | rss | 2026-04-03 | 16 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-03 | 23 | ✅ |  |
+| Built In | sitemap | 2026-04-03 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-03 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-03 | 33 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-03 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-03 | 4 | ✅ |  |
+| Latent Space | podcast | 2026-04-03 | 15 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-03 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-02
+- [Alex Blania On Proof Of Human And Building Worlds Identity N](content/2026/04/02/a16z-podcast--alex-blania-on-proof-of-human-and-building-worlds-identity-n.md) — a16z-podcast
+- [Strategy Summit 2026 Whos Going To Succeed With Ai](content/2026/04/02/hbr--strategy-summit-2026-whos-going-to-succeed-with-ai.md) — hbr
+- [Found From Claude Code Chapter 1 The Harness Paradigm](content/2026/04/02/ken-huang-ai-expert--found-from-claude-code-chapter-1-the-harness-paradigm.md) — ken-huang-ai-expert
+- [Claude Now Multi Tasks With Excel And Powerpoint](content/2026/04/02/khemaridh-future-proof--claude-now-multi-tasks-with-excel-and-powerpoint.md) — khemaridh-future-proof
+- [Moonlake Causal World Models Should Be Multimodal Interactiv](content/2026/04/02/latent-space--moonlake-causal-world-models-should-be-multimodal-interactiv.md) — latent-space
+
 ### 2026-04-01
 - [What Happens When A Public Company Goes All In On Ai](content/2026/04/01/a16z-podcast--what-happens-when-a-public-company-goes-all-in-on-ai.md) — a16z-podcast
 - [Dont Let Ai Destroy The Skills That Make Your Company Compet](content/2026/04/01/hbr--dont-let-ai-destroy-the-skills-that-make-your-company-compet.md) — hbr
@@ -58,12 +65,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-03-27
 - [The Spacex And Tesla Playbook For Hard Tech Startups](content/2026/03/27/a16z-podcast--the-spacex-and-tesla-playbook-for-hard-tech-startups.md) — a16z-podcast
-
-### 2026-03-26
-- [Security Resilience And The Future Of Mobile Infrastructure](content/2026/03/26/a16z-podcast--security-resilience-and-the-future-of-mobile-infrastructure.md) — a16z-podcast
-- [Strategy Summit 2026 Inventive Strategy And The Unbossed Org](content/2026/03/26/hbr--strategy-summit-2026-inventive-strategy-and-the-unbossed-org.md) — hbr
-- [Securing Agentic Ai Rsac 2026S Top 30 Tools](content/2026/03/26/ken-huang-ai-expert--securing-agentic-ai-rsac-2026s-top-30-tools.md) — ken-huang-ai-expert
-- [Claude Cowork How To Use The New Projects Feature](content/2026/03/26/khemaridh-future-proof--claude-cowork-how-to-use-the-new-projects-feature.md) — khemaridh-future-proof
-- [How Will Zillows Latest Ai Feature Impact Agents](content/2026/03/26/real-estate-news--how-will-zillows-latest-ai-feature-impact-agents.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
