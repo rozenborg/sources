@@ -9,26 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-05 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-05 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-05 | 43 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-05 | 14 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-06 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-06 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-06 | 45 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-06 | 15 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-05 | 42 | ✅ |  |
-| Real Estate News | rss | 2026-04-05 | 16 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-05 | 23 | ✅ |  |
-| Built In | sitemap | 2026-04-05 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-05 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-05 | 34 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-05 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-05 | 5 | ✅ |  |
-| Latent Space | podcast | 2026-04-05 | 16 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-05 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-06 | 42 | ✅ |  |
+| Real Estate News | rss | 2026-04-06 | 16 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-06 | 23 | ✅ |  |
+| Built In | sitemap | 2026-04-06 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-06 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-06 | 34 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-06 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-06 | 5 | ✅ |  |
+| Latent Space | podcast | 2026-04-06 | 16 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-06 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-05
+- [Claude Code Harness Pattern 4 Permission Systems And Safety ](content/2026/04/05/ken-huang-ai-expert--claude-code-harness-pattern-4-permission-systems-and-safety-.md) — ken-huang-ai-expert
+- [What Andrej Karpathy Got Right How A Local Llm Wiki Beats Ra](content/2026/04/05/ken-huang-ai-expert--what-andrej-karpathy-got-right-how-a-local-llm-wiki-beats-ra.md) — ken-huang-ai-expert
+- [The Ultimate Ai Catch Up Guide](content/2026/04/05/khemaridh-future-proof--the-ultimate-ai-catch-up-guide.md) — khemaridh-future-proof
+
 ### 2026-04-04
 - [Claude Code Harness Pattern 3 The Query Engine Orchestrating](content/2026/04/04/ken-huang-ai-expert--claude-code-harness-pattern-3-the-query-engine-orchestrating.md) — ken-huang-ai-expert
 
@@ -65,9 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [How Nvidia Openshell Puts A Control Plane Around Your Ai Age](content/2026/03/30/ken-huang-ai-expert--how-nvidia-openshell-puts-a-control-plane-around-your-ai-age.md) — ken-huang-ai-expert
 - [Mistral Voxtral Tts Forge Leanstral Whats Next For Mistral 4](content/2026/03/30/latent-space--mistral-voxtral-tts-forge-leanstral-whats-next-for-mistral-4.md) — latent-space
 - [Realtorcom The Latest Portal To Launch Search App In Chatgpt](content/2026/03/30/real-estate-news--realtorcom-the-latest-portal-to-launch-search-app-in-chatgpt.md) — real-estate-news
-
-### 2026-03-29
-- [Maestro Threat Modeling Nemoclaw](content/2026/03/29/ken-huang-ai-expert--maestro-threat-modeling-nemoclaw.md) — ken-huang-ai-expert
-- [A Complete List Of Claudes New Features](content/2026/03/29/khemaridh-future-proof--a-complete-list-of-claudes-new-features.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
