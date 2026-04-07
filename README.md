@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-06 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-06 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-06 | 45 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-06 | 15 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-07 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-07 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-07 | 47 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-07 | 15 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-06 | 42 | ✅ |  |
-| Real Estate News | rss | 2026-04-06 | 16 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-06 | 23 | ✅ |  |
-| Built In | sitemap | 2026-04-06 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-06 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-06 | 34 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-06 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-06 | 5 | ✅ |  |
-| Latent Space | podcast | 2026-04-06 | 16 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-06 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-07 | 44 | ✅ |  |
+| Real Estate News | rss | 2026-04-07 | 16 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-07 | 24 | ✅ |  |
+| Built In | sitemap | 2026-04-07 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-07 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-07 | 35 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-07 | 5 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-07 | 5 | ✅ |  |
+| Latent Space | podcast | 2026-04-07 | 16 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-07 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-06
+- [Peter Yang On Small Teams Coding Agents And Why Human Ambiti](content/2026/04/06/a16z-podcast--peter-yang-on-small-teams-coding-agents-and-why-human-ambiti.md) — a16z-podcast
+- [Google Broadcom Partnership Compute](content/2026/04/06/anthropic-blog--google-broadcom-partnership-compute.md) — anthropic-blog
+- [How Ai Helps Scale Qualitative Customer Research](content/2026/04/06/hbr--how-ai-helps-scale-qualitative-customer-research.md) — hbr
+- [To Succeed With Ai Youve Got To Nail The Basics](content/2026/04/06/hbr--to-succeed-with-ai-youve-got-to-nail-the-basics.md) — hbr
+- [Claude Code Pattern 5 Tool Orchestration And Execution](content/2026/04/06/ken-huang-ai-expert--claude-code-pattern-5-tool-orchestration-and-execution.md) — ken-huang-ai-expert
+- [The Kv Cache Wars](content/2026/04/06/ken-huang-ai-expert--the-kv-cache-wars.md) — ken-huang-ai-expert
+
 ### 2026-04-05
 - [Claude Code Harness Pattern 4 Permission Systems And Safety ](content/2026/04/05/ken-huang-ai-expert--claude-code-harness-pattern-4-permission-systems-and-safety-.md) — ken-huang-ai-expert
 - [What Andrej Karpathy Got Right How A Local Llm Wiki Beats Ra](content/2026/04/05/ken-huang-ai-expert--what-andrej-karpathy-got-right-how-a-local-llm-wiki-beats-ra.md) — ken-huang-ai-expert
@@ -62,13 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Australia Mou](content/2026/03/31/anthropic-blog--australia-mou.md) — anthropic-blog
 - [Exciting Announcement Owasp Agentic Skills Top 10](content/2026/03/31/ken-huang-ai-expert--exciting-announcement-owasp-agentic-skills-top-10.md) — ken-huang-ai-expert
 - [Claude Dispatch And The Power Of Interfaces](content/2026/03/31/mollick-one-useful-thing--claude-dispatch-and-the-power-of-interfaces.md) — mollick-one-useful-thing
-
-### 2026-03-30
-- [Marc Andreessen On Evaluating Founders And Ais Consumer Surp](content/2026/03/30/a16z-podcast--marc-andreessen-on-evaluating-founders-and-ais-consumer-surp.md) — a16z-podcast
-- [Ai Agents Act A Lot Like Malware Heres How To Contain The Ri](content/2026/03/30/hbr--ai-agents-act-a-lot-like-malware-heres-how-to-contain-the-ri.md) — hbr
-- [From Rsac 2026 In Sf To The Itu In Geneva Presenting Our Age](content/2026/03/30/ken-huang-ai-expert--from-rsac-2026-in-sf-to-the-itu-in-geneva-presenting-our-age.md) — ken-huang-ai-expert
-- [How Nvidia Openshell Puts A Control Plane Around Your Ai Age](content/2026/03/30/ken-huang-ai-expert--how-nvidia-openshell-puts-a-control-plane-around-your-ai-age.md) — ken-huang-ai-expert
-- [Mistral Voxtral Tts Forge Leanstral Whats Next For Mistral 4](content/2026/03/30/latent-space--mistral-voxtral-tts-forge-leanstral-whats-next-for-mistral-4.md) — latent-space
-- [Realtorcom The Latest Portal To Launch Search App In Chatgpt](content/2026/03/30/real-estate-news--realtorcom-the-latest-portal-to-launch-search-app-in-chatgpt.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
