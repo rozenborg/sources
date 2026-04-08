@@ -9,26 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-07 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-07 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-07 | 47 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-07 | 15 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-08 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-08 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-08 | 49 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-08 | 15 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-07 | 44 | ✅ |  |
-| Real Estate News | rss | 2026-04-07 | 16 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-07 | 24 | ✅ |  |
-| Built In | sitemap | 2026-04-07 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-07 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-07 | 35 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-07 | 5 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-07 | 5 | ✅ |  |
-| Latent Space | podcast | 2026-04-07 | 16 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-07 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-08 | 46 | ✅ |  |
+| Real Estate News | rss | 2026-04-08 | 16 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-08 | 24 | ✅ |  |
+| Built In | sitemap | 2026-04-08 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-08 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-08 | 36 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-08 | 6 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-08 | 5 | ✅ |  |
+| Latent Space | podcast | 2026-04-08 | 17 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-08 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-08
+- [What Is Inside Claude Mythos Preview Dissecting The System C](content/2026/04/08/ken-huang-ai-expert--what-is-inside-claude-mythos-preview-dissecting-the-system-c.md) — ken-huang-ai-expert
+
+### 2026-04-07
+- [Balaji On Why Ai Raises The Cost Of Verification](content/2026/04/07/a16z-podcast--balaji-on-why-ai-raises-the-cost-of-verification.md) — a16z-podcast
+- [Michael Nielsen How Science Actually Progresses](content/2026/04/07/dwarkesh-podcast--michael-nielsen-how-science-actually-progresses.md) — dwarkesh-podcast
+- [Ai Is Reshaping Cyber Risk Boards Need To Manage The Threat](content/2026/04/07/hbr--ai-is-reshaping-cyber-risk-boards-need-to-manage-the-threat.md) — hbr
+- [Decision Making By Consensus Doesnt Work In The Ai Era](content/2026/04/07/hbr--decision-making-by-consensus-doesnt-work-in-the-ai-era.md) — hbr
+- [Claude Code Pattern 6 Context Management At Scale](content/2026/04/07/ken-huang-ai-expert--claude-code-pattern-6-context-management-at-scale.md) — ken-huang-ai-expert
+- [Extreme Harness Engineering For Token Billionaires 1M Loc 1B](content/2026/04/07/latent-space--extreme-harness-engineering-for-token-billionaires-1m-loc-1b.md) — latent-space
+
 ### 2026-04-06
 - [Peter Yang On Small Teams Coding Agents And Why Human Ambiti](content/2026/04/06/a16z-podcast--peter-yang-on-small-teams-coding-agents-and-why-human-ambiti.md) — a16z-podcast
 - [Google Broadcom Partnership Compute](content/2026/04/06/anthropic-blog--google-broadcom-partnership-compute.md) — anthropic-blog
@@ -64,11 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Dont Let Ai Destroy The Skills That Make Your Company Compet](content/2026/04/01/hbr--dont-let-ai-destroy-the-skills-that-make-your-company-compet.md) — hbr
 - [Claude Skill Vs Plug In When To Use What](content/2026/04/01/ken-huang-ai-expert--claude-skill-vs-plug-in-when-to-use-what.md) — ken-huang-ai-expert
 - [The Claude Code Leak 10 Agentic Ai Harness Patterns That Cha](content/2026/04/01/ken-huang-ai-expert--the-claude-code-leak-10-agentic-ai-harness-patterns-that-cha.md) — ken-huang-ai-expert
-
-### 2026-03-31
-- [How Radiant And Heron Are Rethinking Power Generation And De](content/2026/03/31/a16z-podcast--how-radiant-and-heron-are-rethinking-power-generation-and-de.md) — a16z-podcast
-- [Australia Mou](content/2026/03/31/anthropic-blog--australia-mou.md) — anthropic-blog
-- [Exciting Announcement Owasp Agentic Skills Top 10](content/2026/03/31/ken-huang-ai-expert--exciting-announcement-owasp-agentic-skills-top-10.md) — ken-huang-ai-expert
-- [Claude Dispatch And The Power Of Interfaces](content/2026/03/31/mollick-one-useful-thing--claude-dispatch-and-the-power-of-interfaces.md) — mollick-one-useful-thing
 
 <!-- RECENT_CONTENT_END -->
