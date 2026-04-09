@@ -9,27 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-08 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-08 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-08 | 49 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-08 | 15 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-09 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-09 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-09 | 51 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-09 | 15 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-08 | 46 | ✅ |  |
-| Real Estate News | rss | 2026-04-08 | 16 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-08 | 24 | ✅ |  |
-| Built In | sitemap | 2026-04-08 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-08 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-08 | 36 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-08 | 6 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-08 | 5 | ✅ |  |
-| Latent Space | podcast | 2026-04-08 | 17 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-08 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-09 | 48 | ✅ |  |
+| Real Estate News | rss | 2026-04-09 | 16 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-09 | 24 | ✅ |  |
+| Built In | sitemap | 2026-04-09 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-09 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-09 | 37 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-09 | 6 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-09 | 5 | ✅ |  |
+| Latent Space | podcast | 2026-04-09 | 17 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-09 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-09
+- [Mechanistic Interpretability Of Claude Mythos Inside Anthrop](content/2026/04/09/ken-huang-ai-expert--mechanistic-interpretability-of-claude-mythos-inside-anthrop.md) — ken-huang-ai-expert
+
 ### 2026-04-08
+- [The Agent Era Building Software Beyond Chat With Box Ceo Aar](content/2026/04/08/a16z-podcast--the-agent-era-building-software-beyond-chat-with-box-ceo-aar.md) — a16z-podcast
+- [Managers And Executives Disagree On Aiand Its Costing Compan](content/2026/04/08/hbr--managers-and-executives-disagree-on-aiand-its-costing-compan.md) — hbr
+- [What Ai Cant Do The New Job Of Leadership](content/2026/04/08/hbr--what-ai-cant-do-the-new-job-of-leadership.md) — hbr
+- [Claude Code Pattern 7 Multi Agent Coordination](content/2026/04/08/ken-huang-ai-expert--claude-code-pattern-7-multi-agent-coordination.md) — ken-huang-ai-expert
 - [What Is Inside Claude Mythos Preview Dissecting The System C](content/2026/04/08/ken-huang-ai-expert--what-is-inside-claude-mythos-preview-dissecting-the-system-c.md) — ken-huang-ai-expert
 
 ### 2026-04-07
@@ -69,11 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Found From Claude Code Chapter 1 The Harness Paradigm](content/2026/04/02/ken-huang-ai-expert--found-from-claude-code-chapter-1-the-harness-paradigm.md) — ken-huang-ai-expert
 - [Claude Now Multi Tasks With Excel And Powerpoint](content/2026/04/02/khemaridh-future-proof--claude-now-multi-tasks-with-excel-and-powerpoint.md) — khemaridh-future-proof
 - [Moonlake Causal World Models Should Be Multimodal Interactiv](content/2026/04/02/latent-space--moonlake-causal-world-models-should-be-multimodal-interactiv.md) — latent-space
-
-### 2026-04-01
-- [What Happens When A Public Company Goes All In On Ai](content/2026/04/01/a16z-podcast--what-happens-when-a-public-company-goes-all-in-on-ai.md) — a16z-podcast
-- [Dont Let Ai Destroy The Skills That Make Your Company Compet](content/2026/04/01/hbr--dont-let-ai-destroy-the-skills-that-make-your-company-compet.md) — hbr
-- [Claude Skill Vs Plug In When To Use What](content/2026/04/01/ken-huang-ai-expert--claude-skill-vs-plug-in-when-to-use-what.md) — ken-huang-ai-expert
-- [The Claude Code Leak 10 Agentic Ai Harness Patterns That Cha](content/2026/04/01/ken-huang-ai-expert--the-claude-code-leak-10-agentic-ai-harness-patterns-that-cha.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
