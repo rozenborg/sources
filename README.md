@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-09 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-09 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-09 | 51 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-09 | 15 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-10 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-10 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-10 | 53 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-10 | 16 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-09 | 48 | ✅ |  |
-| Real Estate News | rss | 2026-04-09 | 16 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-09 | 24 | ✅ |  |
-| Built In | sitemap | 2026-04-09 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-09 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-09 | 37 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-09 | 6 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-09 | 5 | ✅ |  |
-| Latent Space | podcast | 2026-04-09 | 17 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-09 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-10 | 48 | ✅ |  |
+| Real Estate News | rss | 2026-04-10 | 17 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-10 | 25 | ✅ |  |
+| Built In | sitemap | 2026-04-10 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-10 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-10 | 38 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-10 | 6 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-10 | 6 | ✅ |  |
+| Latent Space | podcast | 2026-04-10 | 17 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-10 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-04-09
+- [Who Controls Ai Acceleration Vitalik Buterin And Guillaume V](content/2026/04/09/a16z-podcast--who-controls-ai-acceleration-vitalik-buterin-and-guillaume-v.md) — a16z-podcast
+- [Healthcare Life Sciences](content/2026/04/09/anthropic-blog--healthcare-life-sciences.md) — anthropic-blog
+- [Claude Code Harness Pattern 8 Memory Systems And State Persi](content/2026/04/09/ken-huang-ai-expert--claude-code-harness-pattern-8-memory-systems-and-state-persi.md) — ken-huang-ai-expert
+- [Crossing 81K Email Subscribers And 845K Monthly Impressions ](content/2026/04/09/ken-huang-ai-expert--crossing-81k-email-subscribers-and-845k-monthly-impressions-.md) — ken-huang-ai-expert
 - [Mechanistic Interpretability Of Claude Mythos Inside Anthrop](content/2026/04/09/ken-huang-ai-expert--mechanistic-interpretability-of-claude-mythos-inside-anthrop.md) — ken-huang-ai-expert
+- [Ai Just Got Way Less Fun](content/2026/04/09/khemaridh-future-proof--ai-just-got-way-less-fun.md) — khemaridh-future-proof
+- [The Agentic Economy How Ai Agents Will Transform The Financi](content/2026/04/09/no-priors--the-agentic-economy-how-ai-agents-will-transform-the-financi.md) — no-priors
+- [Shilo Rechat Lofty Add Ai Tools Associations Bolster Agent S](content/2026/04/09/real-estate-news--shilo-rechat-lofty-add-ai-tools-associations-bolster-agent-s.md) — real-estate-news
 
 ### 2026-04-08
 - [The Agent Era Building Software Beyond Chat With Box Ceo Aar](content/2026/04/08/a16z-podcast--the-agent-era-building-software-beyond-chat-with-box-ceo-aar.md) — a16z-podcast
@@ -69,12 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Use Local Google Gemma 4 Model To Scan Your Pdf Document](content/2026/04/03/ken-huang-ai-expert--use-local-google-gemma-4-model-to-scan-your-pdf-document.md) — ken-huang-ai-expert
 - [Marc Andreessen Introspects On The Death Of The Browser Pi O](content/2026/04/03/latent-space--marc-andreessen-introspects-on-the-death-of-the-browser-pi-o.md) — latent-space
 - [Ai For Atoms How Periodic Labs Is Revolutionizing Materials ](content/2026/04/03/no-priors--ai-for-atoms-how-periodic-labs-is-revolutionizing-materials-.md) — no-priors
-
-### 2026-04-02
-- [Alex Blania On Proof Of Human And Building Worlds Identity N](content/2026/04/02/a16z-podcast--alex-blania-on-proof-of-human-and-building-worlds-identity-n.md) — a16z-podcast
-- [Strategy Summit 2026 Whos Going To Succeed With Ai](content/2026/04/02/hbr--strategy-summit-2026-whos-going-to-succeed-with-ai.md) — hbr
-- [Found From Claude Code Chapter 1 The Harness Paradigm](content/2026/04/02/ken-huang-ai-expert--found-from-claude-code-chapter-1-the-harness-paradigm.md) — ken-huang-ai-expert
-- [Claude Now Multi Tasks With Excel And Powerpoint](content/2026/04/02/khemaridh-future-proof--claude-now-multi-tasks-with-excel-and-powerpoint.md) — khemaridh-future-proof
-- [Moonlake Causal World Models Should Be Multimodal Interactiv](content/2026/04/02/latent-space--moonlake-causal-world-models-should-be-multimodal-interactiv.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
