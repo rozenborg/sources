@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-10 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-10 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-10 | 53 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-10 | 16 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-11 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-11 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-11 | 55 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-11 | 16 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-10 | 48 | ✅ |  |
-| Real Estate News | rss | 2026-04-10 | 17 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-10 | 25 | ✅ |  |
-| Built In | sitemap | 2026-04-10 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-10 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-10 | 38 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-10 | 6 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-10 | 6 | ✅ |  |
-| Latent Space | podcast | 2026-04-10 | 17 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-10 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-11 | 48 | ✅ |  |
+| Real Estate News | rss | 2026-04-11 | 17 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-11 | 25 | ✅ |  |
+| Built In | sitemap | 2026-04-11 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-11 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-11 | 39 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-11 | 6 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-11 | 6 | ✅ |  |
+| Latent Space | podcast | 2026-04-11 | 17 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-11 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-11
+- [How Anthropic Scaling Managed Agents With Future Proof Archi](content/2026/04/11/ken-huang-ai-expert--how-anthropic-scaling-managed-agents-with-future-proof-archi.md) — ken-huang-ai-expert
+
+### 2026-04-10
+- [What Running Windows At Microsoft Taught Steven Sinofsky Abo](content/2026/04/10/a16z-podcast--what-running-windows-at-microsoft-taught-steven-sinofsky-abo.md) — a16z-podcast
+- [Claude Code Harness Pattern 9 Observability And Debugging](content/2026/04/10/ken-huang-ai-expert--claude-code-harness-pattern-9-observability-and-debugging.md) — ken-huang-ai-expert
+
 ### 2026-04-09
 - [Who Controls Ai Acceleration Vitalik Buterin And Guillaume V](content/2026/04/09/a16z-podcast--who-controls-ai-acceleration-vitalik-buterin-and-guillaume-v.md) — a16z-podcast
 - [Healthcare Life Sciences](content/2026/04/09/anthropic-blog--healthcare-life-sciences.md) — anthropic-blog
@@ -69,12 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-04-04
 - [Claude Code Harness Pattern 3 The Query Engine Orchestrating](content/2026/04/04/ken-huang-ai-expert--claude-code-harness-pattern-3-the-query-engine-orchestrating.md) — ken-huang-ai-expert
-
-### 2026-04-03
-- [Marc Andreessen On Ai Winters And Agent Breakthroughs](content/2026/04/03/a16z-podcast--marc-andreessen-on-ai-winters-and-agent-breakthroughs.md) — a16z-podcast
-- [Claude Code Harness Pattern 2 Tool Architecture And The Tool](content/2026/04/03/ken-huang-ai-expert--claude-code-harness-pattern-2-tool-architecture-and-the-tool.md) — ken-huang-ai-expert
-- [Use Local Google Gemma 4 Model To Scan Your Pdf Document](content/2026/04/03/ken-huang-ai-expert--use-local-google-gemma-4-model-to-scan-your-pdf-document.md) — ken-huang-ai-expert
-- [Marc Andreessen Introspects On The Death Of The Browser Pi O](content/2026/04/03/latent-space--marc-andreessen-introspects-on-the-death-of-the-browser-pi-o.md) — latent-space
-- [Ai For Atoms How Periodic Labs Is Revolutionizing Materials ](content/2026/04/03/no-priors--ai-for-atoms-how-periodic-labs-is-revolutionizing-materials-.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
