@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-11 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-11 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-11 | 55 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-11 | 16 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-12 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-12 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-12 | 55 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-12 | 16 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-11 | 48 | ✅ |  |
-| Real Estate News | rss | 2026-04-11 | 17 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-11 | 25 | ✅ |  |
-| Built In | sitemap | 2026-04-11 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-11 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-11 | 39 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-11 | 6 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-11 | 6 | ✅ |  |
-| Latent Space | podcast | 2026-04-11 | 17 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-11 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-12 | 48 | ✅ |  |
+| Real Estate News | rss | 2026-04-12 | 17 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-12 | 25 | ✅ |  |
+| Built In | sitemap | 2026-04-12 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-12 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-12 | 39 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-12 | 6 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-12 | 6 | ✅ |  |
+| Latent Space | podcast | 2026-04-12 | 17 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-12 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -73,8 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Claude Code Harness Pattern 4 Permission Systems And Safety ](content/2026/04/05/ken-huang-ai-expert--claude-code-harness-pattern-4-permission-systems-and-safety-.md) — ken-huang-ai-expert
 - [What Andrej Karpathy Got Right How A Local Llm Wiki Beats Ra](content/2026/04/05/ken-huang-ai-expert--what-andrej-karpathy-got-right-how-a-local-llm-wiki-beats-ra.md) — ken-huang-ai-expert
 - [The Ultimate Ai Catch Up Guide](content/2026/04/05/khemaridh-future-proof--the-ultimate-ai-catch-up-guide.md) — khemaridh-future-proof
-
-### 2026-04-04
-- [Claude Code Harness Pattern 3 The Query Engine Orchestrating](content/2026/04/04/ken-huang-ai-expert--claude-code-harness-pattern-3-the-query-engine-orchestrating.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
