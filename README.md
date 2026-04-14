@@ -9,27 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-13 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-13 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-13 | 57 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-13 | 17 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-14 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-14 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-14 | 57 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-14 | 17 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-13 | 48 | ✅ |  |
-| Real Estate News | rss | 2026-04-13 | 17 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-13 | 25 | ✅ |  |
-| Built In | sitemap | 2026-04-13 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-13 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-13 | 39 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-13 | 6 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-13 | 6 | ✅ |  |
-| Latent Space | podcast | 2026-04-13 | 17 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-13 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-14 | 49 | ✅ |  |
+| Real Estate News | rss | 2026-04-14 | 17 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-14 | 25 | ✅ |  |
+| Built In | sitemap | 2026-04-14 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-14 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-14 | 40 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-14 | 6 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-14 | 6 | ✅ |  |
+| Latent Space | podcast | 2026-04-14 | 17 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-14 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-04-13
+- [Building Agents At Home Parenting Work And Benevolent Neglec](content/2026/04/13/a16z-podcast--building-agents-at-home-parenting-work-and-benevolent-neglec.md) — a16z-podcast
+- [How Ai Is Threatening Platforms Revenue Streams](content/2026/04/13/hbr--how-ai-is-threatening-platforms-revenue-streams.md) — hbr
 - [Token Is All You Need Finding 0Days With Llms And Agentic Ai](content/2026/04/13/ken-huang-ai-expert--token-is-all-you-need-finding-0days-with-llms-and-agentic-ai.md) — ken-huang-ai-expert
 
 ### 2026-04-12
@@ -67,13 +69,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Decision Making By Consensus Doesnt Work In The Ai Era](content/2026/04/07/hbr--decision-making-by-consensus-doesnt-work-in-the-ai-era.md) — hbr
 - [Claude Code Pattern 6 Context Management At Scale](content/2026/04/07/ken-huang-ai-expert--claude-code-pattern-6-context-management-at-scale.md) — ken-huang-ai-expert
 - [Extreme Harness Engineering For Token Billionaires 1M Loc 1B](content/2026/04/07/latent-space--extreme-harness-engineering-for-token-billionaires-1m-loc-1b.md) — latent-space
-
-### 2026-04-06
-- [Peter Yang On Small Teams Coding Agents And Why Human Ambiti](content/2026/04/06/a16z-podcast--peter-yang-on-small-teams-coding-agents-and-why-human-ambiti.md) — a16z-podcast
-- [Google Broadcom Partnership Compute](content/2026/04/06/anthropic-blog--google-broadcom-partnership-compute.md) — anthropic-blog
-- [How Ai Helps Scale Qualitative Customer Research](content/2026/04/06/hbr--how-ai-helps-scale-qualitative-customer-research.md) — hbr
-- [To Succeed With Ai Youve Got To Nail The Basics](content/2026/04/06/hbr--to-succeed-with-ai-youve-got-to-nail-the-basics.md) — hbr
-- [Claude Code Pattern 5 Tool Orchestration And Execution](content/2026/04/06/ken-huang-ai-expert--claude-code-pattern-5-tool-orchestration-and-execution.md) — ken-huang-ai-expert
-- [The Kv Cache Wars](content/2026/04/06/ken-huang-ai-expert--the-kv-cache-wars.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
