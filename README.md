@@ -9,26 +9,36 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-14 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-14 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-14 | 57 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-14 | 17 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-15 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-15 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-15 | 59 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-15 | 17 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-14 | 49 | ✅ |  |
-| Real Estate News | rss | 2026-04-14 | 17 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-14 | 25 | ✅ |  |
-| Built In | sitemap | 2026-04-14 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-14 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-14 | 40 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-14 | 6 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-14 | 6 | ✅ |  |
-| Latent Space | podcast | 2026-04-14 | 17 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-14 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-15 | 50 | ✅ |  |
+| Real Estate News | rss | 2026-04-15 | 17 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-15 | 26 | ✅ |  |
+| Built In | sitemap | 2026-04-15 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-15 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-15 | 41 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-15 | 6 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-15 | 6 | ✅ |  |
+| Latent Space | podcast | 2026-04-15 | 18 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-15 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-15
+- [Notions Token Town 5 Rebuilds 100 Tools Mcp Vs Clis And The ](content/2026/04/15/latent-space--notions-token-town-5-rebuilds-100-tools-mcp-vs-clis-and-the-.md) — latent-space
+
+### 2026-04-14
+- [Ben Horowitz On Ai Infrastructure Economics And The New Laws](content/2026/04/14/a16z-podcast--ben-horowitz-on-ai-infrastructure-economics-and-the-new-laws.md) — a16z-podcast
+- [Narasimhan Board](content/2026/04/14/anthropic-blog--narasimhan-board.md) — anthropic-blog
+- [The Hidden Demand For Ai Inside Your Company](content/2026/04/14/hbr--the-hidden-demand-for-ai-inside-your-company.md) — hbr
+- [Intent Based Access Controlibac For Coding Agents](content/2026/04/14/ken-huang-ai-expert--intent-based-access-controlibac-for-coding-agents.md) — ken-huang-ai-expert
+- [The Agentic Ecosystem Security Gap What 500 Cisos Just Told ](content/2026/04/14/ken-huang-ai-expert--the-agentic-ecosystem-security-gap-what-500-cisos-just-told-.md) — ken-huang-ai-expert
+
 ### 2026-04-13
 - [Building Agents At Home Parenting Work And Benevolent Neglec](content/2026/04/13/a16z-podcast--building-agents-at-home-parenting-work-and-benevolent-neglec.md) — a16z-podcast
 - [How Ai Is Threatening Platforms Revenue Streams](content/2026/04/13/hbr--how-ai-is-threatening-platforms-revenue-streams.md) — hbr
@@ -61,13 +71,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [What Ai Cant Do The New Job Of Leadership](content/2026/04/08/hbr--what-ai-cant-do-the-new-job-of-leadership.md) — hbr
 - [Claude Code Pattern 7 Multi Agent Coordination](content/2026/04/08/ken-huang-ai-expert--claude-code-pattern-7-multi-agent-coordination.md) — ken-huang-ai-expert
 - [What Is Inside Claude Mythos Preview Dissecting The System C](content/2026/04/08/ken-huang-ai-expert--what-is-inside-claude-mythos-preview-dissecting-the-system-c.md) — ken-huang-ai-expert
-
-### 2026-04-07
-- [Balaji On Why Ai Raises The Cost Of Verification](content/2026/04/07/a16z-podcast--balaji-on-why-ai-raises-the-cost-of-verification.md) — a16z-podcast
-- [Michael Nielsen How Science Actually Progresses](content/2026/04/07/dwarkesh-podcast--michael-nielsen-how-science-actually-progresses.md) — dwarkesh-podcast
-- [Ai Is Reshaping Cyber Risk Boards Need To Manage The Threat](content/2026/04/07/hbr--ai-is-reshaping-cyber-risk-boards-need-to-manage-the-threat.md) — hbr
-- [Decision Making By Consensus Doesnt Work In The Ai Era](content/2026/04/07/hbr--decision-making-by-consensus-doesnt-work-in-the-ai-era.md) — hbr
-- [Claude Code Pattern 6 Context Management At Scale](content/2026/04/07/ken-huang-ai-expert--claude-code-pattern-6-context-management-at-scale.md) — ken-huang-ai-expert
-- [Extreme Harness Engineering For Token Billionaires 1M Loc 1B](content/2026/04/07/latent-space--extreme-harness-engineering-for-token-billionaires-1m-loc-1b.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
