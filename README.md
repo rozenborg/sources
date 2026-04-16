@@ -9,27 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-15 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-15 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-15 | 59 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-15 | 17 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-16 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-16 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-16 | 60 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-16 | 17 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-15 | 50 | ✅ |  |
-| Real Estate News | rss | 2026-04-15 | 17 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-15 | 26 | ✅ |  |
-| Built In | sitemap | 2026-04-15 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-15 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-15 | 41 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-15 | 6 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-15 | 6 | ✅ |  |
-| Latent Space | podcast | 2026-04-15 | 18 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-15 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-16 | 51 | ✅ |  |
+| Real Estate News | rss | 2026-04-16 | 17 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-16 | 26 | ✅ |  |
+| Built In | sitemap | 2026-04-16 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-16 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-16 | 42 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-16 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-16 | 6 | ✅ |  |
+| Latent Space | podcast | 2026-04-16 | 18 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-16 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-04-15
+- [Replits Ceo On Vibe Coding Wealth Building And What Most Peo](content/2026/04/15/a16z-podcast--replits-ceo-on-vibe-coding-wealth-building-and-what-most-peo.md) — a16z-podcast
+- [Jensen Huang Tpu Competition Why We Should Sell Chips To Chi](content/2026/04/15/dwarkesh-podcast--jensen-huang-tpu-competition-why-we-should-sell-chips-to-chi.md) — dwarkesh-podcast
+- [When Creating An Ai Strategy Dont Overlook Employee Percepti](content/2026/04/15/hbr--when-creating-an-ai-strategy-dont-overlook-employee-percepti.md) — hbr
+- [Defenseclaw Maestro And The Security Boundary Agentic Ai Has](content/2026/04/15/ken-huang-ai-expert--defenseclaw-maestro-and-the-security-boundary-agentic-ai-has.md) — ken-huang-ai-expert
 - [Notions Token Town 5 Rebuilds 100 Tools Mcp Vs Clis And The ](content/2026/04/15/latent-space--notions-token-town-5-rebuilds-100-tools-mcp-vs-clis-and-the-.md) — latent-space
 
 ### 2026-04-14
@@ -64,12 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ai Just Got Way Less Fun](content/2026/04/09/khemaridh-future-proof--ai-just-got-way-less-fun.md) — khemaridh-future-proof
 - [The Agentic Economy How Ai Agents Will Transform The Financi](content/2026/04/09/no-priors--the-agentic-economy-how-ai-agents-will-transform-the-financi.md) — no-priors
 - [Shilo Rechat Lofty Add Ai Tools Associations Bolster Agent S](content/2026/04/09/real-estate-news--shilo-rechat-lofty-add-ai-tools-associations-bolster-agent-s.md) — real-estate-news
-
-### 2026-04-08
-- [The Agent Era Building Software Beyond Chat With Box Ceo Aar](content/2026/04/08/a16z-podcast--the-agent-era-building-software-beyond-chat-with-box-ceo-aar.md) — a16z-podcast
-- [Managers And Executives Disagree On Aiand Its Costing Compan](content/2026/04/08/hbr--managers-and-executives-disagree-on-aiand-its-costing-compan.md) — hbr
-- [What Ai Cant Do The New Job Of Leadership](content/2026/04/08/hbr--what-ai-cant-do-the-new-job-of-leadership.md) — hbr
-- [Claude Code Pattern 7 Multi Agent Coordination](content/2026/04/08/ken-huang-ai-expert--claude-code-pattern-7-multi-agent-coordination.md) — ken-huang-ai-expert
-- [What Is Inside Claude Mythos Preview Dissecting The System C](content/2026/04/08/ken-huang-ai-expert--what-is-inside-claude-mythos-preview-dissecting-the-system-c.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
