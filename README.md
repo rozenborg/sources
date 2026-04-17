@@ -9,30 +9,39 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-16 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-16 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-16 | 60 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-16 | 17 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-17 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-17 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-17 | 60 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-17 | 18 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-16 | 51 | ✅ |  |
-| Real Estate News | rss | 2026-04-16 | 17 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-16 | 26 | ✅ |  |
-| Built In | sitemap | 2026-04-16 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-16 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-16 | 42 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-16 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-16 | 6 | ✅ |  |
-| Latent Space | podcast | 2026-04-16 | 18 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-16 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-17 | 52 | ✅ |  |
+| Real Estate News | rss | 2026-04-17 | 18 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-17 | 27 | ✅ |  |
+| Built In | sitemap | 2026-04-17 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-17 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-17 | 43 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-17 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-17 | 6 | ✅ |  |
+| Latent Space | podcast | 2026-04-17 | 18 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-17 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-17
+- [Zillows Buzz Sheds Light On User Engagement Side Enhances Ap](content/2026/04/17/real-estate-news--zillows-buzz-sheds-light-on-user-engagement-side-enhances-ap.md) — real-estate-news
+
+### 2026-04-16
+- [Technology Culture And The Next Ai Interface With Signüll](content/2026/04/16/a16z-podcast--technology-culture-and-the-next-ai-interface-with-signüll.md) — a16z-podcast
+- [Claude Opus 4 7](content/2026/04/16/anthropic-blog--claude-opus-4-7.md) — anthropic-blog
+- [What Milkshakes Can Teach Us About Ai](content/2026/04/16/khemaridh-future-proof--what-milkshakes-can-teach-us-about-ai.md) — khemaridh-future-proof
+
 ### 2026-04-15
 - [Replits Ceo On Vibe Coding Wealth Building And What Most Peo](content/2026/04/15/a16z-podcast--replits-ceo-on-vibe-coding-wealth-building-and-what-most-peo.md) — a16z-podcast
 - [Jensen Huang Tpu Competition Why We Should Sell Chips To Chi](content/2026/04/15/dwarkesh-podcast--jensen-huang-tpu-competition-why-we-should-sell-chips-to-chi.md) — dwarkesh-podcast
 - [When Creating An Ai Strategy Dont Overlook Employee Percepti](content/2026/04/15/hbr--when-creating-an-ai-strategy-dont-overlook-employee-percepti.md) — hbr
+- [Why Companies That Choose Ai Augmentation Over Automation Ma](content/2026/04/15/hbr--why-companies-that-choose-ai-augmentation-over-automation-ma.md) — hbr
 - [Defenseclaw Maestro And The Security Boundary Agentic Ai Has](content/2026/04/15/ken-huang-ai-expert--defenseclaw-maestro-and-the-security-boundary-agentic-ai-has.md) — ken-huang-ai-expert
 - [Notions Token Town 5 Rebuilds 100 Tools Mcp Vs Clis And The ](content/2026/04/15/latent-space--notions-token-town-5-rebuilds-100-tools-mcp-vs-clis-and-the-.md) — latent-space
 
@@ -58,15 +67,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-04-10
 - [What Running Windows At Microsoft Taught Steven Sinofsky Abo](content/2026/04/10/a16z-podcast--what-running-windows-at-microsoft-taught-steven-sinofsky-abo.md) — a16z-podcast
 - [Claude Code Harness Pattern 9 Observability And Debugging](content/2026/04/10/ken-huang-ai-expert--claude-code-harness-pattern-9-observability-and-debugging.md) — ken-huang-ai-expert
-
-### 2026-04-09
-- [Who Controls Ai Acceleration Vitalik Buterin And Guillaume V](content/2026/04/09/a16z-podcast--who-controls-ai-acceleration-vitalik-buterin-and-guillaume-v.md) — a16z-podcast
-- [Healthcare Life Sciences](content/2026/04/09/anthropic-blog--healthcare-life-sciences.md) — anthropic-blog
-- [Claude Code Harness Pattern 8 Memory Systems And State Persi](content/2026/04/09/ken-huang-ai-expert--claude-code-harness-pattern-8-memory-systems-and-state-persi.md) — ken-huang-ai-expert
-- [Crossing 81K Email Subscribers And 845K Monthly Impressions ](content/2026/04/09/ken-huang-ai-expert--crossing-81k-email-subscribers-and-845k-monthly-impressions-.md) — ken-huang-ai-expert
-- [Mechanistic Interpretability Of Claude Mythos Inside Anthrop](content/2026/04/09/ken-huang-ai-expert--mechanistic-interpretability-of-claude-mythos-inside-anthrop.md) — ken-huang-ai-expert
-- [Ai Just Got Way Less Fun](content/2026/04/09/khemaridh-future-proof--ai-just-got-way-less-fun.md) — khemaridh-future-proof
-- [The Agentic Economy How Ai Agents Will Transform The Financi](content/2026/04/09/no-priors--the-agentic-economy-how-ai-agents-will-transform-the-financi.md) — no-priors
-- [Shilo Rechat Lofty Add Ai Tools Associations Bolster Agent S](content/2026/04/09/real-estate-news--shilo-rechat-lofty-add-ai-tools-associations-bolster-agent-s.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
