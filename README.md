@@ -9,27 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-17 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-17 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-17 | 60 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-17 | 18 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-18 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-18 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-18 | 61 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-18 | 18 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-17 | 52 | ✅ |  |
-| Real Estate News | rss | 2026-04-17 | 18 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-17 | 27 | ✅ |  |
-| Built In | sitemap | 2026-04-17 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-17 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-17 | 43 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-17 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-17 | 6 | ✅ |  |
-| Latent Space | podcast | 2026-04-17 | 18 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-17 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-18 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-18 | 18 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-18 | 28 | ✅ |  |
+| Built In | sitemap | 2026-04-18 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-18 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-18 | 44 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-18 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-18 | 7 | ✅ |  |
+| Latent Space | podcast | 2026-04-18 | 18 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-18 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-04-17
+- [The System Behind Self Driving Waymos Dmitri Dolgov](content/2026/04/17/a16z-podcast--the-system-behind-self-driving-waymos-dmitri-dolgov.md) — a16z-podcast
+- [Claude Design Anthropic Labs](content/2026/04/17/anthropic-blog--claude-design-anthropic-labs.md) — anthropic-blog
+- [Research What Chinas Ai Agents Reveal About The Future Of Co](content/2026/04/17/hbr--research-what-chinas-ai-agents-reveal-about-the-future-of-co.md) — hbr
+- [The Ai Leadership Imperative](content/2026/04/17/hbr--the-ai-leadership-imperative.md) — hbr
+- [Exciting New Series And Recommendation Of A New Substack For](content/2026/04/17/ken-huang-ai-expert--exciting-new-series-and-recommendation-of-a-new-substack-for.md) — ken-huang-ai-expert
+- [Scaling Global Organizations In The Age Of Ai With Serviceno](content/2026/04/17/no-priors--scaling-global-organizations-in-the-age-of-ai-with-serviceno.md) — no-priors
 - [Zillows Buzz Sheds Light On User Engagement Side Enhances Ap](content/2026/04/17/real-estate-news--zillows-buzz-sheds-light-on-user-engagement-side-enhances-ap.md) — real-estate-news
 
 ### 2026-04-16
@@ -63,9 +69,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-04-11
 - [How Anthropic Scaling Managed Agents With Future Proof Archi](content/2026/04/11/ken-huang-ai-expert--how-anthropic-scaling-managed-agents-with-future-proof-archi.md) — ken-huang-ai-expert
-
-### 2026-04-10
-- [What Running Windows At Microsoft Taught Steven Sinofsky Abo](content/2026/04/10/a16z-podcast--what-running-windows-at-microsoft-taught-steven-sinofsky-abo.md) — a16z-podcast
-- [Claude Code Harness Pattern 9 Observability And Debugging](content/2026/04/10/ken-huang-ai-expert--claude-code-harness-pattern-9-observability-and-debugging.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
