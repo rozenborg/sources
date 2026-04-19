@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-18 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-18 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-18 | 61 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-18 | 18 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-19 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-19 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-19 | 62 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-19 | 18 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-18 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-18 | 18 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-18 | 28 | ✅ |  |
-| Built In | sitemap | 2026-04-18 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-18 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-18 | 44 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-18 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-18 | 7 | ✅ |  |
-| Latent Space | podcast | 2026-04-18 | 18 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-18 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-19 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-19 | 18 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-19 | 28 | ✅ |  |
+| Built In | sitemap | 2026-04-19 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-19 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-19 | 44 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-19 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-19 | 7 | ✅ |  |
+| Latent Space | podcast | 2026-04-19 | 18 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-19 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-18
+- [Chapter 1 The Harness Paradigm Claude Code Vs Hermes Agent](content/2026/04/18/ken-huang-ai-expert--chapter-1-the-harness-paradigm-claude-code-vs-hermes-agent.md) — ken-huang-ai-expert
+
 ### 2026-04-17
 - [The System Behind Self Driving Waymos Dmitri Dolgov](content/2026/04/17/a16z-podcast--the-system-behind-self-driving-waymos-dmitri-dolgov.md) — a16z-podcast
 - [Claude Design Anthropic Labs](content/2026/04/17/anthropic-blog--claude-design-anthropic-labs.md) — anthropic-blog
@@ -66,8 +69,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-04-12
 - [Claude Code Harness Pattern 10 Production Deployment Pattern](content/2026/04/12/ken-huang-ai-expert--claude-code-harness-pattern-10-production-deployment-pattern.md) — ken-huang-ai-expert
 - [How To Get Your Company Ai Pilled](content/2026/04/12/khemaridh-future-proof--how-to-get-your-company-ai-pilled.md) — khemaridh-future-proof
-
-### 2026-04-11
-- [How Anthropic Scaling Managed Agents With Future Proof Archi](content/2026/04/11/ken-huang-ai-expert--how-anthropic-scaling-managed-agents-with-future-proof-archi.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
