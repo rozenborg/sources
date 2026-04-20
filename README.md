@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-19 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-19 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-19 | 62 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-19 | 18 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-20 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-20 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-20 | 64 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-20 | 19 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-19 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-19 | 18 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-19 | 28 | ✅ |  |
-| Built In | sitemap | 2026-04-19 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-19 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-19 | 44 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-19 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-19 | 7 | ✅ |  |
-| Latent Space | podcast | 2026-04-19 | 18 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-19 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-20 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-20 | 18 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-20 | 28 | ✅ |  |
+| Built In | sitemap | 2026-04-20 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-20 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-20 | 45 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-20 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-20 | 7 | ✅ |  |
+| Latent Space | podcast | 2026-04-20 | 18 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-20 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-20
+- [Chapter 3 The Query Agent Loop Claude Code Vs Hermes Agent](content/2026/04/20/ken-huang-ai-expert--chapter-3-the-query-agent-loop-claude-code-vs-hermes-agent.md) — ken-huang-ai-expert
+
+### 2026-04-19
+- [Network Effects Ai Costs And The Future Of Consumer Investin](content/2026/04/19/a16z-podcast--network-effects-ai-costs-and-the-future-of-consumer-investin.md) — a16z-podcast
+- [Chapter 2 Tool Architecture And The Tool Contract Claude Cod](content/2026/04/19/ken-huang-ai-expert--chapter-2-tool-architecture-and-the-tool-contract-claude-cod.md) — ken-huang-ai-expert
+- [Claude Cowork Gets Some Competition](content/2026/04/19/khemaridh-future-proof--claude-cowork-gets-some-competition.md) — khemaridh-future-proof
+
 ### 2026-04-18
 - [Chapter 1 The Harness Paradigm Claude Code Vs Hermes Agent](content/2026/04/18/ken-huang-ai-expert--chapter-1-the-harness-paradigm-claude-code-vs-hermes-agent.md) — ken-huang-ai-expert
 
@@ -65,9 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Building Agents At Home Parenting Work And Benevolent Neglec](content/2026/04/13/a16z-podcast--building-agents-at-home-parenting-work-and-benevolent-neglec.md) — a16z-podcast
 - [How Ai Is Threatening Platforms Revenue Streams](content/2026/04/13/hbr--how-ai-is-threatening-platforms-revenue-streams.md) — hbr
 - [Token Is All You Need Finding 0Days With Llms And Agentic Ai](content/2026/04/13/ken-huang-ai-expert--token-is-all-you-need-finding-0days-with-llms-and-agentic-ai.md) — ken-huang-ai-expert
-
-### 2026-04-12
-- [Claude Code Harness Pattern 10 Production Deployment Pattern](content/2026/04/12/ken-huang-ai-expert--claude-code-harness-pattern-10-production-deployment-pattern.md) — ken-huang-ai-expert
-- [How To Get Your Company Ai Pilled](content/2026/04/12/khemaridh-future-proof--how-to-get-your-company-ai-pilled.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
