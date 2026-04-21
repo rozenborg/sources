@@ -9,28 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-20 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-20 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-20 | 64 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-20 | 19 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-21 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-21 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-21 | 64 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-21 | 19 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-20 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-20 | 18 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-20 | 28 | ✅ |  |
-| Built In | sitemap | 2026-04-20 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-20 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-20 | 45 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-20 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-20 | 7 | ✅ |  |
-| Latent Space | podcast | 2026-04-20 | 18 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-20 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-21 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-21 | 18 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-21 | 29 | ✅ |  |
+| Built In | sitemap | 2026-04-21 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-21 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-21 | 46 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-21 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-21 | 7 | ✅ |  |
+| Latent Space | podcast | 2026-04-21 | 19 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-21 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-21
+- [Anthropic Amazon Compute](content/2026/04/21/anthropic-blog--anthropic-amazon-compute.md) — anthropic-blog
+
 ### 2026-04-20
+- [Rethinking Git For The Age Of Coding Agents With Github Cofo](content/2026/04/20/a16z-podcast--rethinking-git-for-the-age-of-coding-agents-with-github-cofo.md) — a16z-podcast
 - [Chapter 3 The Query Agent Loop Claude Code Vs Hermes Agent](content/2026/04/20/ken-huang-ai-expert--chapter-3-the-query-agent-loop-claude-code-vs-hermes-agent.md) — ken-huang-ai-expert
+- [Training Transformers To Solve 95 Failure Rate Of Cancer Tri](content/2026/04/20/latent-space--training-transformers-to-solve-95-failure-rate-of-cancer-tri.md) — latent-space
 
 ### 2026-04-19
 - [Network Effects Ai Costs And The Future Of Consumer Investin](content/2026/04/19/a16z-podcast--network-effects-ai-costs-and-the-future-of-consumer-investin.md) — a16z-podcast
@@ -68,10 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Hidden Demand For Ai Inside Your Company](content/2026/04/14/hbr--the-hidden-demand-for-ai-inside-your-company.md) — hbr
 - [Intent Based Access Controlibac For Coding Agents](content/2026/04/14/ken-huang-ai-expert--intent-based-access-controlibac-for-coding-agents.md) — ken-huang-ai-expert
 - [The Agentic Ecosystem Security Gap What 500 Cisos Just Told ](content/2026/04/14/ken-huang-ai-expert--the-agentic-ecosystem-security-gap-what-500-cisos-just-told-.md) — ken-huang-ai-expert
-
-### 2026-04-13
-- [Building Agents At Home Parenting Work And Benevolent Neglec](content/2026/04/13/a16z-podcast--building-agents-at-home-parenting-work-and-benevolent-neglec.md) — a16z-podcast
-- [How Ai Is Threatening Platforms Revenue Streams](content/2026/04/13/hbr--how-ai-is-threatening-platforms-revenue-streams.md) — hbr
-- [Token Is All You Need Finding 0Days With Llms And Agentic Ai](content/2026/04/13/ken-huang-ai-expert--token-is-all-you-need-finding-0days-with-llms-and-agentic-ai.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
