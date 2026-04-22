@@ -9,28 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-21 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-21 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-21 | 64 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-21 | 19 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-22 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-22 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-22 | 65 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-22 | 19 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-21 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-21 | 18 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-21 | 29 | ✅ |  |
-| Built In | sitemap | 2026-04-21 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-21 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-21 | 46 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-21 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-21 | 7 | ✅ |  |
-| Latent Space | podcast | 2026-04-21 | 19 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-21 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-22 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-22 | 18 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-22 | 29 | ✅ |  |
+| Built In | sitemap | 2026-04-22 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-22 | 7 | ✅ |  |
+| The a16z Show | podcast | 2026-04-22 | 47 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-22 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-22 | 7 | ✅ |  |
+| Latent Space | podcast | 2026-04-22 | 19 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-22 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-04-21
+- [Marc Andreessen Monitoring The Situation And The Future Of M](content/2026/04/21/a16z-podcast--marc-andreessen-monitoring-the-situation-and-the-future-of-m.md) — a16z-podcast
 - [Anthropic Amazon Compute](content/2026/04/21/anthropic-blog--anthropic-amazon-compute.md) — anthropic-blog
+- [Chapter 4 Permission Systems And Safety Guardrails Claude Co](content/2026/04/21/ken-huang-ai-expert--chapter-4-permission-systems-and-safety-guardrails-claude-co.md) — ken-huang-ai-expert
 
 ### 2026-04-20
 - [Rethinking Git For The Age Of Coding Agents With Github Cofo](content/2026/04/20/a16z-podcast--rethinking-git-for-the-age-of-coding-agents-with-github-cofo.md) — a16z-podcast
@@ -66,12 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Why Companies That Choose Ai Augmentation Over Automation Ma](content/2026/04/15/hbr--why-companies-that-choose-ai-augmentation-over-automation-ma.md) — hbr
 - [Defenseclaw Maestro And The Security Boundary Agentic Ai Has](content/2026/04/15/ken-huang-ai-expert--defenseclaw-maestro-and-the-security-boundary-agentic-ai-has.md) — ken-huang-ai-expert
 - [Notions Token Town 5 Rebuilds 100 Tools Mcp Vs Clis And The ](content/2026/04/15/latent-space--notions-token-town-5-rebuilds-100-tools-mcp-vs-clis-and-the-.md) — latent-space
-
-### 2026-04-14
-- [Ben Horowitz On Ai Infrastructure Economics And The New Laws](content/2026/04/14/a16z-podcast--ben-horowitz-on-ai-infrastructure-economics-and-the-new-laws.md) — a16z-podcast
-- [Narasimhan Board](content/2026/04/14/anthropic-blog--narasimhan-board.md) — anthropic-blog
-- [The Hidden Demand For Ai Inside Your Company](content/2026/04/14/hbr--the-hidden-demand-for-ai-inside-your-company.md) — hbr
-- [Intent Based Access Controlibac For Coding Agents](content/2026/04/14/ken-huang-ai-expert--intent-based-access-controlibac-for-coding-agents.md) — ken-huang-ai-expert
-- [The Agentic Ecosystem Security Gap What 500 Cisos Just Told ](content/2026/04/14/ken-huang-ai-expert--the-agentic-ecosystem-security-gap-what-500-cisos-just-told-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
