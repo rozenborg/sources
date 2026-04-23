@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-22 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-22 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-22 | 65 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-22 | 19 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-23 | 3 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-23 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-23 | 66 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-23 | 19 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-22 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-22 | 18 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-22 | 29 | ✅ |  |
-| Built In | sitemap | 2026-04-22 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-22 | 7 | ✅ |  |
-| The a16z Show | podcast | 2026-04-22 | 47 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-22 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-22 | 7 | ✅ |  |
-| Latent Space | podcast | 2026-04-22 | 19 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-22 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-23 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-23 | 19 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-23 | 29 | ✅ |  |
+| Built In | sitemap | 2026-04-23 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-23 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-04-23 | 48 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-23 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-23 | 7 | ✅ |  |
+| Latent Space | podcast | 2026-04-23 | 20 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-23 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-22
+- [Balaji Srinivasan Prove Correct Not Just Go Direct](content/2026/04/22/a16z-podcast--balaji-srinivasan-prove-correct-not-just-go-direct.md) — a16z-podcast
+- [Solving The Workforce Challenge In The Age Of Agentic Ai](content/2026/04/22/ey-com--solving-the-workforce-challenge-in-the-age-of-agentic-ai.md) — ey-com
+- [Chapter 5 Tool Orchestration And Execution Claude Code Vs He](content/2026/04/22/ken-huang-ai-expert--chapter-5-tool-orchestration-and-execution-claude-code-vs-he.md) — ken-huang-ai-expert
+- [Shopifys Ai Phase Transition 2026 Usage Explosion Unlimited ](content/2026/04/22/latent-space--shopifys-ai-phase-transition-2026-usage-explosion-unlimited-.md) — latent-space
+- [New Ai Marketing Tools Aim To Produce Pro Quality Content](content/2026/04/22/real-estate-news--new-ai-marketing-tools-aim-to-produce-pro-quality-content.md) — real-estate-news
+
 ### 2026-04-21
 - [Marc Andreessen Monitoring The Situation And The Future Of M](content/2026/04/21/a16z-podcast--marc-andreessen-monitoring-the-situation-and-the-future-of-m.md) — a16z-podcast
 - [Anthropic Amazon Compute](content/2026/04/21/anthropic-blog--anthropic-amazon-compute.md) — anthropic-blog
@@ -60,13 +67,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Technology Culture And The Next Ai Interface With Signüll](content/2026/04/16/a16z-podcast--technology-culture-and-the-next-ai-interface-with-signüll.md) — a16z-podcast
 - [Claude Opus 4 7](content/2026/04/16/anthropic-blog--claude-opus-4-7.md) — anthropic-blog
 - [What Milkshakes Can Teach Us About Ai](content/2026/04/16/khemaridh-future-proof--what-milkshakes-can-teach-us-about-ai.md) — khemaridh-future-proof
-
-### 2026-04-15
-- [Replits Ceo On Vibe Coding Wealth Building And What Most Peo](content/2026/04/15/a16z-podcast--replits-ceo-on-vibe-coding-wealth-building-and-what-most-peo.md) — a16z-podcast
-- [Jensen Huang Tpu Competition Why We Should Sell Chips To Chi](content/2026/04/15/dwarkesh-podcast--jensen-huang-tpu-competition-why-we-should-sell-chips-to-chi.md) — dwarkesh-podcast
-- [When Creating An Ai Strategy Dont Overlook Employee Percepti](content/2026/04/15/hbr--when-creating-an-ai-strategy-dont-overlook-employee-percepti.md) — hbr
-- [Why Companies That Choose Ai Augmentation Over Automation Ma](content/2026/04/15/hbr--why-companies-that-choose-ai-augmentation-over-automation-ma.md) — hbr
-- [Defenseclaw Maestro And The Security Boundary Agentic Ai Has](content/2026/04/15/ken-huang-ai-expert--defenseclaw-maestro-and-the-security-boundary-agentic-ai-has.md) — ken-huang-ai-expert
-- [Notions Token Town 5 Rebuilds 100 Tools Mcp Vs Clis And The ](content/2026/04/15/latent-space--notions-token-town-5-rebuilds-100-tools-mcp-vs-clis-and-the-.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
