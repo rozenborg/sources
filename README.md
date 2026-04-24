@@ -9,26 +9,38 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-23 | 3 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-23 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-23 | 66 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-23 | 19 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-24 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-24 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-24 | 67 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-24 | 20 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-23 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-23 | 19 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-23 | 29 | ✅ |  |
-| Built In | sitemap | 2026-04-23 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-23 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-04-23 | 48 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-23 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-23 | 7 | ✅ |  |
-| Latent Space | podcast | 2026-04-23 | 20 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-23 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-24 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-24 | 20 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-24 | 30 | ✅ |  |
+| Built In | sitemap | 2026-04-24 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-24 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-04-24 | 49 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-24 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-24 | 8 | ✅ |  |
+| Latent Space | podcast | 2026-04-24 | 21 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-24 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-24
+- [Anthropic Nec](content/2026/04/24/anthropic-blog--anthropic-nec.md) — anthropic-blog
+
+### 2026-04-23
+- [Martin Shkreli On Ai Pharma And What Actually Matters](content/2026/04/23/a16z-podcast--martin-shkreli-on-ai-pharma-and-what-actually-matters.md) — a16z-podcast
+- [Chapter 6 Context Management At Scale Claude Code Vs Hermes ](content/2026/04/23/ken-huang-ai-expert--chapter-6-context-management-at-scale-claude-code-vs-hermes-.md) — ken-huang-ai-expert
+- [I Tried Openais New Super App](content/2026/04/23/khemaridh-future-proof--i-tried-openais-new-super-app.md) — khemaridh-future-proof
+- [Aie Europe Debrief Agent Labs Thesis Unsupervised Learning X](content/2026/04/23/latent-space--aie-europe-debrief-agent-labs-thesis-unsupervised-learning-x.md) — latent-space
+- [Sign Of The Future Gpt 55](content/2026/04/23/mollick-one-useful-thing--sign-of-the-future-gpt-55.md) — mollick-one-useful-thing
+- [Sap Bringing The Operating System Of A Company Into The Ai E](content/2026/04/23/no-priors--sap-bringing-the-operating-system-of-a-company-into-the-ai-e.md) — no-priors
+- [Zillow Ceo Bullish About Ais Potential Opportunities For Age](content/2026/04/23/real-estate-news--zillow-ceo-bullish-about-ais-potential-opportunities-for-age.md) — real-estate-news
+
 ### 2026-04-22
 - [Balaji Srinivasan Prove Correct Not Just Go Direct](content/2026/04/22/a16z-podcast--balaji-srinivasan-prove-correct-not-just-go-direct.md) — a16z-podcast
 - [Solving The Workforce Challenge In The Age Of Agentic Ai](content/2026/04/22/ey-com--solving-the-workforce-challenge-in-the-age-of-agentic-ai.md) — ey-com
@@ -62,10 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Exciting New Series And Recommendation Of A New Substack For](content/2026/04/17/ken-huang-ai-expert--exciting-new-series-and-recommendation-of-a-new-substack-for.md) — ken-huang-ai-expert
 - [Scaling Global Organizations In The Age Of Ai With Serviceno](content/2026/04/17/no-priors--scaling-global-organizations-in-the-age-of-ai-with-serviceno.md) — no-priors
 - [Zillows Buzz Sheds Light On User Engagement Side Enhances Ap](content/2026/04/17/real-estate-news--zillows-buzz-sheds-light-on-user-engagement-side-enhances-ap.md) — real-estate-news
-
-### 2026-04-16
-- [Technology Culture And The Next Ai Interface With Signüll](content/2026/04/16/a16z-podcast--technology-culture-and-the-next-ai-interface-with-signüll.md) — a16z-podcast
-- [Claude Opus 4 7](content/2026/04/16/anthropic-blog--claude-opus-4-7.md) — anthropic-blog
-- [What Milkshakes Can Teach Us About Ai](content/2026/04/16/khemaridh-future-proof--what-milkshakes-can-teach-us-about-ai.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
