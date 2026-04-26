@@ -9,28 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-25 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-25 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-25 | 69 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-25 | 20 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-26 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-26 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-26 | 71 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-26 | 20 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-25 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-25 | 20 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-25 | 31 | ✅ |  |
-| Built In | sitemap | 2026-04-25 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-25 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-04-25 | 50 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-25 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-25 | 8 | ✅ |  |
-| Latent Space | podcast | 2026-04-25 | 21 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-25 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-26 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-26 | 21 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-26 | 31 | ✅ |  |
+| Built In | sitemap | 2026-04-26 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-26 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-04-26 | 50 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-26 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-26 | 8 | ✅ |  |
+| Latent Space | podcast | 2026-04-26 | 21 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-26 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-04-25
+- [Chapter 8 Memory Systems And State Persistence Claude Code V](content/2026/04/25/ken-huang-ai-expert--chapter-8-memory-systems-and-state-persistence-claude-code-v.md) — ken-huang-ai-expert
 - [Deepseek V4 The Next Frontier Of Open Source Ai](content/2026/04/25/ken-huang-ai-expert--deepseek-v4-the-next-frontier-of-open-source-ai.md) — ken-huang-ai-expert
+- [Unpacking The Gpt 55 System Card](content/2026/04/25/ken-huang-ai-expert--unpacking-the-gpt-55-system-card.md) — ken-huang-ai-expert
+- [Playmakers Where Most Agents Go Wrong And How To Fix It](content/2026/04/25/real-estate-news--playmakers-where-most-agents-go-wrong-and-how-to-fix-it.md) — real-estate-news
 
 ### 2026-04-24
 - [Ai Inside The Enterprise](content/2026/04/24/a16z-podcast--ai-inside-the-enterprise.md) — a16z-podcast
@@ -68,8 +71,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Network Effects Ai Costs And The Future Of Consumer Investin](content/2026/04/19/a16z-podcast--network-effects-ai-costs-and-the-future-of-consumer-investin.md) — a16z-podcast
 - [Chapter 2 Tool Architecture And The Tool Contract Claude Cod](content/2026/04/19/ken-huang-ai-expert--chapter-2-tool-architecture-and-the-tool-contract-claude-cod.md) — ken-huang-ai-expert
 - [Claude Cowork Gets Some Competition](content/2026/04/19/khemaridh-future-proof--claude-cowork-gets-some-competition.md) — khemaridh-future-proof
-
-### 2026-04-18
-- [Chapter 1 The Harness Paradigm Claude Code Vs Hermes Agent](content/2026/04/18/ken-huang-ai-expert--chapter-1-the-harness-paradigm-claude-code-vs-hermes-agent.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
