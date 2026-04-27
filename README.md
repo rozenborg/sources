@@ -9,26 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-26 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-26 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-26 | 71 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-26 | 20 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-27 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-27 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-27 | 74 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-27 | 21 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-26 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-26 | 21 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-26 | 31 | ✅ |  |
-| Built In | sitemap | 2026-04-26 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-26 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-04-26 | 50 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-26 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-26 | 8 | ✅ |  |
-| Latent Space | podcast | 2026-04-26 | 21 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-26 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-27 | 54 | ✅ |  |
+| Real Estate News | rss | 2026-04-27 | 21 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-27 | 31 | ✅ |  |
+| Built In | sitemap | 2026-04-27 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-27 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-04-27 | 51 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-27 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-27 | 8 | ✅ |  |
+| Latent Space | podcast | 2026-04-27 | 21 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-27 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-27
+- [Ben Horowitz On Venture Capital And Ai](content/2026/04/27/a16z-podcast--ben-horowitz-on-venture-capital-and-ai.md) — a16z-podcast
+- [Chapter 10 Production Deployment Patterns Claude Code Vs Her](content/2026/04/27/ken-huang-ai-expert--chapter-10-production-deployment-patterns-claude-code-vs-her.md) — ken-huang-ai-expert
+
+### 2026-04-26
+- [Call For Contributions Owasp Aivss V10 Public Review Now Ope](content/2026/04/26/ken-huang-ai-expert--call-for-contributions-owasp-aivss-v10-public-review-now-ope.md) — ken-huang-ai-expert
+- [Chapter 9 Observability And Debugging Claude Code Vs Hermes ](content/2026/04/26/ken-huang-ai-expert--chapter-9-observability-and-debugging-claude-code-vs-hermes-.md) — ken-huang-ai-expert
+- [Why Your Firm Is Struggling With Ai Adoption](content/2026/04/26/khemaridh-future-proof--why-your-firm-is-struggling-with-ai-adoption.md) — khemaridh-future-proof
+
 ### 2026-04-25
 - [Chapter 8 Memory Systems And State Persistence Claude Code V](content/2026/04/25/ken-huang-ai-expert--chapter-8-memory-systems-and-state-persistence-claude-code-v.md) — ken-huang-ai-expert
 - [Deepseek V4 The Next Frontier Of Open Source Ai](content/2026/04/25/ken-huang-ai-expert--deepseek-v4-the-next-frontier-of-open-source-ai.md) — ken-huang-ai-expert
@@ -66,10 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Rethinking Git For The Age Of Coding Agents With Github Cofo](content/2026/04/20/a16z-podcast--rethinking-git-for-the-age-of-coding-agents-with-github-cofo.md) — a16z-podcast
 - [Chapter 3 The Query Agent Loop Claude Code Vs Hermes Agent](content/2026/04/20/ken-huang-ai-expert--chapter-3-the-query-agent-loop-claude-code-vs-hermes-agent.md) — ken-huang-ai-expert
 - [Training Transformers To Solve 95 Failure Rate Of Cancer Tri](content/2026/04/20/latent-space--training-transformers-to-solve-95-failure-rate-of-cancer-tri.md) — latent-space
-
-### 2026-04-19
-- [Network Effects Ai Costs And The Future Of Consumer Investin](content/2026/04/19/a16z-podcast--network-effects-ai-costs-and-the-future-of-consumer-investin.md) — a16z-podcast
-- [Chapter 2 Tool Architecture And The Tool Contract Claude Cod](content/2026/04/19/ken-huang-ai-expert--chapter-2-tool-architecture-and-the-tool-contract-claude-cod.md) — ken-huang-ai-expert
-- [Claude Cowork Gets Some Competition](content/2026/04/19/khemaridh-future-proof--claude-cowork-gets-some-competition.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
