@@ -9,29 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-27 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-27 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-27 | 74 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-27 | 21 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-28 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-28 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-28 | 74 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-28 | 21 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-27 | 54 | ✅ |  |
-| Real Estate News | rss | 2026-04-27 | 21 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-27 | 31 | ✅ |  |
-| Built In | sitemap | 2026-04-27 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-27 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-04-27 | 51 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-27 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-27 | 8 | ✅ |  |
-| Latent Space | podcast | 2026-04-27 | 21 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-27 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-28 | 55 | ✅ |  |
+| Real Estate News | rss | 2026-04-28 | 21 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-28 | 32 | ✅ |  |
+| Built In | sitemap | 2026-04-28 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-28 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-04-28 | 52 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-28 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-28 | 8 | ✅ |  |
+| Latent Space | podcast | 2026-04-28 | 22 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-28 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-28
+- [John And Patrick Collison On Stripes Growth Agent Commerce A](content/2026/04/28/a16z-podcast--john-and-patrick-collison-on-stripes-growth-agent-commerce-a.md) — a16z-podcast
+
 ### 2026-04-27
 - [Ben Horowitz On Venture Capital And Ai](content/2026/04/27/a16z-podcast--ben-horowitz-on-venture-capital-and-ai.md) — a16z-podcast
+- [Theo Hourmouzis General Manager Australia New Zealand](content/2026/04/27/anthropic-blog--theo-hourmouzis-general-manager-australia-new-zealand.md) — anthropic-blog
+- [The Future Is Shrouded In An Ai Fog](content/2026/04/27/hbr--the-future-is-shrouded-in-an-ai-fog.md) — hbr
 - [Chapter 10 Production Deployment Patterns Claude Code Vs Her](content/2026/04/27/ken-huang-ai-expert--chapter-10-production-deployment-patterns-claude-code-vs-her.md) — ken-huang-ai-expert
+- [Physical Ai That Moves The World Qasar Younis Peter Ludwig A](content/2026/04/27/latent-space--physical-ai-that-moves-the-world-qasar-younis-peter-ludwig-a.md) — latent-space
 
 ### 2026-04-26
 - [Call For Contributions Owasp Aivss V10 Public Review Now Ope](content/2026/04/26/ken-huang-ai-expert--call-for-contributions-owasp-aivss-v10-public-review-now-ope.md) — ken-huang-ai-expert
@@ -70,10 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Marc Andreessen Monitoring The Situation And The Future Of M](content/2026/04/21/a16z-podcast--marc-andreessen-monitoring-the-situation-and-the-future-of-m.md) — a16z-podcast
 - [Anthropic Amazon Compute](content/2026/04/21/anthropic-blog--anthropic-amazon-compute.md) — anthropic-blog
 - [Chapter 4 Permission Systems And Safety Guardrails Claude Co](content/2026/04/21/ken-huang-ai-expert--chapter-4-permission-systems-and-safety-guardrails-claude-co.md) — ken-huang-ai-expert
-
-### 2026-04-20
-- [Rethinking Git For The Age Of Coding Agents With Github Cofo](content/2026/04/20/a16z-podcast--rethinking-git-for-the-age-of-coding-agents-with-github-cofo.md) — a16z-podcast
-- [Chapter 3 The Query Agent Loop Claude Code Vs Hermes Agent](content/2026/04/20/ken-huang-ai-expert--chapter-3-the-query-agent-loop-claude-code-vs-hermes-agent.md) — ken-huang-ai-expert
-- [Training Transformers To Solve 95 Failure Rate Of Cancer Tri](content/2026/04/20/latent-space--training-transformers-to-solve-95-failure-rate-of-cancer-tri.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
