@@ -9,28 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-28 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-28 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-28 | 74 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-28 | 21 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-29 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-29 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-29 | 76 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-29 | 21 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-28 | 55 | ✅ |  |
-| Real Estate News | rss | 2026-04-28 | 21 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-28 | 32 | ✅ |  |
-| Built In | sitemap | 2026-04-28 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-28 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-04-28 | 52 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-28 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-28 | 8 | ✅ |  |
-| Latent Space | podcast | 2026-04-28 | 22 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-28 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-29 | 55 | ✅ |  |
+| Real Estate News | rss | 2026-04-29 | 21 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-29 | 33 | ✅ |  |
+| Built In | sitemap | 2026-04-29 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-29 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-04-29 | 52 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-29 | 7 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-29 | 8 | ✅ |  |
+| Latent Space | podcast | 2026-04-29 | 22 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-29 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-29
+- [Googles Ucp Just Won Agentic Commerce Stripe Amazon And Micr](content/2026/04/29/ken-huang-ai-expert--googles-ucp-just-won-agentic-commerce-stripe-amazon-and-micr.md) — ken-huang-ai-expert
+
 ### 2026-04-28
 - [John And Patrick Collison On Stripes Growth Agent Commerce A](content/2026/04/28/a16z-podcast--john-and-patrick-collison-on-stripes-growth-agent-commerce-a.md) — a16z-podcast
+- [Claude For Creative Work](content/2026/04/28/anthropic-blog--claude-for-creative-work.md) — anthropic-blog
+- [Chapter 11 Hook Event Driven Automation Claude Code Vs Herme](content/2026/04/28/ken-huang-ai-expert--chapter-11-hook-event-driven-automation-claude-code-vs-herme.md) — ken-huang-ai-expert
 
 ### 2026-04-27
 - [Ben Horowitz On Venture Capital And Ai](content/2026/04/27/a16z-podcast--ben-horowitz-on-venture-capital-and-ai.md) — a16z-podcast
@@ -71,10 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Chapter 5 Tool Orchestration And Execution Claude Code Vs He](content/2026/04/22/ken-huang-ai-expert--chapter-5-tool-orchestration-and-execution-claude-code-vs-he.md) — ken-huang-ai-expert
 - [Shopifys Ai Phase Transition 2026 Usage Explosion Unlimited ](content/2026/04/22/latent-space--shopifys-ai-phase-transition-2026-usage-explosion-unlimited-.md) — latent-space
 - [New Ai Marketing Tools Aim To Produce Pro Quality Content](content/2026/04/22/real-estate-news--new-ai-marketing-tools-aim-to-produce-pro-quality-content.md) — real-estate-news
-
-### 2026-04-21
-- [Marc Andreessen Monitoring The Situation And The Future Of M](content/2026/04/21/a16z-podcast--marc-andreessen-monitoring-the-situation-and-the-future-of-m.md) — a16z-podcast
-- [Anthropic Amazon Compute](content/2026/04/21/anthropic-blog--anthropic-amazon-compute.md) — anthropic-blog
-- [Chapter 4 Permission Systems And Safety Guardrails Claude Co](content/2026/04/21/ken-huang-ai-expert--chapter-4-permission-systems-and-safety-guardrails-claude-co.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
