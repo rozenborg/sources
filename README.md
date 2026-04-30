@@ -9,28 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-29 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-29 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-29 | 76 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-29 | 21 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-04-30 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-04-30 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-04-30 | 77 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-04-30 | 21 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-29 | 55 | ✅ |  |
-| Real Estate News | rss | 2026-04-29 | 21 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-29 | 33 | ✅ |  |
-| Built In | sitemap | 2026-04-29 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-29 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-04-29 | 52 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-29 | 7 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-29 | 8 | ✅ |  |
-| Latent Space | podcast | 2026-04-29 | 22 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-29 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-04-30 | 55 | ✅ |  |
+| Real Estate News | rss | 2026-04-30 | 22 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-04-30 | 33 | ✅ |  |
+| Built In | sitemap | 2026-04-30 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-04-30 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-04-30 | 53 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-04-30 | 8 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-04-30 | 8 | ✅ |  |
+| Latent Space | podcast | 2026-04-30 | 22 | ✅ |  |
+| AI Daily Brief | podcast | 2026-04-30 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-04-29
+- [The Shift In Global Drug Development](content/2026/04/29/a16z-podcast--the-shift-in-global-drug-development.md) — a16z-podcast
+- [Reiner Pope The Math Behind How Llms Are Trained And Served](content/2026/04/29/dwarkesh-podcast--reiner-pope-the-math-behind-how-llms-are-trained-and-served.md) — dwarkesh-podcast
+- [Chapter 12 The Skill System Pattern Claude Code Vs Hermes Ag](content/2026/04/29/ken-huang-ai-expert--chapter-12-the-skill-system-pattern-claude-code-vs-hermes-ag.md) — ken-huang-ai-expert
 - [Googles Ucp Just Won Agentic Commerce Stripe Amazon And Micr](content/2026/04/29/ken-huang-ai-expert--googles-ucp-just-won-agentic-commerce-stripe-amazon-and-micr.md) — ken-huang-ai-expert
+- [Mls Tech Push Focuses On Ai Data Access Consumer Engagement](content/2026/04/29/real-estate-news--mls-tech-push-focuses-on-ai-data-access-consumer-engagement.md) — real-estate-news
 
 ### 2026-04-28
 - [John And Patrick Collison On Stripes Growth Agent Commerce A](content/2026/04/28/a16z-podcast--john-and-patrick-collison-on-stripes-growth-agent-commerce-a.md) — a16z-podcast
@@ -69,12 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Sign Of The Future Gpt 55](content/2026/04/23/mollick-one-useful-thing--sign-of-the-future-gpt-55.md) — mollick-one-useful-thing
 - [Sap Bringing The Operating System Of A Company Into The Ai E](content/2026/04/23/no-priors--sap-bringing-the-operating-system-of-a-company-into-the-ai-e.md) — no-priors
 - [Zillow Ceo Bullish About Ais Potential Opportunities For Age](content/2026/04/23/real-estate-news--zillow-ceo-bullish-about-ais-potential-opportunities-for-age.md) — real-estate-news
-
-### 2026-04-22
-- [Balaji Srinivasan Prove Correct Not Just Go Direct](content/2026/04/22/a16z-podcast--balaji-srinivasan-prove-correct-not-just-go-direct.md) — a16z-podcast
-- [Solving The Workforce Challenge In The Age Of Agentic Ai](content/2026/04/22/ey-com--solving-the-workforce-challenge-in-the-age-of-agentic-ai.md) — ey-com
-- [Chapter 5 Tool Orchestration And Execution Claude Code Vs He](content/2026/04/22/ken-huang-ai-expert--chapter-5-tool-orchestration-and-execution-claude-code-vs-he.md) — ken-huang-ai-expert
-- [Shopifys Ai Phase Transition 2026 Usage Explosion Unlimited ](content/2026/04/22/latent-space--shopifys-ai-phase-transition-2026-usage-explosion-unlimited-.md) — latent-space
-- [New Ai Marketing Tools Aim To Produce Pro Quality Content](content/2026/04/22/real-estate-news--new-ai-marketing-tools-aim-to-produce-pro-quality-content.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
