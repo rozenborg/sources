@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-04-30 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-04-30 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-04-30 | 77 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-04-30 | 21 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-01 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-01 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-01 | 78 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-01 | 22 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-04-30 | 55 | ✅ |  |
-| Real Estate News | rss | 2026-04-30 | 22 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-04-30 | 33 | ✅ |  |
-| Built In | sitemap | 2026-04-30 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-04-30 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-04-30 | 53 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-04-30 | 8 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-04-30 | 8 | ✅ |  |
-| Latent Space | podcast | 2026-04-30 | 22 | ✅ |  |
-| AI Daily Brief | podcast | 2026-04-30 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-01 | 57 | ✅ |  |
+| Real Estate News | rss | 2026-05-01 | 22 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-01 | 34 | ✅ |  |
+| Built In | sitemap | 2026-05-01 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-01 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-01 | 54 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-01 | 8 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-01 | 8 | ✅ |  |
+| Latent Space | podcast | 2026-05-01 | 22 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-01 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-04-30
+- [Workdays Last Workday Ai And The Future Of Enterprise Softwa](content/2026/04/30/a16z-podcast--workdays-last-workday-ai-and-the-future-of-enterprise-softwa.md) — a16z-podcast
+- [The Long Term Benefit Trust](content/2026/04/30/anthropic-blog--the-long-term-benefit-trust.md) — anthropic-blog
+- [Empathetic Leadership Can Make Or Break Ai Adoption](content/2026/04/30/hbr--empathetic-leadership-can-make-or-break-ai-adoption.md) — hbr
+- [How To Move From Ai Experimentation To Ai Transformation](content/2026/04/30/hbr--how-to-move-from-ai-experimentation-to-ai-transformation.md) — hbr
+- [Chapter 13 Mcp Integration Connecting Agents To The World Cl](content/2026/04/30/ken-huang-ai-expert--chapter-13-mcp-integration-connecting-agents-to-the-world-cl.md) — ken-huang-ai-expert
+- [I Tried Chatgpts New Image Model](content/2026/04/30/khemaridh-future-proof--i-tried-chatgpts-new-image-model.md) — khemaridh-future-proof
+
 ### 2026-04-29
 - [The Shift In Global Drug Development](content/2026/04/29/a16z-podcast--the-shift-in-global-drug-development.md) — a16z-podcast
 - [Reiner Pope The Math Behind How Llms Are Trained And Served](content/2026/04/29/dwarkesh-podcast--reiner-pope-the-math-behind-how-llms-are-trained-and-served.md) — dwarkesh-podcast
@@ -64,14 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Anthropic Nec](content/2026/04/24/anthropic-blog--anthropic-nec.md) — anthropic-blog
 - [Election Safeguards Update](content/2026/04/24/anthropic-blog--election-safeguards-update.md) — anthropic-blog
 - [Chapter 7 Multi Agent Coordination Claude Code Vs Hermes Age](content/2026/04/24/ken-huang-ai-expert--chapter-7-multi-agent-coordination-claude-code-vs-hermes-age.md) — ken-huang-ai-expert
-
-### 2026-04-23
-- [Martin Shkreli On Ai Pharma And What Actually Matters](content/2026/04/23/a16z-podcast--martin-shkreli-on-ai-pharma-and-what-actually-matters.md) — a16z-podcast
-- [Chapter 6 Context Management At Scale Claude Code Vs Hermes ](content/2026/04/23/ken-huang-ai-expert--chapter-6-context-management-at-scale-claude-code-vs-hermes-.md) — ken-huang-ai-expert
-- [I Tried Openais New Super App](content/2026/04/23/khemaridh-future-proof--i-tried-openais-new-super-app.md) — khemaridh-future-proof
-- [Aie Europe Debrief Agent Labs Thesis Unsupervised Learning X](content/2026/04/23/latent-space--aie-europe-debrief-agent-labs-thesis-unsupervised-learning-x.md) — latent-space
-- [Sign Of The Future Gpt 55](content/2026/04/23/mollick-one-useful-thing--sign-of-the-future-gpt-55.md) — mollick-one-useful-thing
-- [Sap Bringing The Operating System Of A Company Into The Ai E](content/2026/04/23/no-priors--sap-bringing-the-operating-system-of-a-company-into-the-ai-e.md) — no-priors
-- [Zillow Ceo Bullish About Ais Potential Opportunities For Age](content/2026/04/23/real-estate-news--zillow-ceo-bullish-about-ais-potential-opportunities-for-age.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
