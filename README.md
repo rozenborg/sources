@@ -9,26 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-01 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-01 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-01 | 78 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-01 | 22 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-02 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-02 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-02 | 79 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-02 | 22 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-01 | 57 | ✅ |  |
-| Real Estate News | rss | 2026-05-01 | 22 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-01 | 34 | ✅ |  |
-| Built In | sitemap | 2026-05-01 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-01 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-01 | 54 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-01 | 8 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-01 | 8 | ✅ |  |
-| Latent Space | podcast | 2026-05-01 | 22 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-01 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-02 | 58 | ✅ |  |
+| Real Estate News | rss | 2026-05-02 | 22 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-02 | 34 | ✅ |  |
+| Built In | sitemap | 2026-05-02 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-02 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-02 | 55 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-02 | 8 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-02 | 9 | ✅ |  |
+| Latent Space | podcast | 2026-05-02 | 22 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-02 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-01
+- [Balaji And Taylor Lorenz On Ai And Media](content/2026/05/01/a16z-podcast--balaji-and-taylor-lorenz-on-ai-and-media.md) — a16z-podcast
+- [The Psychological Costs Of Adopting Ai](content/2026/05/01/hbr--the-psychological-costs-of-adopting-ai.md) — hbr
+- [Chapter 14 Model Routing And Provider Abstraction Claude Cod](content/2026/05/01/ken-huang-ai-expert--chapter-14-model-routing-and-provider-abstraction-claude-cod.md) — ken-huang-ai-expert
+- [Baseten Ceo Tuhin Srivastava On The Ai Inference Crunch Cust](content/2026/05/01/no-priors--baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-cust.md) — no-priors
+
 ### 2026-04-30
 - [Workdays Last Workday Ai And The Future Of Enterprise Softwa](content/2026/04/30/a16z-podcast--workdays-last-workday-ai-and-the-future-of-enterprise-softwa.md) — a16z-podcast
 - [The Long Term Benefit Trust](content/2026/04/30/anthropic-blog--the-long-term-benefit-trust.md) — anthropic-blog
@@ -66,11 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Deepseek V4 The Next Frontier Of Open Source Ai](content/2026/04/25/ken-huang-ai-expert--deepseek-v4-the-next-frontier-of-open-source-ai.md) — ken-huang-ai-expert
 - [Unpacking The Gpt 55 System Card](content/2026/04/25/ken-huang-ai-expert--unpacking-the-gpt-55-system-card.md) — ken-huang-ai-expert
 - [Playmakers Where Most Agents Go Wrong And How To Fix It](content/2026/04/25/real-estate-news--playmakers-where-most-agents-go-wrong-and-how-to-fix-it.md) — real-estate-news
-
-### 2026-04-24
-- [Ai Inside The Enterprise](content/2026/04/24/a16z-podcast--ai-inside-the-enterprise.md) — a16z-podcast
-- [Anthropic Nec](content/2026/04/24/anthropic-blog--anthropic-nec.md) — anthropic-blog
-- [Election Safeguards Update](content/2026/04/24/anthropic-blog--election-safeguards-update.md) — anthropic-blog
-- [Chapter 7 Multi Agent Coordination Claude Code Vs Hermes Age](content/2026/04/24/ken-huang-ai-expert--chapter-7-multi-agent-coordination-claude-code-vs-hermes-age.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
