@@ -9,26 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-02 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-02 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-02 | 79 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-02 | 22 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-03 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-03 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-03 | 81 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-03 | 22 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-02 | 58 | ✅ |  |
-| Real Estate News | rss | 2026-05-02 | 22 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-02 | 34 | ✅ |  |
-| Built In | sitemap | 2026-05-02 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-02 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-02 | 55 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-02 | 8 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-02 | 9 | ✅ |  |
-| Latent Space | podcast | 2026-05-02 | 22 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-02 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-03 | 58 | ✅ |  |
+| Real Estate News | rss | 2026-05-03 | 22 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-03 | 34 | ✅ |  |
+| Built In | sitemap | 2026-05-03 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-03 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-03 | 55 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-03 | 8 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-03 | 9 | ✅ |  |
+| Latent Space | podcast | 2026-05-03 | 22 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-03 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-02
+- [Chapter 15 Structured Output And Schema Constrained Generati](content/2026/05/02/ken-huang-ai-expert--chapter-15-structured-output-and-schema-constrained-generati.md) — ken-huang-ai-expert
+- [The Computational Wall Why The Defense Trilemma And The Np H](content/2026/05/02/ken-huang-ai-expert--the-computational-wall-why-the-defense-trilemma-and-the-np-h.md) — ken-huang-ai-expert
+
 ### 2026-05-01
 - [Balaji And Taylor Lorenz On Ai And Media](content/2026/05/01/a16z-podcast--balaji-and-taylor-lorenz-on-ai-and-media.md) — a16z-podcast
 - [The Psychological Costs Of Adopting Ai](content/2026/05/01/hbr--the-psychological-costs-of-adopting-ai.md) — hbr
@@ -66,11 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Call For Contributions Owasp Aivss V10 Public Review Now Ope](content/2026/04/26/ken-huang-ai-expert--call-for-contributions-owasp-aivss-v10-public-review-now-ope.md) — ken-huang-ai-expert
 - [Chapter 9 Observability And Debugging Claude Code Vs Hermes ](content/2026/04/26/ken-huang-ai-expert--chapter-9-observability-and-debugging-claude-code-vs-hermes-.md) — ken-huang-ai-expert
 - [Why Your Firm Is Struggling With Ai Adoption](content/2026/04/26/khemaridh-future-proof--why-your-firm-is-struggling-with-ai-adoption.md) — khemaridh-future-proof
-
-### 2026-04-25
-- [Chapter 8 Memory Systems And State Persistence Claude Code V](content/2026/04/25/ken-huang-ai-expert--chapter-8-memory-systems-and-state-persistence-claude-code-v.md) — ken-huang-ai-expert
-- [Deepseek V4 The Next Frontier Of Open Source Ai](content/2026/04/25/ken-huang-ai-expert--deepseek-v4-the-next-frontier-of-open-source-ai.md) — ken-huang-ai-expert
-- [Unpacking The Gpt 55 System Card](content/2026/04/25/ken-huang-ai-expert--unpacking-the-gpt-55-system-card.md) — ken-huang-ai-expert
-- [Playmakers Where Most Agents Go Wrong And How To Fix It](content/2026/04/25/real-estate-news--playmakers-where-most-agents-go-wrong-and-how-to-fix-it.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
