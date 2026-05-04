@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-03 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-03 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-03 | 81 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-03 | 22 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-04 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-04 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-04 | 82 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-04 | 23 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-03 | 58 | ✅ |  |
-| Real Estate News | rss | 2026-05-03 | 22 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-03 | 34 | ✅ |  |
-| Built In | sitemap | 2026-05-03 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-03 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-03 | 55 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-03 | 8 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-03 | 9 | ✅ |  |
-| Latent Space | podcast | 2026-05-03 | 22 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-03 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-04 | 58 | ✅ |  |
+| Real Estate News | rss | 2026-05-04 | 22 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-04 | 34 | ✅ |  |
+| Built In | sitemap | 2026-05-04 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-04 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-04 | 56 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-04 | 8 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-04 | 9 | ✅ |  |
+| Latent Space | podcast | 2026-05-04 | 22 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-04 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-04
+- [Sarah Rogers Free Speech Ai Diplomacy And What America Owes ](content/2026/05/04/a16z-podcast--sarah-rogers-free-speech-ai-diplomacy-and-what-america-owes-.md) — a16z-podcast
+
+### 2026-05-03
+- [World Models Architectures And The Next Phase Of Ai](content/2026/05/03/ken-huang-ai-expert--world-models-architectures-and-the-next-phase-of-ai.md) — ken-huang-ai-expert
+- [Ai Is Coming For Your Mind](content/2026/05/03/khemaridh-future-proof--ai-is-coming-for-your-mind.md) — khemaridh-future-proof
+
 ### 2026-05-02
 - [Chapter 15 Structured Output And Schema Constrained Generati](content/2026/05/02/ken-huang-ai-expert--chapter-15-structured-output-and-schema-constrained-generati.md) — ken-huang-ai-expert
 - [The Computational Wall Why The Defense Trilemma And The Np H](content/2026/05/02/ken-huang-ai-expert--the-computational-wall-why-the-defense-trilemma-and-the-np-h.md) — ken-huang-ai-expert
@@ -65,10 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Future Is Shrouded In An Ai Fog](content/2026/04/27/hbr--the-future-is-shrouded-in-an-ai-fog.md) — hbr
 - [Chapter 10 Production Deployment Patterns Claude Code Vs Her](content/2026/04/27/ken-huang-ai-expert--chapter-10-production-deployment-patterns-claude-code-vs-her.md) — ken-huang-ai-expert
 - [Physical Ai That Moves The World Qasar Younis Peter Ludwig A](content/2026/04/27/latent-space--physical-ai-that-moves-the-world-qasar-younis-peter-ludwig-a.md) — latent-space
-
-### 2026-04-26
-- [Call For Contributions Owasp Aivss V10 Public Review Now Ope](content/2026/04/26/ken-huang-ai-expert--call-for-contributions-owasp-aivss-v10-public-review-now-ope.md) — ken-huang-ai-expert
-- [Chapter 9 Observability And Debugging Claude Code Vs Hermes ](content/2026/04/26/ken-huang-ai-expert--chapter-9-observability-and-debugging-claude-code-vs-hermes-.md) — ken-huang-ai-expert
-- [Why Your Firm Is Struggling With Ai Adoption](content/2026/04/26/khemaridh-future-proof--why-your-firm-is-struggling-with-ai-adoption.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
