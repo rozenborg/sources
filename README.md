@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-04 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-04 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-04 | 82 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-04 | 23 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-05 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-05 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-05 | 83 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-05 | 23 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-04 | 58 | ✅ |  |
-| Real Estate News | rss | 2026-05-04 | 22 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-04 | 34 | ✅ |  |
-| Built In | sitemap | 2026-05-04 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-04 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-04 | 56 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-04 | 8 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-04 | 9 | ✅ |  |
-| Latent Space | podcast | 2026-05-04 | 22 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-04 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-05 | 60 | ✅ |  |
+| Real Estate News | rss | 2026-05-05 | 22 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-05 | 35 | ✅ |  |
+| Built In | sitemap | 2026-05-05 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-05 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-05 | 56 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-05 | 8 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-05 | 9 | ✅ |  |
+| Latent Space | podcast | 2026-05-05 | 22 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-05 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -31,6 +31,10 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- RECENT_CONTENT_START -->
 ### 2026-05-04
 - [Sarah Rogers Free Speech Ai Diplomacy And What America Owes ](content/2026/05/04/a16z-podcast--sarah-rogers-free-speech-ai-diplomacy-and-what-america-owes-.md) — a16z-podcast
+- [Enterprise Ai Services Company](content/2026/05/04/anthropic-blog--enterprise-ai-services-company.md) — anthropic-blog
+- [How Ai Is Changing The Needs And Values Of Finance Leaders A](content/2026/05/04/hbr--how-ai-is-changing-the-needs-and-values-of-finance-leaders-a.md) — hbr
+- [How An Organizational Shift Can Unlock Real Value From A Sta](content/2026/05/04/hbr--how-an-organizational-shift-can-unlock-real-value-from-a-sta.md) — hbr
+- [Why Your Agentic Ai Pentester Is Probably Just A Fancy Scann](content/2026/05/04/ken-huang-ai-expert--why-your-agentic-ai-pentester-is-probably-just-a-fancy-scann.md) — ken-huang-ai-expert
 
 ### 2026-05-03
 - [World Models Architectures And The Next Phase Of Ai](content/2026/05/03/ken-huang-ai-expert--world-models-architectures-and-the-next-phase-of-ai.md) — ken-huang-ai-expert
@@ -65,12 +69,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [John And Patrick Collison On Stripes Growth Agent Commerce A](content/2026/04/28/a16z-podcast--john-and-patrick-collison-on-stripes-growth-agent-commerce-a.md) — a16z-podcast
 - [Claude For Creative Work](content/2026/04/28/anthropic-blog--claude-for-creative-work.md) — anthropic-blog
 - [Chapter 11 Hook Event Driven Automation Claude Code Vs Herme](content/2026/04/28/ken-huang-ai-expert--chapter-11-hook-event-driven-automation-claude-code-vs-herme.md) — ken-huang-ai-expert
-
-### 2026-04-27
-- [Ben Horowitz On Venture Capital And Ai](content/2026/04/27/a16z-podcast--ben-horowitz-on-venture-capital-and-ai.md) — a16z-podcast
-- [Theo Hourmouzis General Manager Australia New Zealand](content/2026/04/27/anthropic-blog--theo-hourmouzis-general-manager-australia-new-zealand.md) — anthropic-blog
-- [The Future Is Shrouded In An Ai Fog](content/2026/04/27/hbr--the-future-is-shrouded-in-an-ai-fog.md) — hbr
-- [Chapter 10 Production Deployment Patterns Claude Code Vs Her](content/2026/04/27/ken-huang-ai-expert--chapter-10-production-deployment-patterns-claude-code-vs-her.md) — ken-huang-ai-expert
-- [Physical Ai That Moves The World Qasar Younis Peter Ludwig A](content/2026/04/27/latent-space--physical-ai-that-moves-the-world-qasar-younis-peter-ludwig-a.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
