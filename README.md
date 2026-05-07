@@ -9,32 +9,40 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-06 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-06 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-06 | 83 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-06 | 23 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-07 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-07 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-07 | 84 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-07 | 23 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-06 | 60 | ✅ |  |
-| Real Estate News | rss | 2026-05-06 | 23 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-06 | 36 | ✅ |  |
-| Built In | sitemap | 2026-05-06 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-06 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-06 | 58 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-06 | 8 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-06 | 9 | ✅ |  |
-| Latent Space | podcast | 2026-05-06 | 23 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-06 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-07 | 62 | ✅ |  |
+| Real Estate News | rss | 2026-05-07 | 24 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-07 | 37 | ✅ |  |
+| Built In | sitemap | 2026-05-07 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-07 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-07 | 59 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-07 | 8 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-07 | 9 | ✅ |  |
+| Latent Space | podcast | 2026-05-07 | 23 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-07 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-07
+- [Crypto Fund 5 We Raised 22B Heres Why](content/2026/05/07/a16z-podcast--crypto-fund-5-we-raised-22b-heres-why.md) — a16z-podcast
+
 ### 2026-05-06
 - [The New Space Race Nasa Artemis And The Race To The Moon](content/2026/05/06/a16z-podcast--the-new-space-race-nasa-artemis-and-the-race-to-the-moon.md) — a16z-podcast
+- [Higher Limits Spacex](content/2026/05/06/anthropic-blog--higher-limits-spacex.md) — anthropic-blog
+- [Research Why You Shouldnt Treat Ai Agents Like Employees](content/2026/05/06/hbr--research-why-you-shouldnt-treat-ai-agents-like-employees.md) — hbr
+- [What A Secure Harness For Agentic Ai Actually Is](content/2026/05/06/ken-huang-ai-expert--what-a-secure-harness-for-agentic-ai-actually-is.md) — ken-huang-ai-expert
+- [Revenue Jumps 18 As Zillow Touts Indispensable Platform](content/2026/05/06/real-estate-news--revenue-jumps-18-as-zillow-touts-indispensable-platform.md) — real-estate-news
 
 ### 2026-05-05
 - [Building Blackstone Backing Costco With Tony James](content/2026/05/05/a16z-podcast--building-blackstone-backing-costco-with-tony-james.md) — a16z-podcast
 - [Finance Agents](content/2026/05/05/anthropic-blog--finance-agents.md) — anthropic-blog
+- [Why Professional Services Organizations Keep Solving The Wro](content/2026/05/05/hbr--why-professional-services-organizations-keep-solving-the-wro.md) — hbr
 - [Doing Vibe Physics Alex Lupsasca Openai](content/2026/05/05/latent-space--doing-vibe-physics-alex-lupsasca-openai.md) — latent-space
 - [Chatgpts Impact On Bay Area Luxury Home Prices](content/2026/05/05/real-estate-news--chatgpts-impact-on-bay-area-luxury-home-prices.md) — real-estate-news
 
@@ -66,12 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [How To Move From Ai Experimentation To Ai Transformation](content/2026/04/30/hbr--how-to-move-from-ai-experimentation-to-ai-transformation.md) — hbr
 - [Chapter 13 Mcp Integration Connecting Agents To The World Cl](content/2026/04/30/ken-huang-ai-expert--chapter-13-mcp-integration-connecting-agents-to-the-world-cl.md) — ken-huang-ai-expert
 - [I Tried Chatgpts New Image Model](content/2026/04/30/khemaridh-future-proof--i-tried-chatgpts-new-image-model.md) — khemaridh-future-proof
-
-### 2026-04-29
-- [The Shift In Global Drug Development](content/2026/04/29/a16z-podcast--the-shift-in-global-drug-development.md) — a16z-podcast
-- [Reiner Pope The Math Behind How Llms Are Trained And Served](content/2026/04/29/dwarkesh-podcast--reiner-pope-the-math-behind-how-llms-are-trained-and-served.md) — dwarkesh-podcast
-- [Chapter 12 The Skill System Pattern Claude Code Vs Hermes Ag](content/2026/04/29/ken-huang-ai-expert--chapter-12-the-skill-system-pattern-claude-code-vs-hermes-ag.md) — ken-huang-ai-expert
-- [Googles Ucp Just Won Agentic Commerce Stripe Amazon And Micr](content/2026/04/29/ken-huang-ai-expert--googles-ucp-just-won-agentic-commerce-stripe-amazon-and-micr.md) — ken-huang-ai-expert
-- [Mls Tech Push Focuses On Ai Data Access Consumer Engagement](content/2026/04/29/real-estate-news--mls-tech-push-focuses-on-ai-data-access-consumer-engagement.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->

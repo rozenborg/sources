@@ -1,10 +1,10 @@
 {
   "sources": {
     "mollick-one-useful-thing": {
-      "last_success": "2026-05-06T10:07:21.589966+00:00",
+      "last_success": "2026-05-07T10:12:53.216886+00:00",
       "last_error": null,
       "posts_total": 4,
-      "last_run": "2026-05-06T10:07:21.589966+00:00",
+      "last_run": "2026-05-07T10:12:53.216886+00:00",
       "seen_urls": [
         "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
         "https://www.oneusefulthing.org/p/the-shape-of-the-thing",
@@ -13,17 +13,17 @@
       ]
     },
     "openai-blog": {
-      "last_success": "2026-05-06T10:07:22.191352+00:00",
+      "last_success": "2026-05-07T10:12:53.730815+00:00",
       "last_error": null,
       "posts_total": 0,
-      "last_run": "2026-05-06T10:07:22.191352+00:00",
+      "last_run": "2026-05-07T10:12:53.730815+00:00",
       "seen_urls": []
     },
     "ken-huang-ai-expert": {
-      "last_success": "2026-05-06T10:07:23.171899+00:00",
+      "last_success": "2026-05-07T10:12:54.812345+00:00",
       "last_error": null,
-      "posts_total": 83,
-      "last_run": "2026-05-06T10:07:23.171899+00:00",
+      "posts_total": 84,
+      "last_run": "2026-05-07T10:12:54.812345+00:00",
       "seen_urls": [
         "https://kenhuangus.substack.com/p/ralph-vs-openclaw-understanding-process",
         "https://kenhuangus.substack.com/p/on-the-road-for-agentic-ai-security",
@@ -107,14 +107,15 @@
         "https://kenhuangus.substack.com/p/the-computational-wall-why-the-defense",
         "https://kenhuangus.substack.com/p/chapter-15-structured-output-and",
         "https://kenhuangus.substack.com/p/world-models-architectures-and-the",
-        "https://kenhuangus.substack.com/p/why-your-agentic-ai-pentester-is"
+        "https://kenhuangus.substack.com/p/why-your-agentic-ai-pentester-is",
+        "https://kenhuangus.substack.com/p/what-a-secure-harness-for-agentic"
       ]
     },
     "khemaridh-future-proof": {
-      "last_success": "2026-05-06T10:07:23.686144+00:00",
+      "last_success": "2026-05-07T10:13:07.639625+00:00",
       "last_error": null,
       "posts_total": 23,
-      "last_run": "2026-05-06T10:07:23.686144+00:00",
+      "last_run": "2026-05-07T10:13:07.639625+00:00",
       "seen_urls": [
         "https://khemaridh.substack.com/p/this-ai-blog-post-broke-the-internet",
         "https://khemaridh.substack.com/p/have-we-reached-powerpoint-agi",
@@ -145,7 +146,7 @@
       "last_success": "2026-03-25T08:37:45.335136+00:00",
       "last_error": "Feed parse error: <unknown>:2:0: syntax error",
       "posts_total": 17,
-      "last_run": "2026-05-06T10:07:24.317381+00:00",
+      "last_run": "2026-05-07T10:13:07.975970+00:00",
       "seen_urls": [
         "https://aicollective.substack.com/p/the-brief-gemini-3-crushes-arc-agi",
         "https://aicollective.substack.com/p/the-byte-the-data-powering-medical",
@@ -167,10 +168,10 @@
       ]
     },
     "real-estate-news": {
-      "last_success": "2026-05-06T10:07:25.208357+00:00",
+      "last_success": "2026-05-07T10:13:27.927578+00:00",
       "last_error": null,
-      "posts_total": 23,
-      "last_run": "2026-05-06T10:07:25.208357+00:00",
+      "posts_total": 24,
+      "last_run": "2026-05-07T10:13:27.927578+00:00",
       "seen_urls": [
         "https://www.realestatenews.com/2026/02/13/the-future-of-real-estate-marketing-its-ai-powered-search",
         "https://www.realestatenews.com/2026/02/16/agents-want-more-and-better-ai-tools-and-more-training",
@@ -194,14 +195,15 @@
         "https://www.realestatenews.com/2026/04/23/zillow-ceo-bullish-about-ais-potential-opportunities-for-agents",
         "https://www.realestatenews.com/2026/04/25/playmakers-where-most-agents-go-wrong-and-how-to-fix-it",
         "https://www.realestatenews.com/2026/04/29/mls-tech-push-focuses-on-ai-data-access-consumer-engagement",
-        "https://www.realestatenews.com/2026/05/05/chatgpts-impact-on-bay-area-luxury-home-prices"
+        "https://www.realestatenews.com/2026/05/05/chatgpts-impact-on-bay-area-luxury-home-prices",
+        "https://www.realestatenews.com/2026/05/06/revenue-jumps-18-as-zillow-touts-indispensable-platform"
       ]
     },
     "anthropic-blog": {
-      "last_success": "2026-05-06T10:07:37.279140+00:00",
+      "last_success": "2026-05-07T10:13:37.930528+00:00",
       "last_error": null,
-      "posts_total": 36,
-      "last_run": "2026-05-06T10:07:37.279140+00:00",
+      "posts_total": 37,
+      "last_run": "2026-05-07T10:13:37.930528+00:00",
       "seen_urls": [
         "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
         "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
@@ -238,14 +240,15 @@
         "https://www.anthropic.com/news/claude-for-creative-work",
         "https://www.anthropic.com/news/the-long-term-benefit-trust",
         "https://www.anthropic.com/news/enterprise-ai-services-company",
-        "https://www.anthropic.com/news/finance-agents"
+        "https://www.anthropic.com/news/finance-agents",
+        "https://www.anthropic.com/news/higher-limits-spacex"
       ]
     },
     "builtin-com": {
-      "last_success": "2026-05-06T10:07:52.979807+00:00",
+      "last_success": "2026-05-07T10:13:53.881862+00:00",
       "last_error": null,
       "posts_total": 6,
-      "last_run": "2026-05-06T10:07:52.979807+00:00",
+      "last_run": "2026-05-07T10:13:53.881862+00:00",
       "seen_urls": [
         "https://builtin.com/articles/employer-branding-tools",
         "https://builtin.com/articles/companies-hiring-machine-learning-engineers-san-francisco",
@@ -256,10 +259,10 @@
       ]
     },
     "ey-com": {
-      "last_success": "2026-05-06T10:07:57.656424+00:00",
+      "last_success": "2026-05-07T10:13:57.842732+00:00",
       "last_error": null,
       "posts_total": 8,
-      "last_run": "2026-05-06T10:07:57.656424+00:00",
+      "last_run": "2026-05-07T10:13:57.842732+00:00",
       "seen_urls": [
         "https://www.ey.com/en_nl/insights/ai/how-can-responsible-ai-bridge-the-gap-between-investment-and-impact",
         "https://www.ey.com/en_nl/insights/ai/ai-agents-can-make-or-break-a-financial-institution",
@@ -272,10 +275,10 @@
       ]
     },
     "a16z-podcast": {
-      "last_success": "2026-05-06T10:08:00.215389+00:00",
+      "last_success": "2026-05-07T10:14:00.193064+00:00",
       "last_error": null,
-      "posts_total": 58,
-      "last_run": "2026-05-06T10:08:00.215389+00:00",
+      "posts_total": 59,
+      "last_run": "2026-05-07T10:14:00.193064+00:00",
       "seen_urls": [
         "https://a16z.simplecast.com/episodes/novartis-ceo-vasant-narasimhan-on-transforming-a-250-year-old-company-5kBHPRUC",
         "https://a16z.simplecast.com/episodes/wsj-x-a16z-the-next-25-years-of-defense-innovation-7fNyoZyd",
@@ -334,14 +337,15 @@
         "https://a16z.simplecast.com/episodes/balaji-and-taylor-lorenz-on-ai-and-media-MLvSb1Kh",
         "https://a16z.simplecast.com/episodes/sarah-rogers-free-speech-ai-diplomacy-and-what-america-owes-its-allies-DE_Sv7Ni",
         "https://a16z.simplecast.com/episodes/the-new-space-race-nasa-artemis-and-the-race-to-the-moon-PgJ89xUm",
-        "https://a16z.simplecast.com/episodes/building-blackstone-backing-costco-with-tony-james-TqmmrXcA"
+        "https://a16z.simplecast.com/episodes/building-blackstone-backing-costco-with-tony-james-TqmmrXcA",
+        "https://a16z.simplecast.com/episodes/crypto-fund-5-we-raised-22b-heres-why-___CC391"
       ]
     },
     "dwarkesh-podcast": {
-      "last_success": "2026-05-06T10:08:30.994365+00:00",
+      "last_success": "2026-05-07T10:14:13.377375+00:00",
       "last_error": null,
       "posts_total": 8,
-      "last_run": "2026-05-06T10:08:30.994365+00:00",
+      "last_run": "2026-05-07T10:14:13.377375+00:00",
       "seen_urls": [
         "https://www.dwarkesh.com/p/dario-amodei-2",
         "https://www.dwarkesh.com/p/ada-palmer",
@@ -354,10 +358,10 @@
       ]
     },
     "no-priors": {
-      "last_success": "2026-05-06T10:08:31.444930+00:00",
+      "last_success": "2026-05-07T10:14:13.802019+00:00",
       "last_error": null,
       "posts_total": 9,
-      "last_run": "2026-05-06T10:08:31.444930+00:00",
+      "last_run": "2026-05-07T10:14:13.802019+00:00",
       "seen_urls": [
         "https://traffic.megaphone.fm/PDP6186803088.mp3",
         "https://traffic.megaphone.fm/PDP5153133130.mp3",
@@ -371,10 +375,10 @@
       ]
     },
     "latent-space": {
-      "last_success": "2026-05-06T10:08:31.975027+00:00",
+      "last_success": "2026-05-07T10:14:14.698613+00:00",
       "last_error": null,
       "posts_total": 23,
-      "last_run": "2026-05-06T10:08:31.975027+00:00",
+      "last_run": "2026-05-07T10:14:14.698613+00:00",
       "seen_urls": [
         "https://www.latent.space/p/a16z",
         "https://www.latent.space/p/swe-bench-dead",
@@ -402,19 +406,19 @@
       ]
     },
     "ai-daily-brief": {
-      "last_success": "2026-05-06T10:08:49.850643+00:00",
+      "last_success": "2026-05-07T10:14:18.863473+00:00",
       "last_error": null,
       "posts_total": 1,
-      "last_run": "2026-05-06T10:08:49.850643+00:00",
+      "last_run": "2026-05-07T10:14:18.863473+00:00",
       "seen_urls": [
         "https://podcastai.com/daily-brief"
       ]
     },
     "hbr": {
-      "last_success": "2026-05-06T10:07:24.965337+00:00",
+      "last_success": "2026-05-07T10:13:08.402349+00:00",
       "last_error": null,
-      "posts_total": 60,
-      "last_run": "2026-05-06T10:07:24.965337+00:00",
+      "posts_total": 62,
+      "last_run": "2026-05-07T10:13:08.402349+00:00",
       "seen_urls": [
         "https://hbr.org/2026/02/why-your-digital-investments-arent-creating-value",
         "https://hbr.org/podcast/2026/02/with-rise-of-agents-we-are-entering-the-world-of-identic-ai",
@@ -475,7 +479,9 @@
         "https://hbr.org/2026/04/empathetic-leadership-can-make-or-break-ai-adoption",
         "https://hbr.org/2026/05/the-psychological-costs-of-adopting-ai",
         "https://hbr.org/sponsored/2026/05/how-an-organizational-shift-can-unlock-real-value-from-a-stalled-ai-strategy",
-        "https://hbr.org/sponsored/2026/05/how-ai-is-changing-the-needs-and-values-of-finance-leaders-and-their-teams"
+        "https://hbr.org/sponsored/2026/05/how-ai-is-changing-the-needs-and-values-of-finance-leaders-and-their-teams",
+        "https://hbr.org/2026/05/research-why-you-shouldnt-treat-ai-agents-like-employees",
+        "https://hbr.org/sponsored/2026/05/why-professional-services-organizations-keep-solving-the-wrong-ai-problem"
       ]
     }
   }
