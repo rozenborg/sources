@@ -9,27 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-08 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-08 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-08 | 84 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-08 | 24 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-09 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-09 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-09 | 85 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-09 | 24 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-08 | 63 | ✅ |  |
-| Real Estate News | rss | 2026-05-08 | 26 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-08 | 38 | ✅ |  |
-| Built In | sitemap | 2026-05-08 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-08 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-08 | 59 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-08 | 8 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-08 | 9 | ✅ |  |
-| Latent Space | podcast | 2026-05-08 | 23 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-08 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-09 | 65 | ✅ |  |
+| Real Estate News | rss | 2026-05-09 | 26 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-09 | 38 | ✅ |  |
+| Built In | sitemap | 2026-05-09 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-09 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-09 | 60 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-09 | 9 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-09 | 9 | ✅ |  |
+| Latent Space | podcast | 2026-05-09 | 23 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-09 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-05-08
+- [Ben Horowitz On The Next Technology Era](content/2026/05/08/a16z-podcast--ben-horowitz-on-the-next-technology-era.md) — a16z-podcast
+- [David Reich Why The Bronze Age Was An Inflection Point In Hu](content/2026/05/08/dwarkesh-podcast--david-reich-why-the-bronze-age-was-an-inflection-point-in-hu.md) — dwarkesh-podcast
+- [Cyber Defense Has To Move At The Speed Of Ai](content/2026/05/08/hbr--cyber-defense-has-to-move-at-the-speed-of-ai.md) — hbr
+- [Redesigning Your Marketing Organization For The Agentic Age](content/2026/05/08/hbr--redesigning-your-marketing-organization-for-the-agentic-age.md) — hbr
+- [Claude Agents Can Now Dream How Ai Engineers Should Use Anth](content/2026/05/08/ken-huang-ai-expert--claude-agents-can-now-dream-how-ai-engineers-should-use-anth.md) — ken-huang-ai-expert
 - [Rocket Confident Of Ability To Outperform In Down Market](content/2026/05/08/real-estate-news--rocket-confident-of-ability-to-outperform-in-down-market.md) — real-estate-news
 
 ### 2026-05-07
@@ -67,11 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-05-02
 - [Chapter 15 Structured Output And Schema Constrained Generati](content/2026/05/02/ken-huang-ai-expert--chapter-15-structured-output-and-schema-constrained-generati.md) — ken-huang-ai-expert
 - [The Computational Wall Why The Defense Trilemma And The Np H](content/2026/05/02/ken-huang-ai-expert--the-computational-wall-why-the-defense-trilemma-and-the-np-h.md) — ken-huang-ai-expert
-
-### 2026-05-01
-- [Balaji And Taylor Lorenz On Ai And Media](content/2026/05/01/a16z-podcast--balaji-and-taylor-lorenz-on-ai-and-media.md) — a16z-podcast
-- [The Psychological Costs Of Adopting Ai](content/2026/05/01/hbr--the-psychological-costs-of-adopting-ai.md) — hbr
-- [Chapter 14 Model Routing And Provider Abstraction Claude Cod](content/2026/05/01/ken-huang-ai-expert--chapter-14-model-routing-and-provider-abstraction-claude-cod.md) — ken-huang-ai-expert
-- [Baseten Ceo Tuhin Srivastava On The Ai Inference Crunch Cust](content/2026/05/01/no-priors--baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-cust.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
