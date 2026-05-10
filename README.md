@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-09 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-09 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-09 | 85 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-09 | 24 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-10 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-10 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-10 | 85 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-10 | 24 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-09 | 65 | ✅ |  |
-| Real Estate News | rss | 2026-05-09 | 26 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-09 | 38 | ✅ |  |
-| Built In | sitemap | 2026-05-09 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-09 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-09 | 60 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-09 | 9 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-09 | 9 | ✅ |  |
-| Latent Space | podcast | 2026-05-09 | 23 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-09 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-10 | 65 | ✅ |  |
+| Real Estate News | rss | 2026-05-10 | 27 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-10 | 38 | ✅ |  |
+| Built In | sitemap | 2026-05-10 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-10 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-10 | 60 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-10 | 9 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-10 | 9 | ✅ |  |
+| Latent Space | podcast | 2026-05-10 | 23 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-10 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-09
+- [Consumers Increasingly Wary Of Ais Role In Homebuying](content/2026/05/09/real-estate-news--consumers-increasingly-wary-of-ais-role-in-homebuying.md) — real-estate-news
+
 ### 2026-05-08
 - [Ben Horowitz On The Next Technology Era](content/2026/05/08/a16z-podcast--ben-horowitz-on-the-next-technology-era.md) — a16z-podcast
 - [David Reich Why The Bronze Age Was An Inflection Point In Hu](content/2026/05/08/dwarkesh-podcast--david-reich-why-the-bronze-age-was-an-inflection-point-in-hu.md) — dwarkesh-podcast
@@ -68,9 +71,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-05-03
 - [World Models Architectures And The Next Phase Of Ai](content/2026/05/03/ken-huang-ai-expert--world-models-architectures-and-the-next-phase-of-ai.md) — ken-huang-ai-expert
 - [Ai Is Coming For Your Mind](content/2026/05/03/khemaridh-future-proof--ai-is-coming-for-your-mind.md) — khemaridh-future-proof
-
-### 2026-05-02
-- [Chapter 15 Structured Output And Schema Constrained Generati](content/2026/05/02/ken-huang-ai-expert--chapter-15-structured-output-and-schema-constrained-generati.md) — ken-huang-ai-expert
-- [The Computational Wall Why The Defense Trilemma And The Np H](content/2026/05/02/ken-huang-ai-expert--the-computational-wall-why-the-defense-trilemma-and-the-np-h.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
