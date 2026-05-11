@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-10 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-10 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-10 | 85 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-10 | 24 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-11 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-11 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-11 | 85 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-11 | 25 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-10 | 65 | ✅ |  |
-| Real Estate News | rss | 2026-05-10 | 27 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-10 | 38 | ✅ |  |
-| Built In | sitemap | 2026-05-10 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-10 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-10 | 60 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-10 | 9 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-10 | 9 | ✅ |  |
-| Latent Space | podcast | 2026-05-10 | 23 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-10 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-11 | 65 | ✅ |  |
+| Real Estate News | rss | 2026-05-11 | 27 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-11 | 38 | ✅ |  |
+| Built In | sitemap | 2026-05-11 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-11 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-11 | 61 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-11 | 9 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-11 | 10 | ✅ |  |
+| Latent Space | podcast | 2026-05-11 | 23 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-11 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-11
+- [Marc Andreessen On Builder Culture In The Age Of Ai](content/2026/05/11/a16z-podcast--marc-andreessen-on-builder-culture-in-the-age-of-ai.md) — a16z-podcast
+- [Amex Global Business Travel The Worlds First Ai Take Private](content/2026/05/11/no-priors--amex-global-business-travel-the-worlds-first-ai-take-private.md) — no-priors
+
+### 2026-05-10
+- [How To Use The New Codex Super App](content/2026/05/10/khemaridh-future-proof--how-to-use-the-new-codex-super-app.md) — khemaridh-future-proof
+
 ### 2026-05-09
 - [Consumers Increasingly Wary Of Ais Role In Homebuying](content/2026/05/09/real-estate-news--consumers-increasingly-wary-of-ais-role-in-homebuying.md) — real-estate-news
 
@@ -67,9 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [How Ai Is Changing The Needs And Values Of Finance Leaders A](content/2026/05/04/hbr--how-ai-is-changing-the-needs-and-values-of-finance-leaders-a.md) — hbr
 - [How An Organizational Shift Can Unlock Real Value From A Sta](content/2026/05/04/hbr--how-an-organizational-shift-can-unlock-real-value-from-a-sta.md) — hbr
 - [Why Your Agentic Ai Pentester Is Probably Just A Fancy Scann](content/2026/05/04/ken-huang-ai-expert--why-your-agentic-ai-pentester-is-probably-just-a-fancy-scann.md) — ken-huang-ai-expert
-
-### 2026-05-03
-- [World Models Architectures And The Next Phase Of Ai](content/2026/05/03/ken-huang-ai-expert--world-models-architectures-and-the-next-phase-of-ai.md) — ken-huang-ai-expert
-- [Ai Is Coming For Your Mind](content/2026/05/03/khemaridh-future-proof--ai-is-coming-for-your-mind.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
