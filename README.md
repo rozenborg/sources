@@ -9,28 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-11 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-11 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-11 | 85 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-11 | 25 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-12 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-12 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-12 | 85 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-12 | 25 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-11 | 65 | ✅ |  |
-| Real Estate News | rss | 2026-05-11 | 27 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-11 | 38 | ✅ |  |
-| Built In | sitemap | 2026-05-11 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-11 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-11 | 61 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-11 | 9 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-11 | 10 | ✅ |  |
-| Latent Space | podcast | 2026-05-11 | 23 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-11 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-12 | 66 | ✅ |  |
+| Real Estate News | rss | 2026-05-12 | 27 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-12 | 38 | ✅ |  |
+| Built In | sitemap | 2026-05-12 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-12 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-12 | 62 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-12 | 9 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-12 | 10 | ✅ |  |
+| Latent Space | podcast | 2026-05-12 | 23 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-12 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-12
+- [Lloyd Blankfein On Risk Crisis And Leadership](content/2026/05/12/a16z-podcast--lloyd-blankfein-on-risk-crisis-and-leadership.md) — a16z-podcast
+
 ### 2026-05-11
 - [Marc Andreessen On Builder Culture In The Age Of Ai](content/2026/05/11/a16z-podcast--marc-andreessen-on-builder-culture-in-the-age-of-ai.md) — a16z-podcast
+- [What Are Your Companys Ai Nightmares](content/2026/05/11/hbr--what-are-your-companys-ai-nightmares.md) — hbr
 - [Amex Global Business Travel The Worlds First Ai Take Private](content/2026/05/11/no-priors--amex-global-business-travel-the-worlds-first-ai-take-private.md) — no-priors
 
 ### 2026-05-10
@@ -67,12 +71,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Why Professional Services Organizations Keep Solving The Wro](content/2026/05/05/hbr--why-professional-services-organizations-keep-solving-the-wro.md) — hbr
 - [Doing Vibe Physics Alex Lupsasca Openai](content/2026/05/05/latent-space--doing-vibe-physics-alex-lupsasca-openai.md) — latent-space
 - [Chatgpts Impact On Bay Area Luxury Home Prices](content/2026/05/05/real-estate-news--chatgpts-impact-on-bay-area-luxury-home-prices.md) — real-estate-news
-
-### 2026-05-04
-- [Sarah Rogers Free Speech Ai Diplomacy And What America Owes ](content/2026/05/04/a16z-podcast--sarah-rogers-free-speech-ai-diplomacy-and-what-america-owes-.md) — a16z-podcast
-- [Enterprise Ai Services Company](content/2026/05/04/anthropic-blog--enterprise-ai-services-company.md) — anthropic-blog
-- [How Ai Is Changing The Needs And Values Of Finance Leaders A](content/2026/05/04/hbr--how-ai-is-changing-the-needs-and-values-of-finance-leaders-a.md) — hbr
-- [How An Organizational Shift Can Unlock Real Value From A Sta](content/2026/05/04/hbr--how-an-organizational-shift-can-unlock-real-value-from-a-sta.md) — hbr
-- [Why Your Agentic Ai Pentester Is Probably Just A Fancy Scann](content/2026/05/04/ken-huang-ai-expert--why-your-agentic-ai-pentester-is-probably-just-a-fancy-scann.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
