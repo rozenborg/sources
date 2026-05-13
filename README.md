@@ -9,28 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-12 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-12 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-12 | 85 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-12 | 25 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-13 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-13 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-13 | 86 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-13 | 25 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-12 | 66 | ✅ |  |
-| Real Estate News | rss | 2026-05-12 | 27 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-12 | 38 | ✅ |  |
-| Built In | sitemap | 2026-05-12 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-12 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-12 | 62 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-12 | 9 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-12 | 10 | ✅ |  |
-| Latent Space | podcast | 2026-05-12 | 23 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-12 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-13 | 69 | ✅ |  |
+| Real Estate News | rss | 2026-05-13 | 29 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-13 | 38 | ✅ |  |
+| Built In | sitemap | 2026-05-13 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-13 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-13 | 63 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-13 | 9 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-13 | 10 | ✅ |  |
+| Latent Space | podcast | 2026-05-13 | 23 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-13 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-13
+- [Energy Minerals And The Physical Stack Behind Ai](content/2026/05/13/a16z-podcast--energy-minerals-and-the-physical-stack-behind-ai.md) — a16z-podcast
+- [Bright Promote Launches Attom Retools Data Framework](content/2026/05/13/real-estate-news--bright-promote-launches-attom-retools-data-framework.md) — real-estate-news
+
 ### 2026-05-12
 - [Lloyd Blankfein On Risk Crisis And Leadership](content/2026/05/12/a16z-podcast--lloyd-blankfein-on-risk-crisis-and-leadership.md) — a16z-podcast
+- [Microsofts Path To Adopting And Scaling Ai Across Its Sales ](content/2026/05/12/hbr--microsofts-path-to-adopting-and-scaling-ai-across-its-sales-.md) — hbr
+- [Research Traditional Marketing Doesnt Work On Ai Shopping Ag](content/2026/05/12/hbr--research-traditional-marketing-doesnt-work-on-ai-shopping-ag.md) — hbr
+- [Should You Treat Ai Like A Teammate](content/2026/05/12/hbr--should-you-treat-ai-like-a-teammate.md) — hbr
+- [Gcis 2026 My Agentic Ai Lens On A Prestigious Invitation Onl](content/2026/05/12/ken-huang-ai-expert--gcis-2026-my-agentic-ai-lens-on-a-prestigious-invitation-onl.md) — ken-huang-ai-expert
+- [Avanti Ways Big Bet On Tech Takes A Conversational Ai Turn](content/2026/05/12/real-estate-news--avanti-ways-big-bet-on-tech-takes-a-conversational-ai-turn.md) — real-estate-news
 
 ### 2026-05-11
 - [Marc Andreessen On Builder Culture In The Age Of Ai](content/2026/05/11/a16z-podcast--marc-andreessen-on-builder-culture-in-the-age-of-ai.md) — a16z-podcast
@@ -64,12 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Research Why You Shouldnt Treat Ai Agents Like Employees](content/2026/05/06/hbr--research-why-you-shouldnt-treat-ai-agents-like-employees.md) — hbr
 - [What A Secure Harness For Agentic Ai Actually Is](content/2026/05/06/ken-huang-ai-expert--what-a-secure-harness-for-agentic-ai-actually-is.md) — ken-huang-ai-expert
 - [Revenue Jumps 18 As Zillow Touts Indispensable Platform](content/2026/05/06/real-estate-news--revenue-jumps-18-as-zillow-touts-indispensable-platform.md) — real-estate-news
-
-### 2026-05-05
-- [Building Blackstone Backing Costco With Tony James](content/2026/05/05/a16z-podcast--building-blackstone-backing-costco-with-tony-james.md) — a16z-podcast
-- [Finance Agents](content/2026/05/05/anthropic-blog--finance-agents.md) — anthropic-blog
-- [Why Professional Services Organizations Keep Solving The Wro](content/2026/05/05/hbr--why-professional-services-organizations-keep-solving-the-wro.md) — hbr
-- [Doing Vibe Physics Alex Lupsasca Openai](content/2026/05/05/latent-space--doing-vibe-physics-alex-lupsasca-openai.md) — latent-space
-- [Chatgpts Impact On Bay Area Luxury Home Prices](content/2026/05/05/real-estate-news--chatgpts-impact-on-bay-area-luxury-home-prices.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
