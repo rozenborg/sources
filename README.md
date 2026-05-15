@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-14 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-14 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-14 | 87 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-14 | 25 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-15 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-15 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-15 | 88 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-15 | 26 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-14 | 72 | ✅ |  |
-| Real Estate News | rss | 2026-05-14 | 29 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-14 | 39 | ✅ |  |
-| Built In | sitemap | 2026-05-14 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-14 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-14 | 64 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-14 | 9 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-14 | 11 | ✅ |  |
-| Latent Space | podcast | 2026-05-14 | 23 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-14 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-15 | 72 | ✅ |  |
+| Real Estate News | rss | 2026-05-15 | 29 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-15 | 41 | ✅ |  |
+| Built In | sitemap | 2026-05-15 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-15 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-15 | 64 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-15 | 9 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-15 | 11 | ✅ |  |
+| Latent Space | podcast | 2026-05-15 | 24 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-15 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-15
+- [Pwc Expanded Partnership](content/2026/05/15/anthropic-blog--pwc-expanded-partnership.md) — anthropic-blog
+
 ### 2026-05-14
 - [Ben Horowitz Your Only Job Is Right Product Right Time](content/2026/05/14/a16z-podcast--ben-horowitz-your-only-job-is-right-product-right-time.md) — a16z-podcast
+- [Gates Foundation Partnership](content/2026/05/14/anthropic-blog--gates-foundation-partnership.md) — anthropic-blog
+- [Chapter 1 Hermes Agent Cost Token Usage Accounting Claude Co](content/2026/05/14/ken-huang-ai-expert--chapter-1-hermes-agent-cost-token-usage-accounting-claude-co.md) — ken-huang-ai-expert
+- [Ai Now Integrates Seamlessly With Excel](content/2026/05/14/khemaridh-future-proof--ai-now-integrates-seamlessly-with-excel.md) — khemaridh-future-proof
+- [Ai Native Healthcare 100M Doctor Visits 1020 Hours Saved Pri](content/2026/05/14/latent-space--ai-native-healthcare-100m-doctor-visits-1020-hours-saved-pri.md) — latent-space
 - [Pax Silica Inside The Trump Administrations Tech Strategy Wi](content/2026/05/14/no-priors--pax-silica-inside-the-trump-administrations-tech-strategy-wi.md) — no-priors
 
 ### 2026-05-13
@@ -68,12 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Redesigning Your Marketing Organization For The Agentic Age](content/2026/05/08/hbr--redesigning-your-marketing-organization-for-the-agentic-age.md) — hbr
 - [Claude Agents Can Now Dream How Ai Engineers Should Use Anth](content/2026/05/08/ken-huang-ai-expert--claude-agents-can-now-dream-how-ai-engineers-should-use-anth.md) — ken-huang-ai-expert
 - [Rocket Confident Of Ability To Outperform In Down Market](content/2026/05/08/real-estate-news--rocket-confident-of-ability-to-outperform-in-down-market.md) — real-estate-news
-
-### 2026-05-07
-- [Crypto Fund 5 We Raised 22B Heres Why](content/2026/05/07/a16z-podcast--crypto-fund-5-we-raised-22b-heres-why.md) — a16z-podcast
-- [Model Context Protocol](content/2026/05/07/anthropic-blog--model-context-protocol.md) — anthropic-blog
-- [3 Ways Ai Can Free Organizations From Legacy Workflows](content/2026/05/07/hbr--3-ways-ai-can-free-organizations-from-legacy-workflows.md) — hbr
-- [Ai Is Coming For Finance](content/2026/05/07/khemaridh-future-proof--ai-is-coming-for-finance.md) — khemaridh-future-proof
-- [New Moxiworks Platform Moves Beyond Reactive Ai](content/2026/05/07/real-estate-news--new-moxiworks-platform-moves-beyond-reactive-ai.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
