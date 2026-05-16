@@ -9,28 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-15 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-15 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-15 | 88 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-15 | 26 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-16 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-16 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-16 | 89 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-16 | 26 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-15 | 72 | ✅ |  |
-| Real Estate News | rss | 2026-05-15 | 29 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-15 | 41 | ✅ |  |
-| Built In | sitemap | 2026-05-15 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-15 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-15 | 64 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-15 | 9 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-15 | 11 | ✅ |  |
-| Latent Space | podcast | 2026-05-15 | 24 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-15 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-16 | 73 | ✅ |  |
+| Real Estate News | rss | 2026-05-16 | 29 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-16 | 41 | ✅ |  |
+| Built In | sitemap | 2026-05-16 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-16 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-16 | 65 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-16 | 10 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-16 | 11 | ✅ |  |
+| Latent Space | podcast | 2026-05-16 | 24 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-16 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-05-15
+- [Vitalik Buterin On Human Agency In The Ai Era](content/2026/05/15/a16z-podcast--vitalik-buterin-on-human-agency-in-the-ai-era.md) — a16z-podcast
 - [Pwc Expanded Partnership](content/2026/05/15/anthropic-blog--pwc-expanded-partnership.md) — anthropic-blog
+- [Eric Jang Building Alphago From Scratch](content/2026/05/15/dwarkesh-podcast--eric-jang-building-alphago-from-scratch.md) — dwarkesh-podcast
+- [Gen Ai Could Fix Performance Reviewsor Make Them Even Worse](content/2026/05/15/hbr--gen-ai-could-fix-performance-reviewsor-make-them-even-worse.md) — hbr
+- [Beyond Mythos Why Automated Security Validation Becomes More](content/2026/05/15/ken-huang-ai-expert--beyond-mythos-why-automated-security-validation-becomes-more.md) — ken-huang-ai-expert
 
 ### 2026-05-14
 - [Ben Horowitz Your Only Job Is Right Product Right Time](content/2026/05/14/a16z-podcast--ben-horowitz-your-only-job-is-right-product-right-time.md) — a16z-podcast
@@ -67,13 +71,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-05-09
 - [Consumers Increasingly Wary Of Ais Role In Homebuying](content/2026/05/09/real-estate-news--consumers-increasingly-wary-of-ais-role-in-homebuying.md) — real-estate-news
-
-### 2026-05-08
-- [Ben Horowitz On The Next Technology Era](content/2026/05/08/a16z-podcast--ben-horowitz-on-the-next-technology-era.md) — a16z-podcast
-- [David Reich Why The Bronze Age Was An Inflection Point In Hu](content/2026/05/08/dwarkesh-podcast--david-reich-why-the-bronze-age-was-an-inflection-point-in-hu.md) — dwarkesh-podcast
-- [Cyber Defense Has To Move At The Speed Of Ai](content/2026/05/08/hbr--cyber-defense-has-to-move-at-the-speed-of-ai.md) — hbr
-- [Redesigning Your Marketing Organization For The Agentic Age](content/2026/05/08/hbr--redesigning-your-marketing-organization-for-the-agentic-age.md) — hbr
-- [Claude Agents Can Now Dream How Ai Engineers Should Use Anth](content/2026/05/08/ken-huang-ai-expert--claude-agents-can-now-dream-how-ai-engineers-should-use-anth.md) — ken-huang-ai-expert
-- [Rocket Confident Of Ability To Outperform In Down Market](content/2026/05/08/real-estate-news--rocket-confident-of-ability-to-outperform-in-down-market.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
