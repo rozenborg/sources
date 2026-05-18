@@ -9,28 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-17 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-17 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-17 | 90 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-17 | 26 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-18 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-18 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-18 | 91 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-18 | 27 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-17 | 73 | ✅ |  |
-| Real Estate News | rss | 2026-05-17 | 30 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-17 | 41 | ✅ |  |
-| Built In | sitemap | 2026-05-17 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-17 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-17 | 65 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-17 | 10 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-17 | 11 | ✅ |  |
-| Latent Space | podcast | 2026-05-17 | 24 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-17 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-18 | 73 | ✅ |  |
+| Real Estate News | rss | 2026-05-18 | 30 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-18 | 41 | ✅ |  |
+| Built In | sitemap | 2026-05-18 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-18 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-18 | 66 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-18 | 10 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-18 | 11 | ✅ |  |
+| Latent Space | podcast | 2026-05-18 | 24 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-18 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-18
+- [The Plan To Make American Crime Obsolete](content/2026/05/18/a16z-podcast--the-plan-to-make-american-crime-obsolete.md) — a16z-podcast
+
 ### 2026-05-17
+- [Chapter 2 Cancellation Abort Propagation Claude Code Vs Herm](content/2026/05/17/ken-huang-ai-expert--chapter-2-cancellation-abort-propagation-claude-code-vs-herm.md) — ken-huang-ai-expert
 - [Laaf Logic Layer Automated Attack Framework A Systematic Red](content/2026/05/17/ken-huang-ai-expert--laaf-logic-layer-automated-attack-framework-a-systematic-red.md) — ken-huang-ai-expert
+- [How To Design Agent Skills Like A Pro](content/2026/05/17/khemaridh-future-proof--how-to-design-agent-skills-like-a-pro.md) — khemaridh-future-proof
 
 ### 2026-05-16
 - [Former Zillow Execs Talk Startups Ai And A Discouraging Tren](content/2026/05/16/real-estate-news--former-zillow-execs-talk-startups-ai-and-a-discouraging-tren.md) — real-estate-news
@@ -71,8 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Marc Andreessen On Builder Culture In The Age Of Ai](content/2026/05/11/a16z-podcast--marc-andreessen-on-builder-culture-in-the-age-of-ai.md) — a16z-podcast
 - [What Are Your Companys Ai Nightmares](content/2026/05/11/hbr--what-are-your-companys-ai-nightmares.md) — hbr
 - [Amex Global Business Travel The Worlds First Ai Take Private](content/2026/05/11/no-priors--amex-global-business-travel-the-worlds-first-ai-take-private.md) — no-priors
-
-### 2026-05-10
-- [How To Use The New Codex Super App](content/2026/05/10/khemaridh-future-proof--how-to-use-the-new-codex-super-app.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
