@@ -9,28 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-18 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-18 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-18 | 91 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-18 | 27 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-19 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-19 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-19 | 92 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-19 | 27 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-18 | 73 | ✅ |  |
-| Real Estate News | rss | 2026-05-18 | 30 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-18 | 41 | ✅ |  |
-| Built In | sitemap | 2026-05-18 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-18 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-18 | 66 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-18 | 10 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-18 | 11 | ✅ |  |
-| Latent Space | podcast | 2026-05-18 | 24 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-18 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-19 | 73 | ✅ |  |
+| Real Estate News | rss | 2026-05-19 | 30 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-19 | 42 | ✅ |  |
+| Built In | sitemap | 2026-05-19 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-19 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-19 | 67 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-19 | 10 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-19 | 11 | ✅ |  |
+| Latent Space | podcast | 2026-05-19 | 25 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-19 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-19
+- [Rebuilding The American Shipyard](content/2026/05/19/a16z-podcast--rebuilding-the-american-shipyard.md) — a16z-podcast
+
 ### 2026-05-18
 - [The Plan To Make American Crime Obsolete](content/2026/05/18/a16z-podcast--the-plan-to-make-american-crime-obsolete.md) — a16z-podcast
+- [Anthropic Acquires Stainless](content/2026/05/18/anthropic-blog--anthropic-acquires-stainless.md) — anthropic-blog
+- [How To Discover Shadow Ai Agents In Your Enterprise](content/2026/05/18/ken-huang-ai-expert--how-to-discover-shadow-ai-agents-in-your-enterprise.md) — ken-huang-ai-expert
+- [The Next War Is Already Here The West Isnt Ready Yaroslav Az](content/2026/05/18/latent-space--the-next-war-is-already-here-the-west-isnt-ready-yaroslav-az.md) — latent-space
 
 ### 2026-05-17
 - [Chapter 2 Cancellation Abort Propagation Claude Code Vs Herm](content/2026/05/17/ken-huang-ai-expert--chapter-2-cancellation-abort-propagation-claude-code-vs-herm.md) — ken-huang-ai-expert
@@ -71,10 +77,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Should You Treat Ai Like A Teammate](content/2026/05/12/hbr--should-you-treat-ai-like-a-teammate.md) — hbr
 - [Gcis 2026 My Agentic Ai Lens On A Prestigious Invitation Onl](content/2026/05/12/ken-huang-ai-expert--gcis-2026-my-agentic-ai-lens-on-a-prestigious-invitation-onl.md) — ken-huang-ai-expert
 - [Avanti Ways Big Bet On Tech Takes A Conversational Ai Turn](content/2026/05/12/real-estate-news--avanti-ways-big-bet-on-tech-takes-a-conversational-ai-turn.md) — real-estate-news
-
-### 2026-05-11
-- [Marc Andreessen On Builder Culture In The Age Of Ai](content/2026/05/11/a16z-podcast--marc-andreessen-on-builder-culture-in-the-age-of-ai.md) — a16z-podcast
-- [What Are Your Companys Ai Nightmares](content/2026/05/11/hbr--what-are-your-companys-ai-nightmares.md) — hbr
-- [Amex Global Business Travel The Worlds First Ai Take Private](content/2026/05/11/no-priors--amex-global-business-travel-the-worlds-first-ai-take-private.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
