@@ -9,28 +9,36 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-19 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-19 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-19 | 92 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-19 | 27 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-20 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-20 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-20 | 93 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-20 | 27 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-19 | 73 | ✅ |  |
-| Real Estate News | rss | 2026-05-19 | 30 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-19 | 42 | ✅ |  |
-| Built In | sitemap | 2026-05-19 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-19 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-19 | 67 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-19 | 10 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-19 | 11 | ✅ |  |
-| Latent Space | podcast | 2026-05-19 | 25 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-19 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-20 | 73 | ✅ |  |
+| Real Estate News | rss | 2026-05-20 | 32 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-20 | 44 | ✅ |  |
+| Built In | sitemap | 2026-05-20 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-20 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-20 | 68 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-20 | 10 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-20 | 11 | ✅ |  |
+| Latent Space | podcast | 2026-05-20 | 25 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-20 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-20
+- [Marc Andreessen On Ai California And The Future Of America J](content/2026/05/20/a16z-podcast--marc-andreessen-on-ai-california-and-the-future-of-america-j.md) — a16z-podcast
+- [Widening Conversation Ai](content/2026/05/20/anthropic-blog--widening-conversation-ai.md) — anthropic-blog
+- [Google Io 2026 Was Not Just A Model Launch It Was Google Sho](content/2026/05/20/ken-huang-ai-expert--google-io-2026-was-not-just-a-model-launch-it-was-google-sho.md) — ken-huang-ai-expert
+- [Revive Elevates Ai Platform Rayse Inks Deal With Momentum Ml](content/2026/05/20/real-estate-news--revive-elevates-ai-platform-rayse-inks-deal-with-momentum-ml.md) — real-estate-news
+
 ### 2026-05-19
 - [Rebuilding The American Shipyard](content/2026/05/19/a16z-podcast--rebuilding-the-american-shipyard.md) — a16z-podcast
+- [Anthropic Kpmg](content/2026/05/19/anthropic-blog--anthropic-kpmg.md) — anthropic-blog
+- [Playmakers Opendoor Crushing It On Key Metrics Ceo Says](content/2026/05/19/real-estate-news--playmakers-opendoor-crushing-it-on-key-metrics-ceo-says.md) — real-estate-news
 
 ### 2026-05-18
 - [The Plan To Make American Crime Obsolete](content/2026/05/18/a16z-podcast--the-plan-to-make-american-crime-obsolete.md) — a16z-podcast
@@ -69,13 +77,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Redefining What Efficiency Means In The Age Of Ai](content/2026/05/13/hbr--redefining-what-efficiency-means-in-the-age-of-ai.md) — hbr
 - [Huge Milestone 100000 Subscribers Two Major Announcements](content/2026/05/13/ken-huang-ai-expert--huge-milestone-100000-subscribers-two-major-announcements.md) — ken-huang-ai-expert
 - [Bright Promote Launches Attom Retools Data Framework](content/2026/05/13/real-estate-news--bright-promote-launches-attom-retools-data-framework.md) — real-estate-news
-
-### 2026-05-12
-- [Lloyd Blankfein On Risk Crisis And Leadership](content/2026/05/12/a16z-podcast--lloyd-blankfein-on-risk-crisis-and-leadership.md) — a16z-podcast
-- [Microsofts Path To Adopting And Scaling Ai Across Its Sales ](content/2026/05/12/hbr--microsofts-path-to-adopting-and-scaling-ai-across-its-sales-.md) — hbr
-- [Research Traditional Marketing Doesnt Work On Ai Shopping Ag](content/2026/05/12/hbr--research-traditional-marketing-doesnt-work-on-ai-shopping-ag.md) — hbr
-- [Should You Treat Ai Like A Teammate](content/2026/05/12/hbr--should-you-treat-ai-like-a-teammate.md) — hbr
-- [Gcis 2026 My Agentic Ai Lens On A Prestigious Invitation Onl](content/2026/05/12/ken-huang-ai-expert--gcis-2026-my-agentic-ai-lens-on-a-prestigious-invitation-onl.md) — ken-huang-ai-expert
-- [Avanti Ways Big Bet On Tech Takes A Conversational Ai Turn](content/2026/05/12/real-estate-news--avanti-ways-big-bet-on-tech-takes-a-conversational-ai-turn.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
