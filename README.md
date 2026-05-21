@@ -9,30 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-20 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-20 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-20 | 93 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-20 | 27 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-21 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-21 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-21 | 94 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-21 | 27 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-20 | 73 | ✅ |  |
-| Real Estate News | rss | 2026-05-20 | 32 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-20 | 44 | ✅ |  |
-| Built In | sitemap | 2026-05-20 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-20 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-20 | 68 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-20 | 10 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-20 | 11 | ✅ |  |
-| Latent Space | podcast | 2026-05-20 | 25 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-20 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-21 | 73 | ✅ |  |
+| Real Estate News | rss | 2026-05-21 | 32 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-21 | 44 | ✅ |  |
+| Built In | sitemap | 2026-05-21 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-21 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-21 | 69 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-21 | 10 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-21 | 11 | ✅ |  |
+| Latent Space | podcast | 2026-05-21 | 26 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-21 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-21
+- [How Superhuman Took Over Silicon Valley Email](content/2026/05/21/a16z-podcast--how-superhuman-took-over-silicon-valley-email.md) — a16z-podcast
+
 ### 2026-05-20
 - [Marc Andreessen On Ai California And The Future Of America J](content/2026/05/20/a16z-podcast--marc-andreessen-on-ai-california-and-the-future-of-america-j.md) — a16z-podcast
 - [Widening Conversation Ai](content/2026/05/20/anthropic-blog--widening-conversation-ai.md) — anthropic-blog
+- [An Implementation Checklist To Claude Code In Large Codebase](content/2026/05/20/ken-huang-ai-expert--an-implementation-checklist-to-claude-code-in-large-codebase.md) — ken-huang-ai-expert
 - [Google Io 2026 Was Not Just A Model Launch It Was Google Sho](content/2026/05/20/ken-huang-ai-expert--google-io-2026-was-not-just-a-model-launch-it-was-google-sho.md) — ken-huang-ai-expert
+- [Railway The Agent Native Cloud Jake Cooper](content/2026/05/20/latent-space--railway-the-agent-native-cloud-jake-cooper.md) — latent-space
 - [Revive Elevates Ai Platform Rayse Inks Deal With Momentum Ml](content/2026/05/20/real-estate-news--revive-elevates-ai-platform-rayse-inks-deal-with-momentum-ml.md) — real-estate-news
 
 ### 2026-05-19
@@ -68,14 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ai Now Integrates Seamlessly With Excel](content/2026/05/14/khemaridh-future-proof--ai-now-integrates-seamlessly-with-excel.md) — khemaridh-future-proof
 - [Ai Native Healthcare 100M Doctor Visits 1020 Hours Saved Pri](content/2026/05/14/latent-space--ai-native-healthcare-100m-doctor-visits-1020-hours-saved-pri.md) — latent-space
 - [Pax Silica Inside The Trump Administrations Tech Strategy Wi](content/2026/05/14/no-priors--pax-silica-inside-the-trump-administrations-tech-strategy-wi.md) — no-priors
-
-### 2026-05-13
-- [Energy Minerals And The Physical Stack Behind Ai](content/2026/05/13/a16z-podcast--energy-minerals-and-the-physical-stack-behind-ai.md) — a16z-podcast
-- [Claude For Small Business](content/2026/05/13/anthropic-blog--claude-for-small-business.md) — anthropic-blog
-- [Beware The Agentic Convergence Trap](content/2026/05/13/hbr--beware-the-agentic-convergence-trap.md) — hbr
-- [Its Hard To Use Ai As A Team These 3 Practices Can Help](content/2026/05/13/hbr--its-hard-to-use-ai-as-a-team-these-3-practices-can-help.md) — hbr
-- [Redefining What Efficiency Means In The Age Of Ai](content/2026/05/13/hbr--redefining-what-efficiency-means-in-the-age-of-ai.md) — hbr
-- [Huge Milestone 100000 Subscribers Two Major Announcements](content/2026/05/13/ken-huang-ai-expert--huge-milestone-100000-subscribers-two-major-announcements.md) — ken-huang-ai-expert
-- [Bright Promote Launches Attom Retools Data Framework](content/2026/05/13/real-estate-news--bright-promote-launches-attom-retools-data-framework.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
