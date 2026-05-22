@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-21 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-21 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-21 | 94 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-21 | 27 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-22 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-22 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-22 | 95 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-22 | 28 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-21 | 73 | ✅ |  |
-| Real Estate News | rss | 2026-05-21 | 32 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-21 | 44 | ✅ |  |
-| Built In | sitemap | 2026-05-21 | 6 | ✅ |  |
-| EY Insights | sitemap | 2026-05-21 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-21 | 69 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-21 | 10 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-21 | 11 | ✅ |  |
-| Latent Space | podcast | 2026-05-21 | 26 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-21 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-22 | 73 | ✅ |  |
+| Real Estate News | rss | 2026-05-22 | 32 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-22 | 44 | ✅ |  |
+| Built In | sitemap | 2026-05-22 | 6 | ✅ |  |
+| EY Insights | sitemap | 2026-05-22 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-22 | 70 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-22 | 10 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-22 | 12 | ✅ |  |
+| Latent Space | podcast | 2026-05-22 | 27 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-22 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-22
+- [Hugging Faces Clem Delangue On Open Source Ai And The Llm Bu](content/2026/05/22/a16z-podcast--hugging-faces-clem-delangue-on-open-source-ai-and-the-llm-bu.md) — a16z-podcast
+
 ### 2026-05-21
 - [How Superhuman Took Over Silicon Valley Email](content/2026/05/21/a16z-podcast--how-superhuman-took-over-silicon-valley-email.md) — a16z-podcast
+- [Chapter 3 The Slash Command System Claude Code Vs Hermes Age](content/2026/05/21/ken-huang-ai-expert--chapter-3-the-slash-command-system-claude-code-vs-hermes-age.md) — ken-huang-ai-expert
+- [Is Notion Ai Ready For Prime Time](content/2026/05/21/khemaridh-future-proof--is-notion-ai-ready-for-prime-time.md) — khemaridh-future-proof
+- [Giving Agents Computers Ivan Burazin Daytona](content/2026/05/21/latent-space--giving-agents-computers-ivan-burazin-daytona.md) — latent-space
+- [The Story Behind Cerebras 63 Billion Ipo With Founder And Ce](content/2026/05/21/no-priors--the-story-behind-cerebras-63-billion-ipo-with-founder-and-ce.md) — no-priors
 
 ### 2026-05-20
 - [Marc Andreessen On Ai California And The Future Of America J](content/2026/05/20/a16z-podcast--marc-andreessen-on-ai-california-and-the-future-of-america-j.md) — a16z-podcast
@@ -65,13 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Eric Jang Building Alphago From Scratch](content/2026/05/15/dwarkesh-podcast--eric-jang-building-alphago-from-scratch.md) — dwarkesh-podcast
 - [Gen Ai Could Fix Performance Reviewsor Make Them Even Worse](content/2026/05/15/hbr--gen-ai-could-fix-performance-reviewsor-make-them-even-worse.md) — hbr
 - [Beyond Mythos Why Automated Security Validation Becomes More](content/2026/05/15/ken-huang-ai-expert--beyond-mythos-why-automated-security-validation-becomes-more.md) — ken-huang-ai-expert
-
-### 2026-05-14
-- [Ben Horowitz Your Only Job Is Right Product Right Time](content/2026/05/14/a16z-podcast--ben-horowitz-your-only-job-is-right-product-right-time.md) — a16z-podcast
-- [Gates Foundation Partnership](content/2026/05/14/anthropic-blog--gates-foundation-partnership.md) — anthropic-blog
-- [Chapter 1 Hermes Agent Cost Token Usage Accounting Claude Co](content/2026/05/14/ken-huang-ai-expert--chapter-1-hermes-agent-cost-token-usage-accounting-claude-co.md) — ken-huang-ai-expert
-- [Ai Now Integrates Seamlessly With Excel](content/2026/05/14/khemaridh-future-proof--ai-now-integrates-seamlessly-with-excel.md) — khemaridh-future-proof
-- [Ai Native Healthcare 100M Doctor Visits 1020 Hours Saved Pri](content/2026/05/14/latent-space--ai-native-healthcare-100m-doctor-visits-1020-hours-saved-pri.md) — latent-space
-- [Pax Silica Inside The Trump Administrations Tech Strategy Wi](content/2026/05/14/no-priors--pax-silica-inside-the-trump-administrations-tech-strategy-wi.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
