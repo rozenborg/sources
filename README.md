@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-23 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-23 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-23 | 97 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-23 | 28 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-24 | 4 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-24 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-24 | 98 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-24 | 28 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-23 | 74 | ✅ |  |
-| Real Estate News | rss | 2026-05-23 | 33 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-23 | 44 | ✅ |  |
-| Built In | sitemap | 2026-05-23 | 8 | ✅ |  |
-| EY Insights | sitemap | 2026-05-23 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-23 | 70 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-23 | 11 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-23 | 12 | ✅ |  |
-| Latent Space | podcast | 2026-05-23 | 27 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-23 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-24 | 74 | ✅ |  |
+| Real Estate News | rss | 2026-05-24 | 33 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-24 | 44 | ✅ |  |
+| Built In | sitemap | 2026-05-24 | 8 | ✅ |  |
+| EY Insights | sitemap | 2026-05-24 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-24 | 70 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-24 | 11 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-24 | 12 | ✅ |  |
+| Latent Space | podcast | 2026-05-24 | 27 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-24 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-23
+- [Compound Engineering Vs Gstack Vs Karpathys Autoresearch Vs ](content/2026/05/23/ken-huang-ai-expert--compound-engineering-vs-gstack-vs-karpathys-autoresearch-vs-.md) — ken-huang-ai-expert
+
 ### 2026-05-22
 - [Hugging Faces Clem Delangue On Open Source Ai And The Llm Bu](content/2026/05/22/a16z-podcast--hugging-faces-clem-delangue-on-open-source-ai-and-the-llm-bu.md) — a16z-podcast
 - [Reiner Pope Chip Design From The Bottom Up](content/2026/05/22/dwarkesh-podcast--reiner-pope-chip-design-from-the-bottom-up.md) — dwarkesh-podcast
@@ -69,8 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Chapter 2 Cancellation Abort Propagation Claude Code Vs Herm](content/2026/05/17/ken-huang-ai-expert--chapter-2-cancellation-abort-propagation-claude-code-vs-herm.md) — ken-huang-ai-expert
 - [Laaf Logic Layer Automated Attack Framework A Systematic Red](content/2026/05/17/ken-huang-ai-expert--laaf-logic-layer-automated-attack-framework-a-systematic-red.md) — ken-huang-ai-expert
 - [How To Design Agent Skills Like A Pro](content/2026/05/17/khemaridh-future-proof--how-to-design-agent-skills-like-a-pro.md) — khemaridh-future-proof
-
-### 2026-05-16
-- [Former Zillow Execs Talk Startups Ai And A Discouraging Tren](content/2026/05/16/real-estate-news--former-zillow-execs-talk-startups-ai-and-a-discouraging-tren.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
