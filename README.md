@@ -9,28 +9,41 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-25 | 4 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-25 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-25 | 98 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-25 | 29 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-27 | 5 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-27 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-27 | 99 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-27 | 29 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-25 | 74 | ✅ |  |
-| Real Estate News | rss | 2026-05-25 | 33 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-25 | 44 | ✅ |  |
-| Built In | sitemap | 2026-05-25 | 8 | ✅ |  |
-| EY Insights | sitemap | 2026-05-25 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-25 | 71 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-25 | 11 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-25 | 12 | ✅ |  |
-| Latent Space | podcast | 2026-05-25 | 27 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-25 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-27 | 76 | ✅ |  |
+| Real Estate News | rss | 2026-05-27 | 34 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-27 | 46 | ✅ |  |
+| Built In | sitemap | 2026-05-27 | 8 | ✅ |  |
+| EY Insights | sitemap | 2026-05-27 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-27 | 73 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-27 | 11 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-27 | 12 | ✅ |  |
+| Latent Space | podcast | 2026-05-27 | 27 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-27 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-27
+- [Marc Rowan On Private Markets Software Repricing And Capital](content/2026/05/27/a16z-podcast--marc-rowan-on-private-markets-software-repricing-and-capital.md) — a16z-podcast
+- [Housewhisper Adds Lead Boosting Tools Hive Mls Debuts User S](content/2026/05/27/real-estate-news--housewhisper-adds-lead-boosting-tools-hive-mls-debuts-user-s.md) — real-estate-news
+
+### 2026-05-26
+- [Robin Hanson On Prediction Markets Gambling And The Future O](content/2026/05/26/a16z-podcast--robin-hanson-on-prediction-markets-gambling-and-the-future-o.md) — a16z-podcast
+- [Kiyoung Choi Representative Director Anthropic Korea](content/2026/05/26/anthropic-blog--kiyoung-choi-representative-director-anthropic-korea.md) — anthropic-blog
+- [How To Compete Against Agentic Startups](content/2026/05/26/hbr--how-to-compete-against-agentic-startups.md) — hbr
+- [Choosing To Stay Human](content/2026/05/26/mollick-one-useful-thing--choosing-to-stay-human.md) — mollick-one-useful-thing
+
 ### 2026-05-25
 - [Why Ai Isnt Killing Saas Yet](content/2026/05/25/a16z-podcast--why-ai-isnt-killing-saas-yet.md) — a16z-podcast
+- [Chris Olah Pope Leo Encyclical](content/2026/05/25/anthropic-blog--chris-olah-pope-leo-encyclical.md) — anthropic-blog
+- [Managers Are Struggling To Keep Up With The Ai Productivity ](content/2026/05/25/hbr--managers-are-struggling-to-keep-up-with-the-ai-productivity-.md) — hbr
+- [Why Static Authorization Is Failing In The Age Of Ai Agents](content/2026/05/25/ken-huang-ai-expert--why-static-authorization-is-failing-in-the-age-of-ai-agents.md) — ken-huang-ai-expert
 
 ### 2026-05-24
 - [Lessons In Founder Mode And Ai](content/2026/05/24/khemaridh-future-proof--lessons-in-founder-mode-and-ai.md) — khemaridh-future-proof
@@ -62,16 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Google Io 2026 Was Not Just A Model Launch It Was Google Sho](content/2026/05/20/ken-huang-ai-expert--google-io-2026-was-not-just-a-model-launch-it-was-google-sho.md) — ken-huang-ai-expert
 - [Railway The Agent Native Cloud Jake Cooper](content/2026/05/20/latent-space--railway-the-agent-native-cloud-jake-cooper.md) — latent-space
 - [Revive Elevates Ai Platform Rayse Inks Deal With Momentum Ml](content/2026/05/20/real-estate-news--revive-elevates-ai-platform-rayse-inks-deal-with-momentum-ml.md) — real-estate-news
-
-### 2026-05-19
-- [Rebuilding The American Shipyard](content/2026/05/19/a16z-podcast--rebuilding-the-american-shipyard.md) — a16z-podcast
-- [Anthropic Kpmg](content/2026/05/19/anthropic-blog--anthropic-kpmg.md) — anthropic-blog
-- [Playmakers Opendoor Crushing It On Key Metrics Ceo Says](content/2026/05/19/real-estate-news--playmakers-opendoor-crushing-it-on-key-metrics-ceo-says.md) — real-estate-news
-
-### 2026-05-18
-- [The Plan To Make American Crime Obsolete](content/2026/05/18/a16z-podcast--the-plan-to-make-american-crime-obsolete.md) — a16z-podcast
-- [Anthropic Acquires Stainless](content/2026/05/18/anthropic-blog--anthropic-acquires-stainless.md) — anthropic-blog
-- [How To Discover Shadow Ai Agents In Your Enterprise](content/2026/05/18/ken-huang-ai-expert--how-to-discover-shadow-ai-agents-in-your-enterprise.md) — ken-huang-ai-expert
-- [The Next War Is Already Here The West Isnt Ready Yaroslav Az](content/2026/05/18/latent-space--the-next-war-is-already-here-the-west-isnt-ready-yaroslav-az.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
