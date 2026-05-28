@@ -9,28 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-27 | 5 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-27 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-27 | 99 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-27 | 29 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-28 | 5 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-28 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-28 | 100 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-28 | 29 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-27 | 76 | ✅ |  |
-| Real Estate News | rss | 2026-05-27 | 34 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-27 | 46 | ✅ |  |
-| Built In | sitemap | 2026-05-27 | 8 | ✅ |  |
-| EY Insights | sitemap | 2026-05-27 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-27 | 73 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-27 | 11 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-27 | 12 | ✅ |  |
-| Latent Space | podcast | 2026-05-27 | 27 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-27 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-28 | 79 | ✅ |  |
+| Real Estate News | rss | 2026-05-28 | 34 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-28 | 46 | ✅ |  |
+| Built In | sitemap | 2026-05-28 | 8 | ✅ |  |
+| EY Insights | sitemap | 2026-05-28 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-28 | 74 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-28 | 11 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-28 | 13 | ✅ |  |
+| Latent Space | podcast | 2026-05-28 | 28 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-28 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-28
+- [Stablecoins Ai Agents And The Future Of Global Banking](content/2026/05/28/a16z-podcast--stablecoins-ai-agents-and-the-future-of-global-banking.md) — a16z-podcast
+- [Self Evolving Agent Skills Skillopt](content/2026/05/28/ken-huang-ai-expert--self-evolving-agent-skills-skillopt.md) — ken-huang-ai-expert
+- [Building An Ai Guardian For Enterprise With Onyx Security Ce](content/2026/05/28/no-priors--building-an-ai-guardian-for-enterprise-with-onyx-security-ce.md) — no-priors
+
 ### 2026-05-27
 - [Marc Rowan On Private Markets Software Repricing And Capital](content/2026/05/27/a16z-podcast--marc-rowan-on-private-markets-software-repricing-and-capital.md) — a16z-podcast
+- [Ais Impact On Saas Will Be Uneven Heres What Leaders Need To](content/2026/05/27/hbr--ais-impact-on-saas-will-be-uneven-heres-what-leaders-need-to.md) — hbr
+- [Competitive Business Leaders Need Clear Ai Vision To Break T](content/2026/05/27/hbr--competitive-business-leaders-need-clear-ai-vision-to-break-t.md) — hbr
+- [How Lenovo Built An Ai Powered Supply Chain](content/2026/05/27/hbr--how-lenovo-built-an-ai-powered-supply-chain.md) — hbr
+- [Esmfold2 The Bitter Lesson Is Coming For Proteins Alex Rives](content/2026/05/27/latent-space--esmfold2-the-bitter-lesson-is-coming-for-proteins-alex-rives.md) — latent-space
 - [Housewhisper Adds Lead Boosting Tools Hive Mls Debuts User S](content/2026/05/27/real-estate-news--housewhisper-adds-lead-boosting-tools-hive-mls-debuts-user-s.md) — real-estate-news
 
 ### 2026-05-26
@@ -66,14 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Is Notion Ai Ready For Prime Time](content/2026/05/21/khemaridh-future-proof--is-notion-ai-ready-for-prime-time.md) — khemaridh-future-proof
 - [Giving Agents Computers Ivan Burazin Daytona](content/2026/05/21/latent-space--giving-agents-computers-ivan-burazin-daytona.md) — latent-space
 - [The Story Behind Cerebras 63 Billion Ipo With Founder And Ce](content/2026/05/21/no-priors--the-story-behind-cerebras-63-billion-ipo-with-founder-and-ce.md) — no-priors
-
-### 2026-05-20
-- [Marc Andreessen On Ai California And The Future Of America J](content/2026/05/20/a16z-podcast--marc-andreessen-on-ai-california-and-the-future-of-america-j.md) — a16z-podcast
-- [Widening Conversation Ai](content/2026/05/20/anthropic-blog--widening-conversation-ai.md) — anthropic-blog
-- [Will Ai First Devices Replace Smartphone](content/2026/05/20/builtin-com--will-ai-first-devices-replace-smartphone.md) — builtin-com
-- [An Implementation Checklist To Claude Code In Large Codebase](content/2026/05/20/ken-huang-ai-expert--an-implementation-checklist-to-claude-code-in-large-codebase.md) — ken-huang-ai-expert
-- [Google Io 2026 Was Not Just A Model Launch It Was Google Sho](content/2026/05/20/ken-huang-ai-expert--google-io-2026-was-not-just-a-model-launch-it-was-google-sho.md) — ken-huang-ai-expert
-- [Railway The Agent Native Cloud Jake Cooper](content/2026/05/20/latent-space--railway-the-agent-native-cloud-jake-cooper.md) — latent-space
-- [Revive Elevates Ai Platform Rayse Inks Deal With Momentum Ml](content/2026/05/20/real-estate-news--revive-elevates-ai-platform-rayse-inks-deal-with-momentum-ml.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
