@@ -9,29 +9,39 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-28 | 5 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-28 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-28 | 100 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-28 | 29 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-29 | 5 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-29 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-29 | 101 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-29 | 30 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-28 | 79 | ✅ |  |
-| Real Estate News | rss | 2026-05-28 | 34 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-28 | 46 | ✅ |  |
-| Built In | sitemap | 2026-05-28 | 8 | ✅ |  |
-| EY Insights | sitemap | 2026-05-28 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-28 | 74 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-28 | 11 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-28 | 13 | ✅ |  |
-| Latent Space | podcast | 2026-05-28 | 28 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-28 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-29 | 80 | ✅ |  |
+| Real Estate News | rss | 2026-05-29 | 34 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-29 | 49 | ✅ |  |
+| Built In | sitemap | 2026-05-29 | 8 | ✅ |  |
+| EY Insights | sitemap | 2026-05-29 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-29 | 75 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-29 | 11 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-29 | 13 | ✅ |  |
+| Latent Space | podcast | 2026-05-29 | 29 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-29 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-05-29
+- [Why 1B Exits Are Dead](content/2026/05/29/a16z-podcast--why-1b-exits-are-dead.md) — a16z-podcast
+- [Claude Code Orchestration](content/2026/05/29/ken-huang-ai-expert--claude-code-orchestration.md) — ken-huang-ai-expert
+
 ### 2026-05-28
 - [Stablecoins Ai Agents And The Future Of Global Banking](content/2026/05/28/a16z-podcast--stablecoins-ai-agents-and-the-future-of-global-banking.md) — a16z-podcast
+- [Claude Opus 4 8](content/2026/05/28/anthropic-blog--claude-opus-4-8.md) — anthropic-blog
+- [Milan Office Opening](content/2026/05/28/anthropic-blog--milan-office-opening.md) — anthropic-blog
+- [Series H](content/2026/05/28/anthropic-blog--series-h.md) — anthropic-blog
+- [Leading The Human Ai Organization](content/2026/05/28/hbr--leading-the-human-ai-organization.md) — hbr
 - [Self Evolving Agent Skills Skillopt](content/2026/05/28/ken-huang-ai-expert--self-evolving-agent-skills-skillopt.md) — ken-huang-ai-expert
+- [Heres How Ai Helps Me Read More](content/2026/05/28/khemaridh-future-proof--heres-how-ai-helps-me-read-more.md) — khemaridh-future-proof
+- [The Age Of Async Agents Cognitions Walden Yan Openinspects C](content/2026/05/28/latent-space--the-age-of-async-agents-cognitions-walden-yan-openinspects-c.md) — latent-space
 - [Building An Ai Guardian For Enterprise With Onyx Security Ce](content/2026/05/28/no-priors--building-an-ai-guardian-for-enterprise-with-onyx-security-ce.md) — no-priors
 
 ### 2026-05-27
@@ -67,13 +77,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [A Recursive Project Improvement Loop](content/2026/05/22/ken-huang-ai-expert--a-recursive-project-improvement-loop.md) — ken-huang-ai-expert
 - [Designing Agentic Ai Systems With The Orchideas Framework](content/2026/05/22/ken-huang-ai-expert--designing-agentic-ai-systems-with-the-orchideas-framework.md) — ken-huang-ai-expert
 - [What Brokerages Must Do To Leverage The Future Of Ai](content/2026/05/22/real-estate-news--what-brokerages-must-do-to-leverage-the-future-of-ai.md) — real-estate-news
-
-### 2026-05-21
-- [How Superhuman Took Over Silicon Valley Email](content/2026/05/21/a16z-podcast--how-superhuman-took-over-silicon-valley-email.md) — a16z-podcast
-- [Companies Hiring Machine Learning Engineers](content/2026/05/21/builtin-com--companies-hiring-machine-learning-engineers.md) — builtin-com
-- [Chapter 3 The Slash Command System Claude Code Vs Hermes Age](content/2026/05/21/ken-huang-ai-expert--chapter-3-the-slash-command-system-claude-code-vs-hermes-age.md) — ken-huang-ai-expert
-- [Is Notion Ai Ready For Prime Time](content/2026/05/21/khemaridh-future-proof--is-notion-ai-ready-for-prime-time.md) — khemaridh-future-proof
-- [Giving Agents Computers Ivan Burazin Daytona](content/2026/05/21/latent-space--giving-agents-computers-ivan-burazin-daytona.md) — latent-space
-- [The Story Behind Cerebras 63 Billion Ipo With Founder And Ce](content/2026/05/21/no-priors--the-story-behind-cerebras-63-billion-ipo-with-founder-and-ce.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
