@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-05-30 | 5 | ✅ |  |
-| OpenAI Blog | rss | 2026-05-30 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-05-30 | 101 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-05-30 | 30 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-05-31 | 5 | ✅ |  |
+| OpenAI Blog | rss | 2026-05-31 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-05-31 | 101 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-05-31 | 30 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-05-30 | 80 | ✅ |  |
-| Real Estate News | rss | 2026-05-30 | 34 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-05-30 | 49 | ✅ |  |
-| Built In | sitemap | 2026-05-30 | 8 | ✅ |  |
-| EY Insights | sitemap | 2026-05-30 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-05-30 | 75 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-05-30 | 11 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-05-30 | 13 | ✅ |  |
-| Latent Space | podcast | 2026-05-30 | 29 | ✅ |  |
-| AI Daily Brief | podcast | 2026-05-30 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-05-31 | 80 | ✅ |  |
+| Real Estate News | rss | 2026-05-31 | 34 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-05-31 | 49 | ✅ |  |
+| Built In | sitemap | 2026-05-31 | 8 | ✅ |  |
+| EY Insights | sitemap | 2026-05-31 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-05-31 | 75 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-05-31 | 11 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-05-31 | 13 | ✅ |  |
+| Latent Space | podcast | 2026-05-31 | 29 | ✅ |  |
+| AI Daily Brief | podcast | 2026-05-31 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -66,8 +66,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-05-24
 - [Lessons In Founder Mode And Ai](content/2026/05/24/khemaridh-future-proof--lessons-in-founder-mode-and-ai.md) — khemaridh-future-proof
-
-### 2026-05-23
-- [Compound Engineering Vs Gstack Vs Karpathys Autoresearch Vs ](content/2026/05/23/ken-huang-ai-expert--compound-engineering-vs-gstack-vs-karpathys-autoresearch-vs-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
