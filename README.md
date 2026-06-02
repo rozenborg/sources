@@ -9,29 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-01 | 5 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-01 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-01 | 102 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-01 | 31 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-02 | 5 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-02 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-02 | 103 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-02 | 31 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-01 | 80 | ✅ |  |
-| Real Estate News | rss | 2026-06-01 | 35 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-01 | 49 | ✅ |  |
-| Built In | sitemap | 2026-06-01 | 8 | ✅ |  |
-| EY Insights | sitemap | 2026-06-01 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-01 | 76 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-01 | 11 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-01 | 13 | ✅ |  |
-| Latent Space | podcast | 2026-06-01 | 29 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-01 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-02 | 83 | ✅ |  |
+| Real Estate News | rss | 2026-06-02 | 35 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-02 | 50 | ✅ |  |
+| Built In | sitemap | 2026-06-02 | 8 | ✅ |  |
+| EY Insights | sitemap | 2026-06-02 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-02 | 76 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-02 | 11 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-02 | 13 | ✅ |  |
+| Latent Space | podcast | 2026-06-02 | 30 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-02 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-02
+- [100 Refusals To 9 How Cheap It Is To Decensor An Open Model ](content/2026/06/02/ken-huang-ai-expert--100-refusals-to-9-how-cheap-it-is-to-decensor-an-open-model-.md) — ken-huang-ai-expert
+
 ### 2026-06-01
 - [Building Ai Agents For Enterprise Operations](content/2026/06/01/a16z-podcast--building-ai-agents-for-enterprise-operations.md) — a16z-podcast
+- [Confidential Draft S1 Sec](content/2026/06/01/anthropic-blog--confidential-draft-s1-sec.md) — anthropic-blog
+- [Companies Are Using Ai For Efficiency They Should Use It To ](content/2026/06/01/hbr--companies-are-using-ai-for-efficiency-they-should-use-it-to-.md) — hbr
+- [How People Are Really Using Ai In 2026](content/2026/06/01/hbr--how-people-are-really-using-ai-in-2026.md) — hbr
+- [Why Ai Works Best When It Works With Humans Sponsor Content ](content/2026/06/01/hbr--why-ai-works-best-when-it-works-with-humans-sponsor-content-.md) — hbr
 - [Chapter 4 Working Directory File Path Resolution Claude Code](content/2026/06/01/ken-huang-ai-expert--chapter-4-working-directory-file-path-resolution-claude-code.md) — ken-huang-ai-expert
+- [Why Video Agent Models Are Next Ethan He Xai Grok Imagine](content/2026/06/01/latent-space--why-video-agent-models-are-next-ethan-he-xai-grok-imagine.md) — latent-space
 - [Agent Built Platform Delivers Insights To Buyers In 30 Secon](content/2026/06/01/real-estate-news--agent-built-platform-delivers-insights-to-buyers-in-30-secon.md) — real-estate-news
 
 ### 2026-05-31
@@ -65,11 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Kiyoung Choi Representative Director Anthropic Korea](content/2026/05/26/anthropic-blog--kiyoung-choi-representative-director-anthropic-korea.md) — anthropic-blog
 - [How To Compete Against Agentic Startups](content/2026/05/26/hbr--how-to-compete-against-agentic-startups.md) — hbr
 - [Choosing To Stay Human](content/2026/05/26/mollick-one-useful-thing--choosing-to-stay-human.md) — mollick-one-useful-thing
-
-### 2026-05-25
-- [Why Ai Isnt Killing Saas Yet](content/2026/05/25/a16z-podcast--why-ai-isnt-killing-saas-yet.md) — a16z-podcast
-- [Chris Olah Pope Leo Encyclical](content/2026/05/25/anthropic-blog--chris-olah-pope-leo-encyclical.md) — anthropic-blog
-- [Managers Are Struggling To Keep Up With The Ai Productivity ](content/2026/05/25/hbr--managers-are-struggling-to-keep-up-with-the-ai-productivity-.md) — hbr
-- [Why Static Authorization Is Failing In The Age Of Ai Agents](content/2026/05/25/ken-huang-ai-expert--why-static-authorization-is-failing-in-the-age-of-ai-agents.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
