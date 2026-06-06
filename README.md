@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-05 | 6 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-05 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-05 | 105 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-05 | 32 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-06 | 6 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-06 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-06 | 105 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-06 | 32 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-05 | 85 | ✅ |  |
-| Real Estate News | rss | 2026-06-05 | 36 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-05 | 53 | ✅ |  |
-| Built In | sitemap | 2026-06-05 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-05 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-05 | 80 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-05 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-05 | 14 | ✅ |  |
-| Latent Space | podcast | 2026-06-05 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-05 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-06 | 86 | ✅ |  |
+| Real Estate News | rss | 2026-06-06 | 36 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-06 | 53 | ✅ |  |
+| Built In | sitemap | 2026-06-06 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-06 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-06 | 80 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-06 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-06 | 14 | ✅ |  |
+| Latent Space | podcast | 2026-06-06 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-06 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -31,6 +31,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- RECENT_CONTENT_START -->
 ### 2026-06-05
 - [Ai Agents And The Fight For Customer Data](content/2026/06/05/a16z-podcast--ai-agents-and-the-fight-for-customer-data.md) — a16z-podcast
+- [Ai Is Rewriting The Economics Of Outsourcing](content/2026/06/05/hbr--ai-is-rewriting-the-economics-of-outsourcing.md) — hbr
 
 ### 2026-06-04
 - [Ai Eats The World A Reality Check With Benedict Evans](content/2026/06/04/a16z-podcast--ai-eats-the-world-a-reality-check-with-benedict-evans.md) — a16z-podcast
@@ -73,9 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-05-31
 - [This Agent Handles Imessage Gmail And Whatsapp](content/2026/05/31/khemaridh-future-proof--this-agent-handles-imessage-gmail-and-whatsapp.md) — khemaridh-future-proof
-
-### 2026-05-29
-- [Why 1B Exits Are Dead](content/2026/05/29/a16z-podcast--why-1b-exits-are-dead.md) — a16z-podcast
-- [Claude Code Orchestration](content/2026/05/29/ken-huang-ai-expert--claude-code-orchestration.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
