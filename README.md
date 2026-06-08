@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-07 | 6 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-07 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-07 | 106 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-07 | 32 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-08 | 6 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-08 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-08 | 106 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-08 | 33 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-07 | 86 | ✅ |  |
-| Real Estate News | rss | 2026-06-07 | 36 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-07 | 53 | ✅ |  |
-| Built In | sitemap | 2026-06-07 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-07 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-07 | 81 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-07 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-07 | 14 | ✅ |  |
-| Latent Space | podcast | 2026-06-07 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-07 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-08 | 86 | ✅ |  |
+| Real Estate News | rss | 2026-06-08 | 36 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-08 | 53 | ✅ |  |
+| Built In | sitemap | 2026-06-08 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-08 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-08 | 81 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-08 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-08 | 14 | ✅ |  |
+| Latent Space | podcast | 2026-06-08 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-08 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -31,6 +31,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- RECENT_CONTENT_START -->
 ### 2026-06-07
 - [Memory Technology For Agentic Ai Workloads Technical And Bus](content/2026/06/07/ken-huang-ai-expert--memory-technology-for-agentic-ai-workloads-technical-and-bus.md) — ken-huang-ai-expert
+- [Your Ai Budget Is Growing Your Returns Arent](content/2026/06/07/khemaridh-future-proof--your-ai-budget-is-growing-your-returns-arent.md) — khemaridh-future-proof
 
 ### 2026-06-06
 - [Building Search For Ai Agents With Exa Ceo Will Bryk](content/2026/06/06/a16z-podcast--building-search-for-ai-agents-with-exa-ceo-will-bryk.md) — a16z-podcast
@@ -77,8 +78,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Chapter 4 Working Directory File Path Resolution Claude Code](content/2026/06/01/ken-huang-ai-expert--chapter-4-working-directory-file-path-resolution-claude-code.md) — ken-huang-ai-expert
 - [Why Video Agent Models Are Next Ethan He Xai Grok Imagine](content/2026/06/01/latent-space--why-video-agent-models-are-next-ethan-he-xai-grok-imagine.md) — latent-space
 - [Agent Built Platform Delivers Insights To Buyers In 30 Secon](content/2026/06/01/real-estate-news--agent-built-platform-delivers-insights-to-buyers-in-30-secon.md) — real-estate-news
-
-### 2026-05-31
-- [This Agent Handles Imessage Gmail And Whatsapp](content/2026/05/31/khemaridh-future-proof--this-agent-handles-imessage-gmail-and-whatsapp.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
