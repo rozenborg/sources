@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-08 | 6 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-08 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-08 | 106 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-08 | 33 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-09 | 6 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-09 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-09 | 107 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-09 | 33 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-08 | 86 | ✅ |  |
-| Real Estate News | rss | 2026-06-08 | 36 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-08 | 53 | ✅ |  |
-| Built In | sitemap | 2026-06-08 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-08 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-08 | 81 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-08 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-08 | 14 | ✅ |  |
-| Latent Space | podcast | 2026-06-08 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-08 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-09 | 88 | ✅ |  |
+| Real Estate News | rss | 2026-06-09 | 36 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-09 | 53 | ✅ |  |
+| Built In | sitemap | 2026-06-09 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-09 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-09 | 82 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-09 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-09 | 14 | ✅ |  |
+| Latent Space | podcast | 2026-06-09 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-09 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-09
+- [Tyler Cowen Alex Tabarrok On Ai Jobs And Economic Growth](content/2026/06/09/a16z-podcast--tyler-cowen-alex-tabarrok-on-ai-jobs-and-economic-growth.md) — a16z-podcast
+
+### 2026-06-08
+- [Ai Has Broken Hiring Heres How To Fix It](content/2026/06/08/hbr--ai-has-broken-hiring-heres-how-to-fix-it.md) — hbr
+- [How C Suite And Board Roles Are Being Reshaped Around Ai](content/2026/06/08/hbr--how-c-suite-and-board-roles-are-being-reshaped-around-ai.md) — hbr
+- [Designing Hermes Agent From Scratch A Systems Deep Dive](content/2026/06/08/ken-huang-ai-expert--designing-hermes-agent-from-scratch-a-systems-deep-dive.md) — ken-huang-ai-expert
+
 ### 2026-06-07
 - [Memory Technology For Agentic Ai Workloads Technical And Bus](content/2026/06/07/ken-huang-ai-expert--memory-technology-for-agentic-ai-workloads-technical-and-bus.md) — ken-huang-ai-expert
 - [Your Ai Budget Is Growing Your Returns Arent](content/2026/06/07/khemaridh-future-proof--your-ai-budget-is-growing-your-returns-arent.md) — khemaridh-future-proof
@@ -68,15 +76,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [100 Refusals To 9 How Cheap It Is To Decensor An Open Model ](content/2026/06/02/ken-huang-ai-expert--100-refusals-to-9-how-cheap-it-is-to-decensor-an-open-model-.md) — ken-huang-ai-expert
 - [Githubs Plan For Agents Kyle Daigle Github](content/2026/06/02/latent-space--githubs-plan-for-agents-kyle-daigle-github.md) — latent-space
 - [Realtorcom Collabs With Google On Ai Tool Co Buyer Prenup La](content/2026/06/02/real-estate-news--realtorcom-collabs-with-google-on-ai-tool-co-buyer-prenup-la.md) — real-estate-news
-
-### 2026-06-01
-- [Building Ai Agents For Enterprise Operations](content/2026/06/01/a16z-podcast--building-ai-agents-for-enterprise-operations.md) — a16z-podcast
-- [Confidential Draft S1 Sec](content/2026/06/01/anthropic-blog--confidential-draft-s1-sec.md) — anthropic-blog
-- [Companies Are Using Ai For Efficiency They Should Use It To ](content/2026/06/01/hbr--companies-are-using-ai-for-efficiency-they-should-use-it-to-.md) — hbr
-- [How People Are Really Using Ai In 2026](content/2026/06/01/hbr--how-people-are-really-using-ai-in-2026.md) — hbr
-- [Why Ai Works Best When It Works With Humans Sponsor Content ](content/2026/06/01/hbr--why-ai-works-best-when-it-works-with-humans-sponsor-content-.md) — hbr
-- [Chapter 4 Working Directory File Path Resolution Claude Code](content/2026/06/01/ken-huang-ai-expert--chapter-4-working-directory-file-path-resolution-claude-code.md) — ken-huang-ai-expert
-- [Why Video Agent Models Are Next Ethan He Xai Grok Imagine](content/2026/06/01/latent-space--why-video-agent-models-are-next-ethan-he-xai-grok-imagine.md) — latent-space
-- [Agent Built Platform Delivers Insights To Buyers In 30 Secon](content/2026/06/01/real-estate-news--agent-built-platform-delivers-insights-to-buyers-in-30-secon.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
