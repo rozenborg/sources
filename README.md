@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-09 | 6 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-09 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-09 | 107 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-09 | 33 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-10 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-10 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-10 | 108 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-10 | 33 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-09 | 88 | ✅ |  |
-| Real Estate News | rss | 2026-06-09 | 36 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-09 | 53 | ✅ |  |
-| Built In | sitemap | 2026-06-09 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-09 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-09 | 82 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-09 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-09 | 14 | ✅ |  |
-| Latent Space | podcast | 2026-06-09 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-09 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-10 | 89 | ✅ |  |
+| Real Estate News | rss | 2026-06-10 | 36 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-10 | 54 | ✅ |  |
+| Built In | sitemap | 2026-06-10 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-10 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-10 | 83 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-10 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-10 | 14 | ✅ |  |
+| Latent Space | podcast | 2026-06-10 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-10 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-10
+- [Ai Growth And The Future Of Healthcare Anish Acharya Sachin ](content/2026/06/10/a16z-podcast--ai-growth-and-the-future-of-healthcare-anish-acharya-sachin-.md) — a16z-podcast
+
 ### 2026-06-09
 - [Tyler Cowen Alex Tabarrok On Ai Jobs And Economic Growth](content/2026/06/09/a16z-podcast--tyler-cowen-alex-tabarrok-on-ai-jobs-and-economic-growth.md) — a16z-podcast
+- [Claude Fable 5 Mythos 5](content/2026/06/09/anthropic-blog--claude-fable-5-mythos-5.md) — anthropic-blog
+- [New Data On How Were Really Using Ai](content/2026/06/09/hbr--new-data-on-how-were-really-using-ai.md) — hbr
+- [Recursive Self Improvement The Latest From Anthropic](content/2026/06/09/ken-huang-ai-expert--recursive-self-improvement-the-latest-from-anthropic.md) — ken-huang-ai-expert
+- [What It Feels Like To Work With Mythos](content/2026/06/09/mollick-one-useful-thing--what-it-feels-like-to-work-with-mythos.md) — mollick-one-useful-thing
 
 ### 2026-06-08
 - [Ai Has Broken Hiring Heres How To Fix It](content/2026/06/08/hbr--ai-has-broken-hiring-heres-how-to-fix-it.md) — hbr
@@ -67,14 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Microsofts Approach To Llm Mai Thinking 1](content/2026/06/03/ken-huang-ai-expert--microsofts-approach-to-llm-mai-thinking-1.md) — ken-huang-ai-expert
 - [Satya Nadella No Priors X Latent Space Crossover Special At ](content/2026/06/03/latent-space--satya-nadella-no-priors-x-latent-space-crossover-special-at-.md) — latent-space
 - [Scaling Past Informal Ai Carina Hong Axiom Math](content/2026/06/03/latent-space--scaling-past-informal-ai-carina-hong-axiom-math.md) — latent-space
-
-### 2026-06-02
-- [Steven Sinofsky On Ai Pcs Nvidia And The Future Of Computing](content/2026/06/02/a16z-podcast--steven-sinofsky-on-ai-pcs-nvidia-and-the-future-of-computing.md) — a16z-podcast
-- [Expanding Project Glasswing](content/2026/06/02/anthropic-blog--expanding-project-glasswing.md) — anthropic-blog
-- [Trump Ai Oversight Plan](content/2026/06/02/builtin-com--trump-ai-oversight-plan.md) — builtin-com
-- [The Power Of Knowing Your Stress Patterns](content/2026/06/02/hbr--the-power-of-knowing-your-stress-patterns.md) — hbr
-- [100 Refusals To 9 How Cheap It Is To Decensor An Open Model ](content/2026/06/02/ken-huang-ai-expert--100-refusals-to-9-how-cheap-it-is-to-decensor-an-open-model-.md) — ken-huang-ai-expert
-- [Githubs Plan For Agents Kyle Daigle Github](content/2026/06/02/latent-space--githubs-plan-for-agents-kyle-daigle-github.md) — latent-space
-- [Realtorcom Collabs With Google On Ai Tool Co Buyer Prenup La](content/2026/06/02/real-estate-news--realtorcom-collabs-with-google-on-ai-tool-co-buyer-prenup-la.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
