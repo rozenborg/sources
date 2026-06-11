@@ -9,28 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-10 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-10 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-10 | 108 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-10 | 33 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-11 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-11 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-11 | 108 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-11 | 33 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-10 | 89 | ✅ |  |
-| Real Estate News | rss | 2026-06-10 | 36 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-10 | 54 | ✅ |  |
-| Built In | sitemap | 2026-06-10 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-10 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-10 | 83 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-10 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-10 | 14 | ✅ |  |
-| Latent Space | podcast | 2026-06-10 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-10 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-11 | 90 | ✅ |  |
+| Real Estate News | rss | 2026-06-11 | 36 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-11 | 54 | ✅ |  |
+| Built In | sitemap | 2026-06-11 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-11 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-11 | 84 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-11 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-11 | 15 | ✅ |  |
+| Latent Space | podcast | 2026-06-11 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-11 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-11
+- [Designing The Physical World With Ai](content/2026/06/11/a16z-podcast--designing-the-physical-world-with-ai.md) — a16z-podcast
+
 ### 2026-06-10
 - [Ai Growth And The Future Of Healthcare Anish Acharya Sachin ](content/2026/06/10/a16z-podcast--ai-growth-and-the-future-of-healthcare-anish-acharya-sachin-.md) — a16z-podcast
+- [Why Employees Arent Transparent About Their Ai Usage](content/2026/06/10/hbr--why-employees-arent-transparent-about-their-ai-usage.md) — hbr
+- [Biohub The Future Of Biology Is Open Source With Co Founders](content/2026/06/10/no-priors--biohub-the-future-of-biology-is-open-source-with-co-founders.md) — no-priors
 
 ### 2026-06-09
 - [Tyler Cowen Alex Tabarrok On Ai Jobs And Economic Growth](content/2026/06/09/a16z-podcast--tyler-cowen-alex-tabarrok-on-ai-jobs-and-economic-growth.md) — a16z-podcast
@@ -63,16 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Reality The Final Eval Lukas Petersson And Axel Backlund Of ](content/2026/06/04/latent-space--reality-the-final-eval-lukas-petersson-and-axel-backlund-of-.md) — latent-space
 - [Co Existence And The End Of Co Intelligence](content/2026/06/04/mollick-one-useful-thing--co-existence-and-the-end-of-co-intelligence.md) — mollick-one-useful-thing
 - [The Rise Of The Full Stack Builder And Hyper Leveraged Gener](content/2026/06/04/no-priors--the-rise-of-the-full-stack-builder-and-hyper-leveraged-gener.md) — no-priors
-
-### 2026-06-03
-- [Balaji And Steven Glinert On Network States Supply Chains An](content/2026/06/03/a16z-podcast--balaji-and-steven-glinert-on-network-states-supply-chains-an.md) — a16z-podcast
-- [Ai Enabled Cyber Threats Mitre Attack](content/2026/06/03/anthropic-blog--ai-enabled-cyber-threats-mitre-attack.md) — anthropic-blog
-- [Services Track Partner Hub](content/2026/06/03/anthropic-blog--services-track-partner-hub.md) — anthropic-blog
-- [Ai Brain Fry Software Developers](content/2026/06/03/builtin-com--ai-brain-fry-software-developers.md) — builtin-com
-- [Ai Image Generator](content/2026/06/03/builtin-com--ai-image-generator.md) — builtin-com
-- [I Timed Grok Build Tui Against Claude Code On The Same Task ](content/2026/06/03/ken-huang-ai-expert--i-timed-grok-build-tui-against-claude-code-on-the-same-task-.md) — ken-huang-ai-expert
-- [Microsofts Approach To Llm Mai Thinking 1](content/2026/06/03/ken-huang-ai-expert--microsofts-approach-to-llm-mai-thinking-1.md) — ken-huang-ai-expert
-- [Satya Nadella No Priors X Latent Space Crossover Special At ](content/2026/06/03/latent-space--satya-nadella-no-priors-x-latent-space-crossover-special-at-.md) — latent-space
-- [Scaling Past Informal Ai Carina Hong Axiom Math](content/2026/06/03/latent-space--scaling-past-informal-ai-carina-hong-axiom-math.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
