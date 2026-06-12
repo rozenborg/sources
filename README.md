@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-11 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-11 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-11 | 108 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-11 | 33 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-12 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-12 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-12 | 108 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-12 | 34 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-11 | 90 | ✅ |  |
-| Real Estate News | rss | 2026-06-11 | 36 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-11 | 54 | ✅ |  |
-| Built In | sitemap | 2026-06-11 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-11 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-11 | 84 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-11 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-11 | 15 | ✅ |  |
-| Latent Space | podcast | 2026-06-11 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-11 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-12 | 91 | ✅ |  |
+| Real Estate News | rss | 2026-06-12 | 39 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-12 | 56 | ✅ |  |
+| Built In | sitemap | 2026-06-12 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-12 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-12 | 84 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-12 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-12 | 15 | ✅ |  |
+| Latent Space | podcast | 2026-06-12 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-12 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -31,6 +31,13 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- RECENT_CONTENT_START -->
 ### 2026-06-11
 - [Designing The Physical World With Ai](content/2026/06/11/a16z-podcast--designing-the-physical-world-with-ai.md) — a16z-podcast
+- [Claude Corps](content/2026/06/11/anthropic-blog--claude-corps.md) — anthropic-blog
+- [Dxc Anthropic Alliance](content/2026/06/11/anthropic-blog--dxc-anthropic-alliance.md) — anthropic-blog
+- [How Do You Market To An Ai Customer](content/2026/06/11/hbr--how-do-you-market-to-an-ai-customer.md) — hbr
+- [I Built A Headless Crm In Codex](content/2026/06/11/khemaridh-future-proof--i-built-a-headless-crm-in-codex.md) — khemaridh-future-proof
+- [1 In 2 Home Shoppers Open To Buying Without Human Help](content/2026/06/11/real-estate-news--1-in-2-home-shoppers-open-to-buying-without-human-help.md) — real-estate-news
+- [Ai Poised To Break Agent Commission Model Report Says](content/2026/06/11/real-estate-news--ai-poised-to-break-agent-commission-model-report-says.md) — real-estate-news
+- [Rechat Opens Platform To Brokerages Land Id Integrates Canva](content/2026/06/11/real-estate-news--rechat-opens-platform-to-brokerages-land-id-integrates-canva.md) — real-estate-news
 
 ### 2026-06-10
 - [Ai Growth And The Future Of Healthcare Anish Acharya Sachin ](content/2026/06/10/a16z-podcast--ai-growth-and-the-future-of-healthcare-anish-acharya-sachin-.md) — a16z-podcast
@@ -59,14 +66,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-06-05
 - [Ai Agents And The Fight For Customer Data](content/2026/06/05/a16z-podcast--ai-agents-and-the-fight-for-customer-data.md) — a16z-podcast
 - [Ai Is Rewriting The Economics Of Outsourcing](content/2026/06/05/hbr--ai-is-rewriting-the-economics-of-outsourcing.md) — hbr
-
-### 2026-06-04
-- [Ai Eats The World A Reality Check With Benedict Evans](content/2026/06/04/a16z-podcast--ai-eats-the-world-a-reality-check-with-benedict-evans.md) — a16z-podcast
-- [Alex Imas And Phil Trammell What Remains Scarce After Agi](content/2026/06/04/dwarkesh-podcast--alex-imas-and-phil-trammell-what-remains-scarce-after-agi.md) — dwarkesh-podcast
-- [Your Company Needs An Energy Strategy For Ais Next Phase](content/2026/06/04/hbr--your-company-needs-an-energy-strategy-for-ais-next-phase.md) — hbr
-- [11 Ready To Use Ai Skills To Help You Work Faster](content/2026/06/04/khemaridh-future-proof--11-ready-to-use-ai-skills-to-help-you-work-faster.md) — khemaridh-future-proof
-- [Reality The Final Eval Lukas Petersson And Axel Backlund Of ](content/2026/06/04/latent-space--reality-the-final-eval-lukas-petersson-and-axel-backlund-of-.md) — latent-space
-- [Co Existence And The End Of Co Intelligence](content/2026/06/04/mollick-one-useful-thing--co-existence-and-the-end-of-co-intelligence.md) — mollick-one-useful-thing
-- [The Rise Of The Full Stack Builder And Hyper Leveraged Gener](content/2026/06/04/no-priors--the-rise-of-the-full-stack-builder-and-hyper-leveraged-gener.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
