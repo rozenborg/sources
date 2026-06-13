@@ -9,26 +9,38 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-12 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-12 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-12 | 108 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-12 | 34 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-13 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-13 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-13 | 110 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-13 | 34 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-12 | 91 | ✅ |  |
-| Real Estate News | rss | 2026-06-12 | 39 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-12 | 56 | ✅ |  |
-| Built In | sitemap | 2026-06-12 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-12 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-12 | 84 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-12 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-12 | 15 | ✅ |  |
-| Latent Space | podcast | 2026-06-12 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-12 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-13 | 93 | ✅ |  |
+| Real Estate News | rss | 2026-06-13 | 39 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-13 | 59 | ✅ |  |
+| Built In | sitemap | 2026-06-13 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-13 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-13 | 85 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-13 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-13 | 15 | ✅ |  |
+| Latent Space | podcast | 2026-06-13 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-13 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-13
+- [Fable Mythos Access](content/2026/06/13/anthropic-blog--fable-mythos-access.md) — anthropic-blog
+- [Recursive Self Improvement A Technical Deep Dive Into Ai Sys](content/2026/06/13/ken-huang-ai-expert--recursive-self-improvement-a-technical-deep-dive-into-ai-sys.md) — ken-huang-ai-expert
+
+### 2026-06-12
+- [Samo Burja On Growth Energy And Ai](content/2026/06/12/a16z-podcast--samo-burja-on-growth-energy-and-ai.md) — a16z-podcast
+- [Anthropic Public Record](content/2026/06/12/anthropic-blog--anthropic-public-record.md) — anthropic-blog
+- [Tcs Anthropic Partnership](content/2026/06/12/anthropic-blog--tcs-anthropic-partnership.md) — anthropic-blog
+- [How Gen Ai Is Disrupting B2B Buying Decisions](content/2026/06/12/hbr--how-gen-ai-is-disrupting-b2b-buying-decisions.md) — hbr
+- [To Thrive Alongside Ai Focus On Mindsetnot Skillset](content/2026/06/12/hbr--to-thrive-alongside-ai-focus-on-mindsetnot-skillset.md) — hbr
+- [Chapter 5 Trajectory Compression And Replay Claude Code Vs H](content/2026/06/12/ken-huang-ai-expert--chapter-5-trajectory-compression-and-replay-claude-code-vs-h.md) — ken-huang-ai-expert
+
 ### 2026-06-11
 - [Designing The Physical World With Ai](content/2026/06/11/a16z-podcast--designing-the-physical-world-with-ai.md) — a16z-podcast
 - [Claude Corps](content/2026/06/11/anthropic-blog--claude-corps.md) — anthropic-blog
@@ -62,9 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-06-06
 - [Building Search For Ai Agents With Exa Ceo Will Bryk](content/2026/06/06/a16z-podcast--building-search-for-ai-agents-with-exa-ceo-will-bryk.md) — a16z-podcast
-
-### 2026-06-05
-- [Ai Agents And The Fight For Customer Data](content/2026/06/05/a16z-podcast--ai-agents-and-the-fight-for-customer-data.md) — a16z-podcast
-- [Ai Is Rewriting The Economics Of Outsourcing](content/2026/06/05/hbr--ai-is-rewriting-the-economics-of-outsourcing.md) — hbr
 
 <!-- RECENT_CONTENT_END -->
