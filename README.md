@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-14 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-14 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-14 | 111 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-14 | 34 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-15 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-15 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-15 | 111 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-15 | 35 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-14 | 93 | ✅ |  |
-| Real Estate News | rss | 2026-06-14 | 39 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-14 | 59 | ✅ |  |
-| Built In | sitemap | 2026-06-14 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-14 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-14 | 85 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-14 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-14 | 15 | ✅ |  |
-| Latent Space | podcast | 2026-06-14 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-14 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-15 | 95 | ✅ |  |
+| Real Estate News | rss | 2026-06-15 | 39 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-15 | 59 | ✅ |  |
+| Built In | sitemap | 2026-06-15 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-15 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-15 | 85 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-15 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-15 | 15 | ✅ |  |
+| Latent Space | podcast | 2026-06-15 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-15 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-15
+- [How Ai Companies Can Pay Fair Rates For The Content They Nee](content/2026/06/15/hbr--how-ai-companies-can-pay-fair-rates-for-the-content-they-nee.md) — hbr
+- [The Pros And Cons Of Continually Assessing Performance](content/2026/06/15/hbr--the-pros-and-cons-of-continually-assessing-performance.md) — hbr
+
+### 2026-06-14
+- [The Ai Shift In Investing](content/2026/06/14/khemaridh-future-proof--the-ai-shift-in-investing.md) — khemaridh-future-proof
+
 ### 2026-06-13
 - [Fable Mythos Access](content/2026/06/13/anthropic-blog--fable-mythos-access.md) — anthropic-blog
 - [Recursive Self Improvement A Technical Deep Dive Into Ai Sys](content/2026/06/13/ken-huang-ai-expert--recursive-self-improvement-a-technical-deep-dive-into-ai-sys.md) — ken-huang-ai-expert
@@ -68,9 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ai Has Broken Hiring Heres How To Fix It](content/2026/06/08/hbr--ai-has-broken-hiring-heres-how-to-fix-it.md) — hbr
 - [How C Suite And Board Roles Are Being Reshaped Around Ai](content/2026/06/08/hbr--how-c-suite-and-board-roles-are-being-reshaped-around-ai.md) — hbr
 - [Designing Hermes Agent From Scratch A Systems Deep Dive](content/2026/06/08/ken-huang-ai-expert--designing-hermes-agent-from-scratch-a-systems-deep-dive.md) — ken-huang-ai-expert
-
-### 2026-06-07
-- [Memory Technology For Agentic Ai Workloads Technical And Bus](content/2026/06/07/ken-huang-ai-expert--memory-technology-for-agentic-ai-workloads-technical-and-bus.md) — ken-huang-ai-expert
-- [Your Ai Budget Is Growing Your Returns Arent](content/2026/06/07/khemaridh-future-proof--your-ai-budget-is-growing-your-returns-arent.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
