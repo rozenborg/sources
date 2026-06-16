@@ -9,27 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-15 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-15 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-15 | 111 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-15 | 35 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-16 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-16 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-16 | 112 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-16 | 35 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-15 | 95 | ✅ |  |
-| Real Estate News | rss | 2026-06-15 | 39 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-15 | 59 | ✅ |  |
-| Built In | sitemap | 2026-06-15 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-15 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-15 | 85 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-15 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-15 | 15 | ✅ |  |
-| Latent Space | podcast | 2026-06-15 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-15 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-16 | 96 | ✅ |  |
+| Real Estate News | rss | 2026-06-16 | 39 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-16 | 60 | ✅ |  |
+| Built In | sitemap | 2026-06-16 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-16 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-16 | 87 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-16 | 12 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-16 | 15 | ✅ |  |
+| Latent Space | podcast | 2026-06-16 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-16 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-16
+- [Jack Altman On Product Market Fit](content/2026/06/16/a16z-podcast--jack-altman-on-product-market-fit.md) — a16z-podcast
+- [Core Views On Ai Safety](content/2026/06/16/anthropic-blog--core-views-on-ai-safety.md) — anthropic-blog
+- [Inside Gauntlet Ai Building In The Agentic Ai Era](content/2026/06/16/ken-huang-ai-expert--inside-gauntlet-ai-building-in-the-agentic-ai-era.md) — ken-huang-ai-expert
+
 ### 2026-06-15
+- [Ai Design And The Power Of Open Models](content/2026/06/15/a16z-podcast--ai-design-and-the-power-of-open-models.md) — a16z-podcast
+- [Help Employees Get Betternot Just Fasterwith Ai](content/2026/06/15/hbr--help-employees-get-betternot-just-fasterwith-ai.md) — hbr
 - [How Ai Companies Can Pay Fair Rates For The Content They Nee](content/2026/06/15/hbr--how-ai-companies-can-pay-fair-rates-for-the-content-they-nee.md) — hbr
 - [The Pros And Cons Of Continually Assessing Performance](content/2026/06/15/hbr--the-pros-and-cons-of-continually-assessing-performance.md) — hbr
 
@@ -70,10 +77,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [New Data On How Were Really Using Ai](content/2026/06/09/hbr--new-data-on-how-were-really-using-ai.md) — hbr
 - [Recursive Self Improvement The Latest From Anthropic](content/2026/06/09/ken-huang-ai-expert--recursive-self-improvement-the-latest-from-anthropic.md) — ken-huang-ai-expert
 - [What It Feels Like To Work With Mythos](content/2026/06/09/mollick-one-useful-thing--what-it-feels-like-to-work-with-mythos.md) — mollick-one-useful-thing
-
-### 2026-06-08
-- [Ai Has Broken Hiring Heres How To Fix It](content/2026/06/08/hbr--ai-has-broken-hiring-heres-how-to-fix-it.md) — hbr
-- [How C Suite And Board Roles Are Being Reshaped Around Ai](content/2026/06/08/hbr--how-c-suite-and-board-roles-are-being-reshaped-around-ai.md) — hbr
-- [Designing Hermes Agent From Scratch A Systems Deep Dive](content/2026/06/08/ken-huang-ai-expert--designing-hermes-agent-from-scratch-a-systems-deep-dive.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
