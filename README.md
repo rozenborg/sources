@@ -9,30 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-16 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-16 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-16 | 112 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-16 | 35 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-17 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-17 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-17 | 113 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-17 | 35 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-16 | 96 | ✅ |  |
-| Real Estate News | rss | 2026-06-16 | 39 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-16 | 60 | ✅ |  |
-| Built In | sitemap | 2026-06-16 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-16 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-16 | 87 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-16 | 12 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-16 | 15 | ✅ |  |
-| Latent Space | podcast | 2026-06-16 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-16 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-17 | 97 | ✅ |  |
+| Real Estate News | rss | 2026-06-17 | 40 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-17 | 60 | ✅ |  |
+| Built In | sitemap | 2026-06-17 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-17 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-17 | 88 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-17 | 13 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-17 | 15 | ✅ |  |
+| Latent Space | podcast | 2026-06-17 | 34 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-17 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-17
+- [The Fintech Playbook For Latin America](content/2026/06/17/a16z-podcast--the-fintech-playbook-for-latin-america.md) — a16z-podcast
+- [Disposable Code Durable Side Effects](content/2026/06/17/ken-huang-ai-expert--disposable-code-durable-side-effects.md) — ken-huang-ai-expert
+
 ### 2026-06-16
 - [Jack Altman On Product Market Fit](content/2026/06/16/a16z-podcast--jack-altman-on-product-market-fit.md) — a16z-podcast
 - [Core Views On Ai Safety](content/2026/06/16/anthropic-blog--core-views-on-ai-safety.md) — anthropic-blog
+- [Ada Palmer Machiavelli Is The Most Misunderstood Thinker Of ](content/2026/06/16/dwarkesh-podcast--ada-palmer-machiavelli-is-the-most-misunderstood-thinker-of-.md) — dwarkesh-podcast
+- [Dont Let Ai Slop Muck Up Your Companys Processes](content/2026/06/16/hbr--dont-let-ai-slop-muck-up-your-companys-processes.md) — hbr
 - [Inside Gauntlet Ai Building In The Agentic Ai Era](content/2026/06/16/ken-huang-ai-expert--inside-gauntlet-ai-building-in-the-agentic-ai-era.md) — ken-huang-ai-expert
+- [Ai Is Shrinking The Knowledge Gap Between Agents Consumers](content/2026/06/16/real-estate-news--ai-is-shrinking-the-knowledge-gap-between-agents-consumers.md) — real-estate-news
 
 ### 2026-06-15
 - [Ai Design And The Power Of Open Models](content/2026/06/15/a16z-podcast--ai-design-and-the-power-of-open-models.md) — a16z-podcast
@@ -70,12 +77,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ai Growth And The Future Of Healthcare Anish Acharya Sachin ](content/2026/06/10/a16z-podcast--ai-growth-and-the-future-of-healthcare-anish-acharya-sachin-.md) — a16z-podcast
 - [Why Employees Arent Transparent About Their Ai Usage](content/2026/06/10/hbr--why-employees-arent-transparent-about-their-ai-usage.md) — hbr
 - [Biohub The Future Of Biology Is Open Source With Co Founders](content/2026/06/10/no-priors--biohub-the-future-of-biology-is-open-source-with-co-founders.md) — no-priors
-
-### 2026-06-09
-- [Tyler Cowen Alex Tabarrok On Ai Jobs And Economic Growth](content/2026/06/09/a16z-podcast--tyler-cowen-alex-tabarrok-on-ai-jobs-and-economic-growth.md) — a16z-podcast
-- [Claude Fable 5 Mythos 5](content/2026/06/09/anthropic-blog--claude-fable-5-mythos-5.md) — anthropic-blog
-- [New Data On How Were Really Using Ai](content/2026/06/09/hbr--new-data-on-how-were-really-using-ai.md) — hbr
-- [Recursive Self Improvement The Latest From Anthropic](content/2026/06/09/ken-huang-ai-expert--recursive-self-improvement-the-latest-from-anthropic.md) — ken-huang-ai-expert
-- [What It Feels Like To Work With Mythos](content/2026/06/09/mollick-one-useful-thing--what-it-feels-like-to-work-with-mythos.md) — mollick-one-useful-thing
 
 <!-- RECENT_CONTENT_END -->
