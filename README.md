@@ -9,29 +9,38 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-17 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-17 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-17 | 113 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-17 | 35 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-18 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-18 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-18 | 113 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-18 | 36 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-17 | 97 | ✅ |  |
-| Real Estate News | rss | 2026-06-17 | 40 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-17 | 60 | ✅ |  |
-| Built In | sitemap | 2026-06-17 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-17 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-17 | 88 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-17 | 13 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-17 | 15 | ✅ |  |
-| Latent Space | podcast | 2026-06-17 | 34 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-17 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-18 | 98 | ✅ |  |
+| Real Estate News | rss | 2026-06-18 | 41 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-18 | 62 | ✅ |  |
+| Built In | sitemap | 2026-06-18 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-18 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-18 | 88 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-18 | 13 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-18 | 16 | ✅ |  |
+| Latent Space | podcast | 2026-06-18 | 35 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-18 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-18
+- [Seoul Office Partnerships Korean Ai Ecosystem](content/2026/06/18/anthropic-blog--seoul-office-partnerships-korean-ai-ecosystem.md) — anthropic-blog
+- [The Power Users Guide To Claude Skills](content/2026/06/18/khemaridh-future-proof--the-power-users-guide-to-claude-skills.md) — khemaridh-future-proof
+- [Re Engineering The Semiconductor Supply Chain With Intel Ceo](content/2026/06/18/no-priors--re-engineering-the-semiconductor-supply-chain-with-intel-ceo.md) — no-priors
+
 ### 2026-06-17
 - [The Fintech Playbook For Latin America](content/2026/06/17/a16z-podcast--the-fintech-playbook-for-latin-america.md) — a16z-podcast
+- [Developing Nuclear Safeguards For Ai Through Public Private ](content/2026/06/17/anthropic-blog--developing-nuclear-safeguards-for-ai-through-public-private-.md) — anthropic-blog
+- [Video Quick Take Implementing Zero Trust In An Ai Driven Thr](content/2026/06/17/hbr--video-quick-take-implementing-zero-trust-in-an-ai-driven-thr.md) — hbr
 - [Disposable Code Durable Side Effects](content/2026/06/17/ken-huang-ai-expert--disposable-code-durable-side-effects.md) — ken-huang-ai-expert
+- [The Self Driving Lab Joseph Krause Radical Ai](content/2026/06/17/latent-space--the-self-driving-lab-joseph-krause-radical-ai.md) — latent-space
+- [Edge Invites Proptech Firms To Compete Renter Ai Search Debu](content/2026/06/17/real-estate-news--edge-invites-proptech-firms-to-compete-renter-ai-search-debu.md) — real-estate-news
 
 ### 2026-06-16
 - [Jack Altman On Product Market Fit](content/2026/06/16/a16z-podcast--jack-altman-on-product-market-fit.md) — a16z-podcast
@@ -72,10 +81,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [1 In 2 Home Shoppers Open To Buying Without Human Help](content/2026/06/11/real-estate-news--1-in-2-home-shoppers-open-to-buying-without-human-help.md) — real-estate-news
 - [Ai Poised To Break Agent Commission Model Report Says](content/2026/06/11/real-estate-news--ai-poised-to-break-agent-commission-model-report-says.md) — real-estate-news
 - [Rechat Opens Platform To Brokerages Land Id Integrates Canva](content/2026/06/11/real-estate-news--rechat-opens-platform-to-brokerages-land-id-integrates-canva.md) — real-estate-news
-
-### 2026-06-10
-- [Ai Growth And The Future Of Healthcare Anish Acharya Sachin ](content/2026/06/10/a16z-podcast--ai-growth-and-the-future-of-healthcare-anish-acharya-sachin-.md) — a16z-podcast
-- [Why Employees Arent Transparent About Their Ai Usage](content/2026/06/10/hbr--why-employees-arent-transparent-about-their-ai-usage.md) — hbr
-- [Biohub The Future Of Biology Is Open Source With Co Founders](content/2026/06/10/no-priors--biohub-the-future-of-biology-is-open-source-with-co-founders.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
