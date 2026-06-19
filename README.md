@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-18 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-18 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-18 | 113 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-18 | 36 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-19 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-19 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-19 | 113 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-19 | 36 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-18 | 98 | ✅ |  |
-| Real Estate News | rss | 2026-06-18 | 41 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-18 | 62 | ✅ |  |
-| Built In | sitemap | 2026-06-18 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-18 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-18 | 88 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-18 | 13 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-18 | 16 | ✅ |  |
-| Latent Space | podcast | 2026-06-18 | 35 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-18 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-19 | 100 | ✅ |  |
+| Real Estate News | rss | 2026-06-19 | 42 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-19 | 62 | ✅ |  |
+| Built In | sitemap | 2026-06-19 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-19 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-19 | 88 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-19 | 13 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-19 | 16 | ✅ |  |
+| Latent Space | podcast | 2026-06-19 | 36 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-19 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -31,8 +31,12 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- RECENT_CONTENT_START -->
 ### 2026-06-18
 - [Seoul Office Partnerships Korean Ai Ecosystem](content/2026/06/18/anthropic-blog--seoul-office-partnerships-korean-ai-ecosystem.md) — anthropic-blog
+- [Lessons From Chinese Ai Firms On Owning Customers Habits](content/2026/06/18/hbr--lessons-from-chinese-ai-firms-on-owning-customers-habits.md) — hbr
+- [The Strongest Teams Of Ai Agents Will Be Built Using Differe](content/2026/06/18/hbr--the-strongest-teams-of-ai-agents-will-be-built-using-differe.md) — hbr
 - [The Power Users Guide To Claude Skills](content/2026/06/18/khemaridh-future-proof--the-power-users-guide-to-claude-skills.md) — khemaridh-future-proof
+- [The Professor Of Outputmaxxing Anjney Midha Amp](content/2026/06/18/latent-space--the-professor-of-outputmaxxing-anjney-midha-amp.md) — latent-space
 - [Re Engineering The Semiconductor Supply Chain With Intel Ceo](content/2026/06/18/no-priors--re-engineering-the-semiconductor-supply-chain-with-intel-ceo.md) — no-priors
+- [How Should Mlss Portals Address Ai Enhanced Listing Photos](content/2026/06/18/real-estate-news--how-should-mlss-portals-address-ai-enhanced-listing-photos.md) — real-estate-news
 
 ### 2026-06-17
 - [The Fintech Playbook For Latin America](content/2026/06/17/a16z-podcast--the-fintech-playbook-for-latin-america.md) — a16z-podcast
@@ -71,15 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [How Gen Ai Is Disrupting B2B Buying Decisions](content/2026/06/12/hbr--how-gen-ai-is-disrupting-b2b-buying-decisions.md) — hbr
 - [To Thrive Alongside Ai Focus On Mindsetnot Skillset](content/2026/06/12/hbr--to-thrive-alongside-ai-focus-on-mindsetnot-skillset.md) — hbr
 - [Chapter 5 Trajectory Compression And Replay Claude Code Vs H](content/2026/06/12/ken-huang-ai-expert--chapter-5-trajectory-compression-and-replay-claude-code-vs-h.md) — ken-huang-ai-expert
-
-### 2026-06-11
-- [Designing The Physical World With Ai](content/2026/06/11/a16z-podcast--designing-the-physical-world-with-ai.md) — a16z-podcast
-- [Claude Corps](content/2026/06/11/anthropic-blog--claude-corps.md) — anthropic-blog
-- [Dxc Anthropic Alliance](content/2026/06/11/anthropic-blog--dxc-anthropic-alliance.md) — anthropic-blog
-- [How Do You Market To An Ai Customer](content/2026/06/11/hbr--how-do-you-market-to-an-ai-customer.md) — hbr
-- [I Built A Headless Crm In Codex](content/2026/06/11/khemaridh-future-proof--i-built-a-headless-crm-in-codex.md) — khemaridh-future-proof
-- [1 In 2 Home Shoppers Open To Buying Without Human Help](content/2026/06/11/real-estate-news--1-in-2-home-shoppers-open-to-buying-without-human-help.md) — real-estate-news
-- [Ai Poised To Break Agent Commission Model Report Says](content/2026/06/11/real-estate-news--ai-poised-to-break-agent-commission-model-report-says.md) — real-estate-news
-- [Rechat Opens Platform To Brokerages Land Id Integrates Canva](content/2026/06/11/real-estate-news--rechat-opens-platform-to-brokerages-land-id-integrates-canva.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
