@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-20 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-20 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-20 | 113 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-20 | 36 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-21 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-21 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-21 | 113 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-21 | 36 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-20 | 101 | ✅ |  |
-| Real Estate News | rss | 2026-06-20 | 42 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-20 | 62 | ✅ |  |
-| Built In | sitemap | 2026-06-20 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-20 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-20 | 89 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-20 | 14 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-20 | 16 | ✅ |  |
-| Latent Space | podcast | 2026-06-20 | 36 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-20 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-21 | 101 | ✅ |  |
+| Real Estate News | rss | 2026-06-21 | 42 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-21 | 62 | ✅ |  |
+| Built In | sitemap | 2026-06-21 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-21 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-21 | 89 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-21 | 15 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-21 | 16 | ✅ |  |
+| Latent Space | podcast | 2026-06-21 | 36 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-21 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -67,10 +67,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-06-14
 - [The Ai Shift In Investing](content/2026/06/14/khemaridh-future-proof--the-ai-shift-in-investing.md) — khemaridh-future-proof
-
-### 2026-06-13
-- [Fable Mythos Access](content/2026/06/13/anthropic-blog--fable-mythos-access.md) — anthropic-blog
-- [Recursive Self Improvement A Technical Deep Dive Into Ai Sys](content/2026/06/13/ken-huang-ai-expert--recursive-self-improvement-a-technical-deep-dive-into-ai-sys.md) — ken-huang-ai-expert
-- [Why Ai Agents Are Starting To Dream](content/2026/06/13/ken-huang-ai-expert--why-ai-agents-are-starting-to-dream.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
