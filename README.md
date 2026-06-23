@@ -9,26 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-22 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-22 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-22 | 114 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-22 | 37 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-23 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-23 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-23 | 114 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-23 | 37 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-22 | 101 | ✅ |  |
-| Real Estate News | rss | 2026-06-22 | 42 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-22 | 62 | ✅ |  |
-| Built In | sitemap | 2026-06-22 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-22 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-22 | 89 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-22 | 15 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-22 | 16 | ✅ |  |
-| Latent Space | podcast | 2026-06-22 | 36 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-22 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-23 | 102 | ✅ |  |
+| Real Estate News | rss | 2026-06-23 | 43 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-23 | 62 | ✅ |  |
+| Built In | sitemap | 2026-06-23 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-23 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-23 | 90 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-23 | 15 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-23 | 16 | ✅ |  |
+| Latent Space | podcast | 2026-06-23 | 37 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-23 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-22
+- [Jake Paul Anti Fund From Creator To Investor](content/2026/06/22/a16z-podcast--jake-paul-anti-fund-from-creator-to-investor.md) — a16z-podcast
+- [Llms Misunderstand Luxury Brands Heres How To Optimize Your ](content/2026/06/22/hbr--llms-misunderstand-luxury-brands-heres-how-to-optimize-your-.md) — hbr
+- [Red Teaming After Mythos Zico Kolter Matt Fredrikson Gray Sw](content/2026/06/22/latent-space--red-teaming-after-mythos-zico-kolter-matt-fredrikson-gray-sw.md) — latent-space
+- [Opendoor Names Chief Ai Officer Biggerpockets Has A New Ceo](content/2026/06/22/real-estate-news--opendoor-names-chief-ai-officer-biggerpockets-has-a-new-ceo.md) — real-estate-news
+
 ### 2026-06-21
 - [How Ai Agents Actually Remember Part 1 Inside Mem0 Supermemo](content/2026/06/21/ken-huang-ai-expert--how-ai-agents-actually-remember-part-1-inside-mem0-supermemo.md) — ken-huang-ai-expert
 - [Codex Takes Control Of Your Computer](content/2026/06/21/khemaridh-future-proof--codex-takes-control-of-your-computer.md) — khemaridh-future-proof
@@ -62,11 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Dont Let Ai Slop Muck Up Your Companys Processes](content/2026/06/16/hbr--dont-let-ai-slop-muck-up-your-companys-processes.md) — hbr
 - [Inside Gauntlet Ai Building In The Agentic Ai Era](content/2026/06/16/ken-huang-ai-expert--inside-gauntlet-ai-building-in-the-agentic-ai-era.md) — ken-huang-ai-expert
 - [Ai Is Shrinking The Knowledge Gap Between Agents Consumers](content/2026/06/16/real-estate-news--ai-is-shrinking-the-knowledge-gap-between-agents-consumers.md) — real-estate-news
-
-### 2026-06-15
-- [Ai Design And The Power Of Open Models](content/2026/06/15/a16z-podcast--ai-design-and-the-power-of-open-models.md) — a16z-podcast
-- [Help Employees Get Betternot Just Fasterwith Ai](content/2026/06/15/hbr--help-employees-get-betternot-just-fasterwith-ai.md) — hbr
-- [How Ai Companies Can Pay Fair Rates For The Content They Nee](content/2026/06/15/hbr--how-ai-companies-can-pay-fair-rates-for-the-content-they-nee.md) — hbr
-- [The Pros And Cons Of Continually Assessing Performance](content/2026/06/15/hbr--the-pros-and-cons-of-continually-assessing-performance.md) — hbr
 
 <!-- RECENT_CONTENT_END -->
