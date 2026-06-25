@@ -9,28 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-24 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-24 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-24 | 115 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-24 | 37 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-25 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-25 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-25 | 115 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-25 | 37 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-24 | 104 | ✅ |  |
-| Real Estate News | rss | 2026-06-24 | 43 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-24 | 63 | ✅ |  |
-| Built In | sitemap | 2026-06-24 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-24 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-24 | 92 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-24 | 15 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-24 | 16 | ✅ |  |
-| Latent Space | podcast | 2026-06-24 | 37 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-24 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-25 | 106 | ✅ |  |
+| Real Estate News | rss | 2026-06-25 | 43 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-25 | 63 | ✅ |  |
+| Built In | sitemap | 2026-06-25 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-25 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-25 | 93 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-25 | 15 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-25 | 16 | ✅ |  |
+| Latent Space | podcast | 2026-06-25 | 38 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-25 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-25
+- [Marc Andreessen On Ai Technology And The Future Of Humanity](content/2026/06/25/a16z-podcast--marc-andreessen-on-ai-technology-and-the-future-of-humanity.md) — a16z-podcast
+
 ### 2026-06-24
 - [What Happens To Design After Ai](content/2026/06/24/a16z-podcast--what-happens-to-design-after-ai.md) — a16z-podcast
+- [Does Your Ai Have A Personality Problem](content/2026/06/24/hbr--does-your-ai-have-a-personality-problem.md) — hbr
+- [Employees Arent Questioning Ai Advice Enough](content/2026/06/24/hbr--employees-arent-questioning-ai-advice-enough.md) — hbr
+- [Why The Frontier Ecosystem Must Be Open Matei Zaharia And Re](content/2026/06/24/latent-space--why-the-frontier-ecosystem-must-be-open-matei-zaharia-and-re.md) — latent-space
 
 ### 2026-06-23
 - [Whats Next For Consumer Ai Josh Elman Joins A16Z](content/2026/06/23/a16z-podcast--whats-next-for-consumer-ai-josh-elman-joins-a16z.md) — a16z-podcast
@@ -61,13 +67,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Professor Of Outputmaxxing Anjney Midha Amp](content/2026/06/18/latent-space--the-professor-of-outputmaxxing-anjney-midha-amp.md) — latent-space
 - [Re Engineering The Semiconductor Supply Chain With Intel Ceo](content/2026/06/18/no-priors--re-engineering-the-semiconductor-supply-chain-with-intel-ceo.md) — no-priors
 - [How Should Mlss Portals Address Ai Enhanced Listing Photos](content/2026/06/18/real-estate-news--how-should-mlss-portals-address-ai-enhanced-listing-photos.md) — real-estate-news
-
-### 2026-06-17
-- [The Fintech Playbook For Latin America](content/2026/06/17/a16z-podcast--the-fintech-playbook-for-latin-america.md) — a16z-podcast
-- [Developing Nuclear Safeguards For Ai Through Public Private ](content/2026/06/17/anthropic-blog--developing-nuclear-safeguards-for-ai-through-public-private-.md) — anthropic-blog
-- [Video Quick Take Implementing Zero Trust In An Ai Driven Thr](content/2026/06/17/hbr--video-quick-take-implementing-zero-trust-in-an-ai-driven-thr.md) — hbr
-- [Disposable Code Durable Side Effects](content/2026/06/17/ken-huang-ai-expert--disposable-code-durable-side-effects.md) — ken-huang-ai-expert
-- [The Self Driving Lab Joseph Krause Radical Ai](content/2026/06/17/latent-space--the-self-driving-lab-joseph-krause-radical-ai.md) — latent-space
-- [Edge Invites Proptech Firms To Compete Renter Ai Search Debu](content/2026/06/17/real-estate-news--edge-invites-proptech-firms-to-compete-renter-ai-search-debu.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
