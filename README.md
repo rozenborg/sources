@@ -9,28 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-25 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-25 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-25 | 115 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-25 | 37 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-26 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-26 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-26 | 115 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-26 | 38 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-25 | 106 | ✅ |  |
-| Real Estate News | rss | 2026-06-25 | 43 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-25 | 63 | ✅ |  |
-| Built In | sitemap | 2026-06-25 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-25 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-25 | 93 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-25 | 15 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-25 | 16 | ✅ |  |
-| Latent Space | podcast | 2026-06-25 | 38 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-25 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-26 | 107 | ✅ |  |
+| Real Estate News | rss | 2026-06-26 | 43 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-26 | 63 | ✅ |  |
+| Built In | sitemap | 2026-06-26 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-26 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-26 | 94 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-26 | 15 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-26 | 17 | ✅ |  |
+| Latent Space | podcast | 2026-06-26 | 38 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-26 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-26
+- [Ai Is Crossing The Frontier Of Human Knowledge Kevin Weil](content/2026/06/26/a16z-podcast--ai-is-crossing-the-frontier-of-human-knowledge-kevin-weil.md) — a16z-podcast
+- [Why Traditional Benchmarks Fail Modern Ai Models With Openai](content/2026/06/26/no-priors--why-traditional-benchmarks-fail-modern-ai-models-with-openai.md) — no-priors
+
 ### 2026-06-25
 - [Marc Andreessen On Ai Technology And The Future Of Humanity](content/2026/06/25/a16z-podcast--marc-andreessen-on-ai-technology-and-the-future-of-humanity.md) — a16z-podcast
+- [Teach Your Ai How You Make Decisions](content/2026/06/25/hbr--teach-your-ai-how-you-make-decisions.md) — hbr
+- [I Built A Self Improving Company Brain](content/2026/06/25/khemaridh-future-proof--i-built-a-self-improving-company-brain.md) — khemaridh-future-proof
 
 ### 2026-06-24
 - [What Happens To Design After Ai](content/2026/06/24/a16z-podcast--what-happens-to-design-after-ai.md) — a16z-podcast
@@ -58,14 +64,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The New Rules Of Media Marc Andreessen Ben Horowitz](content/2026/06/19/a16z-podcast--the-new-rules-of-media-marc-andreessen-ben-horowitz.md) — a16z-podcast
 - [The Data Black Hole At The Center Of Ai](content/2026/06/19/dwarkesh-podcast--the-data-black-hole-at-the-center-of-ai.md) — dwarkesh-podcast
 - [How To Design Agentic Systems Around The Implicit Rules That](content/2026/06/19/hbr--how-to-design-agentic-systems-around-the-implicit-rules-that.md) — hbr
-
-### 2026-06-18
-- [Seoul Office Partnerships Korean Ai Ecosystem](content/2026/06/18/anthropic-blog--seoul-office-partnerships-korean-ai-ecosystem.md) — anthropic-blog
-- [Lessons From Chinese Ai Firms On Owning Customers Habits](content/2026/06/18/hbr--lessons-from-chinese-ai-firms-on-owning-customers-habits.md) — hbr
-- [The Strongest Teams Of Ai Agents Will Be Built Using Differe](content/2026/06/18/hbr--the-strongest-teams-of-ai-agents-will-be-built-using-differe.md) — hbr
-- [The Power Users Guide To Claude Skills](content/2026/06/18/khemaridh-future-proof--the-power-users-guide-to-claude-skills.md) — khemaridh-future-proof
-- [The Professor Of Outputmaxxing Anjney Midha Amp](content/2026/06/18/latent-space--the-professor-of-outputmaxxing-anjney-midha-amp.md) — latent-space
-- [Re Engineering The Semiconductor Supply Chain With Intel Ceo](content/2026/06/18/no-priors--re-engineering-the-semiconductor-supply-chain-with-intel-ceo.md) — no-priors
-- [How Should Mlss Portals Address Ai Enhanced Listing Photos](content/2026/06/18/real-estate-news--how-should-mlss-portals-address-ai-enhanced-listing-photos.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
