@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-26 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-26 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-26 | 115 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-26 | 38 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-27 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-27 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-27 | 115 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-27 | 38 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-26 | 107 | ✅ |  |
-| Real Estate News | rss | 2026-06-26 | 43 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-26 | 63 | ✅ |  |
-| Built In | sitemap | 2026-06-26 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-26 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-26 | 94 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-26 | 15 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-26 | 17 | ✅ |  |
-| Latent Space | podcast | 2026-06-26 | 38 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-26 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-27 | 109 | ✅ |  |
+| Real Estate News | rss | 2026-06-27 | 43 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-27 | 63 | ✅ |  |
+| Built In | sitemap | 2026-06-27 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-27 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-27 | 94 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-27 | 16 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-27 | 17 | ✅ |  |
+| Latent Space | podcast | 2026-06-27 | 38 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-27 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -31,6 +31,9 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- RECENT_CONTENT_START -->
 ### 2026-06-26
 - [Ai Is Crossing The Frontier Of Human Knowledge Kevin Weil](content/2026/06/26/a16z-podcast--ai-is-crossing-the-frontier-of-human-knowledge-kevin-weil.md) — a16z-podcast
+- [The Next Big Breakthrough Will Be Ais Learning On The Job](content/2026/06/26/dwarkesh-podcast--the-next-big-breakthrough-will-be-ais-learning-on-the-job.md) — dwarkesh-podcast
+- [Ai Adoption Is Overloading Your Middle Managers](content/2026/06/26/hbr--ai-adoption-is-overloading-your-middle-managers.md) — hbr
+- [Ai Is Changing Cyber Risk Heres How Smbs Can Respond](content/2026/06/26/hbr--ai-is-changing-cyber-risk-heres-how-smbs-can-respond.md) — hbr
 - [Why Traditional Benchmarks Fail Modern Ai Models With Openai](content/2026/06/26/no-priors--why-traditional-benchmarks-fail-modern-ai-models-with-openai.md) — no-priors
 
 ### 2026-06-25
@@ -59,10 +62,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-06-21
 - [How Ai Agents Actually Remember Part 1 Inside Mem0 Supermemo](content/2026/06/21/ken-huang-ai-expert--how-ai-agents-actually-remember-part-1-inside-mem0-supermemo.md) — ken-huang-ai-expert
 - [Codex Takes Control Of Your Computer](content/2026/06/21/khemaridh-future-proof--codex-takes-control-of-your-computer.md) — khemaridh-future-proof
-
-### 2026-06-19
-- [The New Rules Of Media Marc Andreessen Ben Horowitz](content/2026/06/19/a16z-podcast--the-new-rules-of-media-marc-andreessen-ben-horowitz.md) — a16z-podcast
-- [The Data Black Hole At The Center Of Ai](content/2026/06/19/dwarkesh-podcast--the-data-black-hole-at-the-center-of-ai.md) — dwarkesh-podcast
-- [How To Design Agentic Systems Around The Implicit Rules That](content/2026/06/19/hbr--how-to-design-agentic-systems-around-the-implicit-rules-that.md) — hbr
 
 <!-- RECENT_CONTENT_END -->
