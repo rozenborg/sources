@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-27 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-27 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-27 | 115 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-27 | 38 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-28 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-28 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-28 | 117 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-28 | 38 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-27 | 109 | ✅ |  |
-| Real Estate News | rss | 2026-06-27 | 43 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-27 | 63 | ✅ |  |
-| Built In | sitemap | 2026-06-27 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-27 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-27 | 94 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-27 | 16 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-27 | 17 | ✅ |  |
-| Latent Space | podcast | 2026-06-27 | 38 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-27 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-28 | 109 | ✅ |  |
+| Real Estate News | rss | 2026-06-28 | 44 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-28 | 63 | ✅ |  |
+| Built In | sitemap | 2026-06-28 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-28 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-28 | 94 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-28 | 16 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-28 | 17 | ✅ |  |
+| Latent Space | podcast | 2026-06-28 | 38 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-28 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-28
+- [China Shipped A National Standard For Agent Identity We Had ](content/2026/06/28/ken-huang-ai-expert--china-shipped-a-national-standard-for-agent-identity-we-had-.md) — ken-huang-ai-expert
+
+### 2026-06-27
+- [Claude Tag Threat Modeling With Maestro Framework](content/2026/06/27/ken-huang-ai-expert--claude-tag-threat-modeling-with-maestro-framework.md) — ken-huang-ai-expert
+- [Playmakers How To Impress Sellers And Win Listings](content/2026/06/27/real-estate-news--playmakers-how-to-impress-sellers-and-win-listings.md) — real-estate-news
+
 ### 2026-06-26
 - [Ai Is Crossing The Frontier Of Human Knowledge Kevin Weil](content/2026/06/26/a16z-podcast--ai-is-crossing-the-frontier-of-human-knowledge-kevin-weil.md) — a16z-podcast
 - [The Next Big Breakthrough Will Be Ais Learning On The Job](content/2026/06/26/dwarkesh-podcast--the-next-big-breakthrough-will-be-ais-learning-on-the-job.md) — dwarkesh-podcast
