@@ -9,28 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-06-28 | 7 | ✅ |  |
-| OpenAI Blog | rss | 2026-06-28 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-06-28 | 117 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-06-28 | 38 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-06-29 | 7 | ✅ |  |
+| OpenAI Blog | rss | 2026-06-29 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-06-29 | 118 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-06-29 | 39 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-06-28 | 109 | ✅ |  |
-| Real Estate News | rss | 2026-06-28 | 44 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-06-28 | 63 | ✅ |  |
-| Built In | sitemap | 2026-06-28 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-06-28 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-06-28 | 94 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-06-28 | 16 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-06-28 | 17 | ✅ |  |
-| Latent Space | podcast | 2026-06-28 | 38 | ✅ |  |
-| AI Daily Brief | podcast | 2026-06-28 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-06-29 | 109 | ✅ |  |
+| Real Estate News | rss | 2026-06-29 | 44 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-06-29 | 63 | ✅ |  |
+| Built In | sitemap | 2026-06-29 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-06-29 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-06-29 | 95 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-06-29 | 16 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-06-29 | 17 | ✅ |  |
+| Latent Space | podcast | 2026-06-29 | 38 | ✅ |  |
+| AI Daily Brief | podcast | 2026-06-29 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-06-29
+- [Beyond Pdoom Marc Andreessen Betting On America](content/2026/06/29/a16z-podcast--beyond-pdoom-marc-andreessen-betting-on-america.md) — a16z-podcast
+
 ### 2026-06-28
 - [China Shipped A National Standard For Agent Identity We Had ](content/2026/06/28/ken-huang-ai-expert--china-shipped-a-national-standard-for-agent-identity-we-had-.md) — ken-huang-ai-expert
+- [Gpt 56 Is More Capable More Autonomous And More Willing To O](content/2026/06/28/ken-huang-ai-expert--gpt-56-is-more-capable-more-autonomous-and-more-willing-to-o.md) — ken-huang-ai-expert
+- [The Rebel Alliance](content/2026/06/28/khemaridh-future-proof--the-rebel-alliance.md) — khemaridh-future-proof
 
 ### 2026-06-27
 - [Claude Tag Threat Modeling With Maestro Framework](content/2026/06/27/ken-huang-ai-expert--claude-tag-threat-modeling-with-maestro-framework.md) — ken-huang-ai-expert
@@ -65,9 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Llms Misunderstand Luxury Brands Heres How To Optimize Your ](content/2026/06/22/hbr--llms-misunderstand-luxury-brands-heres-how-to-optimize-your-.md) — hbr
 - [Red Teaming After Mythos Zico Kolter Matt Fredrikson Gray Sw](content/2026/06/22/latent-space--red-teaming-after-mythos-zico-kolter-matt-fredrikson-gray-sw.md) — latent-space
 - [Opendoor Names Chief Ai Officer Biggerpockets Has A New Ceo](content/2026/06/22/real-estate-news--opendoor-names-chief-ai-officer-biggerpockets-has-a-new-ceo.md) — real-estate-news
-
-### 2026-06-21
-- [How Ai Agents Actually Remember Part 1 Inside Mem0 Supermemo](content/2026/06/21/ken-huang-ai-expert--how-ai-agents-actually-remember-part-1-inside-mem0-supermemo.md) — ken-huang-ai-expert
-- [Codex Takes Control Of Your Computer](content/2026/06/21/khemaridh-future-proof--codex-takes-control-of-your-computer.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
