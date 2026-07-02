@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-01 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-01 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-01 | 120 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-01 | 39 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-02 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-02 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-02 | 121 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-02 | 39 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-01 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-01 | 45 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-01 | 66 | ✅ |  |
-| Built In | sitemap | 2026-07-01 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-01 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-01 | 97 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-01 | 17 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-01 | 17 | ✅ |  |
-| Latent Space | podcast | 2026-07-01 | 38 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-01 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-02 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-02 | 45 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-02 | 66 | ✅ |  |
+| Built In | sitemap | 2026-07-02 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-02 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-02 | 97 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-02 | 17 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-02 | 17 | ✅ |  |
+| Latent Space | podcast | 2026-07-02 | 39 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-02 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -32,6 +32,8 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-07-01
 - [Rick Rubin On Ai Creativity And The Way Of Code](content/2026/07/01/a16z-podcast--rick-rubin-on-ai-creativity-and-the-way-of-code.md) — a16z-podcast
 - [Redeploying Fable 5](content/2026/07/01/anthropic-blog--redeploying-fable-5.md) — anthropic-blog
+- [Glm 52 How An Open Weight Model Got Within Four Points Of Cl](content/2026/07/01/ken-huang-ai-expert--glm-52-how-an-open-weight-model-got-within-four-points-of-cl.md) — ken-huang-ai-expert
+- [The Coolest Diffusion Research Isnt In Llms Evan Feinberg Se](content/2026/07/01/latent-space--the-coolest-diffusion-research-isnt-in-llms-evan-feinberg-se.md) — latent-space
 
 ### 2026-06-30
 - [Building Ai For Creators Luma Phota Labs](content/2026/06/30/a16z-podcast--building-ai-for-creators-luma-phota-labs.md) — a16z-podcast
@@ -68,11 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Marc Andreessen On Ai Technology And The Future Of Humanity](content/2026/06/25/a16z-podcast--marc-andreessen-on-ai-technology-and-the-future-of-humanity.md) — a16z-podcast
 - [Teach Your Ai How You Make Decisions](content/2026/06/25/hbr--teach-your-ai-how-you-make-decisions.md) — hbr
 - [I Built A Self Improving Company Brain](content/2026/06/25/khemaridh-future-proof--i-built-a-self-improving-company-brain.md) — khemaridh-future-proof
-
-### 2026-06-24
-- [What Happens To Design After Ai](content/2026/06/24/a16z-podcast--what-happens-to-design-after-ai.md) — a16z-podcast
-- [Does Your Ai Have A Personality Problem](content/2026/06/24/hbr--does-your-ai-have-a-personality-problem.md) — hbr
-- [Employees Arent Questioning Ai Advice Enough](content/2026/06/24/hbr--employees-arent-questioning-ai-advice-enough.md) — hbr
-- [Why The Frontier Ecosystem Must Be Open Matei Zaharia And Re](content/2026/06/24/latent-space--why-the-frontier-ecosystem-must-be-open-matei-zaharia-and-re.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
