@@ -9,26 +9,38 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-02 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-02 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-02 | 121 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-02 | 39 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-03 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-03 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-03 | 121 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-03 | 40 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-02 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-02 | 45 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-02 | 66 | ✅ |  |
-| Built In | sitemap | 2026-07-02 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-02 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-02 | 97 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-02 | 17 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-02 | 17 | ✅ |  |
-| Latent Space | podcast | 2026-07-02 | 39 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-02 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-03 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-03 | 46 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-03 | 69 | ✅ |  |
+| Built In | sitemap | 2026-07-03 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-03 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-03 | 99 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-03 | 17 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-03 | 18 | ✅ |  |
+| Latent Space | podcast | 2026-07-03 | 39 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-03 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-03
+- [Technology Alliances And American Leadership](content/2026/07/03/a16z-podcast--technology-alliances-and-american-leadership.md) — a16z-podcast
+- [Anthropics Responsible Scaling Policy](content/2026/07/03/anthropic-blog--anthropics-responsible-scaling-policy.md) — anthropic-blog
+- [Fable Safeguards Jailbreak Framework](content/2026/07/03/anthropic-blog--fable-safeguards-jailbreak-framework.md) — anthropic-blog
+- [Visible Extended Thinking](content/2026/07/03/anthropic-blog--visible-extended-thinking.md) — anthropic-blog
+- [Compass Deploys Tech Platform Across Brands Ai Coach Launche](content/2026/07/03/real-estate-news--compass-deploys-tech-platform-across-brands-ai-coach-launche.md) — real-estate-news
+
+### 2026-07-02
+- [Outsmarting Uber Why Bolt Wins In Europe](content/2026/07/02/a16z-podcast--outsmarting-uber-why-bolt-wins-in-europe.md) — a16z-podcast
+- [Meet My New Ai Cfo](content/2026/07/02/khemaridh-future-proof--meet-my-new-ai-cfo.md) — khemaridh-future-proof
+- [How Nuclear Will Unlock Energy Abundance With Valar Atomics ](content/2026/07/02/no-priors--how-nuclear-will-unlock-energy-abundance-with-valar-atomics-.md) — no-priors
+
 ### 2026-07-01
 - [Rick Rubin On Ai Creativity And The Way Of Code](content/2026/07/01/a16z-podcast--rick-rubin-on-ai-creativity-and-the-way-of-code.md) — a16z-podcast
 - [Redeploying Fable 5](content/2026/07/01/anthropic-blog--redeploying-fable-5.md) — anthropic-blog
@@ -65,10 +77,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ai Adoption Is Overloading Your Middle Managers](content/2026/06/26/hbr--ai-adoption-is-overloading-your-middle-managers.md) — hbr
 - [Ai Is Changing Cyber Risk Heres How Smbs Can Respond](content/2026/06/26/hbr--ai-is-changing-cyber-risk-heres-how-smbs-can-respond.md) — hbr
 - [Why Traditional Benchmarks Fail Modern Ai Models With Openai](content/2026/06/26/no-priors--why-traditional-benchmarks-fail-modern-ai-models-with-openai.md) — no-priors
-
-### 2026-06-25
-- [Marc Andreessen On Ai Technology And The Future Of Humanity](content/2026/06/25/a16z-podcast--marc-andreessen-on-ai-technology-and-the-future-of-humanity.md) — a16z-podcast
-- [Teach Your Ai How You Make Decisions](content/2026/06/25/hbr--teach-your-ai-how-you-make-decisions.md) — hbr
-- [I Built A Self Improving Company Brain](content/2026/06/25/khemaridh-future-proof--i-built-a-self-improving-company-brain.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
