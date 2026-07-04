@@ -9,31 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-03 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-03 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-03 | 121 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-03 | 40 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-04 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-04 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-04 | 123 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-04 | 40 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-03 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-03 | 46 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-03 | 69 | ✅ |  |
-| Built In | sitemap | 2026-07-03 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-03 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-03 | 99 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-03 | 17 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-03 | 18 | ✅ |  |
-| Latent Space | podcast | 2026-07-03 | 39 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-03 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-04 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-04 | 46 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-04 | 69 | ✅ |  |
+| Built In | sitemap | 2026-07-04 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-04 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-04 | 99 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-04 | 17 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-04 | 18 | ✅ |  |
+| Latent Space | podcast | 2026-07-04 | 39 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-04 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-04
+- [Claude Fable 5 What Changed And How To Stop Prompting It Lik](content/2026/07/04/ken-huang-ai-expert--claude-fable-5-what-changed-and-how-to-stop-prompting-it-lik.md) — ken-huang-ai-expert
+
 ### 2026-07-03
 - [Technology Alliances And American Leadership](content/2026/07/03/a16z-podcast--technology-alliances-and-american-leadership.md) — a16z-podcast
 - [Anthropics Responsible Scaling Policy](content/2026/07/03/anthropic-blog--anthropics-responsible-scaling-policy.md) — anthropic-blog
 - [Fable Safeguards Jailbreak Framework](content/2026/07/03/anthropic-blog--fable-safeguards-jailbreak-framework.md) — anthropic-blog
 - [Visible Extended Thinking](content/2026/07/03/anthropic-blog--visible-extended-thinking.md) — anthropic-blog
+- [Dspark How Deepseek Made Its Own Serving Stack 60 85 Faster ](content/2026/07/03/ken-huang-ai-expert--dspark-how-deepseek-made-its-own-serving-stack-60-85-faster-.md) — ken-huang-ai-expert
 - [Compass Deploys Tech Platform Across Brands Ai Coach Launche](content/2026/07/03/real-estate-news--compass-deploys-tech-platform-across-brands-ai-coach-launche.md) — real-estate-news
 
 ### 2026-07-02
@@ -70,12 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-06-27
 - [Claude Tag Threat Modeling With Maestro Framework](content/2026/06/27/ken-huang-ai-expert--claude-tag-threat-modeling-with-maestro-framework.md) — ken-huang-ai-expert
 - [Playmakers How To Impress Sellers And Win Listings](content/2026/06/27/real-estate-news--playmakers-how-to-impress-sellers-and-win-listings.md) — real-estate-news
-
-### 2026-06-26
-- [Ai Is Crossing The Frontier Of Human Knowledge Kevin Weil](content/2026/06/26/a16z-podcast--ai-is-crossing-the-frontier-of-human-knowledge-kevin-weil.md) — a16z-podcast
-- [The Next Big Breakthrough Will Be Ais Learning On The Job](content/2026/06/26/dwarkesh-podcast--the-next-big-breakthrough-will-be-ais-learning-on-the-job.md) — dwarkesh-podcast
-- [Ai Adoption Is Overloading Your Middle Managers](content/2026/06/26/hbr--ai-adoption-is-overloading-your-middle-managers.md) — hbr
-- [Ai Is Changing Cyber Risk Heres How Smbs Can Respond](content/2026/06/26/hbr--ai-is-changing-cyber-risk-heres-how-smbs-can-respond.md) — hbr
-- [Why Traditional Benchmarks Fail Modern Ai Models With Openai](content/2026/06/26/no-priors--why-traditional-benchmarks-fail-modern-ai-models-with-openai.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
