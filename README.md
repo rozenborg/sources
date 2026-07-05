@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-04 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-04 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-04 | 123 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-04 | 40 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-05 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-05 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-05 | 123 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-05 | 40 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-04 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-04 | 46 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-04 | 69 | ✅ |  |
-| Built In | sitemap | 2026-07-04 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-04 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-04 | 99 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-04 | 17 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-04 | 18 | ✅ |  |
-| Latent Space | podcast | 2026-07-04 | 39 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-04 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-05 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-05 | 46 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-05 | 69 | ✅ |  |
+| Built In | sitemap | 2026-07-05 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-05 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-05 | 99 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-05 | 17 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-05 | 18 | ✅ |  |
+| Latent Space | podcast | 2026-07-05 | 39 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-05 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -70,9 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [China Shipped A National Standard For Agent Identity We Had ](content/2026/06/28/ken-huang-ai-expert--china-shipped-a-national-standard-for-agent-identity-we-had-.md) — ken-huang-ai-expert
 - [Gpt 56 Is More Capable More Autonomous And More Willing To O](content/2026/06/28/ken-huang-ai-expert--gpt-56-is-more-capable-more-autonomous-and-more-willing-to-o.md) — ken-huang-ai-expert
 - [The Rebel Alliance](content/2026/06/28/khemaridh-future-proof--the-rebel-alliance.md) — khemaridh-future-proof
-
-### 2026-06-27
-- [Claude Tag Threat Modeling With Maestro Framework](content/2026/06/27/ken-huang-ai-expert--claude-tag-threat-modeling-with-maestro-framework.md) — ken-huang-ai-expert
-- [Playmakers How To Impress Sellers And Win Listings](content/2026/06/27/real-estate-news--playmakers-how-to-impress-sellers-and-win-listings.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
