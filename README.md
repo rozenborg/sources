@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-06 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-06 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-06 | 124 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-06 | 41 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-07 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-07 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-07 | 124 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-07 | 41 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-06 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-06 | 46 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-06 | 69 | ✅ |  |
-| Built In | sitemap | 2026-07-06 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-06 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-06 | 100 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-06 | 17 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-06 | 18 | ✅ |  |
-| Latent Space | podcast | 2026-07-06 | 39 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-06 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-07 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-07 | 48 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-07 | 71 | ✅ |  |
+| Built In | sitemap | 2026-07-07 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-07 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-07 | 101 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-07 | 17 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-07 | 18 | ✅ |  |
+| Latent Space | podcast | 2026-07-07 | 39 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-07 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-07
+- [Is Software Losing Its Head](content/2026/07/07/a16z-podcast--is-software-losing-its-head.md) — a16z-podcast
+
 ### 2026-07-06
 - [Dont Follow Your Passion Ben Horowitzs Advice For New Gradua](content/2026/07/06/a16z-podcast--dont-follow-your-passion-ben-horowitzs-advice-for-new-gradua.md) — a16z-podcast
+- [Alberta Government Claude Cybersecurity](content/2026/07/06/anthropic-blog--alberta-government-claude-cybersecurity.md) — anthropic-blog
+- [Building Safeguards For Claude](content/2026/07/06/anthropic-blog--building-safeguards-for-claude.md) — anthropic-blog
+- [Nars Monitoring Tech Is Pointed In The Wrong Direction](content/2026/07/06/real-estate-news--nars-monitoring-tech-is-pointed-in-the-wrong-direction.md) — real-estate-news
+- [Tech Wealth Reshaping San Franciscos Housing Market](content/2026/07/06/real-estate-news--tech-wealth-reshaping-san-franciscos-housing-market.md) — real-estate-news
 
 ### 2026-07-05
 - [Claude Fable 5 Part 2 Loop Engineering](content/2026/07/05/ken-huang-ai-expert--claude-fable-5-part-2-loop-engineering.md) — ken-huang-ai-expert
@@ -65,12 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Grant Sanderson Ai And The Future Of Math](content/2026/06/30/dwarkesh-podcast--grant-sanderson-ai-and-the-future-of-math.md) — dwarkesh-podcast
 - [I Contributed To Aiuc 1S Latest White Paper On Mythos](content/2026/06/30/ken-huang-ai-expert--i-contributed-to-aiuc-1s-latest-white-paper-on-mythos.md) — ken-huang-ai-expert
 - [The Twilight Of The Chatbots](content/2026/06/30/mollick-one-useful-thing--the-twilight-of-the-chatbots.md) — mollick-one-useful-thing
-
-### 2026-06-29
-- [Beyond Pdoom Marc Andreessen Betting On America](content/2026/06/29/a16z-podcast--beyond-pdoom-marc-andreessen-betting-on-america.md) — a16z-podcast
-- [How To Get Ai To Surface Your Brand](content/2026/06/29/hbr--how-to-get-ai-to-surface-your-brand.md) — hbr
-- [Your Talent Strategy Has To Keep Up With Your Ai Transformat](content/2026/06/29/hbr--your-talent-strategy-has-to-keep-up-with-your-ai-transformat.md) — hbr
-- [Chapter 6 Terminal Ui Architecture Claude Code Vs Hermes Age](content/2026/06/29/ken-huang-ai-expert--chapter-6-terminal-ui-architecture-claude-code-vs-hermes-age.md) — ken-huang-ai-expert
-- [Zillow Creates Buyer Hub Ai Forward Mortgage Brokerage Launc](content/2026/06/29/real-estate-news--zillow-creates-buyer-hub-ai-forward-mortgage-brokerage-launc.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
