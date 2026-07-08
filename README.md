@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-07 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-07 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-07 | 124 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-07 | 41 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-08 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-08 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-08 | 128 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-08 | 41 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-07 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-07 | 48 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-07 | 71 | ✅ |  |
-| Built In | sitemap | 2026-07-07 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-07 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-07 | 101 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-07 | 17 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-07 | 18 | ✅ |  |
-| Latent Space | podcast | 2026-07-07 | 39 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-07 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-08 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-08 | 48 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-08 | 71 | ✅ |  |
+| Built In | sitemap | 2026-07-08 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-08 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-08 | 102 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-08 | 17 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-08 | 18 | ✅ |  |
+| Latent Space | podcast | 2026-07-08 | 39 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-08 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-08
+- [Adam Neumann This Is How You Build Iconic Companies](content/2026/07/08/a16z-podcast--adam-neumann-this-is-how-you-build-iconic-companies.md) — a16z-podcast
+- [Claude Fable 5 Part 4 Ten Weekend Security Projects](content/2026/07/08/ken-huang-ai-expert--claude-fable-5-part-4-ten-weekend-security-projects.md) — ken-huang-ai-expert
+- [Claudes Hidden Workspace Why J Space Changes Ai Safety](content/2026/07/08/ken-huang-ai-expert--claudes-hidden-workspace-why-j-space-changes-ai-safety.md) — ken-huang-ai-expert
+
 ### 2026-07-07
 - [Is Software Losing Its Head](content/2026/07/07/a16z-podcast--is-software-losing-its-head.md) — a16z-podcast
+- [Claude Fable 5 Part 3 Memory Engineering](content/2026/07/07/ken-huang-ai-expert--claude-fable-5-part-3-memory-engineering.md) — ken-huang-ai-expert
+- [Owasp Agentic Skills Top 10 Is Open For Public Review](content/2026/07/07/ken-huang-ai-expert--owasp-agentic-skills-top-10-is-open-for-public-review.md) — ken-huang-ai-expert
 
 ### 2026-07-06
 - [Dont Follow Your Passion Ben Horowitzs Advice For New Gradua](content/2026/07/06/a16z-podcast--dont-follow-your-passion-ben-horowitzs-advice-for-new-gradua.md) — a16z-podcast
@@ -64,13 +71,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Redeploying Fable 5](content/2026/07/01/anthropic-blog--redeploying-fable-5.md) — anthropic-blog
 - [Glm 52 How An Open Weight Model Got Within Four Points Of Cl](content/2026/07/01/ken-huang-ai-expert--glm-52-how-an-open-weight-model-got-within-four-points-of-cl.md) — ken-huang-ai-expert
 - [The Coolest Diffusion Research Isnt In Llms Evan Feinberg Se](content/2026/07/01/latent-space--the-coolest-diffusion-research-isnt-in-llms-evan-feinberg-se.md) — latent-space
-
-### 2026-06-30
-- [Building Ai For Creators Luma Phota Labs](content/2026/06/30/a16z-podcast--building-ai-for-creators-luma-phota-labs.md) — a16z-podcast
-- [Claude Science Ai Workbench](content/2026/06/30/anthropic-blog--claude-science-ai-workbench.md) — anthropic-blog
-- [Claude Sonnet 5](content/2026/06/30/anthropic-blog--claude-sonnet-5.md) — anthropic-blog
-- [Grant Sanderson Ai And The Future Of Math](content/2026/06/30/dwarkesh-podcast--grant-sanderson-ai-and-the-future-of-math.md) — dwarkesh-podcast
-- [I Contributed To Aiuc 1S Latest White Paper On Mythos](content/2026/06/30/ken-huang-ai-expert--i-contributed-to-aiuc-1s-latest-white-paper-on-mythos.md) — ken-huang-ai-expert
-- [The Twilight Of The Chatbots](content/2026/06/30/mollick-one-useful-thing--the-twilight-of-the-chatbots.md) — mollick-one-useful-thing
 
 <!-- RECENT_CONTENT_END -->
