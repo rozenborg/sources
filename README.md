@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-13 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-13 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-13 | 137 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-13 | 43 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-14 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-14 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-14 | 137 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-14 | 43 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-13 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-13 | 49 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-13 | 79 | ✅ |  |
-| Built In | sitemap | 2026-07-13 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-13 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-13 | 105 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-13 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-13 | 19 | ✅ |  |
-| Latent Space | podcast | 2026-07-13 | 40 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-13 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-14 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-14 | 49 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-14 | 79 | ✅ |  |
+| Built In | sitemap | 2026-07-14 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-14 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-14 | 105 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-14 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-14 | 19 | ✅ |  |
+| Latent Space | podcast | 2026-07-14 | 40 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-14 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -74,12 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Is Software Losing Its Head](content/2026/07/07/a16z-podcast--is-software-losing-its-head.md) — a16z-podcast
 - [Claude Fable 5 Part 3 Memory Engineering](content/2026/07/07/ken-huang-ai-expert--claude-fable-5-part-3-memory-engineering.md) — ken-huang-ai-expert
 - [Owasp Agentic Skills Top 10 Is Open For Public Review](content/2026/07/07/ken-huang-ai-expert--owasp-agentic-skills-top-10-is-open-for-public-review.md) — ken-huang-ai-expert
-
-### 2026-07-06
-- [Dont Follow Your Passion Ben Horowitzs Advice For New Gradua](content/2026/07/06/a16z-podcast--dont-follow-your-passion-ben-horowitzs-advice-for-new-gradua.md) — a16z-podcast
-- [Alberta Government Claude Cybersecurity](content/2026/07/06/anthropic-blog--alberta-government-claude-cybersecurity.md) — anthropic-blog
-- [Building Safeguards For Claude](content/2026/07/06/anthropic-blog--building-safeguards-for-claude.md) — anthropic-blog
-- [Nars Monitoring Tech Is Pointed In The Wrong Direction](content/2026/07/06/real-estate-news--nars-monitoring-tech-is-pointed-in-the-wrong-direction.md) — real-estate-news
-- [Tech Wealth Reshaping San Franciscos Housing Market](content/2026/07/06/real-estate-news--tech-wealth-reshaping-san-franciscos-housing-market.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
