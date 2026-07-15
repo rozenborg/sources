@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-14 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-14 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-14 | 137 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-14 | 43 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-15 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-15 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-15 | 138 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-15 | 43 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-14 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-14 | 49 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-14 | 79 | ✅ |  |
-| Built In | sitemap | 2026-07-14 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-14 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-14 | 105 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-14 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-14 | 19 | ✅ |  |
-| Latent Space | podcast | 2026-07-14 | 40 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-14 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-15 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-15 | 49 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-15 | 81 | ✅ |  |
+| Built In | sitemap | 2026-07-15 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-15 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-15 | 106 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-15 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-15 | 19 | ✅ |  |
+| Latent Space | podcast | 2026-07-15 | 40 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-15 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-15
+- [Canadian Ai Research](content/2026/07/15/anthropic-blog--canadian-ai-research.md) — anthropic-blog
+
+### 2026-07-14
+- [Is Ai A Bubble Gavin Baker On Data Centers Gpus And The Ai E](content/2026/07/14/a16z-podcast--is-ai-a-bubble-gavin-baker-on-data-centers-gpus-and-the-ai-e.md) — a16z-podcast
+- [Claude For Teachers](content/2026/07/14/anthropic-blog--claude-for-teachers.md) — anthropic-blog
+- [Our Claude Fable5Mythos5 Book Is Live And Paid Subscribers G](content/2026/07/14/ken-huang-ai-expert--our-claude-fable5mythos5-book-is-live-and-paid-subscribers-g.md) — ken-huang-ai-expert
+
 ### 2026-07-13
 - [Before Blockchains There Was State Machine Replication](content/2026/07/13/a16z-podcast--before-blockchains-there-was-state-machine-replication.md) — a16z-podcast
 
@@ -69,10 +77,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Good News Claude Fable Extended To July 12Th We Will Release](content/2026/07/08/ken-huang-ai-expert--good-news-claude-fable-extended-to-july-12th-we-will-release.md) — ken-huang-ai-expert
 - [The Untrusted Tenant Rethinking Infrastructure Security For ](content/2026/07/08/ken-huang-ai-expert--the-untrusted-tenant-rethinking-infrastructure-security-for-.md) — ken-huang-ai-expert
 - [Why Ai Infrastructure Must Evolve For Agent Experience Aksha](content/2026/07/08/latent-space--why-ai-infrastructure-must-evolve-for-agent-experience-aksha.md) — latent-space
-
-### 2026-07-07
-- [Is Software Losing Its Head](content/2026/07/07/a16z-podcast--is-software-losing-its-head.md) — a16z-podcast
-- [Claude Fable 5 Part 3 Memory Engineering](content/2026/07/07/ken-huang-ai-expert--claude-fable-5-part-3-memory-engineering.md) — ken-huang-ai-expert
-- [Owasp Agentic Skills Top 10 Is Open For Public Review](content/2026/07/07/ken-huang-ai-expert--owasp-agentic-skills-top-10-is-open-for-public-review.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
