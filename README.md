@@ -9,26 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-16 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-16 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-16 | 138 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-16 | 43 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-17 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-17 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-17 | 138 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-17 | 44 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-16 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-16 | 49 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-16 | 81 | ✅ |  |
-| Built In | sitemap | 2026-07-16 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-16 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-16 | 107 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-16 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-16 | 19 | ✅ |  |
-| Latent Space | podcast | 2026-07-16 | 40 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-16 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-17 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-17 | 50 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-17 | 81 | ✅ |  |
+| Built In | sitemap | 2026-07-17 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-17 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-17 | 108 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-17 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-17 | 19 | ✅ |  |
+| Latent Space | podcast | 2026-07-17 | 41 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-17 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-16
+- [Replay 2025 David Sacks On Ai Crypto And Americas Technology](content/2026/07/16/a16z-podcast--replay-2025-david-sacks-on-ai-crypto-and-americas-technology.md) — a16z-podcast
+- [Will Claude Cowork Get Replaced By Chatgpt](content/2026/07/16/khemaridh-future-proof--will-claude-cowork-get-replaced-by-chatgpt.md) — khemaridh-future-proof
+- [The Lab Of The Future Should Feel Like A Data Center Andy Be](content/2026/07/16/latent-space--the-lab-of-the-future-should-feel-like-a-data-center-andy-be.md) — latent-space
+- [Can Nar Build An Ethics Monitoring Tool And Will It](content/2026/07/16/real-estate-news--can-nar-build-an-ethics-monitoring-tool-and-will-it.md) — real-estate-news
+
 ### 2026-07-15
 - [From The Archive Can Anyone Catch Nvidia The Future Of Chips](content/2026/07/15/a16z-podcast--from-the-archive-can-anyone-catch-nvidia-the-future-of-chips.md) — a16z-podcast
 - [Canadian Ai Research](content/2026/07/15/anthropic-blog--canadian-ai-research.md) — anthropic-blog
@@ -55,16 +61,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Claude Fable 2 More Days Part 9 Dont Pay Twice For A Fallbac](content/2026/07/10/ken-huang-ai-expert--claude-fable-2-more-days-part-9-dont-pay-twice-for-a-fallbac.md) — ken-huang-ai-expert
 - [Claude Fable 5 Part 8 The Refusal Your Error Handler Cant Se](content/2026/07/10/ken-huang-ai-expert--claude-fable-5-part-8-the-refusal-your-error-handler-cant-se.md) — ken-huang-ai-expert
 - [The July 2026 Frontier Muse Spark 11 Grok 45 Gpt 56 Sol And ](content/2026/07/10/ken-huang-ai-expert--the-july-2026-frontier-muse-spark-11-grok-45-gpt-56-sol-and-.md) — ken-huang-ai-expert
-
-### 2026-07-09
-- [Mark Zuckerberg Priscilla Chan How Ai Will Help Cure Disease](content/2026/07/09/a16z-podcast--mark-zuckerberg-priscilla-chan-how-ai-will-help-cure-disease.md) — a16z-podcast
-- [Ben Bernanke](content/2026/07/09/anthropic-blog--ben-bernanke.md) — anthropic-blog
-- [Hard Questions](content/2026/07/09/anthropic-blog--hard-questions.md) — anthropic-blog
-- [Reflect With Claude](content/2026/07/09/anthropic-blog--reflect-with-claude.md) — anthropic-blog
-- [Claude Fable 3 More Days Part 6 Ten Fable 5 Native Agent Ski](content/2026/07/09/ken-huang-ai-expert--claude-fable-3-more-days-part-6-ten-fable-5-native-agent-ski.md) — ken-huang-ai-expert
-- [Claude Fable 5 Part 7 Moving A Production Fleet Off Opus 48](content/2026/07/09/ken-huang-ai-expert--claude-fable-5-part-7-moving-a-production-fleet-off-opus-48.md) — ken-huang-ai-expert
-- [Excited To Announce Hands On Harness Engineering With Claude](content/2026/07/09/ken-huang-ai-expert--excited-to-announce-hands-on-harness-engineering-with-claude.md) — ken-huang-ai-expert
-- [Is Fable Worth The Hype](content/2026/07/09/khemaridh-future-proof--is-fable-worth-the-hype.md) — khemaridh-future-proof
-- [Travel Through The Lens Of Ai With With Bookingcom Ceo Glenn](content/2026/07/09/no-priors--travel-through-the-lens-of-ai-with-with-bookingcom-ceo-glenn.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
