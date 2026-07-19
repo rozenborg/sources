@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-18 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-18 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-18 | 140 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-18 | 44 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-19 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-19 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-19 | 140 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-19 | 44 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-18 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-18 | 50 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-18 | 81 | ✅ |  |
-| Built In | sitemap | 2026-07-18 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-18 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-18 | 109 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-18 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-18 | 19 | ✅ |  |
-| Latent Space | podcast | 2026-07-18 | 41 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-18 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-19 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-19 | 50 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-19 | 81 | ✅ |  |
+| Built In | sitemap | 2026-07-19 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-19 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-19 | 109 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-19 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-19 | 19 | ✅ |  |
+| Latent Space | podcast | 2026-07-19 | 41 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-19 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -56,9 +56,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-07-12
 - [Chat Is Dead Agents Are The New Default](content/2026/07/12/khemaridh-future-proof--chat-is-dead-agents-are-the-new-default.md) — khemaridh-future-proof
-
-### 2026-07-11
-- [Claude Fable 5Last Day Part 10 And Book Announcement](content/2026/07/11/ken-huang-ai-expert--claude-fable-5last-day-part-10-and-book-announcement.md) — ken-huang-ai-expert
-- [Housecanarys Bold Vision For Its Google Listings Expansion](content/2026/07/11/real-estate-news--housecanarys-bold-vision-for-its-google-listings-expansion.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
