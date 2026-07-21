@@ -9,26 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-20 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-20 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-20 | 142 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-20 | 45 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-21 | 8 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-21 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-21 | 143 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-21 | 45 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-20 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-20 | 50 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-20 | 81 | ✅ |  |
-| Built In | sitemap | 2026-07-20 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-20 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-20 | 109 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-20 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-20 | 19 | ✅ |  |
-| Latent Space | podcast | 2026-07-20 | 41 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-20 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-21 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-21 | 51 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-21 | 82 | ✅ |  |
+| Built In | sitemap | 2026-07-21 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-21 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-21 | 110 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-21 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-21 | 19 | ✅ |  |
+| Latent Space | podcast | 2026-07-21 | 41 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-21 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-20
+- [Hugging Faces Ceo On Open Source Ai Model Routing And The Fu](content/2026/07/20/a16z-podcast--hugging-faces-ceo-on-open-source-ai-model-routing-and-the-fu.md) — a16z-podcast
+- [Rare Disease Research Grants](content/2026/07/20/anthropic-blog--rare-disease-research-grants.md) — anthropic-blog
+- [The Hidden Risk In Mcp Connections](content/2026/07/20/ken-huang-ai-expert--the-hidden-risk-in-mcp-connections.md) — ken-huang-ai-expert
+- [Agents A Powerful Influence On Private Listing Choice](content/2026/07/20/real-estate-news--agents-a-powerful-influence-on-private-listing-choice.md) — real-estate-news
+
 ### 2026-07-19
 - [Proof Of Control Assurance Framework For Universal Commerce ](content/2026/07/19/ken-huang-ai-expert--proof-of-control-assurance-framework-for-universal-commerce-.md) — ken-huang-ai-expert
 - [The Missing Control Loop For Ai Agents Intent Evidence And R](content/2026/07/19/ken-huang-ai-expert--the-missing-control-loop-for-ai-agents-intent-evidence-and-r.md) — ken-huang-ai-expert
@@ -55,8 +61,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Is Ai A Bubble Gavin Baker On Data Centers Gpus And The Ai E](content/2026/07/14/a16z-podcast--is-ai-a-bubble-gavin-baker-on-data-centers-gpus-and-the-ai-e.md) — a16z-podcast
 - [Claude For Teachers](content/2026/07/14/anthropic-blog--claude-for-teachers.md) — anthropic-blog
 - [Our Claude Fable5Mythos5 Book Is Live And Paid Subscribers G](content/2026/07/14/ken-huang-ai-expert--our-claude-fable5mythos5-book-is-live-and-paid-subscribers-g.md) — ken-huang-ai-expert
-
-### 2026-07-13
-- [Before Blockchains There Was State Machine Replication](content/2026/07/13/a16z-podcast--before-blockchains-there-was-state-machine-replication.md) — a16z-podcast
 
 <!-- RECENT_CONTENT_END -->
