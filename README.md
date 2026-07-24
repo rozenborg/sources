@@ -9,28 +9,36 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-23 | 8 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-23 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-23 | 145 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-23 | 45 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-24 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-24 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-24 | 146 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-24 | 46 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-23 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-23 | 52 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-23 | 88 | ✅ |  |
-| Built In | sitemap | 2026-07-23 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-23 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-23 | 112 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-23 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-23 | 20 | ✅ |  |
-| Latent Space | podcast | 2026-07-23 | 43 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-23 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-24 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-24 | 52 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-24 | 89 | ✅ |  |
+| Built In | sitemap | 2026-07-24 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-24 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-24 | 114 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-24 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-24 | 20 | ✅ |  |
+| Latent Space | podcast | 2026-07-24 | 43 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-24 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-24
+- [Sriram Krishnan On Open Source Ais Biggest Week Yet](content/2026/07/24/a16z-podcast--sriram-krishnan-on-open-source-ais-biggest-week-yet.md) — a16z-podcast
+
 ### 2026-07-23
+- [Building The Physical Ai Stack Travis Kalanick On Tbpn](content/2026/07/23/a16z-podcast--building-the-physical-ai-stack-travis-kalanick-on-tbpn.md) — a16z-podcast
+- [Claude For Creative Work Dev](content/2026/07/23/anthropic-blog--claude-for-creative-work-dev.md) — anthropic-blog
+- [The Hidden Tax On Ai Is Coordination](content/2026/07/23/ken-huang-ai-expert--the-hidden-tax-on-ai-is-coordination.md) — ken-huang-ai-expert
+- [Ai Is Coming For Your Slack Workspace](content/2026/07/23/khemaridh-future-proof--ai-is-coming-for-your-slack-workspace.md) — khemaridh-future-proof
 - [Inside The Model Factory Eiso Kant Poolside Ai](content/2026/07/23/latent-space--inside-the-model-factory-eiso-kant-poolside-ai.md) — latent-space
+- [An Opinionated Guide To Which Ai To Use To Do Stuff](content/2026/07/23/mollick-one-useful-thing--an-opinionated-guide-to-which-ai-to-use-to-do-stuff.md) — mollick-one-useful-thing
 - [Building An Autonomous Delivery Experience With Doordash Co ](content/2026/07/23/no-priors--building-an-autonomous-delivery-experience-with-doordash-co-.md) — no-priors
 
 ### 2026-07-22
@@ -66,11 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-07-17
 - [Amjad Masad On Going Direct Building Replit And The Future O](content/2026/07/17/a16z-podcast--amjad-masad-on-going-direct-building-replit-and-the-future-o.md) — a16z-podcast
 - [Owasp Agentic Skills Top 10 Tutorial Video Series](content/2026/07/17/ken-huang-ai-expert--owasp-agentic-skills-top-10-tutorial-video-series.md) — ken-huang-ai-expert
-
-### 2026-07-16
-- [Replay 2025 David Sacks On Ai Crypto And Americas Technology](content/2026/07/16/a16z-podcast--replay-2025-david-sacks-on-ai-crypto-and-americas-technology.md) — a16z-podcast
-- [Will Claude Cowork Get Replaced By Chatgpt](content/2026/07/16/khemaridh-future-proof--will-claude-cowork-get-replaced-by-chatgpt.md) — khemaridh-future-proof
-- [The Lab Of The Future Should Feel Like A Data Center Andy Be](content/2026/07/16/latent-space--the-lab-of-the-future-should-feel-like-a-data-center-andy-be.md) — latent-space
-- [Can Nar Build An Ethics Monitoring Tool And Will It](content/2026/07/16/real-estate-news--can-nar-build-an-ethics-monitoring-tool-and-will-it.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
