@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-24 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-24 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-24 | 146 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-24 | 46 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-25 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-25 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-25 | 146 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-25 | 46 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-24 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-24 | 52 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-24 | 89 | ✅ |  |
-| Built In | sitemap | 2026-07-24 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-24 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-24 | 114 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-24 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-24 | 20 | ✅ |  |
-| Latent Space | podcast | 2026-07-24 | 43 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-24 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-25 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-25 | 52 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-25 | 90 | ✅ |  |
+| Built In | sitemap | 2026-07-25 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-25 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-25 | 114 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-25 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-25 | 20 | ✅ |  |
+| Latent Space | podcast | 2026-07-25 | 43 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-25 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-25
+- [Claude Opus 5](content/2026/07/25/anthropic-blog--claude-opus-5.md) — anthropic-blog
+
 ### 2026-07-24
 - [Sriram Krishnan On Open Source Ais Biggest Week Yet](content/2026/07/24/a16z-podcast--sriram-krishnan-on-open-source-ais-biggest-week-yet.md) — a16z-podcast
 
@@ -70,9 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-07-18
 - [Demystifying Kimi K3 The Three Algorithms Behind The 1 Front](content/2026/07/18/ken-huang-ai-expert--demystifying-kimi-k3-the-three-algorithms-behind-the-1-front.md) — ken-huang-ai-expert
-
-### 2026-07-17
-- [Amjad Masad On Going Direct Building Replit And The Future O](content/2026/07/17/a16z-podcast--amjad-masad-on-going-direct-building-replit-and-the-future-o.md) — a16z-podcast
-- [Owasp Agentic Skills Top 10 Tutorial Video Series](content/2026/07/17/ken-huang-ai-expert--owasp-agentic-skills-top-10-tutorial-video-series.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
