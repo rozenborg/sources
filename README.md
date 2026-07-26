@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-25 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-25 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-25 | 146 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-25 | 46 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-26 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-26 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-26 | 146 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-26 | 46 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-25 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-25 | 52 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-25 | 90 | ✅ |  |
-| Built In | sitemap | 2026-07-25 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-25 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-25 | 114 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-25 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-25 | 20 | ✅ |  |
-| Latent Space | podcast | 2026-07-25 | 43 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-25 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-26 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-26 | 52 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-26 | 90 | ✅ |  |
+| Built In | sitemap | 2026-07-26 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-26 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-26 | 114 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-26 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-26 | 20 | ✅ |  |
+| Latent Space | podcast | 2026-07-26 | 43 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-26 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -70,8 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Proof Of Control Assurance Framework For Universal Commerce ](content/2026/07/19/ken-huang-ai-expert--proof-of-control-assurance-framework-for-universal-commerce-.md) — ken-huang-ai-expert
 - [The Missing Control Loop For Ai Agents Intent Evidence And R](content/2026/07/19/ken-huang-ai-expert--the-missing-control-loop-for-ai-agents-intent-evidence-and-r.md) — ken-huang-ai-expert
 - [Using Chatgpt 56 For Knowledge Work](content/2026/07/19/khemaridh-future-proof--using-chatgpt-56-for-knowledge-work.md) — khemaridh-future-proof
-
-### 2026-07-18
-- [Demystifying Kimi K3 The Three Algorithms Behind The 1 Front](content/2026/07/18/ken-huang-ai-expert--demystifying-kimi-k3-the-three-algorithms-behind-the-1-front.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
