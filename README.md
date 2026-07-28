@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-27 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-27 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-27 | 147 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-27 | 47 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-28 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-28 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-28 | 147 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-28 | 47 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-27 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-27 | 52 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-27 | 90 | ✅ |  |
-| Built In | sitemap | 2026-07-27 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-27 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-27 | 116 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-27 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-27 | 20 | ✅ |  |
-| Latent Space | podcast | 2026-07-27 | 43 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-27 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-28 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-28 | 54 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-28 | 92 | ✅ |  |
+| Built In | sitemap | 2026-07-28 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-28 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-28 | 117 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-28 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-28 | 20 | ✅ |  |
+| Latent Space | podcast | 2026-07-28 | 43 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-28 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-28
+- [Fei Fei Li On Spatial Intelligence And Robotics](content/2026/07/28/a16z-podcast--fei-fei-li-on-spatial-intelligence-and-robotics.md) — a16z-podcast
+
 ### 2026-07-27
 - [Steven Sinofsky Ai Doesnt Need New Rules Yet](content/2026/07/27/a16z-podcast--steven-sinofsky-ai-doesnt-need-new-rules-yet.md) — a16z-podcast
+- [Cognizant Anthropic](content/2026/07/27/anthropic-blog--cognizant-anthropic.md) — anthropic-blog
+- [Position Open Weights Models](content/2026/07/27/anthropic-blog--position-open-weights-models.md) — anthropic-blog
+- [Better Informed Sellers Are Raising The Stakes For Cmas](content/2026/07/27/real-estate-news--better-informed-sellers-are-raising-the-stakes-for-cmas.md) — real-estate-news
+- [Compass Chief Economist Has His Eye On The Ai Housing Boom](content/2026/07/27/real-estate-news--compass-chief-economist-has-his-eye-on-the-ai-housing-boom.md) — real-estate-news
 
 ### 2026-07-26
 - [Ben Horowitz The Fight Over Open Source Ai](content/2026/07/26/a16z-podcast--ben-horowitz-the-fight-over-open-source-ai.md) — a16z-podcast
@@ -67,11 +74,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Exciting Book Announcement And Giveaway Openclaw Ai In Produ](content/2026/07/21/ken-huang-ai-expert--exciting-book-announcement-and-giveaway-openclaw-ai-in-produ.md) — ken-huang-ai-expert
 - [Causal Models Need Causal Data Xairas X Cell Model For Drug ](content/2026/07/21/latent-space--causal-models-need-causal-data-xairas-x-cell-model-for-drug-.md) — latent-space
 - [Compass Unveils Ai Assistant Brokerage Comparison Tool Launc](content/2026/07/21/real-estate-news--compass-unveils-ai-assistant-brokerage-comparison-tool-launc.md) — real-estate-news
-
-### 2026-07-20
-- [Hugging Faces Ceo On Open Source Ai Model Routing And The Fu](content/2026/07/20/a16z-podcast--hugging-faces-ceo-on-open-source-ai-model-routing-and-the-fu.md) — a16z-podcast
-- [Rare Disease Research Grants](content/2026/07/20/anthropic-blog--rare-disease-research-grants.md) — anthropic-blog
-- [The Hidden Risk In Mcp Connections](content/2026/07/20/ken-huang-ai-expert--the-hidden-risk-in-mcp-connections.md) — ken-huang-ai-expert
-- [Agents A Powerful Influence On Private Listing Choice](content/2026/07/20/real-estate-news--agents-a-powerful-influence-on-private-listing-choice.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
