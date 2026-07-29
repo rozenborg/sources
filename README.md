@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-28 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-28 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-28 | 147 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-28 | 47 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-29 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-29 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-29 | 148 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-29 | 47 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-28 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-28 | 54 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-28 | 92 | ✅ |  |
-| Built In | sitemap | 2026-07-28 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-28 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-28 | 117 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-28 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-28 | 20 | ✅ |  |
-| Latent Space | podcast | 2026-07-28 | 43 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-28 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-29 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-29 | 56 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-29 | 92 | ✅ |  |
+| Built In | sitemap | 2026-07-29 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-29 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-29 | 118 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-29 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-29 | 20 | ✅ |  |
+| Latent Space | podcast | 2026-07-29 | 44 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-29 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-29
+- [Ai Micro Dramas Generative Media And The Future Of Creativit](content/2026/07/29/a16z-podcast--ai-micro-dramas-generative-media-and-the-future-of-creativit.md) — a16z-podcast
+
 ### 2026-07-28
 - [Fei Fei Li On Spatial Intelligence And Robotics](content/2026/07/28/a16z-podcast--fei-fei-li-on-spatial-intelligence-and-robotics.md) — a16z-podcast
+- [We Scored 4570 Agents Against Owasp Aivss And Csa Maestro](content/2026/07/28/ken-huang-ai-expert--we-scored-4570-agents-against-owasp-aivss-and-csa-maestro.md) — ken-huang-ai-expert
+- [Codex From 0 To 10M Users Building Chatgpt Work Akshay Natha](content/2026/07/28/latent-space--codex-from-0-to-10m-users-building-chatgpt-work-akshay-natha.md) — latent-space
+- [Lone Wolf Investing In Ai With Recruitment Retention Tools](content/2026/07/28/real-estate-news--lone-wolf-investing-in-ai-with-recruitment-retention-tools.md) — real-estate-news
+- [Lpt Parent Acquires Ai Company Focused On Iding Consumer Int](content/2026/07/28/real-estate-news--lpt-parent-acquires-ai-company-focused-on-iding-consumer-int.md) — real-estate-news
 
 ### 2026-07-27
 - [Steven Sinofsky Ai Doesnt Need New Rules Yet](content/2026/07/27/a16z-podcast--steven-sinofsky-ai-doesnt-need-new-rules-yet.md) — a16z-podcast
@@ -68,11 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Economic Futures Research Fund Agenda](content/2026/07/22/anthropic-blog--economic-futures-research-fund-agenda.md) — anthropic-blog
 - [Skills](content/2026/07/22/anthropic-blog--skills.md) — anthropic-blog
 - [When The Model Cheats By Hacking The Exam](content/2026/07/22/ken-huang-ai-expert--when-the-model-cheats-by-hacking-the-exam.md) — ken-huang-ai-expert
-
-### 2026-07-21
-- [Why Physical Ai Is The Next Frontier Applied Intuition](content/2026/07/21/a16z-podcast--why-physical-ai-is-the-next-frontier-applied-intuition.md) — a16z-podcast
-- [Exciting Book Announcement And Giveaway Openclaw Ai In Produ](content/2026/07/21/ken-huang-ai-expert--exciting-book-announcement-and-giveaway-openclaw-ai-in-produ.md) — ken-huang-ai-expert
-- [Causal Models Need Causal Data Xairas X Cell Model For Drug ](content/2026/07/21/latent-space--causal-models-need-causal-data-xairas-x-cell-model-for-drug-.md) — latent-space
-- [Compass Unveils Ai Assistant Brokerage Comparison Tool Launc](content/2026/07/21/real-estate-news--compass-unveils-ai-assistant-brokerage-comparison-tool-launc.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
