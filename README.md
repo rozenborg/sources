@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-29 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-29 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-29 | 148 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-29 | 47 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-30 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-30 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-30 | 148 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-30 | 47 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-29 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-29 | 56 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-29 | 92 | ✅ |  |
-| Built In | sitemap | 2026-07-29 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-29 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-29 | 118 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-29 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-29 | 20 | ✅ |  |
-| Latent Space | podcast | 2026-07-29 | 44 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-29 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-30 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-30 | 56 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-30 | 92 | ✅ |  |
+| Built In | sitemap | 2026-07-30 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-30 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-30 | 119 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-30 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-30 | 20 | ✅ |  |
+| Latent Space | podcast | 2026-07-30 | 44 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-30 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-30
+- [Ai For Americas Small Businesses Lassie](content/2026/07/30/a16z-podcast--ai-for-americas-small-businesses-lassie.md) — a16z-podcast
+
 ### 2026-07-29
 - [Ai Micro Dramas Generative Media And The Future Of Creativit](content/2026/07/29/a16z-podcast--ai-micro-dramas-generative-media-and-the-future-of-creativit.md) — a16z-podcast
 
@@ -65,15 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Inside The Model Factory Eiso Kant Poolside Ai](content/2026/07/23/latent-space--inside-the-model-factory-eiso-kant-poolside-ai.md) — latent-space
 - [An Opinionated Guide To Which Ai To Use To Do Stuff](content/2026/07/23/mollick-one-useful-thing--an-opinionated-guide-to-which-ai-to-use-to-do-stuff.md) — mollick-one-useful-thing
 - [Building An Autonomous Delivery Experience With Doordash Co ](content/2026/07/23/no-priors--building-an-autonomous-delivery-experience-with-doordash-co-.md) — no-priors
-
-### 2026-07-22
-- [Travis Kalanick Is Back Building The Future Of Industrial Ai](content/2026/07/22/a16z-podcast--travis-kalanick-is-back-building-the-future-of-industrial-ai.md) — a16z-podcast
-- [Anthropic Economic Index Connector](content/2026/07/22/anthropic-blog--anthropic-economic-index-connector.md) — anthropic-blog
-- [Claude Haiku 4 5](content/2026/07/22/anthropic-blog--claude-haiku-4-5.md) — anthropic-blog
-- [Claude Sonnet 4 5](content/2026/07/22/anthropic-blog--claude-sonnet-4-5.md) — anthropic-blog
-- [Donation Public First Action](content/2026/07/22/anthropic-blog--donation-public-first-action.md) — anthropic-blog
-- [Economic Futures Research Fund Agenda](content/2026/07/22/anthropic-blog--economic-futures-research-fund-agenda.md) — anthropic-blog
-- [Skills](content/2026/07/22/anthropic-blog--skills.md) — anthropic-blog
-- [When The Model Cheats By Hacking The Exam](content/2026/07/22/ken-huang-ai-expert--when-the-model-cheats-by-hacking-the-exam.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
