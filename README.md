@@ -9,28 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-07-30 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-07-30 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-07-30 | 148 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-07-30 | 47 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-07-31 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-07-31 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-07-31 | 149 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-07-31 | 48 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-07-30 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-07-30 | 56 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-07-30 | 92 | ✅ |  |
-| Built In | sitemap | 2026-07-30 | 11 | ✅ |  |
-| EY Insights | sitemap | 2026-07-30 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-07-30 | 119 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-07-30 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-07-30 | 20 | ✅ |  |
-| Latent Space | podcast | 2026-07-30 | 44 | ✅ |  |
-| AI Daily Brief | podcast | 2026-07-30 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-07-31 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-07-31 | 56 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-07-31 | 93 | ✅ |  |
+| Built In | sitemap | 2026-07-31 | 11 | ✅ |  |
+| EY Insights | sitemap | 2026-07-31 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-07-31 | 120 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-07-31 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-07-31 | 21 | ✅ |  |
+| Latent Space | podcast | 2026-07-31 | 44 | ✅ |  |
+| AI Daily Brief | podcast | 2026-07-31 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-07-31
+- [Decagons Playbook For Building Enterprise Ai Applications](content/2026/07/31/a16z-podcast--decagons-playbook-for-building-enterprise-ai-applications.md) — a16z-podcast
+- [Building An Autonomous Enterprise For Real World Services Wi](content/2026/07/31/no-priors--building-an-autonomous-enterprise-for-real-world-services-wi.md) — no-priors
+
 ### 2026-07-30
 - [Ai For Americas Small Businesses Lassie](content/2026/07/30/a16z-podcast--ai-for-americas-small-businesses-lassie.md) — a16z-podcast
+- [Investigating Incidents Cybersecurity Evals](content/2026/07/30/anthropic-blog--investigating-incidents-cybersecurity-evals.md) — anthropic-blog
+- [Harness Engineering As The Umbrella Discipline](content/2026/07/30/ken-huang-ai-expert--harness-engineering-as-the-umbrella-discipline.md) — ken-huang-ai-expert
+- [Cowork Comes To The Cloud](content/2026/07/30/khemaridh-future-proof--cowork-comes-to-the-cloud.md) — khemaridh-future-proof
 
 ### 2026-07-29
 - [Ai Micro Dramas Generative Media And The Future Of Creativit](content/2026/07/29/a16z-podcast--ai-micro-dramas-generative-media-and-the-future-of-creativit.md) — a16z-podcast
@@ -59,14 +66,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-07-24
 - [Sriram Krishnan On Open Source Ais Biggest Week Yet](content/2026/07/24/a16z-podcast--sriram-krishnan-on-open-source-ais-biggest-week-yet.md) — a16z-podcast
-
-### 2026-07-23
-- [Building The Physical Ai Stack Travis Kalanick On Tbpn](content/2026/07/23/a16z-podcast--building-the-physical-ai-stack-travis-kalanick-on-tbpn.md) — a16z-podcast
-- [Claude For Creative Work Dev](content/2026/07/23/anthropic-blog--claude-for-creative-work-dev.md) — anthropic-blog
-- [The Hidden Tax On Ai Is Coordination](content/2026/07/23/ken-huang-ai-expert--the-hidden-tax-on-ai-is-coordination.md) — ken-huang-ai-expert
-- [Ai Is Coming For Your Slack Workspace](content/2026/07/23/khemaridh-future-proof--ai-is-coming-for-your-slack-workspace.md) — khemaridh-future-proof
-- [Inside The Model Factory Eiso Kant Poolside Ai](content/2026/07/23/latent-space--inside-the-model-factory-eiso-kant-poolside-ai.md) — latent-space
-- [An Opinionated Guide To Which Ai To Use To Do Stuff](content/2026/07/23/mollick-one-useful-thing--an-opinionated-guide-to-which-ai-to-use-to-do-stuff.md) — mollick-one-useful-thing
-- [Building An Autonomous Delivery Experience With Doordash Co ](content/2026/07/23/no-priors--building-an-autonomous-delivery-experience-with-doordash-co-.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
