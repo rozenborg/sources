@@ -9,26 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-01 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-01 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-01 | 150 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-01 | 48 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-02 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-02 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-02 | 151 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-02 | 48 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-01 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-01 | 56 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-01 | 93 | ✅ |  |
-| Built In | sitemap | 2026-08-01 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-01 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-01 | 120 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-01 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-01 | 21 | ✅ |  |
-| Latent Space | podcast | 2026-08-01 | 44 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-01 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-02 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-02 | 56 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-02 | 93 | ✅ |  |
+| Built In | sitemap | 2026-08-02 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-02 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-02 | 121 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-02 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-02 | 21 | ✅ |  |
+| Latent Space | podcast | 2026-08-02 | 44 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-02 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-01
+- [Marc Andreessen And Chris Dixon Whats At Stake In Crypto Reg](content/2026/08/01/a16z-podcast--marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-reg.md) — a16z-podcast
+- [Maestro Analysis Of Openai And Anthropic Agent Hacking Incid](content/2026/08/01/ken-huang-ai-expert--maestro-analysis-of-openai-and-anthropic-agent-hacking-incid.md) — ken-huang-ai-expert
+
 ### 2026-07-31
 - [Decagons Playbook For Building Enterprise Ai Applications](content/2026/07/31/a16z-podcast--decagons-playbook-for-building-enterprise-ai-applications.md) — a16z-podcast
 - [One Week Three Conferences My Las Vegas Ai Security Itinerar](content/2026/07/31/ken-huang-ai-expert--one-week-three-conferences-my-las-vegas-ai-security-itinerar.md) — ken-huang-ai-expert
@@ -62,8 +66,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ben Horowitz The Fight Over Open Source Ai](content/2026/07/26/a16z-podcast--ben-horowitz-the-fight-over-open-source-ai.md) — a16z-podcast
 - [Agentic Ai Cves Anatomy Of A New Attack Surface](content/2026/07/26/ken-huang-ai-expert--agentic-ai-cves-anatomy-of-a-new-attack-surface.md) — ken-huang-ai-expert
 - [Jensen Makes The Case For Open Source Ai](content/2026/07/26/khemaridh-future-proof--jensen-makes-the-case-for-open-source-ai.md) — khemaridh-future-proof
-
-### 2026-07-25
-- [Claude Opus 5](content/2026/07/25/anthropic-blog--claude-opus-5.md) — anthropic-blog
 
 <!-- RECENT_CONTENT_END -->
