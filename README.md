@@ -9,26 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-02 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-02 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-02 | 151 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-02 | 48 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-03 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-03 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-03 | 152 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-03 | 49 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-02 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-02 | 56 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-02 | 93 | ✅ |  |
-| Built In | sitemap | 2026-08-02 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-02 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-02 | 121 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-02 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-02 | 21 | ✅ |  |
-| Latent Space | podcast | 2026-08-02 | 44 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-02 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-03 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-03 | 56 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-03 | 93 | ✅ |  |
+| Built In | sitemap | 2026-08-03 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-03 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-03 | 122 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-03 | 18 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-03 | 21 | ✅ |  |
+| Latent Space | podcast | 2026-08-03 | 44 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-03 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-02
+- [Ruby Thelot On Internet Culture Ai And The Future Of Taste](content/2026/08/02/a16z-podcast--ruby-thelot-on-internet-culture-ai-and-the-future-of-taste.md) — a16z-podcast
+- [Part 1 A Software Factory Agentic Skill For Greenfield Build](content/2026/08/02/ken-huang-ai-expert--part-1-a-software-factory-agentic-skill-for-greenfield-build.md) — ken-huang-ai-expert
+- [Ai Is Creating More Work For Lawyers](content/2026/08/02/khemaridh-future-proof--ai-is-creating-more-work-for-lawyers.md) — khemaridh-future-proof
+
 ### 2026-08-01
 - [Marc Andreessen And Chris Dixon Whats At Stake In Crypto Reg](content/2026/08/01/a16z-podcast--marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-reg.md) — a16z-podcast
 - [Maestro Analysis Of Openai And Anthropic Agent Hacking Incid](content/2026/08/01/ken-huang-ai-expert--maestro-analysis-of-openai-and-anthropic-agent-hacking-incid.md) — ken-huang-ai-expert
@@ -61,10 +66,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Position Open Weights Models](content/2026/07/27/anthropic-blog--position-open-weights-models.md) — anthropic-blog
 - [Better Informed Sellers Are Raising The Stakes For Cmas](content/2026/07/27/real-estate-news--better-informed-sellers-are-raising-the-stakes-for-cmas.md) — real-estate-news
 - [Compass Chief Economist Has His Eye On The Ai Housing Boom](content/2026/07/27/real-estate-news--compass-chief-economist-has-his-eye-on-the-ai-housing-boom.md) — real-estate-news
-
-### 2026-07-26
-- [Ben Horowitz The Fight Over Open Source Ai](content/2026/07/26/a16z-podcast--ben-horowitz-the-fight-over-open-source-ai.md) — a16z-podcast
-- [Agentic Ai Cves Anatomy Of A New Attack Surface](content/2026/07/26/ken-huang-ai-expert--agentic-ai-cves-anatomy-of-a-new-attack-surface.md) — ken-huang-ai-expert
-- [Jensen Makes The Case For Open Source Ai](content/2026/07/26/khemaridh-future-proof--jensen-makes-the-case-for-open-source-ai.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
