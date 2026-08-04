@@ -9,26 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-03 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-03 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-03 | 152 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-03 | 49 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-04 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-04 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-04 | 152 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-04 | 49 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-03 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-03 | 56 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-03 | 93 | ✅ |  |
-| Built In | sitemap | 2026-08-03 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-03 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-03 | 122 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-03 | 18 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-03 | 21 | ✅ |  |
-| Latent Space | podcast | 2026-08-03 | 44 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-03 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-04 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-04 | 56 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-04 | 94 | ✅ |  |
+| Built In | sitemap | 2026-08-04 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-04 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-04 | 122 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-04 | 19 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-04 | 21 | ✅ |  |
+| Latent Space | podcast | 2026-08-04 | 45 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-04 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-03
+- [Claude For Nonprofits](content/2026/08/03/anthropic-blog--claude-for-nonprofits.md) — anthropic-blog
+- [Why Smarter Ai Models Could Drive Up Compute Prices 10X](content/2026/08/03/dwarkesh-podcast--why-smarter-ai-models-could-drive-up-compute-prices-10x.md) — dwarkesh-podcast
+- [The Inference Engineering Masterclass Philip Kiely Ali Taha ](content/2026/08/03/latent-space--the-inference-engineering-masterclass-philip-kiely-ali-taha-.md) — latent-space
+
 ### 2026-08-02
 - [Ruby Thelot On Internet Culture Ai And The Future Of Taste](content/2026/08/02/a16z-podcast--ruby-thelot-on-internet-culture-ai-and-the-future-of-taste.md) — a16z-podcast
 - [Part 1 A Software Factory Agentic Skill For Greenfield Build](content/2026/08/02/ken-huang-ai-expert--part-1-a-software-factory-agentic-skill-for-greenfield-build.md) — ken-huang-ai-expert
@@ -59,12 +64,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Codex From 0 To 10M Users Building Chatgpt Work Akshay Natha](content/2026/07/28/latent-space--codex-from-0-to-10m-users-building-chatgpt-work-akshay-natha.md) — latent-space
 - [Lone Wolf Investing In Ai With Recruitment Retention Tools](content/2026/07/28/real-estate-news--lone-wolf-investing-in-ai-with-recruitment-retention-tools.md) — real-estate-news
 - [Lpt Parent Acquires Ai Company Focused On Iding Consumer Int](content/2026/07/28/real-estate-news--lpt-parent-acquires-ai-company-focused-on-iding-consumer-int.md) — real-estate-news
-
-### 2026-07-27
-- [Steven Sinofsky Ai Doesnt Need New Rules Yet](content/2026/07/27/a16z-podcast--steven-sinofsky-ai-doesnt-need-new-rules-yet.md) — a16z-podcast
-- [Cognizant Anthropic](content/2026/07/27/anthropic-blog--cognizant-anthropic.md) — anthropic-blog
-- [Position Open Weights Models](content/2026/07/27/anthropic-blog--position-open-weights-models.md) — anthropic-blog
-- [Better Informed Sellers Are Raising The Stakes For Cmas](content/2026/07/27/real-estate-news--better-informed-sellers-are-raising-the-stakes-for-cmas.md) — real-estate-news
-- [Compass Chief Economist Has His Eye On The Ai Housing Boom](content/2026/07/27/real-estate-news--compass-chief-economist-has-his-eye-on-the-ai-housing-boom.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
