@@ -9,26 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-04 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-04 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-04 | 152 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-04 | 49 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-05 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-05 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-05 | 152 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-05 | 49 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-04 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-04 | 56 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-04 | 94 | ✅ |  |
-| Built In | sitemap | 2026-08-04 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-04 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-04 | 122 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-04 | 19 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-04 | 21 | ✅ |  |
-| Latent Space | podcast | 2026-08-04 | 45 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-04 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-05 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-05 | 57 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-05 | 95 | ✅ |  |
+| Built In | sitemap | 2026-08-05 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-05 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-05 | 124 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-05 | 19 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-05 | 21 | ✅ |  |
+| Latent Space | podcast | 2026-08-05 | 45 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-05 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-05
+- [Three Startups Reinventing Critical Infrastructure](content/2026/08/05/a16z-podcast--three-startups-reinventing-critical-infrastructure.md) — a16z-podcast
+
+### 2026-08-04
+- [Openais Joshua Achiam Did We Already Reach Agi](content/2026/08/04/a16z-podcast--openais-joshua-achiam-did-we-already-reach-agi.md) — a16z-podcast
+- [Tino Cuellar](content/2026/08/04/anthropic-blog--tino-cuellar.md) — anthropic-blog
+- [Agnt Touts Record Revenue Modest Contribution From Nexthome](content/2026/08/04/real-estate-news--agnt-touts-record-revenue-modest-contribution-from-nexthome.md) — real-estate-news
+
 ### 2026-08-03
 - [Claude For Nonprofits](content/2026/08/03/anthropic-blog--claude-for-nonprofits.md) — anthropic-blog
 - [Why Smarter Ai Models Could Drive Up Compute Prices 10X](content/2026/08/03/dwarkesh-podcast--why-smarter-ai-models-could-drive-up-compute-prices-10x.md) — dwarkesh-podcast
@@ -57,12 +65,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-07-29
 - [Ai Micro Dramas Generative Media And The Future Of Creativit](content/2026/07/29/a16z-podcast--ai-micro-dramas-generative-media-and-the-future-of-creativit.md) — a16z-podcast
 - [How Ai Teams Are Turning Emerging Tech Real World Products](content/2026/07/29/builtin-com--how-ai-teams-are-turning-emerging-tech-real-world-products.md) — builtin-com
-
-### 2026-07-28
-- [Fei Fei Li On Spatial Intelligence And Robotics](content/2026/07/28/a16z-podcast--fei-fei-li-on-spatial-intelligence-and-robotics.md) — a16z-podcast
-- [We Scored 4570 Agents Against Owasp Aivss And Csa Maestro](content/2026/07/28/ken-huang-ai-expert--we-scored-4570-agents-against-owasp-aivss-and-csa-maestro.md) — ken-huang-ai-expert
-- [Codex From 0 To 10M Users Building Chatgpt Work Akshay Natha](content/2026/07/28/latent-space--codex-from-0-to-10m-users-building-chatgpt-work-akshay-natha.md) — latent-space
-- [Lone Wolf Investing In Ai With Recruitment Retention Tools](content/2026/07/28/real-estate-news--lone-wolf-investing-in-ai-with-recruitment-retention-tools.md) — real-estate-news
-- [Lpt Parent Acquires Ai Company Focused On Iding Consumer Int](content/2026/07/28/real-estate-news--lpt-parent-acquires-ai-company-focused-on-iding-consumer-int.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
