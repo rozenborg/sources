@@ -9,26 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-05 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-05 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-05 | 152 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-05 | 49 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-06 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-06 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-06 | 152 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-05 | 49 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-05 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-05 | 57 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-05 | 95 | ✅ |  |
-| Built In | sitemap | 2026-08-05 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-05 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-05 | 124 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-05 | 19 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-05 | 21 | ✅ |  |
-| Latent Space | podcast | 2026-08-05 | 45 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-05 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-06 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-06 | 57 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-06 | 95 | ✅ |  |
+| Built In | sitemap | 2026-08-06 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-06 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-06 | 125 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-06 | 19 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-06 | 22 | ✅ |  |
+| Latent Space | podcast | 2026-08-06 | 45 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-06 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-06
+- [How Open Source Ai Became Critical Infrastructure](content/2026/08/06/a16z-podcast--how-open-source-ai-became-critical-infrastructure.md) — a16z-podcast
+- [Chasing Trillion Dollar Companies Founder Ambition Token Bud](content/2026/08/06/no-priors--chasing-trillion-dollar-companies-founder-ambition-token-bud.md) — no-priors
+
 ### 2026-08-05
 - [Three Startups Reinventing Critical Infrastructure](content/2026/08/05/a16z-podcast--three-startups-reinventing-critical-infrastructure.md) — a16z-podcast
 
@@ -61,9 +65,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Investigating Incidents Cybersecurity Evals](content/2026/07/30/anthropic-blog--investigating-incidents-cybersecurity-evals.md) — anthropic-blog
 - [Harness Engineering As The Umbrella Discipline](content/2026/07/30/ken-huang-ai-expert--harness-engineering-as-the-umbrella-discipline.md) — ken-huang-ai-expert
 - [Cowork Comes To The Cloud](content/2026/07/30/khemaridh-future-proof--cowork-comes-to-the-cloud.md) — khemaridh-future-proof
-
-### 2026-07-29
-- [Ai Micro Dramas Generative Media And The Future Of Creativit](content/2026/07/29/a16z-podcast--ai-micro-dramas-generative-media-and-the-future-of-creativit.md) — a16z-podcast
-- [How Ai Teams Are Turning Emerging Tech Real World Products](content/2026/07/29/builtin-com--how-ai-teams-are-turning-emerging-tech-real-world-products.md) — builtin-com
 
 <!-- RECENT_CONTENT_END -->
