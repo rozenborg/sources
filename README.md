@@ -9,28 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-06 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-06 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-06 | 152 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-05 | 49 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-07 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-07 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-07 | 153 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-07 | 50 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-06 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-06 | 57 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-06 | 95 | ✅ |  |
-| Built In | sitemap | 2026-08-06 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-06 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-06 | 125 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-06 | 19 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-06 | 22 | ✅ |  |
-| Latent Space | podcast | 2026-08-06 | 45 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-06 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-07 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-07 | 57 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-07 | 96 | ✅ |  |
+| Built In | sitemap | 2026-08-07 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-07 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-07 | 125 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-07 | 19 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-07 | 22 | ✅ |  |
+| Latent Space | podcast | 2026-08-07 | 45 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-07 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-07
+- [Improving Fable 5 S Biology Safeguards](content/2026/08/07/anthropic-blog--improving-fable-5-s-biology-safeguards.md) — anthropic-blog
+- [Inside The 1 Bit Llm How Bonsai Fits A 27B Model On A Phone](content/2026/08/07/ken-huang-ai-expert--inside-the-1-bit-llm-how-bonsai-fits-a-27b-model-on-a-phone.md) — ken-huang-ai-expert
+
 ### 2026-08-06
 - [How Open Source Ai Became Critical Infrastructure](content/2026/08/06/a16z-podcast--how-open-source-ai-became-critical-infrastructure.md) — a16z-podcast
+- [How To Unleash A Swarm Of Ai Agents](content/2026/08/06/khemaridh-future-proof--how-to-unleash-a-swarm-of-ai-agents.md) — khemaridh-future-proof
 - [Chasing Trillion Dollar Companies Founder Ambition Token Bud](content/2026/08/06/no-priors--chasing-trillion-dollar-companies-founder-ambition-token-bud.md) — no-priors
 
 ### 2026-08-05
@@ -59,11 +64,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Decagons Playbook For Building Enterprise Ai Applications](content/2026/07/31/a16z-podcast--decagons-playbook-for-building-enterprise-ai-applications.md) — a16z-podcast
 - [One Week Three Conferences My Las Vegas Ai Security Itinerar](content/2026/07/31/ken-huang-ai-expert--one-week-three-conferences-my-las-vegas-ai-security-itinerar.md) — ken-huang-ai-expert
 - [Building An Autonomous Enterprise For Real World Services Wi](content/2026/07/31/no-priors--building-an-autonomous-enterprise-for-real-world-services-wi.md) — no-priors
-
-### 2026-07-30
-- [Ai For Americas Small Businesses Lassie](content/2026/07/30/a16z-podcast--ai-for-americas-small-businesses-lassie.md) — a16z-podcast
-- [Investigating Incidents Cybersecurity Evals](content/2026/07/30/anthropic-blog--investigating-incidents-cybersecurity-evals.md) — anthropic-blog
-- [Harness Engineering As The Umbrella Discipline](content/2026/07/30/ken-huang-ai-expert--harness-engineering-as-the-umbrella-discipline.md) — ken-huang-ai-expert
-- [Cowork Comes To The Cloud](content/2026/07/30/khemaridh-future-proof--cowork-comes-to-the-cloud.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
