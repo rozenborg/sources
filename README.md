@@ -9,29 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-07 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-07 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-07 | 153 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-07 | 50 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-08 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-08 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-08 | 153 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-08 | 50 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-07 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-07 | 57 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-07 | 96 | ✅ |  |
-| Built In | sitemap | 2026-08-07 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-07 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-07 | 125 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-07 | 19 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-07 | 22 | ✅ |  |
-| Latent Space | podcast | 2026-08-07 | 45 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-07 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-08 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-08 | 58 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-08 | 96 | ✅ |  |
+| Built In | sitemap | 2026-08-08 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-08 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-08 | 126 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-08 | 20 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-08 | 22 | ✅ |  |
+| Latent Space | podcast | 2026-08-08 | 45 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-08 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-08-07
+- [The Reality Of Ai Powered Cyberattacks Truffle Security Sock](content/2026/08/07/a16z-podcast--the-reality-of-ai-powered-cyberattacks-truffle-security-sock.md) — a16z-podcast
 - [Improving Fable 5 S Biology Safeguards](content/2026/08/07/anthropic-blog--improving-fable-5-s-biology-safeguards.md) — anthropic-blog
+- [8 Predictions For The Era Of Continual Learning](content/2026/08/07/dwarkesh-podcast--8-predictions-for-the-era-of-continual-learning.md) — dwarkesh-podcast
 - [Inside The 1 Bit Llm How Bonsai Fits A 27B Model On A Phone](content/2026/08/07/ken-huang-ai-expert--inside-the-1-bit-llm-how-bonsai-fits-a-27b-model-on-a-phone.md) — ken-huang-ai-expert
+- [Rechat Realanalytica Launch Ai Workflow Tools For Agents](content/2026/08/07/real-estate-news--rechat-realanalytica-launch-ai-workflow-tools-for-agents.md) — real-estate-news
 
 ### 2026-08-06
 - [How Open Source Ai Became Critical Infrastructure](content/2026/08/06/a16z-podcast--how-open-source-ai-became-critical-infrastructure.md) — a16z-podcast
@@ -59,10 +62,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-08-01
 - [Marc Andreessen And Chris Dixon Whats At Stake In Crypto Reg](content/2026/08/01/a16z-podcast--marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-reg.md) — a16z-podcast
 - [Maestro Analysis Of Openai And Anthropic Agent Hacking Incid](content/2026/08/01/ken-huang-ai-expert--maestro-analysis-of-openai-and-anthropic-agent-hacking-incid.md) — ken-huang-ai-expert
-
-### 2026-07-31
-- [Decagons Playbook For Building Enterprise Ai Applications](content/2026/07/31/a16z-podcast--decagons-playbook-for-building-enterprise-ai-applications.md) — a16z-podcast
-- [One Week Three Conferences My Las Vegas Ai Security Itinerar](content/2026/07/31/ken-huang-ai-expert--one-week-three-conferences-my-las-vegas-ai-security-itinerar.md) — ken-huang-ai-expert
-- [Building An Autonomous Enterprise For Real World Services Wi](content/2026/07/31/no-priors--building-an-autonomous-enterprise-for-real-world-services-wi.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
