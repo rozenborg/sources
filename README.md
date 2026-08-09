@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-08 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-08 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-08 | 153 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-08 | 50 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-09 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-09 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-09 | 154 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-09 | 50 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-08 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-08 | 58 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-08 | 96 | ✅ |  |
-| Built In | sitemap | 2026-08-08 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-08 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-08 | 126 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-08 | 20 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-08 | 22 | ✅ |  |
-| Latent Space | podcast | 2026-08-08 | 45 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-08 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-09 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-09 | 58 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-09 | 96 | ✅ |  |
+| Built In | sitemap | 2026-08-09 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-09 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-09 | 126 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-09 | 20 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-09 | 22 | ✅ |  |
+| Latent Space | podcast | 2026-08-09 | 45 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-09 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-08
+- [Coding Agent Security Lessons From Claude Code Cowork Codex ](content/2026/08/08/ken-huang-ai-expert--coding-agent-security-lessons-from-claude-code-cowork-codex-.md) — ken-huang-ai-expert
+
 ### 2026-08-07
 - [The Reality Of Ai Powered Cyberattacks Truffle Security Sock](content/2026/08/07/a16z-podcast--the-reality-of-ai-powered-cyberattacks-truffle-security-sock.md) — a16z-podcast
 - [Improving Fable 5 S Biology Safeguards](content/2026/08/07/anthropic-blog--improving-fable-5-s-biology-safeguards.md) — anthropic-blog
@@ -58,9 +61,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Ruby Thelot On Internet Culture Ai And The Future Of Taste](content/2026/08/02/a16z-podcast--ruby-thelot-on-internet-culture-ai-and-the-future-of-taste.md) — a16z-podcast
 - [Part 1 A Software Factory Agentic Skill For Greenfield Build](content/2026/08/02/ken-huang-ai-expert--part-1-a-software-factory-agentic-skill-for-greenfield-build.md) — ken-huang-ai-expert
 - [Ai Is Creating More Work For Lawyers](content/2026/08/02/khemaridh-future-proof--ai-is-creating-more-work-for-lawyers.md) — khemaridh-future-proof
-
-### 2026-08-01
-- [Marc Andreessen And Chris Dixon Whats At Stake In Crypto Reg](content/2026/08/01/a16z-podcast--marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-reg.md) — a16z-podcast
-- [Maestro Analysis Of Openai And Anthropic Agent Hacking Incid](content/2026/08/01/ken-huang-ai-expert--maestro-analysis-of-openai-and-anthropic-agent-hacking-incid.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
