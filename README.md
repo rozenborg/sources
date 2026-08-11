@@ -9,26 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-10 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-10 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-10 | 154 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-10 | 51 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-11 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-11 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-11 | 155 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-11 | 51 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-10 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-10 | 58 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-10 | 96 | ✅ |  |
-| Built In | sitemap | 2026-08-10 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-10 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-10 | 126 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-10 | 20 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-10 | 22 | ✅ |  |
-| Latent Space | podcast | 2026-08-10 | 45 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-10 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-11 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-11 | 58 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-11 | 96 | ✅ |  |
+| Built In | sitemap | 2026-08-11 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-11 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-11 | 127 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-11 | 20 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-11 | 22 | ✅ |  |
+| Latent Space | podcast | 2026-08-11 | 45 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-11 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-10
+- [The Self Improving Company Kavaks Ai Playbook](content/2026/08/10/a16z-podcast--the-self-improving-company-kavaks-ai-playbook.md) — a16z-podcast
+- [Black Hat And Def Con 34 Trip Report What Vegas Actually Shi](content/2026/08/10/ken-huang-ai-expert--black-hat-and-def-con-34-trip-report-what-vegas-actually-shi.md) — ken-huang-ai-expert
+
 ### 2026-08-09
 - [How Bridgewater Built An Ai Analyst](content/2026/08/09/khemaridh-future-proof--how-bridgewater-built-an-ai-analyst.md) — khemaridh-future-proof
 
@@ -54,10 +58,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Openais Joshua Achiam Did We Already Reach Agi](content/2026/08/04/a16z-podcast--openais-joshua-achiam-did-we-already-reach-agi.md) — a16z-podcast
 - [Tino Cuellar](content/2026/08/04/anthropic-blog--tino-cuellar.md) — anthropic-blog
 - [Agnt Touts Record Revenue Modest Contribution From Nexthome](content/2026/08/04/real-estate-news--agnt-touts-record-revenue-modest-contribution-from-nexthome.md) — real-estate-news
-
-### 2026-08-03
-- [Claude For Nonprofits](content/2026/08/03/anthropic-blog--claude-for-nonprofits.md) — anthropic-blog
-- [Why Smarter Ai Models Could Drive Up Compute Prices 10X](content/2026/08/03/dwarkesh-podcast--why-smarter-ai-models-could-drive-up-compute-prices-10x.md) — dwarkesh-podcast
-- [The Inference Engineering Masterclass Philip Kiely Ali Taha ](content/2026/08/03/latent-space--the-inference-engineering-masterclass-philip-kiely-ali-taha-.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
