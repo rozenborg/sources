@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-12 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-12 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-12 | 156 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-11 | 51 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-13 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-13 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-13 | 156 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-13 | 51 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-12 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-12 | 58 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-12 | 96 | ✅ |  |
-| Built In | sitemap | 2026-08-12 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-12 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-12 | 128 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-12 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-12 | 22 | ✅ |  |
-| Latent Space | podcast | 2026-08-12 | 46 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-12 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-13 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-13 | 58 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-13 | 96 | ✅ |  |
+| Built In | sitemap | 2026-08-13 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-13 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-13 | 129 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-13 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-13 | 22 | ✅ |  |
+| Latent Space | podcast | 2026-08-13 | 46 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-13 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-12
+- [Garry Tan On Taste Agents And Founder Ambition](content/2026/08/12/a16z-podcast--garry-tan-on-taste-agents-and-founder-ambition.md) — a16z-podcast
+
 ### 2026-08-11
 - [The Ciso Playbook For Ai Agents Datadog](content/2026/08/11/a16z-podcast--the-ciso-playbook-for-ai-agents-datadog.md) — a16z-podcast
 - [Ryan Greenblatt What Happens Once Ai Can Automate Ai Researc](content/2026/08/11/dwarkesh-podcast--ryan-greenblatt-what-happens-once-ai-can-automate-ai-researc.md) — dwarkesh-podcast
@@ -56,8 +59,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [How Open Source Ai Became Critical Infrastructure](content/2026/08/06/a16z-podcast--how-open-source-ai-became-critical-infrastructure.md) — a16z-podcast
 - [How To Unleash A Swarm Of Ai Agents](content/2026/08/06/khemaridh-future-proof--how-to-unleash-a-swarm-of-ai-agents.md) — khemaridh-future-proof
 - [Chasing Trillion Dollar Companies Founder Ambition Token Bud](content/2026/08/06/no-priors--chasing-trillion-dollar-companies-founder-ambition-token-bud.md) — no-priors
-
-### 2026-08-05
-- [Three Startups Reinventing Critical Infrastructure](content/2026/08/05/a16z-podcast--three-startups-reinventing-critical-infrastructure.md) — a16z-podcast
 
 <!-- RECENT_CONTENT_END -->
