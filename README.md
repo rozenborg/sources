@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-13 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-13 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-13 | 156 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-13 | 51 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-14 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-14 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-14 | 157 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-14 | 52 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-13 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-13 | 58 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-13 | 96 | ✅ |  |
-| Built In | sitemap | 2026-08-13 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-13 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-13 | 129 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-13 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-13 | 22 | ✅ |  |
-| Latent Space | podcast | 2026-08-13 | 46 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-13 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-14 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-14 | 59 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-14 | 96 | ✅ |  |
+| Built In | sitemap | 2026-08-14 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-14 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-14 | 130 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-14 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-14 | 23 | ✅ |  |
+| Latent Space | podcast | 2026-08-14 | 46 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-14 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-13
+- [The Two Ways To Sell Ai Lighthouse Or Landgrab](content/2026/08/13/a16z-podcast--the-two-ways-to-sell-ai-lighthouse-or-landgrab.md) — a16z-podcast
+- [Harness Engineering Design Patterns For Securing Long Horizo](content/2026/08/13/ken-huang-ai-expert--harness-engineering-design-patterns-for-securing-long-horizo.md) — ken-huang-ai-expert
+- [Chatgpt Voice Just Got A Huge Upgrade](content/2026/08/13/khemaridh-future-proof--chatgpt-voice-just-got-a-huge-upgrade.md) — khemaridh-future-proof
+- [What Chesscom Teaches Us About Superhuman Capabilities With ](content/2026/08/13/no-priors--what-chesscom-teaches-us-about-superhuman-capabilities-with-.md) — no-priors
+- [Ire Automates Transaction Compliance Moxiworks Cloze Partner](content/2026/08/13/real-estate-news--ire-automates-transaction-compliance-moxiworks-cloze-partner.md) — real-estate-news
+
 ### 2026-08-12
 - [Garry Tan On Taste Agents And Founder Ambition](content/2026/08/12/a16z-podcast--garry-tan-on-taste-agents-and-founder-ambition.md) — a16z-podcast
 
@@ -54,10 +61,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [8 Predictions For The Era Of Continual Learning](content/2026/08/07/dwarkesh-podcast--8-predictions-for-the-era-of-continual-learning.md) — dwarkesh-podcast
 - [Inside The 1 Bit Llm How Bonsai Fits A 27B Model On A Phone](content/2026/08/07/ken-huang-ai-expert--inside-the-1-bit-llm-how-bonsai-fits-a-27b-model-on-a-phone.md) — ken-huang-ai-expert
 - [Rechat Realanalytica Launch Ai Workflow Tools For Agents](content/2026/08/07/real-estate-news--rechat-realanalytica-launch-ai-workflow-tools-for-agents.md) — real-estate-news
-
-### 2026-08-06
-- [How Open Source Ai Became Critical Infrastructure](content/2026/08/06/a16z-podcast--how-open-source-ai-became-critical-infrastructure.md) — a16z-podcast
-- [How To Unleash A Swarm Of Ai Agents](content/2026/08/06/khemaridh-future-proof--how-to-unleash-a-swarm-of-ai-agents.md) — khemaridh-future-proof
-- [Chasing Trillion Dollar Companies Founder Ambition Token Bud](content/2026/08/06/no-priors--chasing-trillion-dollar-companies-founder-ambition-token-bud.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
