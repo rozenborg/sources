@@ -9,26 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-14 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-14 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-14 | 157 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-14 | 52 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-15 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-15 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-15 | 157 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-14 | 52 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-14 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-14 | 59 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-14 | 96 | ✅ |  |
-| Built In | sitemap | 2026-08-14 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-14 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-14 | 130 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-14 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-14 | 23 | ✅ |  |
-| Latent Space | podcast | 2026-08-14 | 46 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-14 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-15 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-15 | 60 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-15 | 97 | ✅ |  |
+| Built In | sitemap | 2026-08-15 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-15 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-15 | 131 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-15 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-15 | 23 | ✅ |  |
+| Latent Space | podcast | 2026-08-15 | 46 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-15 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-15
+- [Claude Text Watermark](content/2026/08/15/anthropic-blog--claude-text-watermark.md) — anthropic-blog
+
+### 2026-08-14
+- [Ben Horowitz And Travis Kalanick On Building Again](content/2026/08/14/a16z-podcast--ben-horowitz-and-travis-kalanick-on-building-again.md) — a16z-podcast
+- [Small Indie Brokerages Are Industrys Last Ai Holdouts](content/2026/08/14/real-estate-news--small-indie-brokerages-are-industrys-last-ai-holdouts.md) — real-estate-news
+
 ### 2026-08-13
 - [The Two Ways To Sell Ai Lighthouse Or Landgrab](content/2026/08/13/a16z-podcast--the-two-ways-to-sell-ai-lighthouse-or-landgrab.md) — a16z-podcast
 - [Harness Engineering Design Patterns For Securing Long Horizo](content/2026/08/13/ken-huang-ai-expert--harness-engineering-design-patterns-for-securing-long-horizo.md) — ken-huang-ai-expert
@@ -54,12 +61,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-08-08
 - [Coding Agent Security Lessons From Claude Code Cowork Codex ](content/2026/08/08/ken-huang-ai-expert--coding-agent-security-lessons-from-claude-code-cowork-codex-.md) — ken-huang-ai-expert
-
-### 2026-08-07
-- [The Reality Of Ai Powered Cyberattacks Truffle Security Sock](content/2026/08/07/a16z-podcast--the-reality-of-ai-powered-cyberattacks-truffle-security-sock.md) — a16z-podcast
-- [Improving Fable 5 S Biology Safeguards](content/2026/08/07/anthropic-blog--improving-fable-5-s-biology-safeguards.md) — anthropic-blog
-- [8 Predictions For The Era Of Continual Learning](content/2026/08/07/dwarkesh-podcast--8-predictions-for-the-era-of-continual-learning.md) — dwarkesh-podcast
-- [Inside The 1 Bit Llm How Bonsai Fits A 27B Model On A Phone](content/2026/08/07/ken-huang-ai-expert--inside-the-1-bit-llm-how-bonsai-fits-a-27b-model-on-a-phone.md) — ken-huang-ai-expert
-- [Rechat Realanalytica Launch Ai Workflow Tools For Agents](content/2026/08/07/real-estate-news--rechat-realanalytica-launch-ai-workflow-tools-for-agents.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
