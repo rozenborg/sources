@@ -9,21 +9,21 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-15 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-15 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-15 | 157 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-14 | 52 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-16 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-16 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-16 | 157 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-16 | 52 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-15 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-15 | 60 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-15 | 97 | ✅ |  |
-| Built In | sitemap | 2026-08-15 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-15 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-15 | 131 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-15 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-15 | 23 | ✅ |  |
-| Latent Space | podcast | 2026-08-15 | 46 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-15 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-16 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-16 | 60 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-16 | 97 | ✅ |  |
+| Built In | sitemap | 2026-08-16 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-16 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-16 | 131 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-16 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-16 | 23 | ✅ |  |
+| Latent Space | podcast | 2026-08-16 | 46 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-16 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
@@ -58,8 +58,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-08-09
 - [How Bridgewater Built An Ai Analyst](content/2026/08/09/khemaridh-future-proof--how-bridgewater-built-an-ai-analyst.md) — khemaridh-future-proof
-
-### 2026-08-08
-- [Coding Agent Security Lessons From Claude Code Cowork Codex ](content/2026/08/08/ken-huang-ai-expert--coding-agent-security-lessons-from-claude-code-cowork-codex-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
