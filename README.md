@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-16 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-16 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-16 | 157 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-16 | 52 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-17 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-17 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-17 | 157 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-17 | 53 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-16 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-16 | 60 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-16 | 97 | ✅ |  |
-| Built In | sitemap | 2026-08-16 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-16 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-16 | 131 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-16 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-16 | 23 | ✅ |  |
-| Latent Space | podcast | 2026-08-16 | 46 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-16 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-17 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-17 | 60 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-17 | 97 | ✅ |  |
+| Built In | sitemap | 2026-08-17 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-17 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-17 | 131 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-17 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-17 | 23 | ✅ |  |
+| Latent Space | podcast | 2026-08-17 | 46 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-17 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-16
+- [Can Ai Beat The Sp 500](content/2026/08/16/khemaridh-future-proof--can-ai-beat-the-sp-500.md) — khemaridh-future-proof
+
 ### 2026-08-15
 - [Claude Text Watermark](content/2026/08/15/anthropic-blog--claude-text-watermark.md) — anthropic-blog
 
@@ -55,8 +58,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-08-10
 - [The Self Improving Company Kavaks Ai Playbook](content/2026/08/10/a16z-podcast--the-self-improving-company-kavaks-ai-playbook.md) — a16z-podcast
 - [Black Hat And Def Con 34 Trip Report What Vegas Actually Shi](content/2026/08/10/ken-huang-ai-expert--black-hat-and-def-con-34-trip-report-what-vegas-actually-shi.md) — ken-huang-ai-expert
-
-### 2026-08-09
-- [How Bridgewater Built An Ai Analyst](content/2026/08/09/khemaridh-future-proof--how-bridgewater-built-an-ai-analyst.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
