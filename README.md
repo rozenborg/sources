@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-18 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-18 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-18 | 158 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-18 | 53 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-19 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-19 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-19 | 158 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-19 | 53 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-18 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-18 | 60 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-18 | 97 | ✅ |  |
-| Built In | sitemap | 2026-08-18 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-18 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-18 | 132 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-18 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-18 | 23 | ✅ |  |
-| Latent Space | podcast | 2026-08-18 | 46 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-18 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-19 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-19 | 60 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-19 | 97 | ✅ |  |
+| Built In | sitemap | 2026-08-19 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-19 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-19 | 133 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-19 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-19 | 23 | ✅ |  |
+| Latent Space | podcast | 2026-08-19 | 46 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-19 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-18
+- [How Do You Defend Against Ai That Can Hack](content/2026/08/18/a16z-podcast--how-do-you-defend-against-ai-that-can-hack.md) — a16z-podcast
+
 ### 2026-08-17
 - [Stripes Ai Strategy Build More Not Less](content/2026/08/17/a16z-podcast--stripes-ai-strategy-build-more-not-less.md) — a16z-podcast
 - [For Immediate Release Owasp Publishes Agentic Skills Top 10 ](content/2026/08/17/ken-huang-ai-expert--for-immediate-release-owasp-publishes-agentic-skills-top-10-.md) — ken-huang-ai-expert
@@ -52,11 +55,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-08-12
 - [Garry Tan On Taste Agents And Founder Ambition](content/2026/08/12/a16z-podcast--garry-tan-on-taste-agents-and-founder-ambition.md) — a16z-podcast
-
-### 2026-08-11
-- [The Ciso Playbook For Ai Agents Datadog](content/2026/08/11/a16z-podcast--the-ciso-playbook-for-ai-agents-datadog.md) — a16z-podcast
-- [Ryan Greenblatt What Happens Once Ai Can Automate Ai Researc](content/2026/08/11/dwarkesh-podcast--ryan-greenblatt-what-happens-once-ai-can-automate-ai-researc.md) — dwarkesh-podcast
-- [40 Off Hands On Harness Engineering With Claude](content/2026/08/11/ken-huang-ai-expert--40-off-hands-on-harness-engineering-with-claude.md) — ken-huang-ai-expert
-- [The Bioai Phase Shift Matthew Mcpartlon Neil Patil Chai Disc](content/2026/08/11/latent-space--the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-disc.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
