@@ -9,26 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-20 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-20 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-20 | 158 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-20 | 53 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-21 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-21 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-21 | 159 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-21 | 54 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-20 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-20 | 60 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-20 | 97 | ✅ |  |
-| Built In | sitemap | 2026-08-20 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-20 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-20 | 134 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-20 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-20 | 23 | ✅ |  |
-| Latent Space | podcast | 2026-08-20 | 46 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-20 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-21 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-21 | 61 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-21 | 97 | ✅ |  |
+| Built In | sitemap | 2026-08-21 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-21 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-21 | 135 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-21 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-21 | 24 | ✅ |  |
+| Latent Space | podcast | 2026-08-21 | 46 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-21 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-21
+- [From Software Engineering To Harness Engineering What Openai](content/2026/08/21/ken-huang-ai-expert--from-software-engineering-to-harness-engineering-what-openai.md) — ken-huang-ai-expert
+
+### 2026-08-20
+- [How Global Networks Are Reshaping Startup Success](content/2026/08/20/a16z-podcast--how-global-networks-are-reshaping-startup-success.md) — a16z-podcast
+- [Claude Design Can Make Beautiful Slide Decks](content/2026/08/20/khemaridh-future-proof--claude-design-can-make-beautiful-slide-decks.md) — khemaridh-future-proof
+- [From Restoring Sight To Reimagining The Brain With Max Hodak](content/2026/08/20/no-priors--from-restoring-sight-to-reimagining-the-brain-with-max-hodak.md) — no-priors
+- [Crmls Expands Recore Tools Childcare Info Now On Redfin List](content/2026/08/20/real-estate-news--crmls-expands-recore-tools-childcare-info-now-on-redfin-list.md) — real-estate-news
+
 ### 2026-08-19
 - [How Whatnot Built A Global Marketplace](content/2026/08/19/a16z-podcast--how-whatnot-built-a-global-marketplace.md) — a16z-podcast
 
@@ -48,12 +57,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-08-14
 - [Ben Horowitz And Travis Kalanick On Building Again](content/2026/08/14/a16z-podcast--ben-horowitz-and-travis-kalanick-on-building-again.md) — a16z-podcast
 - [Small Indie Brokerages Are Industrys Last Ai Holdouts](content/2026/08/14/real-estate-news--small-indie-brokerages-are-industrys-last-ai-holdouts.md) — real-estate-news
-
-### 2026-08-13
-- [The Two Ways To Sell Ai Lighthouse Or Landgrab](content/2026/08/13/a16z-podcast--the-two-ways-to-sell-ai-lighthouse-or-landgrab.md) — a16z-podcast
-- [Harness Engineering Design Patterns For Securing Long Horizo](content/2026/08/13/ken-huang-ai-expert--harness-engineering-design-patterns-for-securing-long-horizo.md) — ken-huang-ai-expert
-- [Chatgpt Voice Just Got A Huge Upgrade](content/2026/08/13/khemaridh-future-proof--chatgpt-voice-just-got-a-huge-upgrade.md) — khemaridh-future-proof
-- [What Chesscom Teaches Us About Superhuman Capabilities With ](content/2026/08/13/no-priors--what-chesscom-teaches-us-about-superhuman-capabilities-with-.md) — no-priors
-- [Ire Automates Transaction Compliance Moxiworks Cloze Partner](content/2026/08/13/real-estate-news--ire-automates-transaction-compliance-moxiworks-cloze-partner.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
