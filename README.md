@@ -9,28 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-21 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-21 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-21 | 159 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-21 | 54 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-22 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-22 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-22 | 159 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-22 | 54 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-21 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-21 | 61 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-21 | 97 | ✅ |  |
-| Built In | sitemap | 2026-08-21 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-21 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-21 | 135 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-21 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-21 | 24 | ✅ |  |
-| Latent Space | podcast | 2026-08-21 | 46 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-21 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-22 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-22 | 61 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-22 | 97 | ✅ |  |
+| Built In | sitemap | 2026-08-22 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-22 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-22 | 136 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-22 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-22 | 24 | ✅ |  |
+| Latent Space | podcast | 2026-08-22 | 47 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-22 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
 ### 2026-08-21
+- [Microsofts Deputy Ciso On Securing Ai Agents](content/2026/08/21/a16z-podcast--microsofts-deputy-ciso-on-securing-ai-agents.md) — a16z-podcast
 - [From Software Engineering To Harness Engineering What Openai](content/2026/08/21/ken-huang-ai-expert--from-software-engineering-to-harness-engineering-what-openai.md) — ken-huang-ai-expert
+- [Simulation The New Scaling Law Joon Sung Park Simile Ai](content/2026/08/21/latent-space--simulation-the-new-scaling-law-joon-sung-park-simile-ai.md) — latent-space
 
 ### 2026-08-20
 - [How Global Networks Are Reshaping Startup Success](content/2026/08/20/a16z-podcast--how-global-networks-are-reshaping-startup-success.md) — a16z-podcast
@@ -53,9 +55,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-08-15
 - [Claude Text Watermark](content/2026/08/15/anthropic-blog--claude-text-watermark.md) — anthropic-blog
-
-### 2026-08-14
-- [Ben Horowitz And Travis Kalanick On Building Again](content/2026/08/14/a16z-podcast--ben-horowitz-and-travis-kalanick-on-building-again.md) — a16z-podcast
-- [Small Indie Brokerages Are Industrys Last Ai Holdouts](content/2026/08/14/real-estate-news--small-indie-brokerages-are-industrys-last-ai-holdouts.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
