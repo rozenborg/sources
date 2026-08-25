@@ -9,26 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-24 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-24 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-24 | 163 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-24 | 55 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-25 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-25 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-25 | 164 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-25 | 55 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-24 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-24 | 61 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-24 | 97 | ✅ |  |
-| Built In | sitemap | 2026-08-24 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-24 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-24 | 137 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-24 | 21 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-24 | 24 | ✅ |  |
-| Latent Space | podcast | 2026-08-24 | 47 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-24 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-25 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-25 | 61 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-25 | 97 | ✅ |  |
+| Built In | sitemap | 2026-08-25 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-25 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-25 | 138 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-25 | 21 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-25 | 24 | ✅ |  |
+| Latent Space | podcast | 2026-08-25 | 47 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-25 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-24
+- [Why Medical Ai Needs A Referee Proteges Engy Ziedan](content/2026/08/24/a16z-podcast--why-medical-ai-needs-a-referee-proteges-engy-ziedan.md) — a16z-podcast
+- [Announcing Humanoid Robots And Physical Ai Book By Springer ](content/2026/08/24/ken-huang-ai-expert--announcing-humanoid-robots-and-physical-ai-book-by-springer-.md) — ken-huang-ai-expert
+
 ### 2026-08-23
 - [Announcing The 10 Part Substack Series The Physics Engineeri](content/2026/08/23/ken-huang-ai-expert--announcing-the-10-part-substack-series-the-physics-engineeri.md) — ken-huang-ai-expert
 - [Chapter 1 The Physics Of Llm Inference Roofline Models Memor](content/2026/08/23/ken-huang-ai-expert--chapter-1-the-physics-of-llm-inference-roofline-models-memor.md) — ken-huang-ai-expert
@@ -55,9 +59,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-08-18
 - [How Do You Defend Against Ai That Can Hack](content/2026/08/18/a16z-podcast--how-do-you-defend-against-ai-that-can-hack.md) — a16z-podcast
-
-### 2026-08-17
-- [Stripes Ai Strategy Build More Not Less](content/2026/08/17/a16z-podcast--stripes-ai-strategy-build-more-not-less.md) — a16z-podcast
-- [For Immediate Release Owasp Publishes Agentic Skills Top 10 ](content/2026/08/17/ken-huang-ai-expert--for-immediate-release-owasp-publishes-agentic-skills-top-10-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
