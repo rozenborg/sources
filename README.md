@@ -9,26 +9,42 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-26 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-26 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-26 | 164 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-25 | 55 | ⚠️ | Feed parse error: <unknown>:2:0: syntax error |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-27 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-27 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-27 | 165 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-27 | 56 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-26 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-26 | 62 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-26 | 101 | ✅ |  |
-| Built In | sitemap | 2026-08-26 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-26 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-26 | 139 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-26 | 22 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-26 | 24 | ✅ |  |
-| Latent Space | podcast | 2026-08-26 | 47 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-26 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-27 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-27 | 63 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-27 | 106 | ✅ |  |
+| Built In | sitemap | 2026-08-27 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-27 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-27 | 141 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-27 | 22 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-27 | 25 | ✅ |  |
+| Latent Space | podcast | 2026-08-27 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-27 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-27
+- [Inside Cursor The Anatomy Of A Generational Startup](content/2026/08/27/a16z-podcast--inside-cursor-the-anatomy-of-a-generational-startup.md) — a16z-podcast
+- [Advancing Claude For Education](content/2026/08/27/anthropic-blog--advancing-claude-for-education.md) — anthropic-blog
+- [Ai For Science Program](content/2026/08/27/anthropic-blog--ai-for-science-program.md) — anthropic-blog
+- [Anthropic And Iceland Announce One Of The World S First Nati](content/2026/08/27/anthropic-blog--anthropic-and-iceland-announce-one-of-the-world-s-first-nati.md) — anthropic-blog
+- [Claude For Life Sciences](content/2026/08/27/anthropic-blog--claude-for-life-sciences.md) — anthropic-blog
+- [Model Hardware Standard Research Preview](content/2026/08/27/anthropic-blog--model-hardware-standard-research-preview.md) — anthropic-blog
+- [Grok Bot Is Surprisingly Good](content/2026/08/27/khemaridh-future-proof--grok-bot-is-surprisingly-good.md) — khemaridh-future-proof
+- [Rethinking Legacy Data Infrastructure With Eon Co Founders O](content/2026/08/27/no-priors--rethinking-legacy-data-infrastructure-with-eon-co-founders-o.md) — no-priors
+- [Brokerage Leader Concerns About Ai Rebound As The Tech Advan](content/2026/08/27/real-estate-news--brokerage-leader-concerns-about-ai-rebound-as-the-tech-advan.md) — real-estate-news
+
+### 2026-08-26
+- [The State Of Ai Macro Apps And Consumer](content/2026/08/26/a16z-podcast--the-state-of-ai-macro-apps-and-consumer.md) — a16z-podcast
+- [The Gateway Is Not The Identity Attested Trust For Agentic A](content/2026/08/26/ken-huang-ai-expert--the-gateway-is-not-the-identity-attested-trust-for-agentic-a.md) — ken-huang-ai-expert
+- [We Have Foundation Models For Language Not For Physics Anima](content/2026/08/26/latent-space--we-have-foundation-models-for-language-not-for-physics-anima.md) — latent-space
+
 ### 2026-08-25
 - [The New Economics Of Ai Martin Casado Steven Sinofsky](content/2026/08/25/a16z-podcast--the-new-economics-of-ai-martin-casado-steven-sinofsky.md) — a16z-podcast
 - [Anthropic Economic Index Insights From Claude Sonnet 3 7](content/2026/08/25/anthropic-blog--anthropic-economic-index-insights-from-claude-sonnet-3-7.md) — anthropic-blog
@@ -62,8 +78,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Claude Design Can Make Beautiful Slide Decks](content/2026/08/20/khemaridh-future-proof--claude-design-can-make-beautiful-slide-decks.md) — khemaridh-future-proof
 - [From Restoring Sight To Reimagining The Brain With Max Hodak](content/2026/08/20/no-priors--from-restoring-sight-to-reimagining-the-brain-with-max-hodak.md) — no-priors
 - [Crmls Expands Recore Tools Childcare Info Now On Redfin List](content/2026/08/20/real-estate-news--crmls-expands-recore-tools-childcare-info-now-on-redfin-list.md) — real-estate-news
-
-### 2026-08-19
-- [How Whatnot Built A Global Marketplace](content/2026/08/19/a16z-podcast--how-whatnot-built-a-global-marketplace.md) — a16z-podcast
 
 <!-- RECENT_CONTENT_END -->
