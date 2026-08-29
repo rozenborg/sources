@@ -9,26 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-28 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-28 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-28 | 166 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-28 | 56 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-29 | 9 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-29 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-29 | 167 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-29 | 56 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-28 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-28 | 63 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-28 | 111 | ✅ |  |
-| Built In | sitemap | 2026-08-28 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-28 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-28 | 142 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-28 | 22 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-28 | 25 | ✅ |  |
-| Latent Space | podcast | 2026-08-28 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-28 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-29 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-29 | 63 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-29 | 116 | ✅ |  |
+| Built In | sitemap | 2026-08-29 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-29 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-29 | 143 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-29 | 22 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-29 | 25 | ✅ |  |
+| Latent Space | podcast | 2026-08-29 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-29 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-29
+- [Why 1200 Ai Agents Started Working Together Ryan Greenblatt](content/2026/08/29/a16z-podcast--why-1200-ai-agents-started-working-together-ryan-greenblatt.md) — a16z-podcast
+- [Multi Agent Design Patterns Architectural Topologies Failure](content/2026/08/29/ken-huang-ai-expert--multi-agent-design-patterns-architectural-topologies-failure.md) — ken-huang-ai-expert
+
 ### 2026-08-28
 - [The Infrastructure Behind The Machine Age](content/2026/08/28/a16z-podcast--the-infrastructure-behind-the-machine-age.md) — a16z-podcast
 - [Expanding Support For Scientists](content/2026/08/28/anthropic-blog--expanding-support-for-scientists.md) — anthropic-blog
@@ -51,6 +55,11 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-08-26
 - [The State Of Ai Macro Apps And Consumer](content/2026/08/26/a16z-podcast--the-state-of-ai-macro-apps-and-consumer.md) — a16z-podcast
+- [Anthropic Signs Pledge To Americas Youth Investing In Ai Edu](content/2026/08/26/anthropic-blog--anthropic-signs-pledge-to-americas-youth-investing-in-ai-edu.md) — anthropic-blog
+- [Detecting And Countering Malicious Uses Of Claude March 2025](content/2026/08/26/anthropic-blog--detecting-and-countering-malicious-uses-of-claude-march-2025.md) — anthropic-blog
+- [Lawrence Livermore National Laboratory Expands Claude For En](content/2026/08/26/anthropic-blog--lawrence-livermore-national-laboratory-expands-claude-for-en.md) — anthropic-blog
+- [Our Approach To Understanding And Addressing Ai Harms](content/2026/08/26/anthropic-blog--our-approach-to-understanding-and-addressing-ai-harms.md) — anthropic-blog
+- [Usage Policy Update](content/2026/08/26/anthropic-blog--usage-policy-update.md) — anthropic-blog
 - [The Gateway Is Not The Identity Attested Trust For Agentic A](content/2026/08/26/ken-huang-ai-expert--the-gateway-is-not-the-identity-attested-trust-for-agentic-a.md) — ken-huang-ai-expert
 - [We Have Foundation Models For Language Not For Physics Anima](content/2026/08/26/latent-space--we-have-foundation-models-for-language-not-for-physics-anima.md) — latent-space
 
@@ -76,10 +85,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-08-22
 - [Martin Casado On Where The Value Is Going In Ai](content/2026/08/22/a16z-podcast--martin-casado-on-where-the-value-is-going-in-ai.md) — a16z-podcast
 - [Proof Of Control For Model Context Protocol](content/2026/08/22/ken-huang-ai-expert--proof-of-control-for-model-context-protocol.md) — ken-huang-ai-expert
-
-### 2026-08-21
-- [Microsofts Deputy Ciso On Securing Ai Agents](content/2026/08/21/a16z-podcast--microsofts-deputy-ciso-on-securing-ai-agents.md) — a16z-podcast
-- [From Software Engineering To Harness Engineering What Openai](content/2026/08/21/ken-huang-ai-expert--from-software-engineering-to-harness-engineering-what-openai.md) — ken-huang-ai-expert
-- [Simulation The New Scaling Law Joon Sung Park Simile Ai](content/2026/08/21/latent-space--simulation-the-new-scaling-law-joon-sung-park-simile-ai.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
