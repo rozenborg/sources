@@ -9,26 +9,31 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-30 | 9 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-30 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-30 | 167 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-30 | 57 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-08-31 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-08-31 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-08-31 | 168 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-08-31 | 57 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-30 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-30 | 63 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-30 | 116 | ✅ |  |
-| Built In | sitemap | 2026-08-30 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-30 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-30 | 144 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-30 | 22 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-30 | 25 | ✅ |  |
-| Latent Space | podcast | 2026-08-30 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-30 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-08-31 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-08-31 | 63 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-08-31 | 116 | ✅ |  |
+| Built In | sitemap | 2026-08-31 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-08-31 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-08-31 | 145 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-08-31 | 22 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-08-31 | 25 | ✅ |  |
+| Latent Space | podcast | 2026-08-31 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-08-31 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-08-31
+- [Gavin Baker Why Ai Demand Is Outrunning Compute Supply](content/2026/08/31/a16z-podcast--gavin-baker-why-ai-demand-is-outrunning-compute-supply.md) — a16z-podcast
+- [Chapter 1 The Physics Of Llm Inference Memory Walls Arithmet](content/2026/08/31/ken-huang-ai-expert--chapter-1-the-physics-of-llm-inference-memory-walls-arithmet.md) — ken-huang-ai-expert
+- [Agency And Agents](content/2026/08/31/mollick-one-useful-thing--agency-and-agents.md) — mollick-one-useful-thing
+
 ### 2026-08-30
 - [Why A16Z Launched The Machine Age Fund Jen Kha](content/2026/08/30/a16z-podcast--why-a16z-launched-the-machine-age-fund-jen-kha.md) — a16z-podcast
 - [Has Chatgpt Overtaken Claude Cowork](content/2026/08/30/khemaridh-future-proof--has-chatgpt-overtaken-claude-cowork.md) — khemaridh-future-proof
@@ -79,11 +84,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-08-24
 - [Why Medical Ai Needs A Referee Proteges Engy Ziedan](content/2026/08/24/a16z-podcast--why-medical-ai-needs-a-referee-proteges-engy-ziedan.md) — a16z-podcast
 - [Announcing Humanoid Robots And Physical Ai Book By Springer ](content/2026/08/24/ken-huang-ai-expert--announcing-humanoid-robots-and-physical-ai-book-by-springer-.md) — ken-huang-ai-expert
-
-### 2026-08-23
-- [Announcing The 10 Part Substack Series The Physics Engineeri](content/2026/08/23/ken-huang-ai-expert--announcing-the-10-part-substack-series-the-physics-engineeri.md) — ken-huang-ai-expert
-- [Chapter 1 The Physics Of Llm Inference Roofline Models Memor](content/2026/08/23/ken-huang-ai-expert--chapter-1-the-physics-of-llm-inference-roofline-models-memor.md) — ken-huang-ai-expert
-- [How Claudes Text Watermarking Works](content/2026/08/23/ken-huang-ai-expert--how-claudes-text-watermarking-works.md) — ken-huang-ai-expert
-- [5 Ai Skills You Need To Learn Today](content/2026/08/23/khemaridh-future-proof--5-ai-skills-you-need-to-learn-today.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
