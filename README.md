@@ -9,30 +9,37 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-08-31 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-08-31 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-08-31 | 168 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-08-31 | 57 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-01 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-01 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-01 | 168 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-01 | 57 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-08-31 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-08-31 | 63 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-08-31 | 116 | ✅ |  |
-| Built In | sitemap | 2026-08-31 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-08-31 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-08-31 | 145 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-08-31 | 22 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-08-31 | 25 | ✅ |  |
-| Latent Space | podcast | 2026-08-31 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-08-31 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-01 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-01 | 65 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-01 | 117 | ✅ |  |
+| Built In | sitemap | 2026-09-01 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-09-01 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-01 | 146 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-01 | 23 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-01 | 25 | ✅ |  |
+| Latent Space | podcast | 2026-09-01 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-01 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-01
+- [Daniel Litt The Mathematicians Guide To Ai](content/2026/09/01/a16z-podcast--daniel-litt-the-mathematicians-guide-to-ai.md) — a16z-podcast
+- [Improving Alignment Security Efforts](content/2026/09/01/anthropic-blog--improving-alignment-security-efforts.md) — anthropic-blog
+
 ### 2026-08-31
 - [Gavin Baker Why Ai Demand Is Outrunning Compute Supply](content/2026/08/31/a16z-podcast--gavin-baker-why-ai-demand-is-outrunning-compute-supply.md) — a16z-podcast
+- [The Rise And Fall Of Agent Civilizations](content/2026/08/31/dwarkesh-podcast--the-rise-and-fall-of-agent-civilizations.md) — dwarkesh-podcast
 - [Chapter 1 The Physics Of Llm Inference Memory Walls Arithmet](content/2026/08/31/ken-huang-ai-expert--chapter-1-the-physics-of-llm-inference-memory-walls-arithmet.md) — ken-huang-ai-expert
 - [Agency And Agents](content/2026/08/31/mollick-one-useful-thing--agency-and-agents.md) — mollick-one-useful-thing
+- [Former Meta Exec Tapped As New Redfin Ceo](content/2026/08/31/real-estate-news--former-meta-exec-tapped-as-new-redfin-ceo.md) — real-estate-news
+- [Kw Partnership Adds New Ai Tools For Agents Exps Nexus Expan](content/2026/08/31/real-estate-news--kw-partnership-adds-new-ai-tools-for-agents-exps-nexus-expan.md) — real-estate-news
 
 ### 2026-08-30
 - [Why A16Z Launched The Machine Age Fund Jen Kha](content/2026/08/30/a16z-podcast--why-a16z-launched-the-machine-age-fund-jen-kha.md) — a16z-podcast
@@ -80,9 +87,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Wellbeing Research Grants](content/2026/08/25/anthropic-blog--wellbeing-research-grants.md) — anthropic-blog
 - [Dylan Patel Anthropic Openai Will Have Most Of The Worlds Co](content/2026/08/25/dwarkesh-podcast--dylan-patel-anthropic-openai-will-have-most-of-the-worlds-co.md) — dwarkesh-podcast
 - [Roomvu Lofty Unveil Tools To Boost Agent Visibility In Ai Se](content/2026/08/25/real-estate-news--roomvu-lofty-unveil-tools-to-boost-agent-visibility-in-ai-se.md) — real-estate-news
-
-### 2026-08-24
-- [Why Medical Ai Needs A Referee Proteges Engy Ziedan](content/2026/08/24/a16z-podcast--why-medical-ai-needs-a-referee-proteges-engy-ziedan.md) — a16z-podcast
-- [Announcing Humanoid Robots And Physical Ai Book By Springer ](content/2026/08/24/ken-huang-ai-expert--announcing-humanoid-robots-and-physical-ai-book-by-springer-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
