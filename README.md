@@ -9,28 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-02 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-02 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-02 | 169 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-02 | 57 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-03 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-03 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-03 | 171 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-03 | 57 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-02 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-02 | 66 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-02 | 118 | ✅ |  |
-| Built In | sitemap | 2026-09-02 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-09-02 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-02 | 147 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-02 | 24 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-02 | 25 | ✅ |  |
-| Latent Space | podcast | 2026-09-02 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-02 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-03 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-03 | 66 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-03 | 118 | ✅ |  |
+| Built In | sitemap | 2026-09-03 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-09-03 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-03 | 148 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-03 | 24 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-03 | 26 | ✅ |  |
+| Latent Space | podcast | 2026-09-03 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-03 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-03
+- [The 100B Niches Hiding Inside Payments](content/2026/09/03/a16z-podcast--the-100b-niches-hiding-inside-payments.md) — a16z-podcast
+- [Upcoming Keynote On Hands On Graph Engineering With Claude C](content/2026/09/03/ken-huang-ai-expert--upcoming-keynote-on-hands-on-graph-engineering-with-claude-c.md) — ken-huang-ai-expert
+- [Redefining Chip Architecture With Arm Ceo Rene Haas](content/2026/09/03/no-priors--redefining-chip-architecture-with-arm-ceo-rene-haas.md) — no-priors
+
 ### 2026-09-02
 - [Inside Modernas Personalized Cancer Vaccine](content/2026/09/02/a16z-podcast--inside-modernas-personalized-cancer-vaccine.md) — a16z-podcast
+- [Anthropics Fable 51 Guide Reads Like A Manual For Agent Prod](content/2026/09/02/ken-huang-ai-expert--anthropics-fable-51-guide-reads-like-a-manual-for-agent-prod.md) — ken-huang-ai-expert
 - [The Harness Advantage In Autonomous Red Teaming Why Frontier](content/2026/09/02/ken-huang-ai-expert--the-harness-advantage-in-autonomous-red-teaming-why-frontier.md) — ken-huang-ai-expert
 
 ### 2026-09-01
@@ -75,15 +81,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Grok Bot Is Surprisingly Good](content/2026/08/27/khemaridh-future-proof--grok-bot-is-surprisingly-good.md) — khemaridh-future-proof
 - [Rethinking Legacy Data Infrastructure With Eon Co Founders O](content/2026/08/27/no-priors--rethinking-legacy-data-infrastructure-with-eon-co-founders-o.md) — no-priors
 - [Brokerage Leader Concerns About Ai Rebound As The Tech Advan](content/2026/08/27/real-estate-news--brokerage-leader-concerns-about-ai-rebound-as-the-tech-advan.md) — real-estate-news
-
-### 2026-08-26
-- [The State Of Ai Macro Apps And Consumer](content/2026/08/26/a16z-podcast--the-state-of-ai-macro-apps-and-consumer.md) — a16z-podcast
-- [Anthropic Signs Pledge To Americas Youth Investing In Ai Edu](content/2026/08/26/anthropic-blog--anthropic-signs-pledge-to-americas-youth-investing-in-ai-edu.md) — anthropic-blog
-- [Detecting And Countering Malicious Uses Of Claude March 2025](content/2026/08/26/anthropic-blog--detecting-and-countering-malicious-uses-of-claude-march-2025.md) — anthropic-blog
-- [Lawrence Livermore National Laboratory Expands Claude For En](content/2026/08/26/anthropic-blog--lawrence-livermore-national-laboratory-expands-claude-for-en.md) — anthropic-blog
-- [Our Approach To Understanding And Addressing Ai Harms](content/2026/08/26/anthropic-blog--our-approach-to-understanding-and-addressing-ai-harms.md) — anthropic-blog
-- [Usage Policy Update](content/2026/08/26/anthropic-blog--usage-policy-update.md) — anthropic-blog
-- [The Gateway Is Not The Identity Attested Trust For Agentic A](content/2026/08/26/ken-huang-ai-expert--the-gateway-is-not-the-identity-attested-trust-for-agentic-a.md) — ken-huang-ai-expert
-- [We Have Foundation Models For Language Not For Physics Anima](content/2026/08/26/latent-space--we-have-foundation-models-for-language-not-for-physics-anima.md) — latent-space
 
 <!-- RECENT_CONTENT_END -->
