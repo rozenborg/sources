@@ -9,28 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-04 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-04 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-04 | 171 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-04 | 58 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-05 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-05 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-05 | 172 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-05 | 58 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-04 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-04 | 66 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-04 | 118 | ✅ |  |
-| Built In | sitemap | 2026-09-04 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-09-04 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-04 | 149 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-04 | 24 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-04 | 26 | ✅ |  |
-| Latent Space | podcast | 2026-09-04 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-04 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-05 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-05 | 66 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-05 | 118 | ✅ |  |
+| Built In | sitemap | 2026-09-05 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-09-05 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-05 | 150 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-05 | 24 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-05 | 26 | ✅ |  |
+| Latent Space | podcast | 2026-09-05 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-05 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-05
+- [Aaron Levie On Why Open Ai Wins](content/2026/09/05/a16z-podcast--aaron-levie-on-why-open-ai-wins.md) — a16z-podcast
+
 ### 2026-09-04
 - [Fei Fei Li The Race To Build World Models For Ai](content/2026/09/04/a16z-podcast--fei-fei-li-the-race-to-build-world-models-for-ai.md) — a16z-podcast
+- [Astra Or Gpt6 Inside Openais First Critical Tier Model](content/2026/09/04/ken-huang-ai-expert--astra-or-gpt6-inside-openais-first-critical-tier-model.md) — ken-huang-ai-expert
 
 ### 2026-09-03
 - [The 100B Niches Hiding Inside Payments](content/2026/09/03/a16z-podcast--the-100b-niches-hiding-inside-payments.md) — a16z-podcast
@@ -65,10 +69,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-08-29
 - [Why 1200 Ai Agents Started Working Together Ryan Greenblatt](content/2026/08/29/a16z-podcast--why-1200-ai-agents-started-working-together-ryan-greenblatt.md) — a16z-podcast
 - [Multi Agent Design Patterns Architectural Topologies Failure](content/2026/08/29/ken-huang-ai-expert--multi-agent-design-patterns-architectural-topologies-failure.md) — ken-huang-ai-expert
-
-### 2026-08-28
-- [The Infrastructure Behind The Machine Age](content/2026/08/28/a16z-podcast--the-infrastructure-behind-the-machine-age.md) — a16z-podcast
-- [Expanding Support For Scientists](content/2026/08/28/anthropic-blog--expanding-support-for-scientists.md) — anthropic-blog
-- [Grok Bot Is Here Maestro Shows Where The Real Risks Are](content/2026/08/28/ken-huang-ai-expert--grok-bot-is-here-maestro-shows-where-the-real-risks-are.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
