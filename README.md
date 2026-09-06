@@ -9,26 +9,29 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-05 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-05 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-05 | 172 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-05 | 58 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-06 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-06 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-06 | 172 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-06 | 58 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-05 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-05 | 66 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-05 | 118 | ✅ |  |
-| Built In | sitemap | 2026-09-05 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-09-05 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-05 | 150 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-05 | 24 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-05 | 26 | ✅ |  |
-| Latent Space | podcast | 2026-09-05 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-05 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-06 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-06 | 66 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-06 | 118 | ✅ |  |
+| Built In | sitemap | 2026-09-06 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-09-06 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-06 | 151 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-06 | 24 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-06 | 26 | ✅ |  |
+| Latent Space | podcast | 2026-09-06 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-06 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-06
+- [Your Ai Doctor Is Coming Julie Yoo](content/2026/09/06/a16z-podcast--your-ai-doctor-is-coming-julie-yoo.md) — a16z-podcast
+
 ### 2026-09-05
 - [Aaron Levie On Why Open Ai Wins](content/2026/09/05/a16z-podcast--aaron-levie-on-why-open-ai-wins.md) — a16z-podcast
 
@@ -65,9 +68,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-08-30
 - [Why A16Z Launched The Machine Age Fund Jen Kha](content/2026/08/30/a16z-podcast--why-a16z-launched-the-machine-age-fund-jen-kha.md) — a16z-podcast
 - [Has Chatgpt Overtaken Claude Cowork](content/2026/08/30/khemaridh-future-proof--has-chatgpt-overtaken-claude-cowork.md) — khemaridh-future-proof
-
-### 2026-08-29
-- [Why 1200 Ai Agents Started Working Together Ryan Greenblatt](content/2026/08/29/a16z-podcast--why-1200-ai-agents-started-working-together-ryan-greenblatt.md) — a16z-podcast
-- [Multi Agent Design Patterns Architectural Topologies Failure](content/2026/08/29/ken-huang-ai-expert--multi-agent-design-patterns-architectural-topologies-failure.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
