@@ -9,28 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-06 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-06 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-06 | 172 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-06 | 58 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-07 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-07 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-07 | 174 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-07 | 59 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-06 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-06 | 66 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-06 | 118 | ✅ |  |
-| Built In | sitemap | 2026-09-06 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-09-06 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-06 | 151 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-06 | 24 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-06 | 26 | ✅ |  |
-| Latent Space | podcast | 2026-09-06 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-06 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-07 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-07 | 66 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-07 | 118 | ✅ |  |
+| Built In | sitemap | 2026-09-07 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-09-07 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-07 | 152 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-07 | 24 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-07 | 26 | ✅ |  |
+| Latent Space | podcast | 2026-09-07 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-07 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-07
+- [Can Open Source Keep Ai Power From Concentrating](content/2026/09/07/a16z-podcast--can-open-source-keep-ai-power-from-concentrating.md) — a16z-podcast
+
 ### 2026-09-06
 - [Your Ai Doctor Is Coming Julie Yoo](content/2026/09/06/a16z-podcast--your-ai-doctor-is-coming-julie-yoo.md) — a16z-podcast
+- [Chapter 2 The Kv Cache Frontier Hybrid Compressed Sparse Att](content/2026/09/06/ken-huang-ai-expert--chapter-2-the-kv-cache-frontier-hybrid-compressed-sparse-att.md) — ken-huang-ai-expert
+- [Inside The Book Graph Engineering For Agentic Ai Systems Cha](content/2026/09/06/ken-huang-ai-expert--inside-the-book-graph-engineering-for-agentic-ai-systems-cha.md) — ken-huang-ai-expert
+- [33 Questions Executives Ask About Ai](content/2026/09/06/khemaridh-future-proof--33-questions-executives-ask-about-ai.md) — khemaridh-future-proof
 
 ### 2026-09-05
 - [Aaron Levie On Why Open Ai Wins](content/2026/09/05/a16z-podcast--aaron-levie-on-why-open-ai-wins.md) — a16z-podcast
@@ -64,9 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Agency And Agents](content/2026/08/31/mollick-one-useful-thing--agency-and-agents.md) — mollick-one-useful-thing
 - [Former Meta Exec Tapped As New Redfin Ceo](content/2026/08/31/real-estate-news--former-meta-exec-tapped-as-new-redfin-ceo.md) — real-estate-news
 - [Kw Partnership Adds New Ai Tools For Agents Exps Nexus Expan](content/2026/08/31/real-estate-news--kw-partnership-adds-new-ai-tools-for-agents-exps-nexus-expan.md) — real-estate-news
-
-### 2026-08-30
-- [Why A16Z Launched The Machine Age Fund Jen Kha](content/2026/08/30/a16z-podcast--why-a16z-launched-the-machine-age-fund-jen-kha.md) — a16z-podcast
-- [Has Chatgpt Overtaken Claude Cowork](content/2026/08/30/khemaridh-future-proof--has-chatgpt-overtaken-claude-cowork.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
