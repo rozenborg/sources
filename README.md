@@ -9,30 +9,36 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-08 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-08 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-08 | 174 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-08 | 59 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-09 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-09 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-09 | 175 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-09 | 59 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-08 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-08 | 66 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-08 | 120 | ✅ |  |
-| Built In | sitemap | 2026-09-08 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-09-08 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-08 | 153 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-08 | 24 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-08 | 26 | ✅ |  |
-| Latent Space | podcast | 2026-09-08 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-08 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-09 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-09 | 68 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-09 | 120 | ✅ |  |
+| Built In | sitemap | 2026-09-09 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-09-09 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-09 | 154 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-09 | 24 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-09 | 26 | ✅ |  |
+| Latent Space | podcast | 2026-09-09 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-09 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-09
+- [Who Grades The Ai Models Ben Horowitz Rayan Krishnan](content/2026/09/09/a16z-podcast--who-grades-the-ai-models-ben-horowitz-rayan-krishnan.md) — a16z-podcast
+
 ### 2026-09-08
 - [Openai Researchers On The Future Of Mathematical Reasoning](content/2026/09/08/a16z-podcast--openai-researchers-on-the-future-of-mathematical-reasoning.md) — a16z-podcast
 - [Detecting Countering Misuse Aug 2025](content/2026/09/08/anthropic-blog--detecting-countering-misuse-aug-2025.md) — anthropic-blog
 - [Disrupting Ai Espionage](content/2026/09/08/anthropic-blog--disrupting-ai-espionage.md) — anthropic-blog
+- [Chapter 3 Next Gen Speculative Decoding Multi Token Predicti](content/2026/09/08/ken-huang-ai-expert--chapter-3-next-gen-speculative-decoding-multi-token-predicti.md) — ken-huang-ai-expert
+- [Ai Modified Listing Photos Blur Line Between Enhancement Dec](content/2026/09/08/real-estate-news--ai-modified-listing-photos-blur-line-between-enhancement-dec.md) — real-estate-news
+- [Mas At Atlas Vms Homevestors Opendoor Home Loans Moves Forwa](content/2026/09/08/real-estate-news--mas-at-atlas-vms-homevestors-opendoor-home-loans-moves-forwa.md) — real-estate-news
 
 ### 2026-09-07
 - [Can Open Source Keep Ai Power From Concentrating](content/2026/09/07/a16z-podcast--can-open-source-keep-ai-power-from-concentrating.md) — a16z-podcast
@@ -60,12 +66,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Inside Modernas Personalized Cancer Vaccine](content/2026/09/02/a16z-podcast--inside-modernas-personalized-cancer-vaccine.md) — a16z-podcast
 - [Anthropics Fable 51 Guide Reads Like A Manual For Agent Prod](content/2026/09/02/ken-huang-ai-expert--anthropics-fable-51-guide-reads-like-a-manual-for-agent-prod.md) — ken-huang-ai-expert
 - [The Harness Advantage In Autonomous Red Teaming Why Frontier](content/2026/09/02/ken-huang-ai-expert--the-harness-advantage-in-autonomous-red-teaming-why-frontier.md) — ken-huang-ai-expert
-
-### 2026-09-01
-- [Daniel Litt The Mathematicians Guide To Ai](content/2026/09/01/a16z-podcast--daniel-litt-the-mathematicians-guide-to-ai.md) — a16z-podcast
-- [Enterprise Frontier Safeguards](content/2026/09/01/anthropic-blog--enterprise-frontier-safeguards.md) — anthropic-blog
-- [Improving Alignment Security Efforts](content/2026/09/01/anthropic-blog--improving-alignment-security-efforts.md) — anthropic-blog
-- [Ajeya Cotra Inside The Openai Agent Swarm That Hacked Huggin](content/2026/09/01/dwarkesh-podcast--ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-huggin.md) — dwarkesh-podcast
-- [How A 5 Decade Brokerage Leader Thinks About Ai In Real Esta](content/2026/09/01/real-estate-news--how-a-5-decade-brokerage-leader-thinks-about-ai-in-real-esta.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
