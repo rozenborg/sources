@@ -9,28 +9,39 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-10 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-10 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-10 | 175 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-10 | 59 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-11 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-11 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-11 | 177 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-11 | 60 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-10 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-10 | 68 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-10 | 125 | ✅ |  |
-| Built In | sitemap | 2026-09-10 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-09-10 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-10 | 155 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-10 | 24 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-10 | 27 | ✅ |  |
-| Latent Space | podcast | 2026-09-10 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-10 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-11 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-11 | 68 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-11 | 130 | ✅ |  |
+| Built In | sitemap | 2026-09-11 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-09-11 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-11 | 156 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-11 | 24 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-11 | 27 | ✅ |  |
+| Latent Space | podcast | 2026-09-11 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-11 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-11
+- [What It Takes To Build A Startup Andrew Chen Matt Perault](content/2026/09/11/a16z-podcast--what-it-takes-to-build-a-startup-andrew-chen-matt-perault.md) — a16z-podcast
+- [Ai Targeting And Weapons Software What Anthropics New Evals ](content/2026/09/11/ken-huang-ai-expert--ai-targeting-and-weapons-software-what-anthropics-new-evals-.md) — ken-huang-ai-expert
+
 ### 2026-09-10
 - [How Ai Is Rewriting The Power Law Of Venture Capital](content/2026/09/10/a16z-podcast--how-ai-is-rewriting-the-power-law-of-venture-capital.md) — a16z-podcast
+- [Anthropic Higher Education Initiatives](content/2026/09/10/anthropic-blog--anthropic-higher-education-initiatives.md) — anthropic-blog
+- [Anthropic Raises Series F At Usd183B Post Money Valuation](content/2026/09/10/anthropic-blog--anthropic-raises-series-f-at-usd183b-post-money-valuation.md) — anthropic-blog
+- [Introducing The Anthropic National Security And Public Secto](content/2026/09/10/anthropic-blog--introducing-the-anthropic-national-security-and-public-secto.md) — anthropic-blog
+- [Updates To Our Consumer Terms](content/2026/09/10/anthropic-blog--updates-to-our-consumer-terms.md) — anthropic-blog
+- [Updating Restrictions Of Sales To Unsupported Regions](content/2026/09/10/anthropic-blog--updating-restrictions-of-sales-to-unsupported-regions.md) — anthropic-blog
+- [Chapter 4 Extreme Quantization Precision Engineering Blackwe](content/2026/09/10/ken-huang-ai-expert--chapter-4-extreme-quantization-precision-engineering-blackwe.md) — ken-huang-ai-expert
+- [How Im Using Ai For Homeschooling](content/2026/09/10/khemaridh-future-proof--how-im-using-ai-for-homeschooling.md) — khemaridh-future-proof
 - [Coinbases Everything Exchange Agentic Finance Stablecoins An](content/2026/09/10/no-priors--coinbases-everything-exchange-agentic-finance-stablecoins-an.md) — no-priors
 
 ### 2026-09-09
@@ -64,11 +75,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 ### 2026-09-04
 - [Fei Fei Li The Race To Build World Models For Ai](content/2026/09/04/a16z-podcast--fei-fei-li-the-race-to-build-world-models-for-ai.md) — a16z-podcast
 - [Astra Or Gpt6 Inside Openais First Critical Tier Model](content/2026/09/04/ken-huang-ai-expert--astra-or-gpt6-inside-openais-first-critical-tier-model.md) — ken-huang-ai-expert
-
-### 2026-09-03
-- [The 100B Niches Hiding Inside Payments](content/2026/09/03/a16z-podcast--the-100b-niches-hiding-inside-payments.md) — a16z-podcast
-- [Upcoming Keynote On Hands On Graph Engineering With Claude C](content/2026/09/03/ken-huang-ai-expert--upcoming-keynote-on-hands-on-graph-engineering-with-claude-c.md) — ken-huang-ai-expert
-- [Should You Trust Grok Bot To Manage Your Life](content/2026/09/03/khemaridh-future-proof--should-you-trust-grok-bot-to-manage-your-life.md) — khemaridh-future-proof
-- [Redefining Chip Architecture With Arm Ceo Rene Haas](content/2026/09/03/no-priors--redefining-chip-architecture-with-arm-ceo-rene-haas.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
