@@ -9,29 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-13 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-13 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-13 | 180 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-13 | 60 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-14 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-14 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-14 | 181 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-14 | 61 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-13 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-13 | 68 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-13 | 140 | ✅ |  |
-| Built In | sitemap | 2026-09-13 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-09-13 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-13 | 158 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-13 | 25 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-13 | 27 | ✅ |  |
-| Latent Space | podcast | 2026-09-13 | 48 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-13 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-14 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-14 | 68 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-14 | 140 | ✅ |  |
+| Built In | sitemap | 2026-09-14 | 12 | ✅ |  |
+| EY Insights | sitemap | 2026-09-14 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-14 | 159 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-14 | 25 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-14 | 27 | ✅ |  |
+| Latent Space | podcast | 2026-09-14 | 48 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-14 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-14
+- [Greg Brockman On Why Openai Says Were Entering The Agi Era](content/2026/09/14/a16z-podcast--greg-brockman-on-why-openai-says-were-entering-the-agi-era.md) — a16z-podcast
+- [Nadellas Ai Moat Is The Learning Loop Your Company Owns Not ](content/2026/09/14/ken-huang-ai-expert--nadellas-ai-moat-is-the-learning-loop-your-company-owns-not-.md) — ken-huang-ai-expert
+
 ### 2026-09-13
 - [World Models Robotics And The Future Of 3D Ai](content/2026/09/13/a16z-podcast--world-models-robotics-and-the-future-of-3d-ai.md) — a16z-podcast
 - [Claudemd Modernization And Prefix Stable Kv Caching For Clau](content/2026/09/13/ken-huang-ai-expert--claudemd-modernization-and-prefix-stable-kv-caching-for-clau.md) — ken-huang-ai-expert
+- [Your Agents Need A Company Brain](content/2026/09/13/khemaridh-future-proof--your-agents-need-a-company-brain.md) — khemaridh-future-proof
 
 ### 2026-09-12
 - [Why Companies Are Becoming A Series Of Loops Anish Acharya O](content/2026/09/12/a16z-podcast--why-companies-are-becoming-a-series-of-loops-anish-acharya-o.md) — a16z-podcast
@@ -82,11 +87,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-09-07
 - [Can Open Source Keep Ai Power From Concentrating](content/2026/09/07/a16z-podcast--can-open-source-keep-ai-power-from-concentrating.md) — a16z-podcast
-
-### 2026-09-06
-- [Your Ai Doctor Is Coming Julie Yoo](content/2026/09/06/a16z-podcast--your-ai-doctor-is-coming-julie-yoo.md) — a16z-podcast
-- [Chapter 2 The Kv Cache Frontier Hybrid Compressed Sparse Att](content/2026/09/06/ken-huang-ai-expert--chapter-2-the-kv-cache-frontier-hybrid-compressed-sparse-att.md) — ken-huang-ai-expert
-- [Inside The Book Graph Engineering For Agentic Ai Systems Cha](content/2026/09/06/ken-huang-ai-expert--inside-the-book-graph-engineering-for-agentic-ai-systems-cha.md) — ken-huang-ai-expert
-- [33 Questions Executives Ask About Ai](content/2026/09/06/khemaridh-future-proof--33-questions-executives-ask-about-ai.md) — khemaridh-future-proof
 
 <!-- RECENT_CONTENT_END -->
