@@ -9,26 +9,30 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-15 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-15 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-15 | 183 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-15 | 61 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-16 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-16 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-16 | 184 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-16 | 61 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-15 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-15 | 69 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-15 | 140 | ✅ |  |
-| Built In | sitemap | 2026-09-15 | 12 | ✅ |  |
-| EY Insights | sitemap | 2026-09-15 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-15 | 160 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-15 | 25 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-15 | 27 | ✅ |  |
-| Latent Space | podcast | 2026-09-15 | 49 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-15 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-16 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-16 | 69 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-16 | 140 | ✅ |  |
+| Built In | sitemap | 2026-09-16 | 13 | ✅ |  |
+| EY Insights | sitemap | 2026-09-16 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-16 | 161 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-16 | 25 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-16 | 27 | ✅ |  |
+| Latent Space | podcast | 2026-09-16 | 49 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-16 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-16
+- [The Ai Native Crm](content/2026/09/16/a16z-podcast--the-ai-native-crm.md) — a16z-podcast
+- [Openais Defense Factory Turns Vulnerability Work Into A Cont](content/2026/09/16/ken-huang-ai-expert--openais-defense-factory-turns-vulnerability-work-into-a-cont.md) — ken-huang-ai-expert
+
 ### 2026-09-15
 - [The Age Of Body Futurism Ruby Justice Thelot](content/2026/09/15/a16z-podcast--the-age-of-body-futurism-ruby-justice-thelot.md) — a16z-podcast
 - [Chapter 6 Disaggregated Serving Architectures Mooncake Dists](content/2026/09/15/ken-huang-ai-expert--chapter-6-disaggregated-serving-architectures-mooncake-dists.md) — ken-huang-ai-expert
@@ -36,6 +40,7 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 
 ### 2026-09-14
 - [Greg Brockman On Why Openai Says Were Entering The Agi Era](content/2026/09/14/a16z-podcast--greg-brockman-on-why-openai-says-were-entering-the-agi-era.md) — a16z-podcast
+- [Companies Hiring Ai Engineers Colorado](content/2026/09/14/builtin-com--companies-hiring-ai-engineers-colorado.md) — builtin-com
 - [Nadellas Ai Moat Is The Learning Loop Your Company Owns Not ](content/2026/09/14/ken-huang-ai-expert--nadellas-ai-moat-is-the-learning-loop-your-company-owns-not-.md) — ken-huang-ai-expert
 - [Humanitys Last Invention Richard Socher Of Recursive](content/2026/09/14/latent-space--humanitys-last-invention-richard-socher-of-recursive.md) — latent-space
 - [Southwest Floridas Largest Realtor Association Appoints New ](content/2026/09/14/real-estate-news--southwest-floridas-largest-realtor-association-appoints-new-.md) — real-estate-news
@@ -83,13 +88,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Gov Uk Partnership](content/2026/09/09/anthropic-blog--gov-uk-partnership.md) — anthropic-blog
 - [Introducing Anthropic Labs](content/2026/09/09/anthropic-blog--introducing-anthropic-labs.md) — anthropic-blog
 - [Mariano Florentino Long Term Benefit Trust](content/2026/09/09/anthropic-blog--mariano-florentino-long-term-benefit-trust.md) — anthropic-blog
-
-### 2026-09-08
-- [Openai Researchers On The Future Of Mathematical Reasoning](content/2026/09/08/a16z-podcast--openai-researchers-on-the-future-of-mathematical-reasoning.md) — a16z-podcast
-- [Detecting Countering Misuse Aug 2025](content/2026/09/08/anthropic-blog--detecting-countering-misuse-aug-2025.md) — anthropic-blog
-- [Disrupting Ai Espionage](content/2026/09/08/anthropic-blog--disrupting-ai-espionage.md) — anthropic-blog
-- [Chapter 3 Next Gen Speculative Decoding Multi Token Predicti](content/2026/09/08/ken-huang-ai-expert--chapter-3-next-gen-speculative-decoding-multi-token-predicti.md) — ken-huang-ai-expert
-- [Ai Modified Listing Photos Blur Line Between Enhancement Dec](content/2026/09/08/real-estate-news--ai-modified-listing-photos-blur-line-between-enhancement-dec.md) — real-estate-news
-- [Mas At Atlas Vms Homevestors Opendoor Home Loans Moves Forwa](content/2026/09/08/real-estate-news--mas-at-atlas-vms-homevestors-opendoor-home-loans-moves-forwa.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
