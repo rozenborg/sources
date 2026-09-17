@@ -9,29 +9,35 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-16 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-16 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-16 | 184 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-16 | 61 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-17 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-17 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-17 | 185 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-17 | 61 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-16 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-16 | 69 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-16 | 140 | ✅ |  |
-| Built In | sitemap | 2026-09-16 | 13 | ✅ |  |
-| EY Insights | sitemap | 2026-09-16 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-16 | 161 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-16 | 25 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-16 | 27 | ✅ |  |
-| Latent Space | podcast | 2026-09-16 | 49 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-16 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-17 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-17 | 70 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-17 | 140 | ✅ |  |
+| Built In | sitemap | 2026-09-17 | 13 | ✅ |  |
+| EY Insights | sitemap | 2026-09-17 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-17 | 162 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-17 | 25 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-17 | 27 | ✅ |  |
+| Latent Space | podcast | 2026-09-17 | 50 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-17 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-17
+- [The Next Frontier Of Ai Video Is Control](content/2026/09/17/a16z-podcast--the-next-frontier-of-ai-video-is-control.md) — a16z-podcast
+- [Gpt 6 Astra Plus Kimi K3 Swarm Route Depth And Width Before ](content/2026/09/17/ken-huang-ai-expert--gpt-6-astra-plus-kimi-k3-swarm-route-depth-and-width-before-.md) — ken-huang-ai-expert
+- [Ai Tools Are Quickly Becoming Integral To Brokerage Operatio](content/2026/09/17/real-estate-news--ai-tools-are-quickly-becoming-integral-to-brokerage-operatio.md) — real-estate-news
+
 ### 2026-09-16
 - [The Ai Native Crm](content/2026/09/16/a16z-podcast--the-ai-native-crm.md) — a16z-podcast
 - [Openais Defense Factory Turns Vulnerability Work Into A Cont](content/2026/09/16/ken-huang-ai-expert--openais-defense-factory-turns-vulnerability-work-into-a-cont.md) — ken-huang-ai-expert
+- [Underwriting Superintelligence Backing Agents You Can Sue Ru](content/2026/09/16/latent-space--underwriting-superintelligence-backing-agents-you-can-sue-ru.md) — latent-space
 
 ### 2026-09-15
 - [The Age Of Body Futurism Ruby Justice Thelot](content/2026/09/15/a16z-podcast--the-age-of-body-futurism-ruby-justice-thelot.md) — a16z-podcast
@@ -80,13 +86,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Chapter 4 Extreme Quantization Precision Engineering Blackwe](content/2026/09/10/ken-huang-ai-expert--chapter-4-extreme-quantization-precision-engineering-blackwe.md) — ken-huang-ai-expert
 - [How Im Using Ai For Homeschooling](content/2026/09/10/khemaridh-future-proof--how-im-using-ai-for-homeschooling.md) — khemaridh-future-proof
 - [Coinbases Everything Exchange Agentic Finance Stablecoins An](content/2026/09/10/no-priors--coinbases-everything-exchange-agentic-finance-stablecoins-an.md) — no-priors
-
-### 2026-09-09
-- [Who Grades The Ai Models Ben Horowitz Rayan Krishnan](content/2026/09/09/a16z-podcast--who-grades-the-ai-models-ben-horowitz-rayan-krishnan.md) — a16z-podcast
-- [Anthropic Appoints Irina Ghose As Managing Director Of India](content/2026/09/09/anthropic-blog--anthropic-appoints-irina-ghose-as-managing-director-of-india.md) — anthropic-blog
-- [Compliance Framework Sb53](content/2026/09/09/anthropic-blog--compliance-framework-sb53.md) — anthropic-blog
-- [Gov Uk Partnership](content/2026/09/09/anthropic-blog--gov-uk-partnership.md) — anthropic-blog
-- [Introducing Anthropic Labs](content/2026/09/09/anthropic-blog--introducing-anthropic-labs.md) — anthropic-blog
-- [Mariano Florentino Long Term Benefit Trust](content/2026/09/09/anthropic-blog--mariano-florentino-long-term-benefit-trust.md) — anthropic-blog
 
 <!-- RECENT_CONTENT_END -->
