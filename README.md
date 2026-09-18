@@ -9,29 +9,36 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-17 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-17 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-17 | 185 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-17 | 61 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-18 | 10 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-18 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-18 | 186 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-18 | 62 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-17 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-17 | 70 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-17 | 140 | ✅ |  |
-| Built In | sitemap | 2026-09-17 | 13 | ✅ |  |
-| EY Insights | sitemap | 2026-09-17 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-17 | 162 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-17 | 25 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-17 | 27 | ✅ |  |
-| Latent Space | podcast | 2026-09-17 | 50 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-17 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-18 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-18 | 70 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-18 | 141 | ✅ |  |
+| Built In | sitemap | 2026-09-18 | 13 | ✅ |  |
+| EY Insights | sitemap | 2026-09-18 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-18 | 162 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-18 | 26 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-18 | 28 | ✅ |  |
+| Latent Space | podcast | 2026-09-18 | 50 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-18 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-18
+- [Chapter 7 Serving Mega Moe At Scale Colossus Interconnects E](content/2026/09/18/ken-huang-ai-expert--chapter-7-serving-mega-moe-at-scale-colossus-interconnects-e.md) — ken-huang-ai-expert
+- [Why Diffusion Will Win Ai Inference With Inception Co Founde](content/2026/09/18/no-priors--why-diffusion-will-win-ai-inference-with-inception-co-founde.md) — no-priors
+
 ### 2026-09-17
 - [The Next Frontier Of Ai Video Is Control](content/2026/09/17/a16z-podcast--the-next-frontier-of-ai-video-is-control.md) — a16z-podcast
+- [Life Sciences Verification Program](content/2026/09/17/anthropic-blog--life-sciences-verification-program.md) — anthropic-blog
+- [Noam Brown Agent Swarms Alignment Recursive Self Improvement](content/2026/09/17/dwarkesh-podcast--noam-brown-agent-swarms-alignment-recursive-self-improvement.md) — dwarkesh-podcast
 - [Gpt 6 Astra Plus Kimi K3 Swarm Route Depth And Width Before ](content/2026/09/17/ken-huang-ai-expert--gpt-6-astra-plus-kimi-k3-swarm-route-depth-and-width-before-.md) — ken-huang-ai-expert
+- [How To Improve Your Skills With Evals](content/2026/09/17/khemaridh-future-proof--how-to-improve-your-skills-with-evals.md) — khemaridh-future-proof
 - [Ai Tools Are Quickly Becoming Integral To Brokerage Operatio](content/2026/09/17/real-estate-news--ai-tools-are-quickly-becoming-integral-to-brokerage-operatio.md) — real-estate-news
 
 ### 2026-09-16
@@ -65,26 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [What It Takes To Build A Startup Andrew Chen Matt Perault](content/2026/09/11/a16z-podcast--what-it-takes-to-build-a-startup-andrew-chen-matt-perault.md) — a16z-podcast
 - [Ai Researchers Debate How Close We Are To Recursive Self Imp](content/2026/09/11/dwarkesh-podcast--ai-researchers-debate-how-close-we-are-to-recursive-self-imp.md) — dwarkesh-podcast
 - [Ai Targeting And Weapons Software What Anthropics New Evals ](content/2026/09/11/ken-huang-ai-expert--ai-targeting-and-weapons-software-what-anthropics-new-evals-.md) — ken-huang-ai-expert
-
-### 2026-09-10
-- [How Ai Is Rewriting The Power Law Of Venture Capital](content/2026/09/10/a16z-podcast--how-ai-is-rewriting-the-power-law-of-venture-capital.md) — a16z-podcast
-- [Advancing Claude For Financial Services](content/2026/09/10/anthropic-blog--advancing-claude-for-financial-services.md) — anthropic-blog
-- [Anthropic Expands Global Leadership In Enterprise Ai Naming ](content/2026/09/10/anthropic-blog--anthropic-expands-global-leadership-in-enterprise-ai-naming-.md) — anthropic-blog
-- [Anthropic Higher Education Initiatives](content/2026/09/10/anthropic-blog--anthropic-higher-education-initiatives.md) — anthropic-blog
-- [Anthropic Raises Series F At Usd183B Post Money Valuation](content/2026/09/10/anthropic-blog--anthropic-raises-series-f-at-usd183b-post-money-valuation.md) — anthropic-blog
-- [Deloitte Anthropic Partnership](content/2026/09/10/anthropic-blog--deloitte-anthropic-partnership.md) — anthropic-blog
-- [Expanding Global Operations To India](content/2026/09/10/anthropic-blog--expanding-global-operations-to-india.md) — anthropic-blog
-- [Expanding Our Use Of Google Cloud Tpus And Services](content/2026/09/10/anthropic-blog--expanding-our-use-of-google-cloud-tpus-and-services.md) — anthropic-blog
-- [Introducing The Anthropic National Security And Public Secto](content/2026/09/10/anthropic-blog--introducing-the-anthropic-national-security-and-public-secto.md) — anthropic-blog
-- [Rahul Patil Joins Anthropic](content/2026/09/10/anthropic-blog--rahul-patil-joins-anthropic.md) — anthropic-blog
-- [Salesforce Anthropic Expanded Partnership](content/2026/09/10/anthropic-blog--salesforce-anthropic-expanded-partnership.md) — anthropic-blog
-- [Seoul Becomes Third Anthropic Office In Asia Pacific](content/2026/09/10/anthropic-blog--seoul-becomes-third-anthropic-office-in-asia-pacific.md) — anthropic-blog
-- [Statement Dario Amodei American Ai Leadership](content/2026/09/10/anthropic-blog--statement-dario-amodei-american-ai-leadership.md) — anthropic-blog
-- [Strengthening Our Safeguards Through Collaboration With Us C](content/2026/09/10/anthropic-blog--strengthening-our-safeguards-through-collaboration-with-us-c.md) — anthropic-blog
-- [Updates To Our Consumer Terms](content/2026/09/10/anthropic-blog--updates-to-our-consumer-terms.md) — anthropic-blog
-- [Updating Restrictions Of Sales To Unsupported Regions](content/2026/09/10/anthropic-blog--updating-restrictions-of-sales-to-unsupported-regions.md) — anthropic-blog
-- [Chapter 4 Extreme Quantization Precision Engineering Blackwe](content/2026/09/10/ken-huang-ai-expert--chapter-4-extreme-quantization-precision-engineering-blackwe.md) — ken-huang-ai-expert
-- [How Im Using Ai For Homeschooling](content/2026/09/10/khemaridh-future-proof--how-im-using-ai-for-homeschooling.md) — khemaridh-future-proof
-- [Coinbases Everything Exchange Agentic Finance Stablecoins An](content/2026/09/10/no-priors--coinbases-everything-exchange-agentic-finance-stablecoins-an.md) — no-priors
 
 <!-- RECENT_CONTENT_END -->
