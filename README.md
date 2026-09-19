@@ -9,28 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-18 | 10 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-18 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-18 | 186 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-18 | 62 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-19 | 11 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-19 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-19 | 186 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-19 | 62 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-18 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-18 | 70 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-18 | 141 | ✅ |  |
-| Built In | sitemap | 2026-09-18 | 13 | ✅ |  |
-| EY Insights | sitemap | 2026-09-18 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-18 | 162 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-18 | 26 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-18 | 28 | ✅ |  |
-| Latent Space | podcast | 2026-09-18 | 50 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-18 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-19 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-19 | 70 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-19 | 142 | ✅ |  |
+| Built In | sitemap | 2026-09-19 | 13 | ✅ |  |
+| EY Insights | sitemap | 2026-09-19 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-19 | 164 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-19 | 26 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-19 | 28 | ✅ |  |
+| Latent Space | podcast | 2026-09-19 | 50 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-19 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-19
+- [What Makes A Consumer Ai Product Stick Josh Elman](content/2026/09/19/a16z-podcast--what-makes-a-consumer-ai-product-stick-josh-elman.md) — a16z-podcast
+
 ### 2026-09-18
+- [Databricks Ceo On Ai Pacing Cyber Risk And The Enterprise](content/2026/09/18/a16z-podcast--databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise.md) — a16z-podcast
+- [Accenture Embedded Evaluation](content/2026/09/18/anthropic-blog--accenture-embedded-evaluation.md) — anthropic-blog
 - [Chapter 7 Serving Mega Moe At Scale Colossus Interconnects E](content/2026/09/18/ken-huang-ai-expert--chapter-7-serving-mega-moe-at-scale-colossus-interconnects-e.md) — ken-huang-ai-expert
+- [The Overhang](content/2026/09/18/mollick-one-useful-thing--the-overhang.md) — mollick-one-useful-thing
 - [Why Diffusion Will Win Ai Inference With Inception Co Founde](content/2026/09/18/no-priors--why-diffusion-will-win-ai-inference-with-inception-co-founde.md) — no-priors
 
 ### 2026-09-17
@@ -67,10 +73,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Why Companies Are Becoming A Series Of Loops Anish Acharya O](content/2026/09/12/a16z-podcast--why-companies-are-becoming-a-series-of-loops-anish-acharya-o.md) — a16z-podcast
 - [Agentic Ai What Caught My Attention This Week](content/2026/09/12/ken-huang-ai-expert--agentic-ai-what-caught-my-attention-this-week.md) — ken-huang-ai-expert
 - [Chapter 5 Hardware Aware Attention Kernels Flashattention 3 ](content/2026/09/12/ken-huang-ai-expert--chapter-5-hardware-aware-attention-kernels-flashattention-3-.md) — ken-huang-ai-expert
-
-### 2026-09-11
-- [What It Takes To Build A Startup Andrew Chen Matt Perault](content/2026/09/11/a16z-podcast--what-it-takes-to-build-a-startup-andrew-chen-matt-perault.md) — a16z-podcast
-- [Ai Researchers Debate How Close We Are To Recursive Self Imp](content/2026/09/11/dwarkesh-podcast--ai-researchers-debate-how-close-we-are-to-recursive-self-imp.md) — dwarkesh-podcast
-- [Ai Targeting And Weapons Software What Anthropics New Evals ](content/2026/09/11/ken-huang-ai-expert--ai-targeting-and-weapons-software-what-anthropics-new-evals-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
