@@ -9,28 +9,32 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-19 | 11 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-19 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-19 | 186 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-19 | 62 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-20 | 11 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-20 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-20 | 187 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-20 | 62 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-19 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-19 | 70 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-19 | 142 | ✅ |  |
-| Built In | sitemap | 2026-09-19 | 13 | ✅ |  |
-| EY Insights | sitemap | 2026-09-19 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-19 | 164 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-19 | 26 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-19 | 28 | ✅ |  |
-| Latent Space | podcast | 2026-09-19 | 50 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-19 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-20 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-20 | 70 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-20 | 142 | ✅ |  |
+| Built In | sitemap | 2026-09-20 | 13 | ✅ |  |
+| EY Insights | sitemap | 2026-09-20 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-20 | 165 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-20 | 26 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-20 | 28 | ✅ |  |
+| Latent Space | podcast | 2026-09-20 | 50 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-20 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-20
+- [Nas Grandmaster Caz Steve Stoute Ben Horowitz On Paying Hip ](content/2026/09/20/a16z-podcast--nas-grandmaster-caz-steve-stoute-ben-horowitz-on-paying-hip-.md) — a16z-podcast
+
 ### 2026-09-19
 - [What Makes A Consumer Ai Product Stick Josh Elman](content/2026/09/19/a16z-podcast--what-makes-a-consumer-ai-product-stick-josh-elman.md) — a16z-podcast
+- [Chapter 8 Test Time Compute Reasoning Dynamics Deepseek V4 P](content/2026/09/19/ken-huang-ai-expert--chapter-8-test-time-compute-reasoning-dynamics-deepseek-v4-p.md) — ken-huang-ai-expert
 
 ### 2026-09-18
 - [Databricks Ceo On Ai Pacing Cyber Risk And The Enterprise](content/2026/09/18/a16z-podcast--databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise.md) — a16z-podcast
@@ -68,10 +72,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [World Models Robotics And The Future Of 3D Ai](content/2026/09/13/a16z-podcast--world-models-robotics-and-the-future-of-3d-ai.md) — a16z-podcast
 - [Claudemd Modernization And Prefix Stable Kv Caching For Clau](content/2026/09/13/ken-huang-ai-expert--claudemd-modernization-and-prefix-stable-kv-caching-for-clau.md) — ken-huang-ai-expert
 - [Your Agents Need A Company Brain](content/2026/09/13/khemaridh-future-proof--your-agents-need-a-company-brain.md) — khemaridh-future-proof
-
-### 2026-09-12
-- [Why Companies Are Becoming A Series Of Loops Anish Acharya O](content/2026/09/12/a16z-podcast--why-companies-are-becoming-a-series-of-loops-anish-acharya-o.md) — a16z-podcast
-- [Agentic Ai What Caught My Attention This Week](content/2026/09/12/ken-huang-ai-expert--agentic-ai-what-caught-my-attention-this-week.md) — ken-huang-ai-expert
-- [Chapter 5 Hardware Aware Attention Kernels Flashattention 3 ](content/2026/09/12/ken-huang-ai-expert--chapter-5-hardware-aware-attention-kernels-flashattention-3-.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
