@@ -9,28 +9,33 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-21 | 11 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-21 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-21 | 189 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-21 | 62 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-22 | 11 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-22 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-22 | 189 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-22 | 62 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-21 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-21 | 70 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-21 | 142 | ✅ |  |
-| Built In | sitemap | 2026-09-21 | 13 | ✅ |  |
-| EY Insights | sitemap | 2026-09-21 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-21 | 165 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-21 | 26 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-21 | 28 | ✅ |  |
-| Latent Space | podcast | 2026-09-21 | 50 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-21 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-22 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-22 | 70 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-22 | 142 | ✅ |  |
+| Built In | sitemap | 2026-09-22 | 13 | ✅ |  |
+| EY Insights | sitemap | 2026-09-22 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-22 | 167 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-22 | 26 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-22 | 28 | ✅ |  |
+| Latent Space | podcast | 2026-09-22 | 51 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-22 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-22
+- [Why A16Z Is Building A New School For The Ai Era Ben Horowit](content/2026/09/22/a16z-podcast--why-a16z-is-building-a-new-school-for-the-ai-era-ben-horowit.md) — a16z-podcast
+
 ### 2026-09-21
+- [Ai Safety Language Is Destroying The Debate Steven Sinofsky](content/2026/09/21/a16z-podcast--ai-safety-language-is-destroying-the-debate-steven-sinofsky.md) — a16z-podcast
 - [What Is Jev From Typesafe Ai How We Implemented Agentic Soc ](content/2026/09/21/ken-huang-ai-expert--what-is-jev-from-typesafe-ai-how-we-implemented-agentic-soc-.md) — ken-huang-ai-expert
+- [Jev System One Models For Prod Not God With Diogo Almeida Ce](content/2026/09/21/latent-space--jev-system-one-models-for-prod-not-god-with-diogo-almeida-ce.md) — latent-space
 
 ### 2026-09-20
 - [Nas Grandmaster Caz Steve Stoute Ben Horowitz On Paying Hip ](content/2026/09/20/a16z-podcast--nas-grandmaster-caz-steve-stoute-ben-horowitz-on-paying-hip-.md) — a16z-podcast
@@ -64,12 +69,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Age Of Body Futurism Ruby Justice Thelot](content/2026/09/15/a16z-podcast--the-age-of-body-futurism-ruby-justice-thelot.md) — a16z-podcast
 - [Chapter 6 Disaggregated Serving Architectures Mooncake Dists](content/2026/09/15/ken-huang-ai-expert--chapter-6-disaggregated-serving-architectures-mooncake-dists.md) — ken-huang-ai-expert
 - [We Cant Sleepwalk Through The Ai Transition](content/2026/09/15/ken-huang-ai-expert--we-cant-sleepwalk-through-the-ai-transition.md) — ken-huang-ai-expert
-
-### 2026-09-14
-- [Greg Brockman On Why Openai Says Were Entering The Agi Era](content/2026/09/14/a16z-podcast--greg-brockman-on-why-openai-says-were-entering-the-agi-era.md) — a16z-podcast
-- [Companies Hiring Ai Engineers Colorado](content/2026/09/14/builtin-com--companies-hiring-ai-engineers-colorado.md) — builtin-com
-- [Nadellas Ai Moat Is The Learning Loop Your Company Owns Not ](content/2026/09/14/ken-huang-ai-expert--nadellas-ai-moat-is-the-learning-loop-your-company-owns-not-.md) — ken-huang-ai-expert
-- [Humanitys Last Invention Richard Socher Of Recursive](content/2026/09/14/latent-space--humanitys-last-invention-richard-socher-of-recursive.md) — latent-space
-- [Southwest Floridas Largest Realtor Association Appoints New ](content/2026/09/14/real-estate-news--southwest-floridas-largest-realtor-association-appoints-new-.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
