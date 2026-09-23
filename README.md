@@ -9,28 +9,34 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-22 | 11 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-22 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-22 | 189 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-22 | 62 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-23 | 11 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-23 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-23 | 190 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-23 | 62 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-22 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-22 | 70 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-22 | 142 | ✅ |  |
-| Built In | sitemap | 2026-09-22 | 13 | ✅ |  |
-| EY Insights | sitemap | 2026-09-22 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-22 | 167 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-22 | 26 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-22 | 28 | ✅ |  |
-| Latent Space | podcast | 2026-09-22 | 51 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-22 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-23 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-23 | 71 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-23 | 142 | ✅ |  |
+| Built In | sitemap | 2026-09-23 | 13 | ✅ |  |
+| EY Insights | sitemap | 2026-09-23 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-23 | 168 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-23 | 26 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-23 | 28 | ✅ |  |
+| Latent Space | podcast | 2026-09-23 | 52 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-23 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-23
+- [Amjad Masad On Rethinking College For The Ai Era](content/2026/09/23/a16z-podcast--amjad-masad-on-rethinking-college-for-the-ai-era.md) — a16z-podcast
+
 ### 2026-09-22
 - [Why A16Z Is Building A New School For The Ai Era Ben Horowit](content/2026/09/22/a16z-podcast--why-a16z-is-building-a-new-school-for-the-ai-era-ben-horowit.md) — a16z-podcast
+- [Chapter 10 Constrained Decoding The 2026 Production Blueprin](content/2026/09/22/ken-huang-ai-expert--chapter-10-constrained-decoding-the-2026-production-blueprin.md) — ken-huang-ai-expert
+- [An Oscar Two Asteroids And The Algorithm In Your Sklearn Joh](content/2026/09/22/latent-space--an-oscar-two-asteroids-and-the-algorithm-in-your-sklearn-joh.md) — latent-space
+- [Agents Branching Out From Generative Ai As Adoption Grows](content/2026/09/22/real-estate-news--agents-branching-out-from-generative-ai-as-adoption-grows.md) — real-estate-news
 
 ### 2026-09-21
 - [Ai Safety Language Is Destroying The Debate Steven Sinofsky](content/2026/09/21/a16z-podcast--ai-safety-language-is-destroying-the-debate-steven-sinofsky.md) — a16z-podcast
@@ -64,10 +70,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [The Ai Native Crm](content/2026/09/16/a16z-podcast--the-ai-native-crm.md) — a16z-podcast
 - [Openais Defense Factory Turns Vulnerability Work Into A Cont](content/2026/09/16/ken-huang-ai-expert--openais-defense-factory-turns-vulnerability-work-into-a-cont.md) — ken-huang-ai-expert
 - [Underwriting Superintelligence Backing Agents You Can Sue Ru](content/2026/09/16/latent-space--underwriting-superintelligence-backing-agents-you-can-sue-ru.md) — latent-space
-
-### 2026-09-15
-- [The Age Of Body Futurism Ruby Justice Thelot](content/2026/09/15/a16z-podcast--the-age-of-body-futurism-ruby-justice-thelot.md) — a16z-podcast
-- [Chapter 6 Disaggregated Serving Architectures Mooncake Dists](content/2026/09/15/ken-huang-ai-expert--chapter-6-disaggregated-serving-architectures-mooncake-dists.md) — ken-huang-ai-expert
-- [We Cant Sleepwalk Through The Ai Transition](content/2026/09/15/ken-huang-ai-expert--we-cant-sleepwalk-through-the-ai-transition.md) — ken-huang-ai-expert
 
 <!-- RECENT_CONTENT_END -->
