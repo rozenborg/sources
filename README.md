@@ -9,29 +9,36 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 <!-- SOURCE_HEALTH_START -->
 | Source | Type | Last Success | Posts | Status | Notes |
 |--------|------|-------------|-------|--------|-------|
-| One Useful Thing (Ethan Mollick) | rss | 2026-09-24 | 11 | ✅ |  |
-| OpenAI Blog | rss | 2026-09-24 | 0 | ✅ |  |
-| Ken Huang \| AI Expert | rss | 2026-09-24 | 190 | ✅ |  |
-| Future-Proof Your Career | rss | 2026-09-24 | 62 | ✅ |  |
+| One Useful Thing (Ethan Mollick) | rss | 2026-09-25 | 11 | ✅ |  |
+| OpenAI Blog | rss | 2026-09-25 | 0 | ✅ |  |
+| Ken Huang \| AI Expert | rss | 2026-09-25 | 191 | ✅ |  |
+| Future-Proof Your Career | rss | 2026-09-25 | 63 | ✅ |  |
 | The AI Collective | rss | 2026-03-25 | 17 | ❌ | Feed parse error: <unknown>:2:0: syntax error |
-| Harvard Business Review | rss | 2026-09-24 | 111 | ✅ |  |
-| Real Estate News | rss | 2026-09-24 | 71 | ✅ |  |
-| Anthropic Blog | sitemap | 2026-09-24 | 143 | ✅ |  |
-| Built In | sitemap | 2026-09-24 | 13 | ✅ |  |
-| EY Insights | sitemap | 2026-09-24 | 8 | ✅ |  |
-| The a16z Show | podcast | 2026-09-24 | 168 | ✅ |  |
-| Dwarkesh Podcast | podcast | 2026-09-24 | 26 | ✅ | Long episodes (2-3 hrs) |
-| No Priors | podcast | 2026-09-24 | 29 | ✅ |  |
-| Latent Space | podcast | 2026-09-24 | 53 | ✅ |  |
-| AI Daily Brief | podcast | 2026-09-24 | 1 | ✅ | Short daily episodes (~10 min) |
+| Harvard Business Review | rss | 2026-09-25 | 111 | ✅ |  |
+| Real Estate News | rss | 2026-09-25 | 72 | ✅ |  |
+| Anthropic Blog | sitemap | 2026-09-25 | 143 | ✅ |  |
+| Built In | sitemap | 2026-09-25 | 13 | ✅ |  |
+| EY Insights | sitemap | 2026-09-25 | 8 | ✅ |  |
+| The a16z Show | podcast | 2026-09-25 | 169 | ✅ |  |
+| Dwarkesh Podcast | podcast | 2026-09-25 | 26 | ✅ | Long episodes (2-3 hrs) |
+| No Priors | podcast | 2026-09-25 | 29 | ✅ |  |
+| Latent Space | podcast | 2026-09-25 | 54 | ✅ |  |
+| AI Daily Brief | podcast | 2026-09-25 | 1 | ✅ | Short daily episodes (~10 min) |
 <!-- SOURCE_HEALTH_END -->
 
 ## Recent Content
 
 <!-- RECENT_CONTENT_START -->
+### 2026-09-25
+- [Runways Worldprompt And The Engineering Of Real Time Worlds](content/2026/09/25/latent-space--runways-worldprompt-and-the-engineering-of-real-time-worlds.md) — latent-space
+
 ### 2026-09-24
+- [The Case Against An Ai Pause Eddy Lazzarin](content/2026/09/24/a16z-podcast--the-case-against-an-ai-pause-eddy-lazzarin.md) — a16z-podcast
 - [Claude Discovers Novel Enzyme System](content/2026/09/24/anthropic-blog--claude-discovers-novel-enzyme-system.md) — anthropic-blog
+- [Close The Loop Find Fix And Prove It](content/2026/09/24/ken-huang-ai-expert--close-the-loop-find-fix-and-prove-it.md) — ken-huang-ai-expert
+- [Using Personal Agents For Professional Networking](content/2026/09/24/khemaridh-future-proof--using-personal-agents-for-professional-networking.md) — khemaridh-future-proof
 - [Re Founding Incumbents For The Ai Era With Sequence Holdings](content/2026/09/24/no-priors--re-founding-incumbents-for-the-ai-era-with-sequence-holdings.md) — no-priors
+- [Housecanary Files For Bankruptcy 3 Months After Google Deal](content/2026/09/24/real-estate-news--housecanary-files-for-bankruptcy-3-months-after-google-deal.md) — real-estate-news
 
 ### 2026-09-23
 - [Amjad Masad On Rethinking College For The Ai Era](content/2026/09/23/a16z-podcast--amjad-masad-on-rethinking-college-for-the-ai-era.md) — a16z-podcast
@@ -62,13 +69,5 @@ Daily AI-summarized content from curated sources, updated automatically via GitH
 - [Chapter 7 Serving Mega Moe At Scale Colossus Interconnects E](content/2026/09/18/ken-huang-ai-expert--chapter-7-serving-mega-moe-at-scale-colossus-interconnects-e.md) — ken-huang-ai-expert
 - [The Overhang](content/2026/09/18/mollick-one-useful-thing--the-overhang.md) — mollick-one-useful-thing
 - [Why Diffusion Will Win Ai Inference With Inception Co Founde](content/2026/09/18/no-priors--why-diffusion-will-win-ai-inference-with-inception-co-founde.md) — no-priors
-
-### 2026-09-17
-- [The Next Frontier Of Ai Video Is Control](content/2026/09/17/a16z-podcast--the-next-frontier-of-ai-video-is-control.md) — a16z-podcast
-- [Life Sciences Verification Program](content/2026/09/17/anthropic-blog--life-sciences-verification-program.md) — anthropic-blog
-- [Noam Brown Agent Swarms Alignment Recursive Self Improvement](content/2026/09/17/dwarkesh-podcast--noam-brown-agent-swarms-alignment-recursive-self-improvement.md) — dwarkesh-podcast
-- [Gpt 6 Astra Plus Kimi K3 Swarm Route Depth And Width Before ](content/2026/09/17/ken-huang-ai-expert--gpt-6-astra-plus-kimi-k3-swarm-route-depth-and-width-before-.md) — ken-huang-ai-expert
-- [How To Improve Your Skills With Evals](content/2026/09/17/khemaridh-future-proof--how-to-improve-your-skills-with-evals.md) — khemaridh-future-proof
-- [Ai Tools Are Quickly Becoming Integral To Brokerage Operatio](content/2026/09/17/real-estate-news--ai-tools-are-quickly-becoming-integral-to-brokerage-operatio.md) — real-estate-news
 
 <!-- RECENT_CONTENT_END -->
